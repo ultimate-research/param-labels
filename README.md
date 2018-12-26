@@ -1,2 +1,2 @@
-# param-labels
-Labels for smash ultimate parameter files
+# Parameter Labels
+Labels for smash ultimate parameter (.prc) files, PRs accepted.
