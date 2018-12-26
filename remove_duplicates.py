@@ -1,5 +1,5 @@
 with open("ParamLabels.csv") as f:
-    csv = [line[:-1].split(',') for line in f.readlines() if not line.isspace()]
+    csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
 
 hashes = []
 csvout = []
