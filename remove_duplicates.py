@@ -4,8 +4,8 @@ with open("ParamLabels.csv") as f:
 hashes = []
 csvout = []
 for i in csv:
-    if not i[0] in hashes:
-        hashes.append(i[0])
+    if not int(i[0], 16) in hashes:
+        hashes.append(int(i[0], 16))
         csvout.append(i)
 
 csvout.sort(key=lambda i: i[1])
