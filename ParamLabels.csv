@@ -145,6 +145,7 @@
 0x05105cd6c9,adj_r
 0x064b038e1d,adjust
 0x09951cb383,aegislash
+0x0b99cc3fbc,aerial_type
 0x05719229d8,aeron
 0x0825fffa1d,affinity
 0x073ae90dfd,agahnim
@@ -272,6 +273,7 @@
 0x08363eb040,attack12
 0x08413980d6,attack13
 0x0c33f869bc,attack_air_b
+0x0cda9bcc89,attack_air_d
 0x0c3495ada5,attack_air_f
 0x0dbc5d7cc7,attack_air_f2
 0x0dcb5a4c51,attack_air_f3
@@ -291,6 +293,7 @@
 0x0c226d08d1,attack_hi3_w
 0x0a5598d745,attack_hi4
 0x129d624c39,attack_hi4_flick_y
+0x15c1cd0216,attack_hi4_hold_frame
 0x1247017fa6,attack_hi4_stick_y
 0x11375e1206,attack_laser_long
 0x12f381452a,attack_laser_long2
@@ -312,6 +315,7 @@
 0x0c672b8ebd,attack_lw3_w
 0x0a86d04046,attack_lw4
 0x1214dc8ee0,attack_lw4_flick_y
+0x1596802767,attack_lw4_hold_frame
 0x12cebfbd7f,attack_lw4_stick_y
 0x0ad0949135,attack_mul
 0x10fc67e466,attack_no_effect
@@ -337,6 +341,7 @@
 0x0b7abaef4e,attack_s3_w
 0x092e77fc76,attack_s4
 0x0c27ffd62e,attack_s4_hi
+0x14d34d14d0,attack_s4_hold_frame
 0x0cb99c2e49,attack_s4_lw
 0x0b78983dd2,attack_s4_s
 0x16c96174bd,attack_s4_stick_dir_hi
@@ -886,6 +891,7 @@
 0x05b9304ad8,cliff
 0x1637b6aab9,cliff_catch_move_frame
 0x0f9fb9553f,cliff_hang_data
+0x12ac472b91,cliff_jump_x_speed
 0x0cae5f1790,cliff_jump_y
 0x148c5ae77f,cliff_robbed_speed_x
 0x14fb5dd7e9,cliff_robbed_speed_y
@@ -1043,6 +1049,9 @@
 0x0b63b4bba2,daisydaikon
 0x0611c8546c,damage
 0x10eb42a0a3,damage_frame_mul
+0x0d14025cb6,damage_level1
+0x0d8d0b0d0c,damage_level2
+0x0dfa0c3d9a,damage_level3
 0x0e5ab4bd7b,damage_level_1
 0x0ec3bdecc1,damage_level_2
 0x0eb4badc57,damage_level_3
@@ -1141,6 +1150,7 @@
 0x0d670f6b00,dion_max_jack
 0x03baab7a10,dir
 0x078b51bdf2,dir_mul
+0x0b23d62531,dir_stick_x
 0x062017154e,direct
 0x093e4ad1b3,direction
 0x0928166ab1,disappear
@@ -1184,6 +1194,7 @@
 0x0678906267,down_2
 0x060f9752f1,down_3
 0x08ed6d0c70,down_add
+0x0a4b425cca,down_frame
 0x08b9755e36,down_mul
 0x0a55fbd00a,dr_andross
 0x09d6dd5025,dr_crygor
@@ -1419,6 +1430,7 @@
 0x07e99d897a,ephraim
 0x057e8f3446,epona
 0x17211796ca,escape_air_cancel_frame
+0x15a56e58ef,escape_n_cancel_frame
 0x032eb55cc9,etc
 0x04614a20ff,etc1
 0x03f28d5f67,eva
@@ -4272,6 +4284,7 @@
 0x0d9de36c6d,shield_master
 0x0aedb85740,shield_max
 0x1014bc5e21,shield_min_frame
+0x10a4210796,shield_recovery1
 0x107a84363b,shield_scale_min
 0x11db7e5ac7,shield_setoff_add
 0x118f660881,shield_setoff_mul
@@ -4283,6 +4296,11 @@
 0x0a10e88e66,shiokarazu
 0x04fa30eb24,ship
 0x057044fcbe,shoot
+0x123b20d484,shoot_dash_speed_b
+0x123c4d109d,shoot_dash_speed_f
+0x14089ff819,shoot_walk_accel_add
+0x145c87aa5f,shoot_walk_accel_mul
+0x144b518bb3,shoot_walk_speed_max
 0x0a2da3c6a5,shop_adv_1
 0x0ab4aa971f,shop_adv_2
 0x0ac3ada789,shop_adv_3
@@ -4332,6 +4350,7 @@
 0x053cfb4e85,sizeh
 0x05b1f34370,sizew
 0x0830e14f7a,skarmory
+0x092eb50b90,skin_kind
 0x05991043fe,skirt
 0x09160eb328,skull_kid
 0x093a8fac8c,skull_man
@@ -4476,6 +4495,7 @@
 0x125a14c2e8,sprixie_princesses
 0x05f39eb9fa,spyke
 0x0d87461d6d,squat_stick_y
+0x0aa60712ea,squat_wait
 0x0f35085111,squat_walk_data
 0x0f1425f55b,squat_walk_type
 0x072c81d84a,squawks
@@ -4507,6 +4527,8 @@
 0x082298d193,stage_id
 0x0a4e0b58bc,stage_type
 0x056ec9dc65,stake
+0x1046775dce,stand_fb_stick_x
+0x0d5c01c4c8,stand_stick_y
 0x0810f7d787,standard
 0x0d5395dd3d,standard_bike
 0x0dd13e4ae5,standard_kart
@@ -4750,6 +4772,7 @@
 0x0570211ebd,trans
 0x0fb0917a33,traveling_putty
 0x16901c3105,tread_jump_speed_y_mul
+0x1b901912f0,tread_mini_jump_speed_y_mul
 0x04b73e5edc,tree
 0x0700f41752,tree_00
 0x0777f327c4,tree_01
@@ -5602,6 +5625,7 @@
 0x05d7114d71,wall1
 0x054e181ccb,wall2
 0x05391f2c5d,wall3
+0x1157a8cc97,wall_jump_stick_x
 0x0e6992ff2f,wall_jump_type
 0x11644e0cbd,wall_merging_link
 0x072efcf3f5,waluigi
