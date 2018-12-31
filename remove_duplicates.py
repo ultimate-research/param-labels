@@ -6,7 +6,7 @@ csvout = []
 for i in csv:
     if not int(i[0], 16) in hashes:
         hashes.append(int(i[0], 16))
-        csvout.append(i)
+        csvout.append((f"{int(i[0], 16):#0{12}x}", i[1]))
 
 csvout.sort(key=lambda i: i[1])
 
