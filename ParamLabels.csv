@@ -152,6 +152,7 @@
 0x0eee4aa06e,adam_malkovich
 0x03fd1a73e7,add
 0x0afd161540,add_damage
+0x1694dcda33,add_fighter_attack_log
 0x09b295f437,add_speed
 0x073decf86d,adj_2_l
 0x07c7e3c50e,adj_2_r
@@ -165,6 +166,7 @@
 0x073ae90dfd,agahnim
 0x06db3f1e65,agitha
 0x02095191e5,ai
+0x0608b0dd4c,ai_pri
 0x03bc60b8fb,air
 0x0f25ec86be,air_accel_x_add
 0x0f71f4d4f8,air_accel_x_mul
@@ -178,7 +180,9 @@
 0x0dfe89581e,air_offensive
 0x0ccb944141,air_pass_mul
 0x0b22d73e85,air_speed_x
+0x1220fc2660,air_speed_x_stable
 0x0b55d00e13,air_speed_y
+0x12ec5626fe,air_speed_y_stable
 0x06373ef69d,airmd1
 0x05b6a15411,aisya
 0x0cb4af8848,akari_hayama
@@ -251,6 +255,7 @@
 0x0e993a084d,appear_frame_a
 0x0e003359f7,appear_frame_b
 0x0b4bfc4322,appear_rate
+0x162837a75c,appearing_effect_scale
 0x05fb3feede,apper
 0x0e3e030acd,application_id
 0x0aa5e62cfa,aquick_man
@@ -313,6 +318,7 @@
 0x15c1cd0216,attack_hi4_hold_frame
 0x1aa13a064f,attack_hi4_hold_keep_frame
 0x1247017fa6,attack_hi4_stick_y
+0x135721e134,attack_hitstop_kind
 0x11375e1206,attack_laser_long
 0x12f381452a,attack_laser_long2
 0x112f48a0db,attack_laser_side
@@ -381,6 +387,7 @@
 0x117126ab06,attack_stop_frame
 0x0b7bc596c4,attack_type
 0x0d1cddc0c7,attack_vector
+0x0e104634c6,attacklog_type
 0x04047e2314,attr
 0x0dce69ea50,aurora_vision
 0x06bdafd8c8,author
@@ -706,6 +713,18 @@
 0x0e620a8e92,bossstage_marx
 0x127ee98a93,bossstage_rathalos
 0x06895f72a4,bottom
+0x0a53ed7bd2,bound_flag
+0x0ef01d87c2,bound_minspeed
+0x1ce0c13e2a,bound_refspeed_ceiling_mul_x
+0x1c97c60ebc,bound_refspeed_ceiling_mul_y
+0x14b7a81a32,bound_refspeed_mul_x
+0x14c0af2aa4,bound_refspeed_mul_y
+0x1a4b6f44da,bound_refspeed_throw_add_x
+0x1a3c68744c,bound_refspeed_throw_add_y
+0x18ca379926,bound_refspeed_throw_mul
+0x195738c2ec,bound_refspeed_wall_add_y
+0x1903797e39,bound_refspeed_wall_mul_x
+0x19747e4eaf,bound_refspeed_wall_mul_y
 0x03981655ab,bow
 0x06e9422eb0,bowser
 0x09ef33f4cb,bowser_jr
@@ -787,6 +806,7 @@
 0x0a5061e820,camera8_10
 0x096528e454,camera8_9
 0x096a310651,camera9_1
+0x0bb12fc095,camera_kind
 0x0cdb1a9a4e,camera_param
 0x0c161f78dc,camera_pos_x
 0x0c6118484a,camera_pos_y
@@ -800,6 +820,7 @@
 0x1612d7c227,camera_quake_kind_none
 0x1a20c8c9a6,camera_quake_kind_small_hf
 0x0cec67bc8e,camera_range
+0x157c8c6993,camera_sleep_on_final
 0x140c6cfed6,camerapoint4_cruiser
 0x07712619ad,camilla
 0x0522afeee7,cammy
@@ -823,10 +844,24 @@
 0x0d51aa3131,captain_syrup
 0x0cf578fd7c,captain_toad
 0x078bfea6e5,capture
+0x153c8a0635,capture_murabito_size
+0x084836a29d,captured
+0x0fa6c7dc86,captured_motion
+0x1a7cd19efa,captured_motion_frame_loop
+0x1b857e0f71,captured_motion_frame_start
+0x14bc50979b,captured_motion_rate
+0x0d0ee8f65e,captured_node
+0x110d670540,captured_offset_x
+0x1a786e4112,captured_offset_x_murabito
+0x17b2c45ef7,captured_offset_x_snake
+0x117a6035d6,captured_offset_y
+0x1a97ac2a2c,captured_offset_y_murabito
+0x1714b35543,captured_offset_y_snake
 0x03773de69d,car
 0x0d69b930b2,cardboard_box
 0x08c5d1dffe,carmilla
 0x074739f11c,carrier
+0x0f84b3df07,carrier_y_speed
 0x0a4f374a9d,carrierbox
 0x0e316af42e,cat_position_x
 0x0e466dc4b8,cat_position_y
@@ -927,6 +962,8 @@
 0x14fb5dd7e9,cliff_robbed_speed_y
 0x0738b0c3a4,cliffer
 0x097415085c,clip_snip
+0x106fbc3931,clip_sphere_offy
+0x0d96ee711c,clip_sphere_r
 0x0a46e07537,closed_mul
 0x05325c16d4,cloud
 0x08e2fcb380,cloud_01
@@ -935,6 +972,7 @@
 0x04b8ee3872,club
 0x0cff414a68,club_swinger
 0x08450eb158,clubshot
+0x0a57bd5d58,clung_node
 0x07ac92afe1,cmn_yes
 0x1bae31ab82,cobalion_terrakion_virizion
 0x0463146cd7,cody
@@ -1007,6 +1045,7 @@
 0x05d9c11638,cost3
 0x0585d94462,count
 0x0dbd39087b,count_cannoli
+0x182c28be51,counteract_spirits_power
 0x06169e6fb9,course
 0x073bc954e8,cp_type
 0x03ba80502e,cpu
@@ -1040,6 +1079,7 @@
 0x0527f4c4fc,curry
 0x0924cb8eea,curryshot
 0x06c57f6a8e,cursor
+0x13364a16df,cursor_display_type
 0x0f35d3204c,cursor_offset_y
 0x0557995db7,curve
 0x06d68e50c5,curve1
@@ -1063,6 +1103,8 @@
 0x063fedf5f0,curve7
 0x06af52e861,curve8
 0x06d855d8f7,curve9
+0x16c59969ba,cut_in_camera_offset_y
+0x100aaf9d94,cut_in_zoom_rate
 0x0775020245,cut_man
 0x0cff8dc3c3,cutie_flower
 0x07e8f92be4,cutie_j
@@ -1079,6 +1121,7 @@
 0x0543c7a5f4,daisy
 0x0b63b4bba2,daisydaikon
 0x0611c8546c,damage
+0x10e33b9cd2,damage_frame_min
 0x10eb42a0a3,damage_frame_mul
 0x0d14025cb6,damage_level1
 0x0d8d0b0d0c,damage_level2
@@ -1138,10 +1181,12 @@
 0x072a5a6784,db_root
 0x06f211cafa,deacon
 0x04ed254924,dead
+0x0d271187c8,deadarea_kind
 0x05e747d52e,death
 0x0d1bef730a,death_swinger
 0x0be108ba7d,deathscythe
 0x06b5644639,dedede
+0x124ccbf247,dedede_add_speed_y
 0x075e09ca09,dedenne
 0x0b1726131d,dedenneshot
 0x07686f1320,dee_jay
@@ -1170,6 +1215,8 @@
 0x0664dbf75f,dialga
 0x0771b30797,diancie
 0x04a10ee254,dice
+0x141690a34c,diddy_clung_offset_x
+0x14619793da,diddy_clung_offset_y
 0x0af17477ea,diddy_kong
 0x0c0a1b617c,diddypeanuts
 0x0abb6b6fef,difficulty
@@ -1218,6 +1265,7 @@
 0x0b7aa2c4ec,donkey_kong
 0x0e8e0eda92,donkey_kong_jr
 0x0e150e738a,donkey_kong_sr
+0x1e3a7e57cd,donkey_shouldered_motion_frame
 0x0407ed59d8,doom
 0x05c6895696,door1
 0x08566cb24f,doseisan
@@ -1305,6 +1353,7 @@
 0x070a50c480,e_honda
 0x05ad62f39f,eagle
 0x0449629a97,easy
+0x07b7411898,eatable
 0x05ee2616c6,eevee
 0x0dbbb5a7ba,eevee_partner
 0x03262bd895,eff
@@ -1320,6 +1369,13 @@
 0x1c230cb9bc,effect_variation_type_normal
 0x1e4e61d9a2,effect_variation_type_spycloak
 0x034837d942,egg
+0x1865681389,egg_collision_offset_y_1
+0x18fc614233,egg_collision_offset_y_2
+0x128fe2057d,egg_collision_size
+0x1de4a117d9,egg_ground_collision_offset_x
+0x1d93a6274f,egg_ground_collision_offset_y
+0x1932a8a717,egg_ground_collision_size
+0x09b37e6337,egg_scale
 0x0c849bccaa,eggplant_men
 0x0f8d39c0b8,eggplant_wizard
 0x06477b6dea,eievui
@@ -1457,6 +1513,7 @@
 0x0fee61a0ec,end_zelda_train
 0x061413d44f,ending
 0x05fb9f5aa9,enemy
+0x1084dc026a,enemy_can_attack
 0x0697117991,energy
 0x08eac5017f,enguarde
 0x0533150982,entei
@@ -1680,11 +1737,14 @@
 0x079e7cb60d,flagman
 0x05053e1c61,flame
 0x05c86412ff,flare
+0x0a0081b28a,flash_kind
 0x09428c0cf8,flash_man
 0x09277cce0f,flatzonex
 0x0572164d50,flick
 0x054ab03ee8,flint
 0x049afee455,flip
+0x094ce18dac,flip_type
+0x12d6ccf070,flip_type_duckhunt
 0x05c9a55e95,float
 0x09bba3642d,float_off
 0x08a992d6c7,float_on
@@ -1799,6 +1859,8 @@
 0x0e8d283cae,ganonbossshot2
 0x09887428ad,ganondorf
 0x0c5862a865,ganondorf_tp
+0x151f302b28,gaogaen_rope_offset_x
+0x1568371bbe,gaogaen_rope_offset_y
 0x0837faa7ea,garchomp
 0x097ce19f36,gardevoir
 0x05763d5adf,garet
@@ -1852,6 +1914,8 @@
 0x0667cd8dc8,gracie
 0x05a80d9ff3,grass
 0x075a1d25a7,gravity
+0x0d19a47f7f,gravity_accel
+0x1112ec75f9,gravity_accel_max
 0x0bbe21ff63,gravity_man
 0x0cb5c7f672,gravity_suit
 0x122902f62b,gravityhalf_effect
@@ -1875,6 +1939,7 @@
 0x07d5a5e926,groudon
 0x06a7ff8368,ground
 0x0c8cc9db76,ground_brake
+0x0e4a40f38f,ground_brake_x
 0x18b48b2499,ground_coll_attr_akuukan
 0x16a54ac5c6,ground_coll_attr_asase
 0x16f93fb69d,ground_coll_attr_brick
@@ -1905,6 +1970,7 @@
 0x19909733a6,ground_coll_attr_turuturu
 0x1cf855bc68,ground_coll_attr_wirenetting
 0x153204277a,ground_coll_attr_wood
+0x1403719667,ground_damage_enable
 0x08ca19bc96,grounded
 0x056dc044c5,group
 0x06f06d3970,groups
@@ -1985,6 +2051,8 @@
 0x03920bac49,hat
 0x068c6a5980,hat_id
 0x04d27eea40,have
+0x096ab1d710,have_kind
+0x0b99524f72,have_offset
 0x04a7f3f69c,head
 0x05e3cb9294,head2
 0x0581168f4b,headn
@@ -2020,6 +2088,7 @@
 0x1152326040,hit_height_center
 0x0ff9922197,hit_height_high
 0x0e687097ec,hit_height_low
+0x0848721959,hit_kind
 0x09d2872372,hit_spd_x
 0x09a58013e4,hit_spd_y
 0x15d0657115,hit_status_invincible
@@ -2029,9 +2098,12 @@
 0x05194b0b01,hit_x
 0x056e4c3b97,hit_y
 0x05f7456a2d,hit_z
+0x0e0033b829,hiteffect_kind
 0x09c65f3ce3,hitmonlee
 0x09d93a5d43,hitodeman
 0x0d9c647682,hitodemanshot
+0x07d0183e17,hitsize
+0x1659678720,hitstop_mul_as_carrier
 0x05cac9db4b,ho_oh
 0x061245e65e,hockey
 0x0db8debfbe,hockey_player
@@ -2048,6 +2120,10 @@
 0x0966fc6f84,honeycomb
 0x0c2112b60c,honeycombbee
 0x05b9dd4b47,hongo
+0x0bfbb42ab9,hooked_node
+0x0f1985a45e,hooked_offset_x
+0x0f6e8294c8,hooked_offset_y
+0x0ff78bc572,hooked_offset_z
 0x055a2488e1,hoopa
 0x0d1cbb342e,hoopa_unbound
 0x048eba60cc,hope
@@ -2290,7 +2366,9 @@
 0x18ba18c04a,id_technic_wire_recovery
 0x040a8bca45,idea
 0x0a73da28f5,iggy_koopa
+0x167f14c539,ignore_delete_by_stage
 0x0b4a79a6af,ignore_down
+0x0f90bd7916,ignore_effect_z
 0x06e25cd18e,ike_00
 0x06955be118,ike_01
 0x149fdbf6c0,ike_path_of_radiance
@@ -2910,6 +2988,8 @@
 0x0f5a6c8233,jostle_pri_high
 0x0e2ad3478e,jostle_pri_low
 0x1109f6b9ea,jostle_pri_middle
+0x0fcfb6ec2e,jostle_priority
+0x0c43db32b7,jostle_scale
 0x046cab6922,judd
 0x07774a1bce,judd_jr
 0x0511fbc314,judge
@@ -2920,6 +3000,7 @@
 0x0d86798cae,jump_aerial_y
 0x0e35ca3d82,jump_count_max
 0x0940b5c3d7,jump_high
+0x0ed1f9fdb8,jump_initial_y
 0x0badc260a0,jump_length
 0x0cc9d2f2da,jump_speed_x
 0x107e0218b9,jump_speed_x_max
@@ -3080,6 +3161,7 @@
 0x0e34da4b95,landing_effect
 0x0d07d69a9b,landing_frame
 0x130b45999a,landing_frame_light
+0x13c30c93f0,landing_heavy_frame
 0x0a451ac165,landmaster
 0x10545fa6ae,landorus_therian
 0x0a3ef3f927,lanky_kong
@@ -3196,6 +3278,7 @@
 0x0ac02ad133,loop_frame
 0x05580c4eb6,loptr
 0x0c98a47803,lord_fredrik
+0x1101c386f4,lost_effect_scale
 0x0a21a4d6cc,lot_legend
 0x06ebd43c60,lottie
 0x0522786586,louie
@@ -3204,6 +3287,7 @@
 0x02369a2644,lr
 0x089ee54ab3,lr_check
 0x097b20a494,lr_check_
+0x069b6261db,lr_dir
 0x05e02c7a5a,lubba
 0x07e9dae87f,lucario
 0x05397a32e6,lucas
@@ -3292,6 +3376,9 @@
 0x06dd6b121a,mantle
 0x0473bade64,many
 0x0393adaabb,map
+0x114e24dc00,mapcoll_size_down
+0x16cb1264c6,mapcoll_size_halfwidth
+0x0f8be37388,mapcoll_size_up
 0x0582d9b9e8,mappo
 0x0c45d072b5,maria_renard
 0x11beafbdc6,maria_renard_sotn
@@ -3312,6 +3399,9 @@
 0x0b6647302c,mario_pastx
 0x0de1efb31a,mario_rainbow
 0x0ca7ba8afa,mario_tennis
+0x20f5c744fa,mario_thrown_b_motion_frame_loop
+0x2185f719ab,mario_thrown_b_motion_frame_start
+0x1ac9576b0d,mario_thrown_b_motion_rate
 0x0c25e2d14e,mario_uworld
 0x0db79234ba,mario_wedding
 0x09f539792c,mariobros
@@ -3541,6 +3631,7 @@
 0x07254e7db9,mumkhar
 0x0542e4904e,mummy
 0x0baf8c82ca,munchy_monk
+0x0c90be852d,murabito_gen
 0x0d58b4f0b5,murabitofruit
 0x07def78a0a,musashi
 0x054a2d86a8,mushd
@@ -3659,6 +3750,10 @@
 0x0696901f54,number
 0x0cb6bb8ad1,numbering_id
 0x07779ecaf9,numbers
+0x1056ddc403,nururi_size_down
+0x103045b350,nururi_size_left
+0x119c82efde,nururi_size_right
+0x0ed014f06a,nururi_size_up
 0x02e479add8,nx
 0x02937e9d4e,ny
 0x06ab2b34f7,nyarth
@@ -3726,6 +3821,8 @@
 0x0723996166,orville
 0x0858c469ed,oshawott
 0x03b9ea6d99,out
+0x13458acc51,outer_limit_speed_x
+0x13328dfcc7,outer_limit_speed_y
 0x05da454dfb,ovals
 0x057c88b202,owain
 0x0fe5baa2a0,owner_yamanouti
@@ -3754,9 +3851,11 @@
 0x0c32f650a5,pacmanorange
 0x102923e685,pacmanstrawberry
 0x04140ab620,page
+0x0916306819,paintable
 0x0a30eff447,pak_e_derm
 0x06a54a1fc5,palkia
 0x08c13d80d1,palutena
+0x1494931e95,palutena_target_node
 0x0744ddbc75,pandora
 0x05a2add30f,panel
 0x0ef995491d,panther_caroso
@@ -4005,6 +4104,10 @@
 0x11674ceff9,phyllis_and_pelly
 0x07c74635e6,piantas
 0x05be04be3e,pichu
+0x1123d8e3f3,pickup_range_offx
+0x1154dfd365,pickup_range_offy
+0x12a2df217f,pickup_range_sizeh
+0x122fd72c8a,pickup_range_sizew
 0x049ea0cb82,pico
 0x0ab073aaea,pictochat2
 0x0698fc2e68,pidget
@@ -4014,7 +4117,15 @@
 0x07f45d9698,pikachu
 0x0d19ade244,pikachu_libre
 0x0f38bade9d,pikachu_partner
+0x12d837c48f,pikmin_attach_kind
+0x12668c9013,pikmin_attach_node
 0x0d3a605742,pikmin_garden
+0x1071b88b7b,pikmin_offset1_x
+0x1006bfbbed,pikmin_offset1_y
+0x109fb6ea57,pikmin_offset1_z
+0x1073fe3522,pikmin_offset2_x
+0x1004f905b4,pikmin_offset2_y
+0x109df0540e,pikmin_offset2_z
 0x0d6e7a250d,pikmin_planet
 0x1252d1ed29,pikmin_start_frame
 0x0a232fa3a4,pilotwings
@@ -4268,6 +4379,7 @@
 0x04e520b522,redd
 0x066a9b636c,redead
 0x0f502f5252,reese_and_cyrus
+0x0ce6ac6956,reflect_kind
 0x0b35dfbedd,reflectable
 0x10dcd9f838,reflection_color
 0x0940d0e0f8,reflector
@@ -4356,6 +4468,14 @@
 0x115f23d63a,rosalina_and_luma
 0x089e44aeff,rosemary
 0x031d39a761,rot
+0x0e01fc4473,rot_appear_mul
+0x090468c966,rot_brake
+0x0ad936e0cc,rot_coef_x
+0x0aae31d05a,rot_coef_y
+0x0a373881e0,rot_coef_z
+0x112291d408,rot_limit_speed_x
+0x115596e49e,rot_limit_speed_y
+0x091d6c0a1b,rot_speed
 0x051670dbfe,rot_x
 0x056177eb68,rot_y
 0x05f87ebad2,rot_z
@@ -4447,6 +4567,7 @@
 0x07b8bd8804,save_no
 0x05ec462584,scale
 0x06c3efa2f4,scale_
+0x0a84ad23fe,scale_type
 0x0736cfcf24,scale_x
 0x0741c8ffb2,scale_y
 0x07d8c1ae08,scale_z
@@ -4470,6 +4591,8 @@
 0x05d05df2ac,screw
 0x027813ad1d,se
 0x0787ac2f33,se_attr
+0x1737087661,search_detect_add_speed
+0x1b47eb93d8,search_detect_add_speed_mul
 0x0c5f2f9f1e,search_light
 0x044487e306,seed
 0x0dea2b4638,select_random
@@ -4495,6 +4618,7 @@
 0x0acd2a6dec,shadow_man
 0x0cfc1f88e3,shadow_mario
 0x0c44aff8c7,shadow_queen
+0x0bd6d05825,shadow_size
 0x1311d1045c,shadow_the_hedgehog
 0x05ab186afd,shaft
 0x0aed4c39e7,shake_king
@@ -4512,10 +4636,12 @@
 0x07e4dff036,sheriff
 0x0b6a44a3a7,sheriffshot
 0x061e93d2e8,shield
+0x0e199c6a2a,shield_break_y
 0x1302834a39,shield_catch_master
 0x11fcd76972,shield_damage_add
 0x11a8cf3b34,shield_damage_mul
 0x0b26da3abc,shield_dec1
+0x0bd90c08b8,shield_kind
 0x0db4e3690b,shield_knight
 0x0d9de36c6d,shield_master
 0x0aedb85740,shield_max
@@ -4535,6 +4661,7 @@
 0x057044fcbe,shoot
 0x123b20d484,shoot_dash_speed_b
 0x123c4d109d,shoot_dash_speed_f
+0x0eb47139ba,shoot_safe_pos
 0x14089ff819,shoot_walk_accel_add
 0x145c87aa5f,shoot_walk_accel_mul
 0x144b518bb3,shoot_walk_speed_max
@@ -4578,6 +4705,7 @@
 0x034aa16ad0,sit
 0x09ec2d9aca,situation
 0x04f7c0246a,size
+0x0950617a7d,size_kind
 0x069befee2b,size_l
 0x073a21d450,size_ll
 0x06ece8debd,size_m
@@ -4597,6 +4725,7 @@
 0x050f33c2ac,sleep
 0x04fd3943f8,slip
 0x0b70e557c6,slippy_toad
+0x0aeee008a7,slope_type
 0x04350771dd,slow
 0x0b30ec1e13,slow_effect
 0x098751e700,slow_rate
@@ -4775,7 +4904,9 @@
 0x04c9db5a14,star
 0x0577c181bc,star3
 0x135574031a,star_force_mega_man
+0x0aa47de98c,star_power
 0x0873c1a391,star_rod
+0x0ae3b1cda8,star_scale
 0x06feb7b122,starfy
 0x07d8f2cd46,starlow
 0x06045859a8,starly
@@ -4797,6 +4928,7 @@
 0x063a5bf397,staryu
 0x05a393d2fb,state
 0x067b00651c,status
+0x1dc66594ae,status_when_reflect_count_max
 0x045e09839c,stay
 0x0d0ec31cd5,stc_field_set
 0x1985b287a0,stc_point05_startgate_set
@@ -4813,6 +4945,8 @@
 0x0bf6893440,stop_delay_
 0x0a381ad7fa,stop_frame
 0x0b7486a23d,stop_frame_
+0x1282c371b9,stop_limit_speed_x
+0x12f5c4412f,stop_limit_speed_y
 0x0985725a5a,stop_time
 0x06646faf53,stop_x
 0x0518ef7570,stork
@@ -4948,6 +5082,11 @@
 0x09eb7a2a96,threshold
 0x054f934137,throw
 0x0afa235ba8,throw_item
+0x158ac80a24,throw_power_speed_add
+0x15ded05862,throw_power_speed_mul
+0x0fb64928d5,throw_speed_mul
+0x0b359b6291,thrown_node
+0x0f723e347c,thrown_rot_kind
 0x076278a5f0,thunder
 0x0ca54d4ea8,thundersword
 0x0938843cf7,thundurus
@@ -5014,6 +5153,7 @@
 0x08d5128a8f,training
 0x16946bbd48,training_academy_coach
 0x13719cd91a,training_disp_order
+0x0e78a70025,trait_original
 0x0570211ebd,trans
 0x0fb0917a33,traveling_putty
 0x16901c3105,tread_jump_speed_y_mul
@@ -5882,6 +6022,11 @@
 0x065f1c2a7b,wanwan
 0x0a6daacbc0,wanwanpile
 0x05300d4bbd,wario
+0x1170722b81,wario_bite_motion
+0x17c9fa097e,wario_bite_motion_frame
+0x0f5c6b8f43,wario_bite_node
+0x1361ff228d,wario_bite_offset_x
+0x1316f8121b,wario_bite_offset_y
 0x0b5d6aa385,wario_gamer
 0x0c902219a8,wario_madein
 0x09246934a5,wario_man
