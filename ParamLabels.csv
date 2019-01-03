@@ -1051,10 +1051,16 @@
 0x0cf578fd7c,captain_toad
 0x078bfea6e5,capture
 0x1212588e19,capture_bossgalaga
+0x12112b7c3f,capture_cut_dist_x
+0x12662c4ca9,capture_cut_dist_y
 0x119a6b97cf,capture_cut_frame
+0x18eed23dea,capture_cut_frame_damage
+0x181f7e0aa7,capture_cut_ground_speed
 0x1349f50b1d,capture_cut_speed_x
+0x0dbb5c7bcf,capture_cut_y
 0x12c4f88dd3,capture_fishingrod
 0x0d0df7a5a3,capture_frame
+0x15c61d5078,capture_motion_height
 0x153c8a0635,capture_murabito_size
 0x1e81956847,capture_swallowed_dedede_frame
 0x21d9db0606,capture_swallowed_dedede_offset_x
@@ -1097,6 +1103,7 @@
 0x1962f26aeb,catch_attack_cancel_frame
 0x0ae4c85cc1,catch_dash
 0x0b59e4686a,catch_frame
+0x08af8ba375,catch_ik
 0x0ece4c92c7,catch_offset_x
 0x0a9f7fb291,catch_only
 0x0a5f869486,catch_turn
@@ -1448,6 +1455,7 @@
 0x0729c76bbc,damage3
 0x0a82dd1262,damage_air
 0x10f589150e,damage_air_brake
+0x1b00d55ef0,damage_cliff_no_catch_frame
 0x18c8bc85f2,damage_default_speed_mul
 0x0b29add323,damage_elec
 0x115ba77df4,damage_end_damage
@@ -2034,7 +2042,10 @@
 0x1a02a3fed0,escape_air_search_size_min
 0x1d1471112c,escape_air_select_mask_attack
 0x21cc477ab0,escape_air_select_mask_attack_hit
+0x162e4d87e8,escape_air_slide_stick
 0x14822f1b87,escape_air_xlu_frame
+0x158f9bc9c2,escape_b_cancel_frame
+0x15963746d9,escape_f_cancel_frame
 0x0c26f04031,escape_frame
 0x1eb8c570ca,escape_jump_detected_frame_max
 0x1e84c84f93,escape_jump_detected_frame_min
@@ -4074,6 +4085,7 @@
 0x0b52c8003b,limit_speed
 0x0d1e96179a,limit_speed_x
 0x0d6991270c,limit_speed_y
+0x07e908d411,limit_x
 0x079e0fe487,limit_y
 0x03a0b977e7,lin
 0x0ba9655124,lin_lee_koo
@@ -4155,6 +4167,7 @@
 0x0522786586,louie
 0x05b978cc9e,loupe
 0x0c98feca5f,loupe_damage
+0x15b4ffaa59,loupe_damage_interval
 0x07341dcf84,low_all
 0x085a86ab18,lowpass_
 0x02369a2644,lr
@@ -4257,6 +4270,7 @@
 0x05930b9e4f,mantr
 0x0473bade64,many
 0x0393adaabb,map
+0x0d2a90c150,map_coll_data
 0x114e24dc00,mapcoll_size_down
 0x16cb1264c6,mapcoll_size_halfwidth
 0x0f8be37388,mapcoll_size_up
@@ -4448,6 +4462,7 @@
 0x0603979cbf,min_z_
 0x0766a95154,minerva
 0x04601e9fb8,mini
+0x147779c220,mini_jump_attack_mul
 0x0b42b7b19f,mini_jump_y
 0x0acdbbe257,mini_mario
 0x061449ece9,minmin
@@ -4502,6 +4517,7 @@
 0x0b38e4b741,motion_name
 0x0bb92bf67e,motion_rate
 0x0f1a0d16d7,motion_rate_mul
+0x0c07d88ea0,motion_share
 0x07df9a7b12,motionb
 0x0b1ac55947,motocrosser
 0x06b21d54ee,mouser
@@ -6008,6 +6024,9 @@
 0x07d288f7c1,slide_r
 0x06cfc71007,slider
 0x04fd3943f8,slip
+0x14eaca223d,slip_damage_rate_max
+0x14d6c71d64,slip_damage_rate_min
+0x0f26bce0ca,slip_wait_frame
 0x08cc31aa6d,slippery
 0x0b70e557c6,slippy_toad
 0x0aeee008a7,slope_type
@@ -6396,6 +6415,7 @@
 0x0b0e706e50,swanky_kong
 0x044692847c,swet
 0x0e886242c3,swim_accel_mul
+0x0a622b1ef0,swim_brake
 0x10c086b695,swim_drown_frame
 0x07ed2bc5d2,swimmer
 0x05e116b75a,swing
@@ -7478,6 +7498,7 @@
 0x0a5a63e572,waddle_doo
 0x051a36341b,waist
 0x060eced476,waist5
+0x0a5257feed,waist_size
 0x047dee83e5,wait
 0x0553c117c3,wait1
 0x05cac84679,wait2
@@ -7518,6 +7539,7 @@
 0x05391f2c5d,wall3
 0x0b9c374b50,wall_attack
 0x0af95781e7,wall_frame
+0x118dcbff08,wall_jump_flick_x
 0x1157a8cc97,wall_jump_stick_x
 0x0e6992ff2f,wall_jump_type
 0x11644e0cbd,wall_merging_link
