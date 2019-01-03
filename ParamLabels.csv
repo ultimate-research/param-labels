@@ -2162,6 +2162,7 @@
 0x1f720a2085,fighter_jump_aerial_type_normal
 0x0c541ef0b2,fighter_kind
 0x16efa9014d,fighter_kind_bayonetta
+0x12a733f9e8,fighter_kind_brave
 0x14de9fbfc5,fighter_kind_captain
 0x122e4c5ba0,fighter_kind_chrom
 0x127c21beab,fighter_kind_cloud
@@ -2181,6 +2182,7 @@
 0x18cc9a036c,fighter_kind_ice_climber
 0x10f405480f,fighter_kind_ike
 0x1431aaf466,fighter_kind_inkling
+0x11d151c23a,fighter_kind_jack
 0x12c30e8564,fighter_kind_kamui
 0x10fed06867,fighter_kind_ken
 0x1209f4dd34,fighter_kind_kirby
