@@ -6880,11 +6880,17 @@
 0x0ddc6cbcf1,light_angle_x
 0x0dab6b8c67,light_angle_y
 0x0d3262dddd,light_angle_z
+0x14b88aa0e5,light_center_color_b
+0x14c8e0546a,light_center_color_g
+0x14a53db081,light_center_color_r
 0x0de1144513,light_color_h
 0x0d6b718cff,light_color_s
 0x0d1b1b7870,light_color_v
 0x0e7ae6afb1,light_crecelia
 0x0c810a2326,light_dialga
+0x14eaf2e3a5,light_effect_color_b
+0x149a98172a,light_effect_color_g
+0x14f745f3c1,light_effect_color_r
 0x0bb1924800,light_frame
 0x0a16e1de90,light_jump
 0x0aef71a680,light_name
@@ -8384,6 +8390,8 @@
 0x06e8992e1f,pos0_y
 0x069e5c74be,pos1_x
 0x06e95b4428,pos1_y
+0x0956d64fc9,pos_rb_x_
+0x094fcd7e88,pos_rb_y_
 0x0569ff9e1b,pos_x
 0x0609d0d9c5,pos_x1
 0x0690d9887f,pos_x2
