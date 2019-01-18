@@ -1812,14 +1812,17 @@
 0x05665648e9,color
 0x07b1f4e5fb,color_a
 0x0728fdb441,color_b
+0x0828252f5a,color_b_
 0x19af3fc8c8,color_balance_daytime_set
 0x159c20d8c4,color_balance_fes_set
 0x10070f1a76,color_correction
 0x07589740ce,color_g
+0x085552db1f,color_g_
 0x0db9b9f025,color_grading
 0x0c049b7616,color_normal
 0x090ce65ae1,color_num
 0x07354aa425,color_r
+0x0862e73d0b,color_r_
 0x0af1096c6d,color_type
 0x137ae4b92b,combo_attack_12_end
 0x134784909b,combo_attack_13_end
@@ -8951,7 +8954,9 @@
 0x0bbc45488a,scale_param
 0x0a84ad23fe,scale_type
 0x0736cfcf24,scale_x
+0x0815e388f6,scale_x_
 0x0741c8ffb2,scale_y
+0x080cf8b9b7,scale_y_
 0x07d8c1ae08,scale_z
 0x05a10e4be1,scarf
 0x062c77fab0,scarfy
