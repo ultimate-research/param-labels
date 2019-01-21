@@ -6779,6 +6779,7 @@
 0x13222260b0,layer_canvas.nutexb
 0x114253c804,layer_film.nutexb
 0x131ea83721,layer_flower.nutexb
+0x13965718b1,layer_frame_texture
 0x1769650d81,layer_line_black.nutexb
 0x12f7b8a015,layer_paper.nutexb
 0x1864d1a2f4,layer_photo_frame.nutexb
@@ -9000,6 +9001,7 @@
 0x27028419de,search_target_bonus_per_master_distance
 0x25ddbe80e7,search_target_bonus_per_self_distance
 0x044487e306,seed
+0x0ae37b6a6d,select_lut
 0x0dea2b4638,select_random
 0x0c6b680232,select_stage
 0x0bf22f8d88,select_vote
