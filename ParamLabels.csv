@@ -1124,6 +1124,10 @@
 0x0874eadd36,blue_mul
 0x0b725b67cd,blue_pikmin
 0x041de54f73,blur
+0x0bd3f9dc7c,blur_adjust
+0x080fd484b4,blur_end
+0x0ab70b88cd,blur_start
+0x0aa468986d,blur_width
 0x060e8cb469,boardi
 0x07381f9d67,bob_omb
 0x04dba80bb2,body
@@ -6775,6 +6779,7 @@
 0x0f0cf237c0,last_wait_frame
 0x0da4cf9017,latias_latios
 0x0c5a22d7c6,latiaslatios
+0x0ac9d09429,layer_blur
 0x12f407ace0,layer_brush.nutexb
 0x13222260b0,layer_canvas.nutexb
 0x114253c804,layer_film.nutexb
