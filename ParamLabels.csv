@@ -4008,7 +4008,6 @@
 0x14d650912c,flower_clatter_frame
 0x0dd695a000,flower_damage
 0x103ae20699,flower_frame_max
-0x1338d3a2d8,flower_reaction_mul
 0x10a7f8e3b7,flower_scale_max
 0x109bf5dcee,flower_scale_min
 0x03538a83b3,fly
