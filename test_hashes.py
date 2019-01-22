@@ -15,7 +15,7 @@ def test_hashes():
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
         # length - uppermost 8  bits
         # crc32  - lowermost 32 bits
-        assert (len(line[1]) << 32 | crc32(line[1].encode('utf-8'))) == (int(line[0], 16))
+        assert crc32(line[1].encode('utf-8')) == (int(line[0], 16) & 0xFFFFFFFF)
 
 def main():
     from binascii import crc32
@@ -32,7 +32,7 @@ def main():
         if not len(hashString) >= 12:
             print(f"'{hashString}', line {i+1} is not properly padded to 12 chars.")
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
-        if not (len(line[1]) << 32 | crc32(line[1].encode('utf-8'))) == (int(line[0], 16)):
+        if not crc32(line[1].encode('utf-8')) == (int(line[0], 16) & 0xFFFFFFFF):
             print(f"'{hashString}', line {i+1} length or hash mismatch.")
 
 # Note: Intended use is with pytest, this is
