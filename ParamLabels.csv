@@ -694,6 +694,7 @@
 0x112f48a0db,attack_laser_side
 0x120bfbfdf1,attack_laser_side2
 0x0bb3d339f5,attack_list
+0x10836cd5fd,attack_log_table
 0x0fa0728304,attack_lr_check
 0x11cf9be4fc,attack_lr_check_b
 0x189ef7c5e8,attack_lr_check_backward
@@ -1075,6 +1076,12 @@
 0x04d5f9069c,beat
 0x06129a227e,beedle
 0x060ebc810e,beetle
+0x1cb7d9b67e,beetle_capture_clatter_frame
+0x18957d50a7,beetle_capture_cut_frame
+0x1feda56310,beetle_capture_cut_frame_damage
+0x1ae1d1b2b7,beetle_capture_cut_speed_x
+0x1a96d68221,beetle_capture_cut_speed_y
+0x17970805d0,beetle_capture_recovery
 0x0b05ee068e,beetle_only
 0x0bf6dc4096,begin_frame
 0x041d208c94,beit
@@ -1397,6 +1404,12 @@
 0x0f831e196a,boss_stop_frame
 0x09dab86a6d,boss_type
 0x0ad3528a96,bossgalaga
+0x201811747e,bossgalaga_capture_clatter_frame
+0x1cce40a075,bossgalaga_capture_cut_frame
+0x2381d69cf1,bossgalaga_capture_cut_frame_damage
+0x1eef62bc0b,bossgalaga_capture_cut_speed_x
+0x1e98658c9d,bossgalaga_capture_cut_speed_y
+0x1b7456ca6f,bossgalaga_capture_recovery
 0x1155463ec1,bossstage_dracula
 0x0fb43dd0ea,bossstage_final
 0x10c3b7d901,bossstage_final1
@@ -1562,6 +1575,7 @@
 0x10491f3619,bury_effect_data
 0x0a952b4846,bury_frame
 0x0c7486aef6,bury_invalid
+0x0d4aaa5814,bury_recovery
 0x0ba77ee6bf,businessman
 0x04b12bd53f,bust
 0x05350be95f,bust1
@@ -1804,6 +1818,7 @@
 0x19762a2c1c,capture_murabito_offset_x
 0x19012d1c8a,capture_murabito_offset_y
 0x153c8a0635,capture_murabito_size
+0x1081365999,capture_recovery
 0x1e81956847,capture_swallowed_dedede_frame
 0x21d9db0606,capture_swallowed_dedede_offset_x
 0x21aedc3690,capture_swallowed_dedede_offset_y
@@ -2498,6 +2513,7 @@
 0x0729c76bbc,damage3
 0x0a82dd1262,damage_air
 0x10f589150e,damage_air_brake
+0x1a0b6d194d,damage_bind_recovery_frame
 0x1b00d55ef0,damage_cliff_no_catch_frame
 0x0b241e6529,damage_data
 0x18c8bc85f2,damage_default_speed_mul
@@ -2508,6 +2524,8 @@
 0x11edd2c857,damage_floor_half
 0x14a2c74664,damage_floor_invalid
 0x0a6d37292a,damage_fly
+0x19c8bf056d,damage_fly_length_mul_max
+0x19f4b23a34,damage_fly_length_mul_min
 0x11ca458285,damage_fly_meteor
 0x1a6422db09,damage_fly_reflect_d_speed
 0x1ef5d04e61,damage_fly_reflect_d_speed_mul
@@ -2519,6 +2537,7 @@
 0x11186acb07,damage_ground_mul
 0x090b4e684b,damage_hi
 0x0b11c6b259,damage_hi_e
+0x19b671e719,damage_ice_frame_recovery
 0x0c0c6a890b,damage_level
 0x0d14025cb6,damage_level1
 0x0d8d0b0d0c,damage_level2
@@ -2558,6 +2577,7 @@
 0x220bc52321,damage_smashed_status_vanish_speed
 0x1cb2ba6d19,damage_smoke_generate_hp_per
 0x0bba0078eb,damage_song
+0x1ae879aa68,damage_song_recovery_frame
 0x106a4c2f2e,damage_speed_mul
 0x13f96e8460,damage_start_damage
 0x12abfc038a,damage_start_frame
@@ -2885,6 +2905,10 @@
 0x160930de5a,drop_smashball_persent
 0x0846702448,drown_up
 0x04a33e9320,drum
+0x126148dfd1,drum_clatter_frame
+0x0ee6afe77b,drum_cut_frame
+0x150cb60aa7,drum_cut_frame_damage
+0x0d99a95a57,drum_recovery
 0x09fa534f6e,dry_bower
 0x03e3e525fe,dst
 0x0961a62c52,duck_hunt
@@ -3923,6 +3947,10 @@
 0x0808ba9c08,firework
 0x0c3097eb05,first_hitter
 0x09a08ab483,fish_attr
+0x1a0efc1385,fish_capture_clatter_frame
+0x16729bc78c,fish_capture_cut_frame
+0x1dcc406373,fish_capture_cut_frame_damage
+0x15c9b229de,fish_capture_recovery
 0x0aaba48914,fish_catch
 0x0b707cab80,fish_direct
 0x101fc8b029,fish_ignore_down
@@ -4007,7 +4035,10 @@
 0x10ac3aa8f8,flower_accel_mul
 0x14d650912c,flower_clatter_frame
 0x0dd695a000,flower_damage
+0x16e4dceb8e,flower_damage_interval
+0x0c3fa4e4b6,flower_frame
 0x103ae20699,flower_frame_max
+0x155df27c6b,flower_recovery_frame
 0x10a7f8e3b7,flower_scale_max
 0x109bf5dcee,flower_scale_min
 0x03538a83b3,fly
@@ -4123,6 +4154,7 @@
 0x0ad8fd7a93,funky_kong
 0x0844853330,furafura
 0x0e702f76bf,furafura_frame
+0x17e8eb7f0d,furafura_recovery_frame
 0x09665ddab3,furniture
 0x0b66af84da,furniture01
 0x0bffa6d560,furniture02
@@ -4848,6 +4880,7 @@
 0x08de4556e3,hit_data
 0x0d35d243c7,hit_data_bomb
 0x0da9f81c1b,hit_data_clay
+0x11f8d4865b,hit_data_ice_shot
 0x0dc7bed30c,hit_data_nana
 0x0da41f6605,hit_data_tico
 0x0d02e3640c,hit_data_tree
@@ -7061,6 +7094,7 @@
 0x0cb803a0ef,joint_rotate
 0x0ffc1ef5d8,jonathan_morris
 0x05ada17014,jos_z
+0x0cb9bf2ab8,jostle_brake
 0x0b3aff8cca,jostle_data
 0x102f1b2a52,jostle_data_dead
 0x10b05d8aaa,jostle_data_nana
@@ -7068,11 +7102,13 @@
 0x1075003daa,jostle_data_tree
 0x10cc82612a,jostle_layer_all
 0x115cbefd60,jostle_layer_none
+0x14d0243a54,jostle_map_coll_data
 0x0f5a6c8233,jostle_pri_high
 0x0e2ad3478e,jostle_pri_low
 0x1109f6b9ea,jostle_pri_middle
 0x0fcfb6ec2e,jostle_priority
 0x0c43db32b7,jostle_scale
+0x21b17b84bf,jostle_speed_attenuation_rate_min
 0x0db8b2a940,jostle_weight
 0x046cab6922,judd
 0x07774a1bce,judd_jr
@@ -7665,6 +7701,7 @@
 0x05b978cc9e,loupe
 0x0c98feca5f,loupe_damage
 0x15b4ffaa59,loupe_damage_interval
+0x123e6ac678,loupe_damage_limit
 0x07341dcf84,low_all
 0x09e019b497,low_all_2
 0x09971e8401,low_all_3
@@ -9608,6 +9645,7 @@
 0x07c2eb2d6a,right_z
 0x0415132c34,riki
 0x182dd3450c,riki_attack_reaction_mul
+0x135ace52f7,riki_power_up_frame
 0x054487b41d,rim_a
 0x05dd8ee5a7,rim_b
 0x05ade41128,rim_g
@@ -12120,10 +12158,12 @@
 0x0a1becb00e,step_slash
 0x0b20d9eaba,step_strike
 0x0b4a7de6be,stethoscope
+0x0fadfb7a7b,stick_clamp_max
 0x0b5af259b6,stick_frame
 0x08d8556731,stick_hp
 0x0ac6b86fbd,stick_life
 0x09b4c59d7c,stick_min
+0x0d55373f10,stick_neutral
 0x0d90a55ad9,stick_percent
 0x144d3c286f,stick_rot_stop_frame
 0x0b2cb3f4b7,stick_y_max
