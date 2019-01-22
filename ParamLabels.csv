@@ -648,11 +648,11 @@
 0x0f5495dd2c,attack_air_b_lw
 0x0cda9bcc89,attack_air_d
 0x0c3495ada5,attack_air_f
-0x198dd91dd6,attack_air_f1_hit_speed_y
 0x0dbc5d7cc7,attack_air_f2
 0x1931843438,attack_air_f2_hit_speed_y
 0x0dcb5a4c51,attack_air_f3
 0x0f4594b21c,attack_air_f_hi
+0x188dd91dd6,attack_air_f_hit_speed_y
 0x0fdbf74a7b,attack_air_f_lw
 0x0dde67d935,attack_air_hi
 0x0d40042152,attack_air_lw
@@ -2231,7 +2231,6 @@
 0x05ee40b7d1,cupid
 0x0527f4c4fc,curry
 0x0a071e71b3,curry_rule
-0x0f76879ff6,curryrice_frame
 0x0924cb8eea,curryshot
 0x06c57f6a8e,cursor
 0x13364a16df,cursor_display_type
@@ -4009,7 +4008,6 @@
 0x14d650912c,flower_clatter_frame
 0x0dd695a000,flower_damage
 0x103ae20699,flower_frame_max
-0x138a505aef,flower_reaction_mul
 0x1338d3a2d8,flower_reaction_mul
 0x10a7f8e3b7,flower_scale_max
 0x109bf5dcee,flower_scale_min
@@ -4966,8 +4964,8 @@
 0x0561f2fe0f,hp_up
 0x08acc9a147,hp_value
 0x138a30d1e0,hs_hit_cancel_frame
-0x13c60b8491,hs_hit_cancel_frame
 0x0c3702904f,hs_speed_mul
+0x15c60b8491,hs_speed_mul_downhill
 0x13660d9cad,hs_speed_mul_uphill
 0x05e36ce7f1,hsien
 0x0672516cd3,hswing
@@ -7089,11 +7087,10 @@
 0x0b31d5945e,jump_aerial
 0x179814dd89,jump_aerial_speed_x_mul
 0x0d86798cae,jump_aerial_y
-0x14152c9eac,jump_air_accel_y_mul
 0x1092fed13b,jump_air_speed_x
 0x14db3626a7,jump_air_speed_x_mul
-0x14e6560f17,jump_air_speed_x_mul
 0x10e5f9e1ad,jump_air_speed_y
+0x14e6560f17,jump_air_speed_y_mul
 0x0a03861722,jump_angle
 0x0e35ca3d82,jump_count_max
 0x0f6ec81742,jump_damage_mul
@@ -8288,13 +8285,13 @@
 0x0a79fa2364,move_frame
 0x0dec3be65a,move_interval
 0x13b2939fdb,move_interval_frame
+0x0abfc8ae64,move_life_
 0x10bcd7e7e1,move_limit_speed
 0x0e9f6e5e70,move_max_power
 0x0e4885ec31,move_min_power
 0x11e71fbe7a,move_random_frame
 0x0aba0ed876,move_rate_
 0x0ac324e15f,move_speed
-0x0bbfc8ae64,move_speed_
 0x09b75a46c7,move_spot
 0x10946c03dd,move_start_speed
 0x0db9657722,move_straight
@@ -11691,8 +11688,8 @@
 0x169175923b,special_s_failure_node
 0x1b1389ec3d,special_s_failure_offset_x1
 0x1b8a80bd87,special_s_failure_offset_x2
-0x1b939b8cc6,special_s_failure_offset_x2
 0x1b0a92dd7c,special_s_failure_offset_y1
+0x1b939b8cc6,special_s_failure_offset_y2
 0x16e3ca5e14,special_s_failure_size
 0x0e5d54c96e,special_s_fall
 0x0efeda1fad,special_s_fire
@@ -16564,7 +16561,7 @@
 0x1bab04e2f4,warp_out_of_area_wait_frame
 0x18b97b57d6,warp_return_enable_frame
 0x115671237b,warp_sampling_num
-0x0e9835f17b,warp_speed_add
+0x0eea7e0463,warp_speed_add
 0x18b67ad645,warp_standing_wait_frame
 0x094c830b46,warp_star
 0x14d1541c6d,warp_target_offset_y
