@@ -13,4 +13,4 @@ def test_hashes():
         hashString = line[0]
         assert len(hashString) >= 12
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
-        assert crc32(line[1].encode('utf-8')) == (int(line[0], 16) & 0xFFFFFFFF)
+        assert (len(line[1]) << 32 | crc32(line[1].encode('utf-8'))) == (int(line[0], 16))
