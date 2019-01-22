@@ -9,6 +9,7 @@ def test_hashes():
         csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
 
     assert_is_sorted(csv, key=lambda i: i[1])
+    alreadyFoundHashes = []
     for line in csv:
         hashString = line[0]
         assert len(hashString) >= 12
@@ -17,6 +18,8 @@ def test_hashes():
         # crc32  - lowermost 32 bits
         assert len(line[1]) == (int(line[0], 16) >> 32)
         assert crc32(line[1].encode('utf-8')) == (int(line[0], 16) & 0xFFFFFFFF)
+        assert not int(hashString, 16) in alreadyFoundHashes
+        alreadyFoundHashes.append(int(hashString, 16))
 
 def main():
     from binascii import crc32
@@ -28,6 +31,7 @@ def main():
         assert_is_sorted(csv, key=lambda i: i[1])
     except AssertionError:
         print("ParamLabels.csv is not sorted, run remove_duplicates.py to fix")
+    alreadyFoundHashes = []
     for i,line in enumerate(csv):
         hashString = line[0]
         if not len(hashString) >= 12:
@@ -37,6 +41,9 @@ def main():
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
         if not crc32(line[1].encode('utf-8')) == (int(line[0], 16) & 0xFFFFFFFF):
             print(f"'{hashString}', line {i+1} crc32 mismatch.")
+        if int(hashString, 16) in alreadyFoundHashes:
+            print(f"'{hashString}', line {i+1} hash duplicate.")
+        alreadyFoundHashes.append(int(hashString, 16))
 
 # Note: Intended use is with pytest, this is
 #       merely for printing out incorrect hashes
