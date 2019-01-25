@@ -1917,6 +1917,8 @@
 0x04b12bd53f,bust
 0x05350be95f,bust1
 0x05ac02b8e5,bust2
+0x176e4d3aad,buster_attack_power_mul
+0x0fa4a48644,buster_blow_mul
 0x116b35687a,buster_damage_mul
 0x0520d1c416,bustl
 0x05cedfa53a,bustn
@@ -14963,7 +14965,10 @@
 0x0b6a44a3a7,sheriffshot
 0x061e93d2e8,shield
 0x16dfaf4503,shield_air_speed_x_mul
+0x175e9e3a70,shield_attack_power_mul
 0x0b8f067556,shield_back
+0x0fc06d2091,shield_blow_mul
+0x105e98f6c0,shield_blown_mul
 0x0c362bc9a0,shield_break
 0x0e199c6a2a,shield_break_y
 0x1414ca9d35,shield_break_y_speed
@@ -15243,7 +15248,10 @@
 0x0cb5621ea8,smash_appeal
 0x1100c5c19c,smash_appeal_none
 0x11f38b967a,smash_appeal_type
+0x16cd53ff20,smash_attack_power_mul
 0x0a998b18e7,smash_ball
+0x0e1c236c8f,smash_blow_mul
+0x0fa44b85ef,smash_blown_mul
 0x08d07eaced,smash_hi
 0x0af2735dbb,smash_hold
 0x150173b47c,smash_hold_keep_frame
