@@ -2906,6 +2906,7 @@
 0x045569975d,coin
 0x06205cb624,coin_e
 0x04a4cd1feb,col0
+0x066aa1e0d7,col0_0
 0x061da6d041,col0_1
 0x0684af81fb,col0_2
 0x06f3a8b16d,col0_3
@@ -5797,7 +5798,6 @@
 0x0c3fa4e4b6,flower_frame
 0x103ae20699,flower_frame_max
 0x0c2ea6a4f2,flower_param
-0x138a505aef,flower_reaction_mul
 0x155df27c6b,flower_recovery_frame
 0x10a7f8e3b7,flower_scale_max
 0x109bf5dcee,flower_scale_min
@@ -6105,6 +6105,7 @@
 0x0c16616418,gear_flag_01
 0x08121d6483,gekikara
 0x0e76879ff6,gekikara_frame
+0x1440a47c85,gekikara_motion_rate
 0x05fe4eb115,gekko
 0x0b66f7aa60,gekkouga_00
 0x1b0b657cb4,gekkouga_special_air_n_shot
@@ -9353,6 +9354,7 @@
 0x10d22e19db,jostle_speed_mul
 0x0db8b2a940,jostle_weight
 0x118ee9f225,jostle_weight_max
+0x17d3cc50e5,jostle_weight_mid_speed
 0x11b2e4cd7c,jostle_weight_min
 0x046cab6922,judd
 0x07774a1bce,judd_jr
@@ -17765,6 +17767,7 @@
 0x1657d49a9d,special_all_offense_up
 0x193835b89b,special_all_offense_up_dx
 0x1086f17256,special_category
+0x1b4a218489,special_command_stick_range
 0x0dc3836f96,special_d_mul
 0x0eb4130991,special_dedede
 0x0f3b525c4a,special_default
@@ -17801,9 +17804,11 @@
 0x172a1788f2,special_hi_jump_accel_y
 0x0c63a09d9c,special_hi_l
 0x1850debdad,special_hi_landing_frame
+0x1981e1a200,special_hi_landing_frame_
 0x0fe89a4513,special_hi_loop
 0x0fa6fb6f85,special_hi_move
 0x14693eb7b7,special_hi_move_time
+0x157cbabb70,special_hi_move_time_
 0x15597b456b,special_hi_offense_up
 0x130084460a,special_hi_offset_y
 0x13998d17b0,special_hi_offset_z
@@ -17814,6 +17819,12 @@
 0x16d8c255b0,special_hi_speed_x_mul
 0x105c3c1e76,special_hi_start
 0x12419bfc5b,special_hi_start_r
+0x12e6bbfce1,special_hi_stop_y_
+0x172b6d941c,special_hi_warp2_angle_
+0x16e676e07a,special_hi_warp_angle_
+0x1800709950,special_hi_warp_spd_add_
+0x1ae6b40717,special_hi_warp_spd_multi_
+0x16f738d149,special_hi_warp_stick_
 0x10997b845c,special_interval
 0x0da022a111,special_krool
 0x194bcd3d40,special_landing_frame_mul
@@ -17824,6 +17835,7 @@
 0x0f9503af02,special_lw3_end
 0x104d3710ad,special_lw3_hold
 0x1179c2f6dc,special_lw3_throw
+0x1bb9137718,special_lw_air_speed_x_mul_
 0x11b7bf50dd,special_lw_attack
 0x155ec7e0df,special_lw_attack_max
 0x17f389ff93,special_lw_attack_max_y
@@ -17865,6 +17877,7 @@
 0x1a4b82a1be,special_lw_shield_offset_z
 0x1b3647a227,special_lw_shield_offset_z2
 0x1660d814e5,special_lw_shield_size
+0x17c53adebe,special_lw_speed_x_mul_
 0x0f503a5575,special_lw_stab
 0x10ef97f71f,special_lw_start
 0x122c72c5c2,special_lw_start_r
@@ -17915,6 +17928,10 @@
 0x0dbd47741f,special_n_max
 0x0d89337737,special_n_mul
 0x14ac70f539,special_n_offense_up
+0x1709bdfdd1,special_n_offset_air_x_
+0x1710a6cc90,special_n_offset_air_y_
+0x1a266592e0,special_n_offset_ground_x_
+0x1a3f7ea3a1,special_n_offset_ground_y_
 0x12d8a0341a,special_n_offset_x
 0x12afa7048c,special_n_offset_y
 0x0ebd3c8483,special_n_open
@@ -17964,6 +17981,8 @@
 0x0b03f7f556,special_s_2
 0x0b74f0c5c0,special_s_3
 0x0bea945063,special_s_4
+0x12c4f011c3,special_s_accel_x_
+0x12ddeb2082,special_s_accel_y_
 0x10e4df374b,special_s_attack
 0x127476840e,special_s_attack_b
 0x0fb53839e9,special_s_brake
@@ -18015,14 +18034,20 @@
 0x143ec7192b,special_s_offense_up
 0x120af03e42,special_s_offset_x
 0x127df70ed4,special_s_offset_y
+0x146340034b,special_s_power_min_
+0x154710c6cf,special_s_power_tame_
 0x0e3d396ab2,special_s_ride
 0x1383b4b747,special_s_ride_loop
+0x12bfb56a34,special_s_speed_x_
 0x15ae79a87c,special_s_speed_x_mul
 0x15c701d38a,special_s_speed_y_add
 0x15931981cc,special_s_speed_y_mul
 0x0eb40e32ed,special_s_spin
 0x0f3c6351ed,special_s_start
 0x197051abd8,special_s_start_speed_mul
+0x0f49a1aee2,special_s_tame_
+0x151437db10,special_s_tame_spd_x_
+0x1429aebbfd,special_s_tame_time_
 0x0fec894555,special_s_throw
 0x0e86240325,special_s_turn
 0x122d0e0cad,special_s_turn_end
@@ -20322,7 +20347,9 @@
 0x05f39eb9fa,spyke
 0x06aa492555,squash
 0x05d267ef83,squat
+0x13bb3fcbce,squat_b_stick_x_min
 0x19ef58e653,squat_damage_reaction_mul
+0x137b86a158,squat_f_stick_x_min
 0x0d87461d6d,squat_stick_y
 0x0aa60712ea,squat_wait
 0x0f35085111,squat_walk_data
