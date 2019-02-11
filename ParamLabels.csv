@@ -345,6 +345,7 @@
 0x09386a4ea3,add_count
 0x0afd161540,add_damage
 0x1050f62a0f,add_damage_frame
+0x163cdb9ed9,add_damage_start_frame
 0x1694dcda33,add_fighter_attack_log
 0x09084b360c,add_frame
 0x06305d359b,add_hp
@@ -878,6 +879,7 @@
 0x123757c850,attack_hi4_speed_y
 0x1247017fa6,attack_hi4_stick_y
 0x10aed2b9e8,attack_hit_brake
+0x165983bce2,attack_hit_probability
 0x151d6bac6b,attack_hit_stop_frame
 0x135721e134,attack_hitstop_kind
 0x11b762dbc9,attack_hold_start
@@ -1036,9 +1038,11 @@
 0x1247095cfc,attack_speed_y_max
 0x1176441750,attack_stop_delay
 0x117126ab06,attack_stop_frame
+0x13e7c8c589,attack_straight_num
 0x18c7100a20,attack_straight_offset_x
 0x18b0173ab6,attack_straight_offset_y
 0x15b37e2810,attack_straight_speed
+0x1e437fbde4,attack_tackle_jump_probability
 0x1cc64e5530,attack_tackle_turn_count_max
 0x1cfa436a69,attack_tackle_turn_count_min
 0x167c008368,attack_target_category
@@ -1113,6 +1117,7 @@
 0x1374d52080,background_offset_y
 0x0a0504e5d0,backshield
 0x13fadfb7bb,backshield_offset_y
+0x0d95dcb79d,backward_prob
 0x05fef0481d,badge
 0x0b888983a8,badge_scale
 0x0884d73899,badwagon
@@ -1800,6 +1805,7 @@
 0x09a59aacfc,boomerang
 0x0764257c39,boot_bg
 0x058741240c,boots
+0x0a4f89489b,border_num
 0x0cdbbfb4c6,border_width
 0x0444e33ba2,born
 0x043efe663a,boss
@@ -1904,6 +1910,7 @@
 0x0a770b6e8b,bowser_ssb
 0x0e01aa2744,bowser_wedding
 0x0308a9483a,box
+0x0a60726385,box_health
 0x0516223d8b,brake
 0x09b4861589,brake_air
 0x131e7aa796,brake_disable_frame
@@ -1926,6 +1933,7 @@
 0x144c27fb64,break_r_rumble_frame
 0x063a3b4fe3,breath
 0x0813235b97,brewster
+0x0c76eaea12,brick_health
 0x0939309c33,bridge_01
 0x09a039cd89,bridge_02
 0x09d73efd1f,bridge_03
@@ -1939,7 +1947,9 @@
 0x09202bad72,bridge_11
 0x09b922fcc8,bridge_12
 0x0d8fa11468,bridge_damage
+0x0d2809d1f6,bridge_effect
 0x094a893a69,bridge_hp
+0x0b734408dd,bridge_info
 0x14748ac2b6,bridge_log_forest_01
 0x18373b5b1a,bridge_log_forest_01_obj
 0x1498667b59,bridge_log_jungle_01
@@ -2148,6 +2158,7 @@
 0x10e3f402e8,button_count_max
 0x098edb47cd,buzz_buzz
 0x0d00604253,by_attack_mul
+0x0bd2292b42,by_time_mul
 0x05a23453e6,byrne
 0x069f067d3f,bytans
 0x0106b9df6f,c
@@ -2556,6 +2567,8 @@
 0x1081365999,capture_recovery
 0x1176752e25,capture_rot_speed
 0x0d5449bcea,capture_scale
+0x17e6236086,capture_scale_end_frame
+0x192432af1f,capture_scale_start_frame
 0x0db7296798,capture_speed
 0x11c0469571,capture_speed_mul
 0x1e81956847,capture_swallowed_dedede_frame
@@ -2677,6 +2690,7 @@
 0x0e16bd7449,catfish_obj_03
 0x076e7f3a76,cathead
 0x07202fd3f4,catsuit
+0x0a79d52ff5,ceiling_hp
 0x063239b5c3,celebi
 0x070f0d75be,celeste
 0x04cb8787e2,cell
@@ -3066,6 +3080,8 @@
 0x130a4c3190,combo_attack_33_end
 0x132a292898,combo_attack_42_end
 0x0f7a328f48,combo_end_frame
+0x108a385594,coming_end_frame
+0x120a7577f4,coming_start_frame
 0x19146335ae,command_landing_frame_mul
 0x0ce5625695,command_list
 0x11af990ec3,command_power_mul
@@ -3148,6 +3164,7 @@
 0x0c69de86e8,count_target
 0x097826155d,count_top
 0x07c1229478,counter
+0x1a16515240,counter_attack_probability
 0x1a08521a37,counter_attack_start_frame
 0x0c20194122,counter_time
 0x10371d0db8,counter_time_min
@@ -3565,6 +3582,7 @@
 0x103a205f5f,damage_drop_item
 0x0b29add323,damage_elec
 0x115ba77df4,damage_end_damage
+0x1757150215,damage_fall_probability
 0x21bdf31705,damage_fix_gravity_speed_y_stable
 0x0c28c59336,damage_floor
 0x1112f6aa62,damage_floor_attr
@@ -3732,6 +3750,7 @@
 0x0edf30828f,darumesi_inuzi
 0x07320def7c,darunia
 0x0471cc9d09,darz
+0x080c776d9e,darz_1st
 0x0e30db5e39,darz_centipede
 0x0f57a0697f,darz_cross_bomb
 0x100afad089,darz_dark_pillar
@@ -3771,6 +3790,7 @@
 0x0d7f4683fe,darz_route_on
 0x0f8c1f0893,darz_space_rush
 0x0c9a3bec5d,darz_tear_up
+0x0d1b11225e,darz_twilight
 0x0d0e7bc480,darzcentipede
 0x0d51067cb5,darzcrossbomb
 0x0ffad6bd5c,darzgatlingshot
@@ -3856,8 +3876,10 @@
 0x0e2f00733b,dead_up_damage
 0x1466c07ec6,dead_up_damage_speed
 0x0d13a8b02a,dead_up_frame
+0x1a4574592d,dead_up_galaga_start_frame
 0x1985b4c01e,dead_up_star_rumble_frame
 0x124a2bea3b,dead_up_star_scale
+0x1854cdf69a,dead_up_star_start_frame
 0x0d271187c8,deadarea_kind
 0x05e747d52e,death
 0x1015fdba20,death_floor_attr
@@ -4574,6 +4596,7 @@
 0x13060d8af6,effect_goldenhammer
 0x0da336e5a8,effect_hammer
 0x09f5e9b83b,effect_id
+0x0b5bec06ae,effect_info
 0x0f2b094955,effect_interval
 0x11eb3e6a51,effect_invincible
 0x0baba18b20,effect_kind
@@ -4669,6 +4692,7 @@
 0x131f3d92d4,eleka_shot_offset_x
 0x13683aa242,eleka_shot_offset_y
 0x10ce68923e,eleka_shot_speed
+0x168a72f3d0,eleka_shot_start_frame
 0x0a5ae8bb2e,eleka_wait
 0x09e215f030,elekashot
 0x0a3cee9b51,elekashot2
@@ -4970,6 +4994,7 @@
 0x166ed053cc,escape_air_slide_speed
 0x162e4d87e8,escape_air_slide_stick
 0x1cb48ba192,escape_air_slide_stiff_frame
+0x226cab1afa,escape_air_slide_stiff_start_frame
 0x1eabea9274,escape_air_slide_u_stiff_frame
 0x1693ba4d0b,escape_air_stiff_frame
 0x1cce73b80e,escape_air_stiff_start_frame
@@ -5504,15 +5529,19 @@
 0x12f83833e7,final_attack_power
 0x0a147a393a,final_aura
 0x0fdf518f37,final_base_time
+0x11c79f61fc,final_beam_length
 0x0f315028fc,final_beam_life
 0x10e10002cc,final_beam_speed
 0x10349d9ed6,final_bg_color_b
 0x1044f76a59,final_bg_color_g
 0x10292a8eb2,final_bg_color_r
 0x0afddcf07b,final_boss
+0x1283bb46c3,final_button_count
 0x11d1a23930,final_camera_data
+0x11fd2d1aa4,final_camera_dist
 0x15673eff09,final_camera_offset_x
 0x151039cf9f,final_camera_offset_y
+0x108bf6e17e,final_catch_size
 0x17f0f60f2d,final_charge_offense_up
 0x1214580cad,final_damage_speed
 0x0d24537cd2,final_dark_01
@@ -5521,20 +5550,28 @@
 0x10dd543a76,final_dash_speed
 0x0d607d8b93,final_default
 0x092ee4d34c,final_end
+0x16cd106194,final_end_motion_frame
 0x11c758e974,final_entry_frame
 0x1032ab2fe4,final_fall_frame
 0x16866f4a47,final_fall_frame_limit
 0x128d38559c,final_fall_speed_y
+0x111a7da1dc,final_fly_accel_y
 0x0f9f6064fc,final_fly_frame
 0x11ee2df816,final_fly_speed_y
 0x1cfe51f869,final_ground_effect_offset_y
 0x15ae1776b4,final_ground_offset_y
 0x0c05436e18,final_height
+0x15fbf5b639,final_hit_shake_frame
 0x147e92a39c,final_hit_stop_frame
 0x121892ecac,final_inhale_frame
 0x13e88e7406,final_landing_frame
+0x1029f11b02,final_laser_time
 0x0adaefa8bf,final_life
 0x0e3237267a,final_light_01
+0x0eab3e77c0,final_light_02
+0x0edc394756,final_light_03
+0x0d79e0e5ae,final_min_fov
+0x1191537e52,final_min_fov_mul
 0x12d0d89874,final_motion_frame
 0x107a6a67b1,final_move_frame
 0x10c0b4a58a,final_move_speed
@@ -5547,6 +5584,9 @@
 0x104f1cd275,final_offset_z_2
 0x10381be2e3,final_offset_z_3
 0x10a67f7740,final_offset_z_4
+0x10fdd5581e,final_open_frame
+0x138882ab0b,final_particle_life
+0x1743d96734,final_performance_frame
 0x0e3d1d83a6,final_poweresa
 0x0ccb72e54d,final_radius
 0x0d0b02fe07,final_range_x
@@ -5556,6 +5596,7 @@
 0x13a2877800,final_rot_frame_min
 0x131f84c8d4,final_rot_speed_max
 0x132389f78d,final_rot_speed_min
+0x11ea7a130b,final_rot_speed_y
 0x11607884b9,final_scroll_rate
 0x130dc6efd8,final_search_radius
 0x11f0665576,final_shake_scale
@@ -5566,20 +5607,31 @@
 0x0f118f99fe,final_slow_time
 0x0dcee387b6,final_speed_y
 0x0bc364c0f9,final_stage
+0x0c477ec1cf,final_stage1
+0x0cde779075,final_stage2
+0x0ca970a0e3,final_stage3
 0x11d2e77852,final_stage_param
+0x0d1d1bacdf,final_standby
 0x174ddd0aac,final_start_motion_rate
 0x118cc95218,final_start_speed
 0x1053bdb152,final_start_time
+0x163fab98bf,final_start_turn_frame
+0x19ebe04843,final_target_pos_offset_x
+0x199ce778d5,final_target_pos_offset_y
 0x12dd1309cb,final_target_scale
 0x0ea01b30f1,final_target_z
 0x156466f067,final_target_z_length
 0x12a8e30376,final_target_z_pos
 0x101e725f7c,final_turn_frame
 0x0a4ffcc168,final_type
+0x0c79b92262,final_type_l
+0x0c0ebe12f4,final_type_m
+0x0cf4b12f97,final_type_s
 0x10c013a4b8,final_vector_max
 0x10fc1e9be1,final_vector_min
 0x10e61619ff,final_wait_frame
 0x0f32229ab7,final_wait_time
+0x1038fa6f39,final_wave_speed
 0x12edc778c1,final_window_frame
 0x0be26e2fc9,final_x_pos
 0x0bdf0e0679,final_y_pos
@@ -5595,6 +5647,7 @@
 0x0620c9eb18,finish
 0x13d2f97bd7,finish_camera_frame
 0x17a294ebb7,finish_camera_frame_min
+0x0d2a6d0c82,finish_hit_hp
 0x0c0697833e,finish_speed
 0x04c775ec36,finl
 0x043d7ad155,finr
@@ -5636,6 +5689,7 @@
 0x0ab357561a,fire_r_fix
 0x0b17192ac5,fire_resist
 0x148e0a771f,fire_resist_strength
+0x1260fbd356,fire_rot_end_frame
 0x14f7620eee,fire_rot_start_frame
 0x0feb552ed0,fire_rush_brake
 0x150a6b9dca,fire_rush_brake_frame
@@ -5883,7 +5937,9 @@
 0x266f5311ff,floating_plate_teamcolor_a_daytime_set
 0x22d25f1862,floating_plate_teamcolor_a_fes_set
 0x05be45d62e,floor
+0x0c0dd6777f,floor_colors
 0x11e663e678,floor_damage_rate
+0x0c01b297f3,floor_health
 0x0c3a2551ef,floor_height
 0x08854679e2,floor_id
 0x10c1a37b9b,floor_model_name
@@ -5937,6 +5993,7 @@
 0x0db20cb863,flyandhandfly
 0x06206dde2c,flygon
 0x0a5018bc31,flying_men
+0x128f033f8e,flying_start_frame
 0x090e2fda42,flyingman
 0x09b981a6ce,fnl_stage
 0x0821f80824,focus_01
@@ -7072,6 +7129,7 @@
 0x0f619456b7,hit_stop_frames
 0x0cd3fe072d,hit_stop_mul
 0x12497fb215,hit_stop_squat_mul
+0x14b9669b03,hit_stop_start_frame
 0x0adb509366,hit_target
 0x05194b0b01,hit_x
 0x0b7f747460,hit_x_brake
@@ -7084,6 +7142,7 @@
 0x09c65f3ce3,hitmonlee
 0x09d93a5d43,hitodeman
 0x0d9c647682,hitodemanshot
+0x0bffd45877,hitokage_hp
 0x07d0183e17,hitsize
 0x104e010832,hitstop_elec_mul
 0x11acf85152,hitstop_frame_add
@@ -8619,6 +8678,7 @@
 0x1093a16213,ink_effect_color
 0x07ae071a51,ink_max
 0x0a57d1a9e3,ink_models
+0x0f67edaa15,ink_paint_delay
 0x1345e1e1c2,ink_paint_threshold
 0x059844d5ae,inkay
 0x0aaa39b050,inkling_00
@@ -8676,6 +8736,7 @@
 0x08c636115a,ironsuit
 0x0a140688ae,is_article
 0x074487540f,is_bcat
+0x0fe0d6d94b,is_board_appear
 0x07ab0d481b,is_boss
 0x0889979814,is_catch
 0x0b3a4394a3,is_changing
@@ -9636,6 +9697,7 @@
 0x0f08702e04,kawasaki_dish_r
 0x130b82b461,kawasaki_life_frame
 0x0f70ee00d7,kawasaki_pepper
+0x160e486133,kawasaki_shoot_num_max
 0x17c2f470ee,kawasaki_shoot_offset_x
 0x17b5f34078,kawasaki_shoot_offset_y
 0x1478d51be7,kawasaki_shoot_speed
@@ -9682,10 +9744,12 @@
 0x034523887c,kid
 0x0bad1ca31a,kid_dracula
 0x05da158c02,kiila
+0x09d76c27ee,kiila_1st
 0x10f36e0855,kiila_cross_bomb
 0x10ebf43ec2,kiila_crush_down
 0x1cd45a0a43,kiila_crush_down_delay_frame
 0x12158850d6,kiila_explode_shot
+0x0f0438a97c,kiila_laser_num
 0x100652d4a1,kiila_laser_rush
 0x0aab8bcf56,kiila_last
 0x0c387cdd68,kiila_last_b
@@ -9693,6 +9757,7 @@
 0x1009412d23,kiila_smart_bomb
 0x1477c07670,kiila_static_missile
 0x0ccaa03fe1,kiila_threat
+0x0e64d52a8d,kiila_twilight
 0x09781872fe,kiilacore
 0x0e2ec27466,kiilacrossbomb
 0x0ec2516d26,kiilacrushwing
@@ -9706,6 +9771,7 @@
 0x0cc3c33333,kiilatorrent
 0x09a0afecd3,kill_gaog
 0x096d53c92f,kill_impa
+0x099435efa6,kill_info
 0x1671501b37,killa_last_route_01_on
 0x08796cfd03,killa_on
 0x0983a5834a,killa_on2
@@ -10014,14 +10080,17 @@
 0x1864d1a2f4,layer_photo_frame.nutexb
 0x182f313fd3,layer_title_black.nutexb
 0x14816dcafe,layer_twinkle.nutexb
+0x0d0910d60e,leaf01_appear
 0x0a152a9ca7,leaf01_off
 0x09f100162f,leaf01_on
 0x064777d638,leaf02
 0x0d879fd1ed,leaf02_appear
 0x0a528ae677,leaf02_off
 0x09e3b5b9c1,leaf02_on
+0x0d4b35d173,leaf03_appear
 0x0a6feacfc7,leaf03_off
 0x095b09dea4,leaf03_on
+0x0d41f0d86a,leaf04_appear
 0x0addca13d7,leaf04_off
 0x09c6dee61d,leaf04_on
 0x06ab962cea,leaff2
@@ -10360,6 +10429,7 @@
 0x0c32435920,locator_name
 0x0be66b2df8,locator_pos
 0x0c2d07d14f,lockon_frame
+0x126e947f38,lockon_start_frame
 0x0981655d9b,loftwings
 0x038f3f68c5,log
 0x0cb0169d3c,log_hit_data
@@ -10475,6 +10545,7 @@
 0x15302d104f,lucina_special_n_loop
 0x163e39b4fc,lucina_special_n_start
 0x0a26f47717,lucina_ssb
+0x08b042b8b1,lucky_hp
 0x10e67b83ca,ludwig_von_koopa
 0x143c12706b,ludwig_von_koopa_ssb
 0x050513617a,lugia
@@ -10979,6 +11050,7 @@
 0x0f47f17500,max_speed_x_mul
 0x0bd93356be,max_speed_y
 0x0f7a915cb0,max_speed_y_mul
+0x12414b46e1,max_wait_fly_frame
 0x0a90ac95c8,max_weight
 0x103f41c7c8,max_weight_power
 0x051d0555fa,max_x
@@ -11014,7 +11086,12 @@
 0x05cfe77ba1,melee
 0x11f5b5ca80,melee_camera_data
 0x0ab5afe1bc,melee_coop
+0x10cf467c37,melee_default_hp
+0x138d39c5fa,melee_default_stock
+0x126cdeb07f,melee_default_time
 0x10395952dd,melee_life_frame
+0x0e1aa85776,melee_preset_0
+0x0e6daf67e0,melee_preset_1
 0x0a0a4b40c8,melee_rule
 0x0607c094f6,meleph
 0x05643ff0b4,melia
@@ -11192,6 +11269,7 @@
 0x0f604a1231,min_speed_x_mul
 0x0f5d2a3b81,min_speed_y_mul
 0x0b65689a47,min_stick_y
+0x1212ed5e05,min_wait_fly_frame
 0x0a91a00f7c,min_weight
 0x106eb87c95,min_weight_power
 0x05c01aa2d7,min_x
@@ -11713,6 +11791,7 @@
 0x07995ba381,odyssey
 0x15d9004c23,odysseyship_rigid_set
 0x0ff03be71d,odysseyship_set
+0x1734793af6,odysseyship_start_frame
 0x032bbc5d43,off
 0x0800306032,off_hard
 0x0715f4c170,offence
@@ -12733,6 +12812,7 @@
 0x0eccf7b7e3,prize_time_min
 0x045cd7b4a2,prob
 0x08ffe2a162,prob_all
+0x099093659a,prob_info
 0x09ec312db9,prob_zoom
 0x0bdeae6e4b,probability
 0x1175fb928a,probability_chase
@@ -12947,6 +13027,7 @@
 0x0c26314649,rank2_effect
 0x0cea9b46d7,rank3_effect
 0x114eb02d74,raphael_the_raven
+0x0eacf108e9,rapid_shot_num
 0x0883bc1434,rapidash
 0x11fe805c37,rare_pokemon_rate
 0x06b7c0be46,rarity
@@ -13154,6 +13235,8 @@
 0x0f3b2e424e,recover_speed_y
 0x110ba93f2c,recover_xlu_frame
 0x08f34393c9,recovery
+0x0a291d3e72,recovery_0
+0x0b61d481cc,recovery_30
 0x0e720c8c93,recovery_color
 0x0f27d5bb77,recovery_energy
 0x0ea1a2f8b7,recovery_frame
@@ -13226,6 +13309,7 @@
 0x0c67090483,remain_frame
 0x0ea2dd9a79,remaining_time
 0x12d314b3db,remove_bound_count
+0x105ea52763,remove_bound_num
 0x108fd7b6bd,remove_bound_per
 0x130b4d01cd,remove_effect_frame
 0x1269e95e06,remove_flash_frame
@@ -13387,6 +13471,7 @@
 0x0902c639a8,rock_wily
 0x0abdc44d03,rockbuster
 0x0a5041b3ca,rocketbelt
+0x16e1c091d9,rocketbelt_start_frame
 0x0a1087617a,rockman_00
 0x0e56ff13a8,rockman_attack
 0x0fe2e95b25,rockman_capture
@@ -15434,6 +15519,7 @@
 0x0a2a2aad88,saturation
 0x0455663ade,save
 0x07b8bd8804,save_no
+0x197ea08619,saving_damage_start_frame
 0x05ef0fe9b8,sayam
 0x0886e0400c,sbtshirt
 0x0c02ae9a94,scaffold_set
@@ -15552,6 +15638,7 @@
 0x0fb54bdfa5,second_duration
 0x101543c040,second_power_mul
 0x1096b430c7,second_speed_mul
+0x12ae2a0674,second_start_delay
 0x11a1090eb4,second_start_wait
 0x1125e68f2e,second_stick_life
 0x044487e306,seed
@@ -16797,6 +16884,7 @@
 0x0551f9be47,shock
 0x0fa22cc158,shockwave_speed
 0x057044fcbe,shoot
+0x0f6423a5ae,shoot_accel_mul
 0x0fc1407e37,shoot_air_speed
 0x0b673ac1f6,shoot_angle
 0x0b7199b974,shoot_brake
@@ -16825,7 +16913,9 @@
 0x09144bfeb4,shoot_num
 0x108d2469ac,shoot_offense_up
 0x0e65691e10,shoot_offset_x
+0x14198503ed,shoot_offset_x_kirby
 0x0e126e2e86,shoot_offset_y
+0x14bff20859,shoot_offset_y_kirby
 0x0a861700cb,shoot_only
 0x0c9c238a76,shoot_only_2
 0x123afb932e,shoot_pass_flick_y
@@ -16859,6 +16949,7 @@
 0x0fa28e97b5,shop_funky_kong
 0x0a760f5d41,shop_lv_up
 0x0a0dde788b,shop_price
+0x0f0b3a57da,shop_sales_type
 0x0c80eb3098,shop_sheldon
 0x113e2dfa83,shop_spirit_adv_1
 0x11a724ab39,shop_spirit_adv_2
@@ -16923,6 +17014,7 @@
 0x0ee0cf947e,sight_offset_y
 0x0e79c6c5c4,sight_offset_z
 0x0599004c0a,sigma
+0x0bdeafca61,signal_info
 0x09d42e2832,sigourney
 0x060b4b10c4,sigurd
 0x0ad032eacc,silhouette
@@ -17820,6 +17912,9 @@
 0x0c74947316,sp_a_01_flag
 0x0cf20001b8,sp_a_02_flag
 0x0c395cd21d,sp_a_03_flag
+0x1800f491a4,sp_all_battle_default_hp
+0x1bbcd39c9d,sp_all_battle_default_stock
+0x1ae80938d1,sp_all_battle_default_time
 0x0b9793c0c6,sp_dummy_01
 0x0b0e9a917c,sp_dummy_02
 0x0b799da1ea,sp_dummy_03
@@ -17834,6 +17929,7 @@
 0x0b1781a03d,sp_dummy_12
 0x0a569bfe5b,sp_dust001
 0x0751fc4115,sp_edit
+0x16d3bf7ebf,sp_suddendeath_default
 0x0b6fc656ad,space_focus
 0x0a9e45a465,space_rush
 0x133eaaaadb,space_rush_interval
@@ -18194,6 +18290,7 @@
 0x1225e55df2,special_n3_end_max
 0x0f265f5bb8,special_n3_loop
 0x0fa7205311,special_n3_turn
+0x1ca15a0708,special_n_active_start_frame
 0x1ac73fe38e,special_n_add_attack_power
 0x14ba2807d1,special_n_attack_mul
 0x183d530732,special_n_attack_mul_max
@@ -18252,6 +18349,7 @@
 0x12afa7048c,special_n_offset_y
 0x0ebd3c8483,special_n_open
 0x13c8acd4d1,special_n_open_wait
+0x17b8d11bc4,special_n_rebound_count
 0x1788f0636b,special_n_rebound_frame
 0x0b16d2b473,special_n_s
 0x10f051e52d,special_n_search
@@ -20731,6 +20829,7 @@
 0x0a6c11e4e4,st_usa_egg
 0x0fa4e428d9,st_yamabuki_egg
 0x147d269693,stabbed_damage_frame
+0x1a9589c1de,stabbed_damage_start_frame
 0x0c405c1709,stable_speed
 0x10e0da91ec,stable_speed_mul
 0x0e7035d4b8,stable_speed_x
@@ -22708,9 +22807,14 @@
 0x0b658250ed,team_battle
 0x094fd73ecf,team_blue
 0x0aee1be0c7,team_compe
+0x0f515f5cd4,team_default_hp
+0x12d77227ff,team_default_stock
 0x0a179ca761,team_green
 0x09ea2548a2,team_kind
 0x09ae71f4b4,team_none
+0x0da876e1f9,team_preset_0
+0x0ddf71d16f,team_preset_1
+0x0d467880d5,team_preset_2
 0x08a0f2d52b,team_red
 0x0ba61fab46,team_yellow
 0x0dc01b3ae6,teamhealfield
@@ -22787,6 +22891,7 @@
 0x0d6fb8240a,text_delay_us
 0x07698d3548,text_id
 0x09e7a74d65,text_only
+0x112011668d,text_scroll_delay
 0x119dad18e0,text_scroll_speed
 0x0e9a352c0d,texture_height
 0x0d44a4a6f9,texture_width
@@ -22968,6 +23073,11 @@
 0x05d14414cc,totem
 0x0410cca4f1,toto
 0x11011015fb,totukotu_offset_y
+0x1505e68e4b,tournament_default_hp
+0x18208e74d3,tournament_default_stock
+0x17bce7df15,tournament_default_time
+0x13f08adb62,tournament_preset_0
+0x13878debf4,tournament_preset_1
 0x0c0636be6c,tower_damage
 0x0fe29a8e83,town_ground_set
 0x0b026c3e2f,town_in_set
@@ -22980,6 +23090,7 @@
 0x0f4389a3e8,traffic_light_b
 0x0f348e937e,traffic_light_c
 0x07c691dc4e,trailer
+0x0c3eb90437,trainer_info
 0x103db49ce5,trainer_offset_z
 0x08d5128a8f,training
 0x16946bbd48,training_academy_coach
@@ -27360,6 +27471,11 @@
 0x05ee56739f,ukiki
 0x101c2aa314,ultimate_chimera
 0x0be0cd62f6,ultra_sword
+0x17693c6db4,unavailable_time_buster
+0x1569609e42,unavailable_time_jump
+0x173e909f1d,unavailable_time_shield
+0x16d3ba66e1,unavailable_time_smash
+0x1663eeb883,unavailable_time_speed
 0x05c5b6f49c,under
 0x0b8dc361b4,under_limit
 0x10f56df292,underkiila_focus
@@ -27378,6 +27494,7 @@
 0x0682ca681f,up_add
 0x0e4b3c6636,up_down_height
 0x0c96e742ce,up_down_time
+0x0c536fd0db,up_end_frame
 0x07aad494cb,up_life
 0x06d6d23a59,up_mul
 0x09cd38f189,up_offset
@@ -27518,6 +27635,7 @@
 0x0dcf90adf0,visible_score
 0x068e789ea9,vision
 0x0627254315,vivian
+0x0ae64a168c,voice_info
 0x0a52532714,voice_none
 0x09decf52d6,volcanion
 0x1141d0873b,volleyball_player
@@ -27602,6 +27720,8 @@
 0x0d1c0cb612,wait_time_min
 0x0ddb6f02bc,wait_to_point
 0x060b2d7e0a,wait_u
+0x1186f46ff9,waiting_end_frame
+0x131c2ab760,waiting_start_frame
 0x07d62fa7c2,walhart
 0x048d917a55,walk
 0x0ea1225bca,walk_accel_add
@@ -27630,6 +27750,7 @@
 0x05391f2c5d,wall3
 0x090b4758f9,wall3_num
 0x0b9c374b50,wall_attack
+0x172e9fdff3,wall_damage_start_frame
 0x081b06e92a,wall_dir
 0x0af95781e7,wall_frame
 0x12f99006f0,wall_hit_speed_mul
@@ -28060,6 +28181,7 @@
 0x0851dea7d9,xspd_max
 0x086dd39880,xspd_min
 0x0d154754bb,xspd_time_max
+0x0d294a6be2,xspd_time_min
 0x03eb8eba67,xyz
 0x0216ef7923,xz
 0x01fbdb2615,y
@@ -28145,6 +28267,7 @@
 0x089d74a747,yspd_max
 0x08a179981e,yspd_min
 0x0dc8d18d3e,yspd_time_max
+0x0df4dcb267,yspd_time_min
 0x0947fed4d0,yubi_beam
 0x0ae0716128,yubideppou
 0x0ef72aa642,yubideppou_end
