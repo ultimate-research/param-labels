@@ -828,6 +828,7 @@
 0x0dbc5d7cc7,attack_air_f2
 0x1931843438,attack_air_f2_hit_speed_y
 0x0dcb5a4c51,attack_air_f3
+0x16e300a2b8,attack_air_f_combo_max
 0x0f4594b21c,attack_air_f_hi
 0x188dd91dd6,attack_air_f_hit_speed_y
 0x0fdbf74a7b,attack_air_f_lw
@@ -2546,6 +2547,7 @@
 0x18eed23dea,capture_cut_frame_damage
 0x1590bca360,capture_cut_frame_max
 0x181f7e0aa7,capture_cut_ground_speed
+0x1d6b9f9bef,capture_cut_jump_button_count
 0x1120b555f4,capture_cut_speed
 0x1349f50b1d,capture_cut_speed_x
 0x0dbb5c7bcf,capture_cut_y
@@ -2690,6 +2692,12 @@
 0x0e16bd7449,catfish_obj_03
 0x076e7f3a76,cathead
 0x07202fd3f4,catsuit
+0x10ce68077f,cdm_basis_damage
+0x11ee9d898f,cdm_basis_hp_rate
+0x0ed7d5db6a,cdm_max_damage
+0x0f8359d0b8,cdm_max_hp_rate
+0x0ed6d941de,cdm_min_damage
+0x0f4f54abb7,cdm_min_hp_rate
 0x0a79d52ff5,ceiling_hp
 0x063239b5c3,celebi
 0x070f0d75be,celeste
@@ -3617,6 +3625,8 @@
 0x1685221130,damage_fly_speed_y_max
 0x16b92f2e69,damage_fly_speed_y_min
 0x16b1561218,damage_fly_speed_y_mul
+0x1a58828323,damage_fly_top_air_accel_y
+0x1d71e21b0b,damage_fly_top_speed_y_stable
 0x10e33b9cd2,damage_frame_min
 0x10eb42a0a3,damage_frame_mul
 0x0db4059b7b,damage_ground
@@ -11002,6 +11012,7 @@
 0x0ad0a1edb2,max_attack
 0x0e97fff083,max_attack_add
 0x0ec3e7a2c5,max_attack_mul
+0x0d83fd53e5,max_aurapower
 0x0dd28c8020,max_bound_num
 0x0fbd387125,max_brake_frame
 0x0dcb0ea404,max_brake_num
@@ -11242,6 +11253,7 @@
 0x0bdaa9b560,min_angle_y
 0x0b43a0e4da,min_angle_z
 0x0ad1ad7706,min_attack
+0x0dc3b22b93,min_aurapower
 0x0f9a831614,min_brake_frame
 0x0e09acb02b,min_bullet_num
 0x0a87a50e51,min_damage
@@ -12048,6 +12060,7 @@
 0x0ea087d5dc,param_audience
 0x0e2db7a474,param_auraball
 0x0f0002b915,param_aurapower
+0x179aec65da,param_aurapower_hp_mode
 0x1326c605f9,param_autoaimbullet
 0x1170471b65,param_autoreticle
 0x09d3530195,param_axe
@@ -12757,6 +12770,7 @@
 0x0ecf11bac3,power_up_metal
 0x0d9c890931,power_up_move
 0x124faed71a,power_up_point_max
+0x1273a3e843,power_up_point_min
 0x13e228f69d,power_up_rabbit_cap
 0x0dac5b0170,power_up_rate
 0x0d66a4127d,power_up_riki
@@ -16814,6 +16828,7 @@
 0x1414ca9d35,shield_break_y_speed
 0x1302834a39,shield_catch_master
 0x0fc2c74789,shield_comp_mul
+0x1597058f0f,shield_comp_reach_mul
 0x11fcd76972,shield_damage_add
 0x11a8cf3b34,shield_damage_mul
 0x153df43310,shield_dash_speed_mul
@@ -18226,6 +18241,7 @@
 0x0c1dc2a9b6,special_lw_b
 0x17e41b2f1e,special_lw_charge_frame
 0x19b6255ad7,special_lw_comp_frame_min
+0x17e3f6d728,special_lw_daikon_limit
 0x152d98f9fa,special_lw_damage_mul
 0x13d70249e9,special_lw_deforest
 0x17e904a2b3,special_lw_deforest_hit
@@ -18443,6 +18459,8 @@
 0x1f870e7553,special_s_get_motion_skip_frame
 0x11521251e7,special_s_heading
 0x113ae95e10,special_s_hit_end
+0x157ea625d9,special_s_hit_speed_x
+0x1509a1154f,special_s_hit_speed_y
 0x0eb9ce1b65,special_s_hold
 0x12b6d89003,special_s_hold_end
 0x189023d019,special_s_hold_frame_max
@@ -18452,6 +18470,7 @@
 0x140655ddc3,special_s_hold_start
 0x0e01b71074,special_s_jump
 0x16b8b3bd94,special_s_jump_accel_y
+0x163be4d4c8,special_s_jump_speed_x
 0x14296bc75e,special_s_jump_squat
 0x1074c0074b,special_s_jump_x
 0x1003c737dd,special_s_jump_y
@@ -18486,6 +18505,7 @@
 0x0f717debe1,special_s_squat
 0x0f3c6351ed,special_s_start
 0x197051abd8,special_s_start_speed_mul
+0x174e4e1747,special_s_start_speed_y
 0x0f49a1aee2,special_s_tame_
 0x151437db10,special_s_tame_spd_x_
 0x1429aebbfd,special_s_tame_time_
@@ -28088,6 +28108,7 @@
 0x13ff66c6d5,wind_resistance_mul
 0x0a899ba8de,wind_speed
 0x0c6039cf82,window_frame
+0x115ba89898,window_move_frame
 0x0dbfbc5722,window_offset
 0x0ccb395dc2,window_pos_y
 0x0cdae70db9,window_speed
