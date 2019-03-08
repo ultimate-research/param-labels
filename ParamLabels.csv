@@ -4633,8 +4633,6 @@
 0x0a5af38ea3,effect_pos
 0x0ef5e61718,effect_pos_0_x
 0x0e82e1278e,effect_pos_0_y
-0x0ef4247d2f,effect_pos_1_x
-0x0e83234db9,effect_pos_1_y
 0x0fbeb731df,effect_pos_10_x
 0x0fc9b00149,effect_pos_10_y
 0x0fbf755be8,effect_pos_11_x
@@ -4645,6 +4643,8 @@
 0x0fcbf6bf10,effect_pos_13_y
 0x0fb9be9903,effect_pos_14_x
 0x0fceb9a995,effect_pos_14_y
+0x0ef4247d2f,effect_pos_1_x
+0x0e83234db9,effect_pos_1_y
 0x0ef662c376,effect_pos_2_x
 0x0e8165f3e0,effect_pos_2_y
 0x0ef7a0a941,effect_pos_3_x
