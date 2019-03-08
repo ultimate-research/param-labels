@@ -23327,8 +23327,8 @@
 0x0227ff46b0,ui
 0x0c8c2eed80,ui_amiibo_id
 0x11793829a5,ui_anniversary_id
-0x0cce4cda7a,ui_art_scale
 0x15993d8225,ui_art_on_stand_scale
+0x0cce4cda7a,ui_art_scale
 0x1741850f0a,ui_art_type_under_scale
 0x163820810f,ui_bgm_a01_smb_chijyou
 0x14d71313cb,ui_bgm_a02_smb_chika
