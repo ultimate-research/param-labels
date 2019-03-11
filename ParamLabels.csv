@@ -1166,6 +1166,7 @@
 0x05147a0477,balla
 0x058d7355cd,ballb
 0x05fa74655b,ballc
+0x0c12285f57,ballon_param
 0x07643b3b90,balloon
 0x0f89ab413b,balloon_fighter
 0x0cbdd2c84a,balloon_fish
@@ -4723,6 +4724,7 @@
 0x04a0404569,elec
 0x0ac9f9b644,elec_floor
 0x083219956d,elec_man
+0x0d10907b81,elec_up_param
 0x0e0a45c026,electric_shock
 0x0992f1e276,electrode
 0x0cfe5e0160,electroshock
@@ -8794,6 +8796,7 @@
 0x08243bdeb4,is_empty
 0x09a3e945ed,is_enable
 0x08b763b9d9,is_enemy
+0x0fe2f5b7ea,is_enemy_target
 0x0c766f0c73,is_explosion
 0x08f904dfbd,is_frame
 0x079d74728d,is_help
@@ -8808,6 +8811,7 @@
 0x06737b2bbb,is_mii
 0x0aaa2b15e0,is_no_read
 0x0e6e0c4feb,is_penetration
+0x10b824f812,is_player_target
 0x070da46f46,is_read
 0x0be95aa4a5,is_rotate_y
 0x0df716d72c,is_shield_hit
@@ -22783,6 +22787,7 @@
 0x0d5cd23766,tabemono_cola
 0x0e47a5f5c1,tabemono_grape
 0x0d69e95f25,tabemono_meat
+0x114ae5b992,tabemono_meat_bun
 0x0d5855d5f9,tabemono_milk
 0x13f5950a7b,tabemono_mont_blanc
 0x0d300fa3f8,tabemono_rice
