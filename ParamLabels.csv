@@ -4648,19 +4648,6 @@
 0x0fceb9a995,effect_pos_14_y
 0x0ef4247d2f,effect_pos_1_x
 0x0e83234db9,effect_pos_1_y
-<<<<<<< HEAD
-0x0fbeb731df,effect_pos_10_x
-0x0fc9b00149,effect_pos_10_y
-0x0fbf755be8,effect_pos_11_x
-0x0fc8726b7e,effect_pos_11_y
-0x0fbd33e5b1,effect_pos_12_x
-0x0fca34d527,effect_pos_12_y
-0x0fbcf18f86,effect_pos_13_x
-0x0fcbf6bf10,effect_pos_13_y
-0x0fb9be9903,effect_pos_14_x
-0x0fceb9a995,effect_pos_14_y
-=======
->>>>>>> e3999dbb6dec084fe18c539ebd0491d5012cf5df
 0x0ef662c376,effect_pos_2_x
 0x0e8165f3e0,effect_pos_2_y
 0x0ef7a0a941,effect_pos_3_x
