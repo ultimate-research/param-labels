@@ -410,6 +410,7 @@
 0x0ba18057d9,air_accel_y
 0x0f4c94fd48,air_accel_y_mul
 0x0fc37413cd,air_action_list
+0x0acbf08458,air_atk_hi
 0x0ecb3c5898,air_attack_all
 0x0c7fe5ed43,air_attack_b
 0x0c7888295a,air_attack_f
@@ -1829,6 +1830,7 @@
 0x11a8d6f61e,boss_item_kind_03
 0x1136b263bd,boss_item_kind_04
 0x0aeb0d2fa7,boss_level
+0x0d313e0709,boss_rotx_deg
 0x0a9da1c630,boss_scale
 0x110799b750,boss_shadow_scale
 0x13e45ad2b6,boss_slow_frame_1st
@@ -4783,6 +4785,8 @@
 0x0b37f4e030,end_brake_x
 0x0917c90fec,end_color
 0x0d90a10194,end_control_x
+0x0de7a63102,end_control_y
+0x0d7eaf60b8,end_control_z
 0x09f4460367,end_count
 0x0a3ce2e01f,end_deccel
 0x0dd6e6f2d7,end_dk_jungle
@@ -5264,6 +5268,7 @@
 0x12f90230e5,falco_lombardi_ssb
 0x183bba6c96,falco_special_air_n_loop
 0x14c7c3ffed,falco_special_n_loop
+0x0a8f2e5820,falcon_leg
 0x04fb50df0c,fall
 0x0ad93f6119,fall_accel
 0x0e27bcc115,fall_accel_mul
@@ -8777,6 +8782,7 @@
 0x12fbe3215a,iron_ball_hit_data
 0x08c636115a,ironsuit
 0x0a140688ae,is_article
+0x0b1731b1eb,is_automove
 0x074487540f,is_bcat
 0x0fe0d6d94b,is_board_appear
 0x07ab0d481b,is_boss
@@ -8800,6 +8806,7 @@
 0x088c9e17b9,is_metal
 0x06737b2bbb,is_mii
 0x0aaa2b15e0,is_no_read
+0x0a97473704,is_oneside
 0x0e6e0c4feb,is_penetration
 0x10b824f812,is_player_target
 0x070da46f46,is_read
@@ -20763,6 +20770,7 @@
 0x16159d1ec7,spot_trajectory_10_02b
 0x16958f7e3c,spot_trajectory_10_03a
 0x160c862f86,spot_trajectory_10_03b
+0x115892dc05,spot_type_barrier
 0x0eae9b2b8c,spot_type_boss
 0x0f9f32812f,spot_type_build
 0x11c3d4e551,spot_type_fighter
@@ -20770,10 +20778,12 @@
 0x0d49fd8db4,spot_type_map
 0x1097fb07a0,spot_type_master
 0x0d9c36f363,spot_type_obj
+0x1194af5c42,spot_type_section
 0x0f0be0b2ce,spot_type_space
 0x108d58fb09,spot_type_spirit
 0x0fbdeb267b,spot_type_start
 0x10d51bef6e,spot_type_switch
+0x12705995fe,spot_type_teleport
 0x0d511f392a,spot_value_01
 0x0dc8166890,spot_value_02
 0x0dbf115806,spot_value_03
@@ -20986,6 +20996,9 @@
 0x16b94e652a,start_appear_frame_min
 0x115ae1e0be,start_brake_frame
 0x0d52feed0a,start_brake_x
+0x0fcbb9c65a,start_control_x
+0x0fbcbef6cc,start_control_y
+0x0f25b7a776,start_control_z
 0x0cdb07c3fc,start_damage
 0x0aa4d7b0c2,start_dash
 0x0c5ddeee01,start_energy
@@ -28444,6 +28457,7 @@
 0x05f49a2e78,zoras
 0x0742fdbbdd,zoroark
 0x022a029393,zr
+0x0ac18d4ff3,zsamus_leg
 0x073aedb063,zygarde
 0x1018291d99,zygarde_complete
 0x03c3273dca,zzz
