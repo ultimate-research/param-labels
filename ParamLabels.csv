@@ -14358,6 +14358,7 @@
 0x1a78d70c51,ironwire_fall_linear_brake
 0x1e3a110006,ironwire_fall_linear_brake_max
 0x0a140688ae,is_article
+0x0b1731b1eb,is_automove
 0x074487540f,is_bcat
 0x0fe0d6d94b,is_board_appear
 0x07ab0d481b,is_boss
@@ -14387,6 +14388,7 @@
 0x088c9e17b9,is_metal
 0x06737b2bbb,is_mii
 0x0aaa2b15e0,is_no_read
+0x0a97473704,is_oneside
 0x08aed77546,is_patch
 0x0e6e0c4feb,is_penetration
 0x10b824f812,is_player_target
@@ -31043,6 +31045,7 @@
 0x16159d1ec7,spot_trajectory_10_02b
 0x16958f7e3c,spot_trajectory_10_03a
 0x160c862f86,spot_trajectory_10_03b
+0x115892dc05,spot_type_barrier
 0x0eae9b2b8c,spot_type_boss
 0x0f9f32812f,spot_type_build
 0x11c3d4e551,spot_type_fighter
@@ -31050,10 +31053,12 @@
 0x0d49fd8db4,spot_type_map
 0x1097fb07a0,spot_type_master
 0x0d9c36f363,spot_type_obj
+0x1194af5c42,spot_type_section
 0x0f0be0b2ce,spot_type_space
 0x108d58fb09,spot_type_spirit
 0x0fbdeb267b,spot_type_start
 0x10d51bef6e,spot_type_switch
+0x12705995fe,spot_type_teleport
 0x0d511f392a,spot_value_01
 0x0dc8166890,spot_value_02
 0x0dbf115806,spot_value_03
@@ -40459,6 +40464,7 @@
 0x1341323cce,zoroark_final_frame
 0x0c80adf192,zoroark_life
 0x022a029393,zr
+0x0ac18d4ff3,zsamus_leg
 0x073aedb063,zygarde
 0x1018291d99,zygarde_complete
 0x03c3273dca,zzz
