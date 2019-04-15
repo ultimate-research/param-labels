@@ -1,3 +1,4 @@
+0x0000000000,
 0x02302d482a,-1
 0x01f4dbdf21,0
 0x0daa4b2506,00_ringlinner
@@ -9473,6 +9474,7 @@
 0x0d035757bc,fighter_other
 0x0d7ef51e15,fighter_param
 0x120398551e,fighter_param_list
+0x1a18b9ab3b,fighter_param_motion_table
 0x131f0d7ade,fighter_param_table
 0x1d76328641,fighter_param_valid_frame_max
 0x1d4a3fb918,fighter_param_valid_frame_min
@@ -9894,6 +9896,7 @@
 0x0a4ffcc168,final_type
 0x11959d3603,final_type_center
 0x0c79b92262,final_type_l
+0x125502a8f8,final_type_l_mario
 0x0c0ebe12f4,final_type_m
 0x0cf4b12f97,final_type_s
 0x10c013a4b8,final_vector_max
@@ -16815,6 +16818,9 @@
 0x1ec172d830,look_search_light_start_degree
 0x1d6276a517,look_search_light_start_frame
 0x25023ea993,look_search_light_start_rot_speed_max
+0x083b47453d,lookat_x
+0x084c4075ab,lookat_y
+0x08d5492411,lookat_z
 0x0881ccc60e,looksley
 0x04a15f1dee,loop
 0x0a0f5778eb,loop_begin
@@ -19283,6 +19289,7 @@
 0x0e2db7a474,param_auraball
 0x0f0002b915,param_aurapower
 0x179aec65da,param_aurapower_hp_mode
+0x0f47ce9d31,param_aurascale
 0x1326c605f9,param_autoaimbullet
 0x1170471b65,param_autoreticle
 0x09d3530195,param_axe
