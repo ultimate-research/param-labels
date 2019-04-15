@@ -1291,7 +1291,6 @@
 0x0d40042152,attack_air_lw
 0x13c701a7b5,attack_air_lw_speed
 0x17db459f0b,attack_air_lw_speed_dec
-0x162546672b,attack_air_lw_stay_max
 0x114c2cfe49,attack_air_meteor
 0x133a9ca1c8,attack_air_meteor_e
 0x1620e74edc,attack_air_mul_speed_x
@@ -4732,7 +4731,6 @@
 0x0aa0f60c4e,cliff_y_c3
 0x0a3e9299ed,cliff_y_c4
 0x066006d4ef,cliffa
-0x1773a4fff6,cliffable_quake_l_scale
 0x0b914aceaf,cliffattack
 0x0a992b07c4,cliffcatch
 0x0a01e92baa,cliffclimb
@@ -4765,7 +4763,6 @@
 0x13072d79cf,cloud_special_air_n
 0x0fec0c3965,cloud_special_n
 0x092c778e74,cloud_ssb
-0x12698ccf2b,cloud_ui_tips_0803
 0x05e0bf9d48,clown
 0x11e2a31902,clown_angle_frame
 0x10ec7cd54d,clown_angle_rate
@@ -6527,7 +6524,6 @@
 0x1ee581861d,diddypeanuts_bound_speed_y_add
 0x16d81bf833,diddypeanuts_scale_mul
 0x08162bf2db,diff_max
-0x147bc59435,difficulity_fade_cnt
 0x0abb6b6fef,difficulty
 0x1416bb4a4b,difficulty_reduction
 0x03d7769efb,dig
@@ -7279,7 +7275,6 @@
 0x0596c1698c,earr2
 0x0ae73ec23a,earthquake
 0x0aea0fb666,ease_frame
-0x137ea38ec7,ease_target_speed_y
 0x0bab0a782d,easing_type
 0x0449629a97,easy
 0x0b4fa71900,easy_escape
@@ -9246,7 +9241,6 @@
 0x0f4d5ff6a3,fast_move_speed
 0x10318fb696,fast_speed_frame
 0x07f1eb4151,fastest
-0x116b904091,fastest_hit_spd_y
 0x1167fde060,fastest_hit_spdud
 0x0dca8399d2,father_balder
 0x0667c39c6e,fawful
@@ -11564,7 +11558,6 @@
 0x158d32e165,ground_shoot_offset_y
 0x1abf351a53,ground_speed_inherit_limit
 0x12b00664bc,ground_speed_limit
-0x1a62702bc7,ground_speed_limit_ice_top
 0x1216c11242,ground_speed_mul_x
 0x14cf046ee5,ground_speed_x_limit
 0x15ef691b5b,ground_stable_speed_x
@@ -11960,7 +11953,6 @@
 0x07ac5d00d3,harriet
 0x058f5f3525,harry
 0x0ebca319ed,has_attack_100
-0x0d5016c399,has_sacrifice
 0x04d1b862b8,hash
 0x0691efec11,hassam
 0x1cf10bb83c,hassam_attack_check_interval
@@ -12298,7 +12290,6 @@
 0x0f9f2f9674,hit_data_gunman
 0x14326a795e,hit_data_gunman_boss
 0x1839d663aa,hit_data_gunman_boss_fly
-0x1c3fc307d2,hit_data_gunman_boss_fly_low
 0x13718edf78,hit_data_gunman_fly
 0x185ecf62c9,hit_data_gunman_kurofuku
 0x1c9e4693f9,hit_data_gunman_kurofuku_fly
@@ -15469,6 +15460,7 @@
 0x1d39ffc2b9,just_shield_reflect_count_max
 0x1c170f902a,just_shield_reflect_life_mul
 0x1d69295be8,just_shield_reflect_speed_mul
+0x12698ccf2b,just_shield_screen
 0x160d10d98e,just_shield_setoff_mul
 0x16255accd5,just_shield_speed_rate
 0x0dbba23129,juste_belmont
@@ -20611,6 +20603,7 @@
 0x0dadafdcff,quiz_11_focus
 0x0ce1c58c65,quiz_11_hint
 0x142fa4f218,quiz_11_perfectroute
+0x0d5016c399,quiz_11_start
 0x126c376741,quiz_11_wrongcheck
 0x016c09ff9d,r
 0x0301401c2e,r2l
@@ -23286,6 +23279,7 @@
 0x137ce5309e,route_03_a_end_01_r
 0x1120704d69,route_03_a_end_02
 0x1384acb3a4,route_03_a_end_02_l
+0x137ea38ec7,route_03_a_end_02_r
 0x1157777dff,route_03_a_end_03
 0x13856ed993,route_03_a_end_03_l
 0x137f61e4f0,route_03_a_end_03_r
@@ -24348,7 +24342,6 @@
 0x0601871032,sakura
 0x0f6420fb8e,sakura_kasugano
 0x0bb7c73f34,sakura_maru
-0x14b5a0ca3b,sakura_txt_title_sub
 0x09e0c34ea1,salamence
 0x0bc4d3b882,sale_friday
 0x0babb323cb,sale_monday
@@ -26246,7 +26239,6 @@
 0x05c7d0842e,shulk
 0x088ad15276,shulk_00
 0x0d6cc4e364,shulk_counter
-0x229c7f2f29,shulk_special_lw_counter_attack_ko
 0x0961dac5fd,shulk_ssb
 0x0c0f87c4c3,shulk_vision
 0x1544b37f76,shulk_vision_opponent
@@ -26367,7 +26359,6 @@
 0x06369530c5,skirtr
 0x0768e44cb8,skirtr1
 0x09160eb328,skull_kid
-0x172de6d914,skull_limit_break_frame
 0x093a8fac8c,skull_man
 0x0802f34eee,skullkid
 0x14f8c86883,skullkid_majorasmask
@@ -29940,6 +29931,7 @@
 0x18bdb12fe2,spot_boss_crazy_pos_05_c
 0x1b2118a788,spot_boss_end_effect_terget
 0x11ce67fde6,spot_bridge_beans
+0x1773a4fff6,spot_bridge_log_01_flag
 0x17f5308d58,spot_bridge_log_02_flag
 0x173e6c5efd,spot_bridge_log_03_flag
 0x1723696e45,spot_bridge_log_04_flag
@@ -31754,7 +31746,6 @@
 0x16e6eb831f,stop_add_speed_y_frame
 0x0a8d63ae3e,stop_angle
 0x0a9bc0d6bc,stop_brake
-0x1c01454652,stop_cam_map_help_dracula_03
 0x0ff42abf7a,stop_ceil_frame
 0x15f6d38b45,stop_ceil_speed_x_mul
 0x1cd0891017,stop_ceil_speed_x_stable_mul
@@ -32701,6 +32692,7 @@
 0x14b149ff6a,stream_r32_wsr_title
 0x19888dc242,stream_r33_wsr_title_ver2
 0x22176f5c63,stream_r34_bt2_thevaledictoryelegy
+0x229c7f2f29,stream_r35_hne_battleareaa_greecce
 0x1cdb8c2089,stream_r36_xbd_arrangemedley
 0x14ee5020e7,stream_r37_hsz_boss1
 0x186075df83,stream_r38_iki_maintheme
@@ -32887,6 +32879,7 @@
 0x1e6570f01a,stream_sp07_sp_kimiironisomete
 0x1af532d0a2,stream_sp08_sp_imanuraneba
 0x217f358357,stream_sp08a_sp_imanuraneba_short
+0x1c3fc307d2,stream_sp09_sp_shiokarabushi
 0x195bbc180a,stream_sp10_sp_quickstart
 0x1b1e61e078,stream_sp11_sp_octoweaponry
 0x19760b5127,stream_sp12_sp_iamoctavio
@@ -33202,7 +33195,6 @@
 0x09a77232d9,sub_stock
 0x098694baa3,sub_timer
 0x08ab48c8e8,sub_type
-0x13c8050c01,subcommon_springman
 0x10ff74cab3,subetenoyaminoou
 0x1caa74676b,subetenoyaminoou_type_normal
 0x0db4e8e43e,subspace_bomb
@@ -33822,7 +33814,6 @@
 0x188619beaf,thrown_copy_star_brake_x
 0x140350716a,thrown_copy_star_spd
 0x1c378c20ad,thrown_cut_accel_y_add_speed
-0x1d623d6035,thrown_motion_off_frame_param
 0x0b359b6291,thrown_node
 0x110138c3cf,thrown_node_table
 0x1c0e6f535c,thrown_out_drive_air_brake_x
@@ -34611,6 +34602,7 @@
 0x11634baaae,ui_bgm_crs01_menu
 0x14067d58fb,ui_bgm_crs02_senjyou
 0x14ca800c09,ui_bgm_crs03_shuuten
+0x13c8050c01,ui_bgm_crs04_kumite
 0x176ce909a7,ui_bgm_crs05_masterhand
 0x1757981c97,ui_bgm_crs06_mastercore
 0x13c2ba72d9,ui_bgm_crs07_online
@@ -35081,6 +35073,7 @@
 0x172b5a5460,ui_bgm_rr09_xbd2_sentou
 0x230f8aad09,ui_bgm_rr10_xbd2_soredemomaeesusume
 0x2823fc34fd,ui_bgm_rr11_xbd2_yukutewohabamumonotachi
+0x1c01454652,ui_bgm_rr12_gm4_ringdongdang
 0x23d4fc077c,ui_bgm_rr13_dhb_kaitakuchinotatakai
 0x15eccf326a,ui_bgm_s01_rm2_medley
 0x1b4a7224c9,ui_bgm_s02_rm2_airman_stage
@@ -35096,6 +35089,7 @@
 0x1bc7e65020,ui_bgm_s12_rm5_darkmanstage
 0x1ad09f31c5,ui_bgm_s13_rm3_topmanstage
 0x19c6393aea,ui_bgm_s14_rm_icemanstage
+0x1a62702bc7,ui_bgm_s15_rm_bombmanstage
 0x1a689d36d3,ui_bgm_s16_rm_firemanstage
 0x1ce0745052,ui_bgm_s17_rm2_metalmanstage
 0x1c809ba60f,ui_bgm_s18_rm2_crashmanstage
@@ -35816,6 +35810,7 @@
 0x2374e76937,ui_gametitle_luigi_mansion_mansion2
 0x21121ce8dd,ui_gametitle_luigi_mansion_series
 0x174adc0d27,ui_gametitle_mach_rider
+0x14b5a0ca3b,ui_gametitle_mag_kid
 0x24de2d3769,ui_gametitle_magical_vacation_series
 0x12f2d1c8d3,ui_gametitle_mappy
 0x1bf1b7ee7b,ui_gametitle_mario_brothers
@@ -35860,6 +35855,7 @@
 0x160c6088d9,ui_gametitle_marvelous
 0x1526dffba7,ui_gametitle_mega_man
 0x16524157bd,ui_gametitle_mega_man2
+0x162546672b,ui_gametitle_mega_man3
 0x16bb22f288,ui_gametitle_mega_man4
 0x16cc25c21e,ui_gametitle_mega_man5
 0x16552c93a4,ui_gametitle_mega_man6
@@ -36111,6 +36107,7 @@
 0x0bb6a104bc,ui_goods_id
 0x1c38c4da5e,ui_goods_spirit_all_attacker
 0x1b7e1ae0d4,ui_goods_spirit_all_shuffle
+0x1d623d6035,ui_goods_spirit_all_supporter
 0x1c3d86d456,ui_goods_spirit_apply_flower
 0x1edece82a6,ui_goods_spirit_charge_jamming
 0x19763619a2,ui_goods_spirit_damage_30
@@ -36497,6 +36494,7 @@
 0x1c59e9da7d,ui_mii_body_normalswordman_f
 0x1cce3b03f5,ui_mii_body_normalswordman_m
 0x14ec174dbd,ui_mii_body_pirate_f
+0x147bc59435,ui_mii_body_pirate_m
 0x1499f1a397,ui_mii_body_powerd_m
 0x175037fc74,ui_mii_body_protector_f
 0x17c7e525fc,ui_mii_body_protector_m
@@ -36588,6 +36586,7 @@
 0x139ea5918f,ui_mii_hat_princess
 0x18056a5cf6,ui_mii_hat_princesszelda
 0x0e4766ce60,ui_mii_hat_rex
+0x172de6d914,ui_mii_hat_ribbongirl_f
 0x1038c18bfa,ui_mii_hat_robin
 0x0f75c3bfcc,ui_mii_hat_saki
 0x106b53a3c0,ui_mii_hat_samus
@@ -36795,6 +36794,7 @@
 0x15fc2f8d97,ui_stage_spla_parking
 0x1370ef48b6,ui_stage_streetpass
 0x12970c17a2,ui_stage_tomodachi
+0x116b904091,ui_stage_training
 0x147971f089,ui_stage_wario_gamer
 0x1599b04ed0,ui_stage_wario_madein
 0x0fd3c171af,ui_stage_wiifit
