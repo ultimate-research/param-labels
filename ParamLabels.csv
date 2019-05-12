@@ -2510,6 +2510,7 @@
 0x08917fba23,bgmfzero
 0x0ce2787a3c,bgmgamewatch
 0x09aa3c11b2,bgmicaros
+0x077C283868,bgmjack
 0x088c3c9416,bgmkirby
 0x08d1e825c3,bgmmario
 0x0c7a20cea3,bgmmetalgear
@@ -2525,8 +2526,11 @@
 0x0a6377aae4,bgmrockman
 0x0563edaaa1,bgmsf
 0x0bf2da4b7a,bgmsmashbtl
+0x0c35FE93C4,bgmsmashmenu
+0x0CDF31EEFC,bgmsmashmode
 0x08f26d6d2c,bgmsonic
 0x072b901ceb,bgmspla
+0x0cCAEDD971,bgmstageedit
 0x08fbb8aae0,bgmwario
 0x09cff57b9e,bgmwiifit
 0x0cf44f8b53,bgmxenoblade
