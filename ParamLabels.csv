@@ -20395,6 +20395,8 @@
 0x099931b69c,pos_end_x
 0x09ee36860a,pos_end_y
 0x0869b4bbcb,pos_info
+0x09fc746e69,pos_lt_x_
+0x09e56f5f28,pos_lt_y_
 0x0c91a957e1,pos_offset_x
 0x0ce6ae6777,pos_offset_y
 0x0c7fa736cd,pos_offset_z
