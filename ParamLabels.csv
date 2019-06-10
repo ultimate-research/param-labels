@@ -7774,6 +7774,7 @@
 0x0aaef76731,ellipsoids
 0x048697ae4d,elma
 0x0b849291d2,emitter_max
+0x0f60b37f83,emitter_set_max
 0x0faa672b41,emperor_bulblax
 0x0f7fc38b5f,empress_bulblax
 0x06f3a0c832,enable
@@ -8589,6 +8590,7 @@
 0x07e99d897a,ephraim
 0x0333052169,epj
 0x057e8f3446,epona
+0x07be3e9a18,epsilon
 0x0a677aa728,erase_time
 0x0625e8b08e,escape
 0x18d2653632,escape_action_select_air
@@ -18302,6 +18304,7 @@
 0x0d61c1a8bc,mode_priority
 0x0bbf61fa9c,mode_sp_all
 0x138471ac50,mode_sp_suddendeath
+0x0cbf61da4d,mode_specify
 0x0d1390a31c,mode_standard
 0x093ac9174c,mode_team
 0x0f78825d4a,mode_tournament
@@ -25970,6 +25973,7 @@
 0x09286d7694,sh_param0
 0x095f6a4602,sh_param1
 0x0becab1ffe,sh_param1_e
+0x0b45b6139e,shade_rate_
 0x067576822d,shadow
 0x0af13af07f,shadow_001
 0x1195aa1e4f,shadow_001_effect
@@ -38915,6 +38919,7 @@
 0x08c10fedc2,use_name
 0x0aa9790480,use_switch
 0x0c8ae9100c,use_training
+0x09aff82154,usm_angle
 0x1233cd45d6,uxie_mesprit_azelf
 0x0a567823cc,uzu_center
 0x016b643b84,v
