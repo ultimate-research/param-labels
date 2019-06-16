@@ -2488,6 +2488,8 @@
 0x068fb220ba,bgm_04
 0x06f8b5102c,bgm_05
 0x0661bc4196,bgm_06
+0x0710f0b42a,bgm_a88
+0x07b47381ac,bgm_b19
 0x138ba0af4b,bgm_count_out_stage
 0x115e4c5023,bgm_fadeout_frame
 0x0bd121ce4b,bgm_flg_ex0
@@ -5256,6 +5258,9 @@
 0x0a1c72f5e0,cpu_dedede
 0x0921351032,cpu_diddy
 0x0a3efb4d21,cpu_donkey
+0x09607cf07e,cpu_gp_at
+0x0aad089ec6,cpu_gp_at2
+0x0a336c0b65,cpu_gp_at5
 0x07729b2398,cpu_ike
 0x1085953a8a,cpu_item_disable
 0x1031490d5b,cpu_item_invalid
@@ -19038,6 +19043,7 @@
 0x14c84e183d,npc_judge_common_set
 0x139f30c01a,nsdpp_blow_speed_x_
 0x13862bf15b,nsdpp_blow_speed_y_
+0x06c70baee1,nso_id
 0x0425cbfc4f,null
 0x05fc9329f0,null2
 0x058b941966,null3
