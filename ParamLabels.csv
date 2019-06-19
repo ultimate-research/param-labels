@@ -7745,6 +7745,7 @@
 0x0c55fe0161,enable_frame
 0x0e00c77a55,enable_gravity
 0x124a03d55b,enable_guide_frame
+0x0ea6f03616,enable_inertia
 0x124a9f30cb,enable_input_hi_lw
 0x1598bcabe8,enable_jump_frame_air
 0x1857154108,enable_jump_frame_ground
