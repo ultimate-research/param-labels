@@ -871,7 +871,10 @@
 0x1d7bc188f6,anger_tear_up_shot_life_frame
 0x1be21ad04b,anger_tear_up_shot_slow_mag
 0x0500814509,angle
+0x06fa00d656,angle1
 0x06630987ec,angle2
+0x06140eb77a,angle3
+0x068a6a22d9,angle4
 0x06500a9a09,angle_
 0x0999b0c3b6,angle_add
 0x09d8ca08aa,angle_air
@@ -1245,6 +1248,7 @@
 0x17eb8a141a,attack_1_offense_up_adv
 0x16e23efd9f,attack_1_offense_up_dx
 0x113de3b193,attack_1_offset_x
+0x1909458a35,attack_1_time_speed_mul_x
 0x1337d8da48,attack_3_offense_up
 0x176c2a3179,attack_3_offense_up_adv
 0x164ab84c0e,attack_3_offense_up_dx
@@ -10948,6 +10952,8 @@
 0x09d9d9a2db,ganonboss
 0x14082c83f4,ganonboss_down_frame
 0x1fbf8b84ba,ganonboss_down_start_wait_frame
+0x1e4b2ae556,ganonboss_ground_accel_frame_x
+0x1e3c2dd5c0,ganonboss_ground_accel_frame_y
 0x149c315e48,ganonboss_init_pos_x
 0x14eb366ede,ganonboss_init_pos_y
 0x1dd1cff1e1,ganonboss_jostle_push_speed_x
@@ -16615,6 +16621,10 @@
 0x18779f64fb,lhand_ness_reflector_bat
 0x0a7fd0f22c,lhand_none
 0x0419cd3efe,life
+0x05d9c0fd92,life1
+0x0540c9ac28,life2
+0x0537ce9cbe,life3
+0x05a9aa091d,life4
 0x0573cab1cd,life_
 0x06667a9b0b,life_1
 0x06ff73cab1,life_2
@@ -16627,6 +16637,7 @@
 0x0a5e777166,life_flick
 0x084c923284,life_fly
 0x0a999900fb,life_frame
+0x0673a0b642,life_l
 0x0604a786d4,life_m
 0x09635d7ff8,life_m_sp
 0x08826e93be,life_max
@@ -16997,6 +17008,7 @@
 0x138b2d66a7,lot_guest_onidoriru
 0x0fbafcbc40,lot_guest_poppo
 0x0a21a4d6cc,lot_legend
+0x08c8fb2ae2,lot_prob
 0x0d1bddd319,lot_smash_all
 0x0c72b45dd9,lot_smash_hi
 0x0cecd7a5be,lot_smash_lw
@@ -27317,6 +27329,7 @@
 0x0a4e0b598a,sound_attr
 0x147340113c,sound_condition_none
 0x173b9f507f,sound_fadeout_frame_min
+0x086aaa5c3e,sound_id
 0x0a71b1c647,sound_kind
 0x0b195a9bd1,sound_label
 0x0b8d17072a,sound_level
@@ -27864,6 +27877,7 @@
 0x102fa6eb09,sp_lw_gr_vx0_mul
 0x0f64271844,sp_lw_gr_vx_mul
 0x0cdab61c72,sp_lw_gr_vy0
+0x0634ffda6c,sp_max
 0x19b06e12be,sp_metalface_appear_frame
 0x0ba3b0a061,sp_n_charge
 0x0946eaa66b,sp_pacman
@@ -29264,6 +29278,10 @@
 0x099bc3910b,specknose
 0x0ee3f39155,specter_knight
 0x050f26fef6,speed
+0x06d70d9e60,speed1
+0x064e04cfda,speed2
+0x063903ff4c,speed3
+0x06a7676aef,speed4
 0x067d07d23f,speed_
 0x0742c0f5ce,speed_0
 0x0735c7c558,speed_1
@@ -34597,6 +34615,7 @@
 0x179293b12c,tournament_online_event
 0x13f08adb62,tournament_preset_0
 0x13878debf4,tournament_preset_1
+0x1a3d81bc00,tournament_quat_rtp_mirror
 0x18fcae59de,tournament_wait_interval
 0x0c503ec73b,tower_attack
 0x0c0636be6c,tower_damage
@@ -34651,6 +34670,7 @@
 0x1a98224d6e,trans_move_end_speed_y_mul
 0x0bc9cfa200,trans_rate_
 0x07fe47074b,trans_y
+0x13c84d2488,transit_air_y_speed
 0x0d7393f38a,transit_frame
 0x10879e7abe,transition_frame
 0x06cda84dfd,transn
