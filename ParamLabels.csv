@@ -10952,8 +10952,6 @@
 0x09d9d9a2db,ganonboss
 0x14082c83f4,ganonboss_down_frame
 0x1fbf8b84ba,ganonboss_down_start_wait_frame
-0x1e4b2ae556,ganonboss_ground_accel_frame_x
-0x1e3c2dd5c0,ganonboss_ground_accel_frame_y
 0x149c315e48,ganonboss_init_pos_x
 0x14eb366ede,ganonboss_init_pos_y
 0x1dd1cff1e1,ganonboss_jostle_push_speed_x
@@ -34615,7 +34613,6 @@
 0x179293b12c,tournament_online_event
 0x13f08adb62,tournament_preset_0
 0x13878debf4,tournament_preset_1
-0x1a3d81bc00,tournament_quat_rtp_mirror
 0x18fcae59de,tournament_wait_interval
 0x0c503ec73b,tower_attack
 0x0c0636be6c,tower_damage
