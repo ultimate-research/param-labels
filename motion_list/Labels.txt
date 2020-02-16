@@ -484,6 +484,7 @@ effect_hop
 effect_hoplanding
 effect_hrowb
 effect_hrowhi
+effect_ijike
 effect_impact
 effect_inhale
 effect_itemlegswalkb
@@ -1709,6 +1710,7 @@ expression_guardon_nana
 expression_hammerjump
 expression_hammermove
 expression_hammerwait
+expression_ijike
 expression_itemgrasspull
 expression_itemheavyget
 expression_itemheavywalk
@@ -2708,6 +2710,7 @@ game_hold
 game_homing
 game_hop
 game_hoplanding
+game_ijike
 game_impact
 game_inhale
 game_itemgrasspull
@@ -4200,6 +4203,7 @@ sound_hitair_lb
 sound_homing
 sound_hop
 sound_hoplanding
+sound_ijike
 sound_impact
 sound_itemheavyget
 sound_itemheavythrowb4
