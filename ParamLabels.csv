@@ -16668,6 +16668,10 @@
 0x0a66c3d9f5,lifetime_6
 0x0a11c4e963,lifetime_7
 0x0a817bf4f2,lifetime_8
+0x0e39e501a7,lifetime_air_s
+0x0e3e88c5be,lifetime_air_w
+0x116400df88,lifetime_ground_s
+0x11636d1b91,lifetime_ground_w
 0x0c95cc690d,lifetime_max
 0x04737d1e0c,lift
 0x0e82bab539,lift_collision
@@ -17453,9 +17457,11 @@
 0x19921fdec7,map_collision_bowlingball
 0x14bc5b28d4,map_collision_breath
 0x143c735742,map_collision_bullet
+0x13ce8b4360,map_collision_burst
 0x10fb4ceb8d,map_collision_c4
 0x112c36b9b5,map_collision_can
 0x18473e7438,map_collision_cannonball
+0x11d63984d6,map_collision_cap
 0x152b4b149b,map_collision_chakram
 0x18d67555e9,map_collision_chargeshot
 0x147fddee0f,map_collision_cherry
@@ -17478,6 +17484,7 @@
 0x1737bd0eb7,map_collision_explosion
 0x1c82065bff,map_collision_explosiveflame
 0x1dba20872a,map_collision_finalcuttershot
+0x128b47f737,map_collision_fire
 0x166c176e7c,map_collision_fireball
 0x19f4476d6a,map_collision_firehydrant
 0x1ee4f8eb14,map_collision_firehydrantwater
@@ -19469,9 +19476,11 @@
 0x0c62eb0c55,param_breath
 0x0b7ddb1b12,param_bruce
 0x0ce2c373c3,param_bullet
+0x0bc531078d,param_burst
 0x08c7c3711d,param_c4
 0x09dc05a56b,param_can
 0x10a8311a31,param_cannonball
+0x09260a9808,param_cap
 0x126905af8d,param_catch_effect
 0x0db12a1709,param_chakram
 0x10397a3be0,param_chargeshot
@@ -19512,6 +19521,7 @@
 0x0facad20a8,param_finalduck
 0x10cbd582f5,param_finalenemy
 0x0b4a46ace3,param_fiora
+0x0aeadc3bf8,param_fire
 0x0e728cfd17,param_fireball
 0x118d74daa0,param_firehydrant
 0x161f28f43b,param_firehydrantwater
@@ -29297,6 +29307,8 @@
 0x12a8c8728f,speed_acceleration
 0x09ff47e309,speed_add
 0x09be3d2815,speed_air
+0x0bb7f68331,speed_air_s
+0x0bb09b4728,speed_air_w
 0x14c32b80a2,speed_attack_disable
 0x10f4e799cd,speed_attack_mul
 0x0a2a7e53d8,speed_back
@@ -29336,6 +29348,8 @@
 0x0b42e4022b,speed_flick
 0x0dcd39e348,speed_forward
 0x0c6018d993,speed_ground
+0x0e1095a053,speed_ground_s
+0x0e17f8644a,speed_ground_w
 0x0cc69ac449,speed_length
 0x07571ad887,speed_m
 0x0a9c4f50a9,speed_m_sp
