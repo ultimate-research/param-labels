@@ -23094,6 +23094,9 @@
 0x176e3fa453,marumine_jump_frame_1st
 0x178ea26672,marumine_jump_frame_2nd
 0x1769175118,marumine_jump_frame_3rd
+0x183bb27c20,marumine_jump_height_1st
+0x18db2fbe01,marumine_jump_height_2nd
+0x183c9a896b,marumine_jump_height_3rd
 0x1a41ded722,marumine_small_attack_attr
 0x1b0a944e09,marumine_small_attack_catch
 0x1c13dbf79e,marumine_small_attack_direct
@@ -23122,9 +23125,6 @@
 0x211d4a9a89,marumine_small_attack_target_part
 0x2627ca2375,marumine_small_attack_target_situation
 0x1c28a2aa8b,marumine_small_attack_vector
-0x183bb27c20,marumine_jump_height_1st
-0x18db2fbe01,marumine_jump_height_2nd
-0x183c9a896b,marumine_jump_height_3rd
 0x13ae941ba8,marumine_wait_frame
 0x0e4cfdc354,maruo_maruhige
 0x04e2cab3af,marx
@@ -30970,7 +30970,6 @@
 0x0b5687e474,rspeed_fish
 0x11726d10fa,rspeed_floor_move
 0x0fae258ee2,rspeed_hanenbou
-0x117463cb83,rspeed_kart_lunch
 0x0faac77c19,rspeed_kart_max
 0x0bfbf4ccc1,rspeed_kumo
 0x1251e5450c,rspeed_kumo_thrust
@@ -58431,16 +58430,6 @@
 0x04c0c5cdff,zant
 0x08da22db94,zap_fish
 0x179f253e4f,zapdos_moltres_articuno
-0x090d6f75ec,zds-0_far
-0x09300f5c5c,zds-1_far
-0x0977af268c,zds-2_far
-0x094acf0f3c,zds-3_far
-0x09f8efd32c,zds-4_far
-0x09c58ffa9c,zds-5_far
-0x09822f804c,zds-6_far
-0x09bf4fa9fc,zds-7_far
-0x093d1f3e2d,zds-8_far
-0x09007f179d,zds-9_far
 0x087db28e7b,zebesian
 0x04d00bb194,zeke
 0x06209dd188,zekrom
