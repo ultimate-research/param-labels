@@ -61,6 +61,8 @@
 0x03237750ea,100
 0x06d053df2f,100end
 0x04c596269e,100t
+0x03cd7931c6,102
+0x03531da465,105
 0x02d65a1577,11
 0x024f5344cd,12
 0x023854745b,13
@@ -1073,6 +1075,7 @@
 0x0ed2f2682b,ao_androssshot
 0x048d0353fb,aoph
 0x08c48a91b1,aoph_ssb
+0x04c83201ef,aori
 0x06f9691fb2,aosuke
 0x026d3a3925,ap
 0x0942c60190,ap_dragon
@@ -2757,6 +2760,7 @@
 0x1282c3f5c9,battle_zelda_train
 0x0b51b7f6d5,battlefield
 0x0d906f49d3,battlefield_l
+0x0d1d674426,battlefield_s
 0x1ab3ee43e8,batwithin_escape_air_speed
 0x217af48fc5,batwithin_self_clock_effect_frame
 0x1728c44f1c,batwithin_slow_distance
@@ -3063,6 +3067,9 @@
 0x1505a3fbaf,bg_taiju_trunk_hi_set
 0x16b13708b5,bg_taiju_trunk_low_set
 0x1461b4630c,bg_taiju_zoomoff_set
+0x13b37e729a,bg_tantan_final_end
+0x11a3cc3172,bg_tantan_final_l
+0x1159c30c11,bg_tantan_final_r
 0x0808b59b19,bg_test1
 0x0891bccaa3,bg_test2
 0x08e6bbfa35,bg_test3
@@ -5311,6 +5318,7 @@
 0x0ef8b31565,catfish_obj_01
 0x0e61ba44df,catfish_obj_02
 0x0e16bd7449,catfish_obj_03
+0x0ef5652f3c,cath_req_frame
 0x076e7f3a76,cathead
 0x09e9272327,cathedral
 0x07202fd3f4,catsuit
@@ -5717,6 +5725,7 @@
 0x15bee576a5,check_ground_offset_x
 0x15c9e24633,check_ground_offset_y
 0x10089414ee,check_height_min
+0x08709385e7,check_id
 0x1c85ecde6d,check_jump_target_distance_x
 0x0c748d671d,check_length
 0x11a27bcd46,check_loop_course
@@ -8632,6 +8641,8 @@
 0x0b634f04fb,dl_param0_e
 0x0913816740,dl_param1
 0x0b628d6ecc,dl_param1_e
+0x0c6e0c32a4,dlc_benefits
+0x0a07bfec4f,dlc_buying
 0x0c2169e2fd,dlc_chara_id
 0x081762ad84,dlc_none
 0x08e42cfa62,dlc_type
@@ -8646,6 +8657,7 @@
 0x175d61d97e,dock_camera_range_right
 0x15c0d799f8,dock_camera_range_top
 0x05916fca8e,dodge
+0x0e4f6d7133,dodo_req_frame
 0x04ade9ce0f,dog1
 0x09657ff139,dog_x_max
 0x095972ce60,dog_x_min
@@ -9695,6 +9707,9 @@
 0x13ac6d73a2,effect_bgsnakefinal
 0x1323f08779,effect_bgsonicfinal
 0x170749006d,effect_bgszerosuitfinal
+0x17bbba0807,effect_bgtantanfinalend
+0x1558d22f9e,effect_bgtantanfinall
+0x15a2dd12fd,effect_bgtantanfinalr
 0x0ecfeeeb83,effect_bgtest1
 0x0e56e7ba39,effect_bgtest2
 0x0e21e08aaf,effect_bgtest3
@@ -11897,6 +11912,7 @@
 0x102e168048,extend_arm_frame
 0x1094c84273,extend_arm_speed
 0x1823fa64f0,extend_return_invincible
+0x082ceaec36,extra_00
 0x0bf19e011a,extra_flags
 0x0aba5d1a29,extra_grid
 0x05e7c2546a,exupb
@@ -12219,6 +12235,27 @@
 0x0dca8399d2,father_balder
 0x0667c39c6e,fawful
 0x0591c64ec3,fcoat
+0x08d94e305e,fd-02-31
+0x08404761e4,fd-02-32
+0x08de23f447,fd-02-35
+0x08472aa5fd,fd-02-36
+0x088891f20e,fd-03-37
+0x08182eef9f,fd-03-38
+0x086f29df09,fd-03-39
+0x08b364f945,fd-04-41
+0x082a6da8ff,fd-04-42
+0x085d6a9869,fd-04-43
+0x08c30e0dca,fd-04-44
+0x08b4093d5c,fd-04-45
+0x0895bc0b83,fd-05-46
+0x08e2bb3b15,fd-05-47
+0x0872042684,fd-05-48
+0x0805031612,fd-05-49
+0x0865c49ff7,fd-05-50
+0x080076008f,fd-06-51
+0x08997f5135,fd-06-52
+0x08701cf400,fd-06-54
+0x08071bc496,fd-06-55
 0x08bd4387f3,fe_arena
 0x0cc79c788d,fe_colloseum
 0x09e084d3a4,fe_shrine
@@ -15872,6 +15909,7 @@
 0x0a9b230d9d,height_mul
 0x1199bf7bcd,height_mul_on_air
 0x1471a251a7,height_mul_on_ground
+0x08695ab877,heihachi
 0x12454b19d4,heiho_offset_z_max
 0x13caee2f4b,heiho_offset_z_rate
 0x0e05402815,heiho_random_y
@@ -16588,6 +16626,7 @@
 0x063eebd29f,hose2n
 0x05fdc80439,hose3
 0x0563ac919a,hose4
+0x06de29c413,hotaru
 0x0756720ffc,hothead
 0x0840968bf1,houndoom
 0x0f78f36250,houou_down_last
@@ -17050,6 +17089,7 @@
 0x1f3e5b72d4,id_popup_online_penalty_leaving
 0x20d95c96f0,id_popup_online_penalty_only_one
 0x1fef4df9a2,id_popup_online_penalty_suicide
+0x32ae69edcf,id_popup_online_priority_rule_battlefield_s_notice
 0x2ad6761c40,id_popup_online_report_contribution_detail
 0x1ee07d1ead,id_popup_online_report_failure
 0x226d698107,id_popup_online_report_play_detail
@@ -22185,6 +22225,8 @@
 0x0cb0169d3c,log_hit_data
 0x077001304a,log_hol
 0x0a4cf09972,log_offset
+0x0e59dc96f3,loga_req_frame
+0x0ec03ef0f2,logb_req_frame
 0x0e2dc7aeb4,loghouse_start
 0x09f5ffcbc2,logo_type
 0x0dd4461dc4,logo_type_bns
@@ -23752,8 +23794,10 @@
 0x0dee7036c6,mii_hat_sheik
 0x0ea73675f7,mii_hat_wanwan
 0x0e7f443ac0,mii_model_type
+0x187543b947,mii_model_type_face_only
 0x12d47edd5f,mii_model_type_hat
 0x152f657a64,mii_model_type_normal
+0x13519d27ad,mii_model_type_term
 0x106b92e61b,mii_offset_y_max
 0x10579fd942,mii_offset_y_min
 0x139989d4df,mii_parts_transform
@@ -33545,6 +33589,7 @@
 0x11e12e2927,se_vol_speed_rate
 0x0d3a88aa6f,se_volume_min
 0x140632f250,sea1_rot_o_obj_o_hir
+0x0f9b5b3750,sea_blooper_num
 0x11e1a32833,sea_wave_lot_rate
 0x134d32a1d9,sea_wave_next_frame
 0x0c2dddee49,sea_wave_num
@@ -33596,6 +33641,7 @@
 0x11a1090eb4,second_start_wait
 0x1125e68f2e,second_stick_life
 0x11ea269661,secret_command_id
+0x18ff88e22f,secret_command_id_joycon
 0x1590c882f1,secret_stage_place_id
 0x044487e306,seed
 0x0993b94e80,seek_next
@@ -46658,6 +46704,7 @@
 0x13856ed13c,ui_gametitle_galaga
 0x1b703de025,ui_gametitle_game_and_watch
 0x17f3efb594,ui_gametitle_game_wario
+0x2166691cbd,ui_gametitle_garaga_for_soundtest
 0x1444e158c6,ui_gametitle_gb_wars
 0x1cedf5d0ed,ui_gametitle_getsu_fuuma_den
 0x14d7c9ae89,ui_gametitle_giftpia
@@ -47994,6 +48041,7 @@
 0x15f7bbef4c,ui_stage_balloonfight
 0x154b5c4392,ui_stage_battle_field
 0x17945ccdf9,ui_stage_battle_field_l
+0x171954c00c,ui_stage_battle_field_s
 0x139910c635,ui_stage_bayo_clock
 0x135419dc5d,ui_stage_bonus_game
 0x1538413c6d,ui_stage_boss_dracula
@@ -48086,6 +48134,9 @@
 0x13284af2be,ui_stage_punchoutsb
 0x12404d9465,ui_stage_punchoutw
 0x0f1f1e484c,ui_stage_random
+0x1c23e8aab5,ui_stage_random_battle_field
+0x13bb95239c,ui_stage_random_end
+0x166fbc7641,ui_stage_random_normal
 0x12f8778601,ui_stage_rock_wily
 0x16d5030b51,ui_stage_setting_stage
 0x1241faa295,ui_stage_sf_suzaku
@@ -50098,6 +50149,8 @@
 0x0c4bd8f348,ui_tips_2090
 0x0c3cdfc3de,ui_tips_2091
 0x0ca5d69264,ui_tips_2092
+0x0cd2d1a2f2,ui_tips_2093
+0x0c4cb53751,ui_tips_2094
 0x0aa1a8a90a,ui_tips_id
 0x1177ba3d2f,ui_tips_unlock_id
 0x1916502430,ui_voice_00_bayonetta_001
@@ -53962,6 +54015,7 @@
 0x15a89880e4,under_base_length_mul
 0x0b8dc361b4,under_limit
 0x10f56df292,underkiila_focus
+0x0e31430812,underlay_color
 0x0a919ffe92,underwater
 0x04e370bbf2,undo
 0x16a1d53b73,uniq_float_float_frame
@@ -54101,6 +54155,7 @@
 0x0d19c66bf1,various_frame
 0x1991848599,various_poison_add_damage
 0x1d0f86cc05,various_poison_interval_frame
+0x0841439064,vaultboy
 0x1ffdd26888,vc_bayonetta_appeal01_soundtest
 0x1fa5bed149,vc_bayonetta_appeal03_soundtest
 0x1546551248,vc_bayonetta_appeal09
