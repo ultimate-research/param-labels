@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def assert_is_sorted(lst, key=lambda x: x):
     for i, el in enumerate(lst[1:]):
         assert key(el) >= key(lst[i]) # i is the index of the previous element
