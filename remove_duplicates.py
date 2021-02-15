@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 with open("ParamLabels.csv") as f:
-    csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
+    csv = [line.rstrip('\n').split(',', 1) for line in f.readlines() if not line.isspace()]
 
 hashes = []
 csvout = []

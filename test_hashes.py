@@ -8,7 +8,7 @@ def test_hashes():
     from binascii import crc32
 
     with open("ParamLabels.csv") as f:
-        csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
+        csv = [line.rstrip('\n').split(',', 1) for line in f.readlines() if not line.isspace()]
 
     assert_is_sorted(csv, key=lambda i: i[1])
     alreadyFoundHashes = []
@@ -27,7 +27,7 @@ def main():
     from binascii import crc32
 
     with open("ParamLabels.csv") as f:
-        csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
+        csv = [line.rstrip('\n').split(',', 1) for line in f.readlines() if not line.isspace()]
 
     try:
         assert_is_sorted(csv, key=lambda i: i[1])
