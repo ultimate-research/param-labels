@@ -593,6 +593,7 @@
 0x09951cb383,aegislash
 0x1229c5dfb4,aerial_hop_speed_y
 0x0b99cc3fbc,aerial_type
+0x06adb24841,aerith
 0x05719229d8,aeron
 0x0299ee8c74,af
 0x0825fffa1d,affinity
@@ -2531,6 +2532,7 @@
 0x099f40a4d6,barreljet
 0x07c39985e6,barrell
 0x073996b885,barrelr
+0x06890dafe1,barret
 0x0b7b6653bb,barrier_tbl
 0x04c0b4fe61,base
 0x0513a346d8,base_
@@ -5217,6 +5219,7 @@
 0x0aa096d338,capsule_x2
 0x0a2084b3c3,capsule_y1
 0x0ab98de279,capsule_y2
+0x0b7a8b8726,capsuleaamr
 0x0b24b06703,capsulebody
 0x0b4e33b98e,capsulebust
 0x0c5d32115d,capsulekneel
@@ -6063,6 +6066,7 @@
 0x18e4dc2334,chimera_transition_frame
 0x07fb982714,chinese
 0x10cd1815fb,chip_enemy_leave
+0x07382945b1,chocobo
 0x049818b3fd,choi
 0x0ba75d39e8,choice_act1
 0x0b3e546852,choice_act2
@@ -9210,6 +9214,8 @@
 0x055ecd6cee,downe
 0x07eeae50e0,downeat
 0x05c7c43d54,downf
+0x0d41f2224e,downlegbeltl1
+0x0d95b31d91,downlegbeltr1
 0x080f3b82b5,downlidl
 0x08f534bfd6,downlidr
 0x08b12a4871,downlipc
@@ -9908,10 +9914,23 @@
 0x13a388cc13,eatable_probability
 0x047506d366,edge
 0x076e1232ce,edge_00
+0x0bfbec1d92,edge_aerith
+0x11d5a0db6f,edge_bahamut_zero
+0x0bdf53fa32,edge_barret
+0x0e591ee389,edge_cait_sith
+0x1365c59747,edge_chocobo_moogle
+0x08e1ecc1bd,edge_cid
+0x0a15fe633e,edge_ifrit
+0x0da3372ba7,edge_red_xiii
 0x0e6596e20e,edge_sephiroth
 0x121349f716,edge_sephiroth_ssb
+0x0a6f853dca,edge_shiva
+0x09a27e9017,edge_tifa
+0x10f63803bc,edge_turks_rufus
+0x0ccf38d2c0,edge_vincent
 0x0a618bb51a,edge_width
 0x10dcb5700e,edge_wing_screen
+0x0b21739db2,edge_yuffie
 0x150c05ea3a,edit_stage_life_frame
 0x05ee2616c6,eevee
 0x0dbbb5a7ba,eevee_partner
@@ -9971,6 +9990,8 @@
 0x0fd6805a3d,effect_aurahitm
 0x0f2c8f675e,effect_aurahits
 0x13292018d8,effect_barrelcannon
+0x1a26634fd8,effect_battle_distance_max
+0x1a1a6e7081,effect_battle_distance_min
 0x20431da616,effect_bayonettawitchtimescreen1
 0x20da14f7ac,effect_bayonettawitchtimescreen2
 0x1835605ecd,effect_bgassistkawashima
@@ -12663,6 +12684,7 @@
 0x0865c49ff7,fd-05-50
 0x080076008f,fd-06-51
 0x08997f5135,fd-06-52
+0x08ee7861a3,fd-06-53
 0x08701cf400,fd-06-54
 0x08071bc496,fd-06-55
 0x0826aef249,fd-07-56
@@ -12676,6 +12698,11 @@
 0x08bbeed0f0,fd-08-64
 0x08cce9e066,fd-08-65
 0x0855e0b1dc,fd-08-66
+0x089a5be62f,fd-09-67
+0x080ae4fbbe,fd-09-68
+0x087de3cb28,fd-09-69
+0x081d2442cd,fd-09-70
+0x086a23725b,fd-09-71
 0x08bd4387f3,fe_arena
 0x0cc79c788d,fe_colloseum
 0x09e084d3a4,fe_shrine
@@ -13280,6 +13307,7 @@
 0x17056a10d3,final_ness_length_scale
 0x1422ea97ab,final_ness_max_angle
 0x16b703e961,final_ness_width_scale
+0x10c55c2708,final_offense_up
 0x0ea74433e1,final_offset_x
 0x104c98061b,final_offset_x_2
 0x103b9f368d,final_offset_x_3
@@ -24264,6 +24292,7 @@
 0x187050d5ca,menu_change_fadein_frame
 0x193e10d48a,menu_change_fadeout_frame
 0x1dc584a265,menu_change_start_delay_frame
+0x1c6a38c480,menu_change_stop_delay_frame
 0x0a11df4466,menu_index
 0x096910eda0,menu_loop
 0x0a8cdb7b53,menu_value
@@ -29244,7 +29273,12 @@
 0x0c80dc473d,replace_kind
 0x139bb69b6f,replace_kind_chara0
 0x125b739870,replace_kind_item0
+0x1286078b6e,replace_kind_mark0
+0x12f100bbf8,replace_kind_mark1
+0x1312e73225,replace_kind_popup0
+0x1365e002b3,replace_kind_popup1
 0x148e0813b5,replace_kind_series0
+0x140b609933,replace_kind_spirit0
 0x147c67a9a5,replace_kind_spirit1
 0x0ce53b85e2,replace_name
 0x0d8fe20293,replace_ui_id
@@ -32740,6 +32774,8 @@
 0x0b9ec775c0,s_downearr1
 0x0b07ce247a,s_downearr2
 0x0b70c914ec,s_downearr3
+0x0fffeba895,s_downlegbeltl1
+0x0f2baa974a,s_downlegbeltr1
 0x07a09f5f1e,s_earl1
 0x0e46194830,s_earl1__swing
 0x116b117e6b,s_earl1__swingcol
@@ -33833,6 +33869,8 @@
 0x0992f159d7,s_upearl2
 0x09dfb937b2,s_upearr1
 0x0946b06608,s_upearr2
+0x0dfda4bc52,s_uplegbeltl1
+0x0d29e5838d,s_uplegbeltr1
 0x10cd1ac33c,s_usedbrkfloorcl
 0x0a23a01e28,s_vestbbl1
 0x0d27787d3c,s_vestbbl1col
@@ -34699,6 +34737,8 @@
 0x1dcb1be007,sensorbomb_transparence_alpha
 0x1dae03e5a0,sensorbomb_transparence_frame
 0x07d0d3fa90,sensors
+0x0d527bb6b3,seq_highwind1
+0x0dcb72e709,seq_highwind2
 0x08b9c612e4,seq_holy
 0x0a7e78cdc4,seq_jenova
 0x09c86e8329,seq_label
@@ -37291,6 +37331,7 @@
 0x0a4e0b598a,sound_attr
 0x0f09cbdc00,sound_bgm_param
 0x147340113c,sound_condition_none
+0x1b9fe75d3f,sound_condition_process_add
 0x173b9f507f,sound_fadeout_frame_min
 0x086aaa5c3e,sound_id
 0x0a71b1c647,sound_kind
@@ -44650,6 +44691,9 @@
 0x126d38261f,stretch_end_length
 0x11af6b65d0,stretch_end_scale
 0x14cce209f0,stretch_start_length
+0x0776ee968b,strev_l
+0x0701e9a61d,strev_m
+0x0d30dbfe30,strev_outdoor
 0x060dc727c0,strike
 0x069ebeb2a9,string
 0x072c484a49,string1
@@ -45733,6 +45777,7 @@
 0x04cb4b87a0,tie1
 0x045242d61a,tie2
 0x07b166939a,tie_eff
+0x048b0d8597,tifa
 0x04307873e8,tiki
 0x0ed6a2a787,tiki_awakening
 0x1be27eb006,tiki_breath_shoot_angle_max
@@ -48806,6 +48851,8 @@
 0x1200cb569e,ui_mark_time_limit
 0x14c12eab71,ui_mark_victory_cond
 0x0ceafab95d,ui_mark_wait
+0x14a30eceee,ui_mii_body_aerith_f
+0x1434dc1766,ui_mii_body_aerith_m
 0x1355bb6d70,ui_mii_body_akira_m
 0x14f4af538d,ui_mii_body_altair_m
 0x12cd0a8646,ui_mii_body_aori_f
@@ -48814,6 +48861,8 @@
 0x1724621fc9,ui_mii_body_astronaut_m
 0x14e2053e19,ui_mii_body_bandit_f
 0x1475d7e791,ui_mii_body_bandit_m
+0x1433672163,ui_mii_body_barret_f
+0x14a4b5f8eb,ui_mii_body_barret_m
 0x165747f3c5,ui_mii_body_bearsuit_f
 0x16c0952a4d,ui_mii_body_bearsuit_m
 0x1317272e01,ui_mii_body_biker_f
@@ -48846,6 +48895,7 @@
 0x1125d4c0db,ui_mii_body_exe_f
 0x11b2061953,ui_mii_body_exe_m
 0x1781204b16,ui_mii_body_flyingman_m
+0x12d87330e7,ui_mii_body_geno_m
 0x17cc64b176,ui_mii_body_gilgamesh_m
 0x143e057960,ui_mii_body_goemon_m
 0x165dd22dcd,ui_mii_body_heihachi_f
@@ -48931,6 +48981,8 @@
 0x13d93cbccd,ui_mii_body_steam_m
 0x136ea2aacd,ui_mii_body_tails_m
 0x165a59f875,ui_mii_body_takamaru_m
+0x12c03971be,ui_mii_body_tifa_f
+0x1257eba836,ui_mii_body_tifa_m
 0x12d4657e4c,ui_mii_body_toad_f
 0x1243b7a7c4,ui_mii_body_toad_m
 0x14770c39dc,ui_mii_body_travis_m
@@ -48972,10 +49024,12 @@
 0x11481ffb82,ui_mii_hat_h_aori
 0x16b7625ac8,ui_mii_hat_h_bomberman
 0x12f6578c30,ui_mii_hat_h_bruce
+0x14d3aa4800,ui_mii_hat_h_chocobo
 0x14250130d3,ui_mii_hat_h_creeper
 0x14e83bd18a,ui_mii_hat_h_cuphead
 0x14b9d9fafd,ui_mii_hat_h_diamond
 0x1023fe1065,ui_mii_hat_h_exe
+0x116ff7d9e0,ui_mii_hat_h_geno
 0x16af5ee950,ui_mii_hat_h_gilgamesh
 0x1336f2946d,ui_mii_hat_h_goemon
 0x15d5d7b860,ui_mii_hat_h_heihachi
@@ -49220,6 +49274,7 @@
 0x181c99f843,ui_prize_standard_ticket
 0x1f93dfab1b,ui_prize_standard_ticket_direct
 0x124ebd4c26,ui_profile_icon_id
+0x11dffdd18e,ui_qa_contents_id
 0x0ab5882fb0,ui_qac_361
 0x0a2c817e0a,ui_qac_362
 0x0a5b864e9c,ui_qac_363
@@ -51532,6 +51587,7 @@
 0x0cca08f984,ui_tips_2183
 0x0c546c6c27,ui_tips_2184
 0x0c236b5cb1,ui_tips_2185
+0x0ccd653d9d,ui_tips_2187
 0x0c5dda200c,ui_tips_2188
 0x0c2add109a,ui_tips_2189
 0x0c4a1a997f,ui_tips_2190
@@ -52205,6 +52261,17 @@
 0x1506d46a28,ui_voice_01_brave_055
 0x159fdd3b92,ui_voice_01_brave_056
 0x15e8da0b04,ui_voice_01_brave_057
+0x15e94f4d6d,ui_voice_01_cloud_001
+0x1570461cd7,ui_voice_01_cloud_002
+0x1507412c41,ui_voice_01_cloud_003
+0x159925b9e2,ui_voice_01_cloud_004
+0x15ee228974,ui_voice_01_cloud_005
+0x15772bd8ce,ui_voice_01_cloud_006
+0x15002ce858,ui_voice_01_cloud_007
+0x159093f5c9,ui_voice_01_cloud_008
+0x15e794c55f,ui_voice_01_cloud_009
+0x1587534cba,ui_voice_01_cloud_010
+0x15f0547c2c,ui_voice_01_cloud_011
 0x1396b8277e,ui_voice_01_ike_001
 0x130fb176c4,ui_voice_01_ike_002
 0x1378b64652,ui_voice_01_ike_003
@@ -55523,6 +55590,8 @@
 0x0adfe28be5,upfeelerr1
 0x0a46ebda5f,upfeelerr2
 0x0a31eceac9,upfeelerr3
+0x0bd0869e0b,uplegbeltl1
+0x0b04c7a1d4,uplegbeltr1
 0x06609ce6da,uplidl
 0x069a93dbb9,uplidr
 0x06de8d2c1e,uplipc
@@ -58893,6 +58962,7 @@
 0x15fca66bdb,voice_album_00_wiifit
 0x180b577899,voice_album_01_bayonetta
 0x14d4811b13,voice_album_01_brave
+0x140f935c50,voice_album_01_cloud
 0x126b7b2898,voice_album_01_ike
 0x1688e63cf6,voice_album_01_inkling
 0x14b0bc679f,voice_album_01_kamui
@@ -59009,8 +59079,16 @@
 0x10e3e86e12,vomit_base_frame
 0x10858fc0b4,vomit_rand_frame
 0x0afb82b81d,von_kaiser
+0x18b3a51007,vr_camera_position_x_max
+0x188fa82f5e,vr_camera_position_x_min
+0x188ec539b7,vr_camera_position_y_max
+0x18b2c806ee,vr_camera_position_y_min
+0x18c9654367,vr_camera_position_z_max
+0x18f5687c3e,vr_camera_position_z_min
 0x1df035da49,vr_effect_attack_distance_max
 0x1dcc38e510,vr_effect_attack_distance_min
+0x1d9a57148a,vr_effect_battle_distance_max
+0x1da65a2bd3,vr_effect_battle_distance_min
 0x0880f7b0e2,vr_melee
 0x064b8d0f38,vswing
 0x118ce7d083,vulnerable_ghosts
