@@ -1114,8 +1114,6 @@
 0x1381f5434f,announce_wait_frame
 0x07b1cab241,antasma
 0x0e9daa50b9,antennaattache
-0x0618e9c6c4,anxent
-0x066feef652,anxenu
 0x0364f3f7b4,any
 0x02e03234d0,ao
 0x0aee5dbe68,ao_andross
@@ -6452,6 +6450,8 @@
 0x06192bacf3,col6_1
 0x068022fd49,col6_2
 0x06f725cddf,col6_3
+0x066feef652,col7_0
+0x0618e9c6c4,col7_1
 0x0681e0977e,col7_2
 0x06f6e7a7e8,col7_3
 0x0664b2b16f,col8_0
