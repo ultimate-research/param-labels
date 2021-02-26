@@ -1,4 +1,5 @@
 0x0000000000,
+0x07c9e447b6,
 0x02302d482a,-1
 0x01f4dbdf21,0
 0x0daa4b2506,00_ringlinner
@@ -9023,6 +9024,7 @@
 0x14abe8fe7d,dolly_ralf_and_clark
 0x09ce4400a3,dolly_ryo
 0x123be2f0b7,dolly_ryo_sakazaki
+0x14a214f365,dolly_ryo_sakazaki_2
 0x13773fa961,dolly_special_air_n
 0x0f427521cb,dolly_special_n
 0x094bd8fea3,dolly_ssb
@@ -9915,10 +9917,13 @@
 0x047506d366,edge
 0x076e1232ce,edge_00
 0x0bfbec1d92,edge_aerith
+0x0d945c7d49,edge_aerith_2
 0x11d5a0db6f,edge_bahamut_zero
 0x0bdf53fa32,edge_barret
+0x0d043592c4,edge_barret_2
 0x0e591ee389,edge_cait_sith
 0x1365c59747,edge_chocobo_moogle
+0x15657eb804,edge_chocobo_moogle_2
 0x08e1ecc1bd,edge_cid
 0x0a15fe633e,edge_ifrit
 0x0da3372ba7,edge_red_xiii
@@ -9926,6 +9931,7 @@
 0x121349f716,edge_sephiroth_ssb
 0x0a6f853dca,edge_shiva
 0x09a27e9017,edge_tifa
+0x0b41a1b748,edge_tifa2
 0x10f63803bc,edge_turks_rufus
 0x0ccf38d2c0,edge_vincent
 0x0a618bb51a,edge_width
@@ -13903,6 +13909,7 @@
 0x065217c6ad,fist_r
 0x0359fa4760,fix
 0x0aef457763,fix_camera
+0x0f2077926c,fix_corps_color
 0x0f37da7c1c,fix_floor_frame
 0x059ec9ce32,fixed
 0x1538a17a95,fixed_camera_center_x
@@ -27029,6 +27036,7 @@
 0x0bc8c0fd9e,pickel_alex
 0x0ffdf5d778,pickel_alex_ssb
 0x0eccfa0b42,pickel_creeper
+0x10e1b03a11,pickel_creeper_2
 0x12787f2cf9,pickel_enderdragon
 0x0f88ae8d5c,pickel_enderman
 0x19373c12d3,pickel_final_target_scale
@@ -27036,6 +27044,7 @@
 0x19404edb1c,pickel_irongolem_villager
 0x13c9a2df03,pickel_not_generate
 0x0dc26ef2d2,pickel_piglin
+0x0f5490f427,pickel_piglin2
 0x0fe6b4f1d4,pickel_skeleton
 0x0cdc2adf76,pickel_slime
 0x0ce9ab92f8,pickel_steve
@@ -45299,6 +45308,7 @@
 0x10ff7ef24c,tantan_mechanica
 0x0dc5a11b51,tantan_minmin
 0x117ce3a361,tantan_minmin_ssb
+0x10280edb23,tantan_ninjara_2
 0x0dbad6e3d1,tantan_spring
 0x14ab75855b,tap_tap_the_red_nose
 0x09ae6b00ab,tapu_koko
