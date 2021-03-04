@@ -10824,6 +10824,7 @@
 0x0e392083f7,enemy_def_up_l
 0x0e4e27b361,enemy_def_up_m
 0x0eb4288e02,enemy_def_up_s
+0x0accc73f16,enemy_easy
 0x0c744942b8,enemy_groups
 0x15251ad7c5,enemy_hit_param_table
 0x16f1fe92e5,enemy_hit_param_table2
@@ -10847,6 +10848,7 @@
 0x0f316f342e,enemy_move_up_l
 0x0f466804b8,enemy_move_up_m
 0x0fbc6739db,enemy_move_up_s
+0x0ca5a1132c,enemy_normal
 0x114bd61f8f,enemy_param_table
 0x10f6f3af39,enemy_parameters
 0x0b2d9fe537,enemy_point
@@ -10855,6 +10857,7 @@
 0x0a097bf2a8,enemy_type
 0x130d283fb2,enemy_type_firework
 0x12bbe1798f,enemy_type_shooter
+0x0f9f078661,enemy_very_hard
 0x0697117991,energy
 0x081ba0861a,energy_0
 0x086ca7b68c,energy_1
@@ -16777,6 +16780,7 @@
 0x0eb123e015,hit_move_frame
 0x0c91d41dd9,hit_offset_x
 0x0ce6d32d4f,hit_offset_y
+0x095a6ec6a1,hit_point
 0x0cedae07ff,hit_reaction
 0x1b9a747c2e,hit_reel_stop_frame_fighter
 0x18a805f09a,hit_reel_stop_frame_item
