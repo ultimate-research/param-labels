@@ -1,5 +1,4 @@
 0x0000000000,
-0x07c9e447b6,
 0x02302d482a,-1
 0x01f4dbdf21,0
 0x0daa4b2506,00_ringlinner
@@ -3237,8 +3236,8 @@
 0x07b47381ac,bgm_b19
 0x0f6dfa32f6,bgm_color_param
 0x138ba0af4b,bgm_count_out_stage
-0x0e5f91a3ce,bgm_edge_y_max
 0x07bfe71f1b,bgm_e11
+0x0e5f91a3ce,bgm_edge_y_max
 0x077fef57b4,bgm_f27
 0x0d0e251bbd,bgm_fade_time
 0x115e4c5023,bgm_fadeout_frame
