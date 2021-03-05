@@ -64,7 +64,10 @@
 0x04c596269e,100t
 0x03cd7931c6,102
 0x03531da465,105
+0x035aabe84e,109
 0x02d65a1577,11
+0x03d4620087,112
+0x034a069524,115
 0x024f5344cd,12
 0x023854745b,13
 0x02a630e1f8,14
@@ -3235,6 +3238,7 @@
 0x0f6dfa32f6,bgm_color_param
 0x138ba0af4b,bgm_count_out_stage
 0x0e5f91a3ce,bgm_edge_y_max
+0x07bfe71f1b,bgm_e11
 0x077fef57b4,bgm_f27
 0x0d0e251bbd,bgm_fade_time
 0x115e4c5023,bgm_fadeout_frame
@@ -3244,7 +3248,9 @@
 0x0b48289ff1,bgm_flg_ex3
 0x0bd64c0a52,bgm_flg_ex4
 0x0c229397db,bgm_flg_stop
+0x07dca44290,bgm_g08
 0x068fa09753,bgm_id
+0x07cc7bbb4e,bgm_p04
 0x0cfa5acb4d,bgm_rarity_0
 0x0a31d0d0d9,bgm_set_id
 0x0e471f300a,bgm_setting_no
@@ -7021,6 +7027,7 @@
 0x07e91e805d,cp_stay
 0x081afd6a63,cp_table
 0x073bc954e8,cp_type
+0x0817e7f1ff,cp_water
 0x03ba80502e,cpu
 0x09ca2c7933,cpu_chrom
 0x0a1c72f5e0,cpu_dedede
@@ -9904,6 +9911,7 @@
 0x10999d49e1,earth_quake_type
 0x0ae73ec23a,earthquake
 0x0aea0fb666,ease_frame
+0x074c1508d1,ease_in
 0x0bab0a782d,easing_type
 0x0449629a97,easy
 0x0b4fa71900,easy_escape
@@ -12265,6 +12273,9 @@
 0x0fbaa06251,evwoodsclear_16
 0x0fcda752c7,evwoodsclear_17
 0x0f5d184f56,evwoodsclear_18
+0x0b8be28cba,ex_bad_boss
+0x0f4a748560,ex_bad_franklin
+0x0edf219255,ex_bad_reflect
 0x10bd89fd2f,ex_final_hit_xlu
 0x0975e951c9,exciteing
 0x036b63b6f0,exe
@@ -24707,6 +24718,26 @@
 0x0913b92270,mirror_02
 0x0964be12e6,mirror_03
 0x09fada8745,mirror_04
+0x100e78ea2f,mismatch_skill01
+0x109771bb95,mismatch_skill02
+0x10e0768b03,mismatch_skill03
+0x107e121ea0,mismatch_skill04
+0x1009152e36,mismatch_skill05
+0x10901c7f8c,mismatch_skill06
+0x10e71b4f1a,mismatch_skill07
+0x1077a4528b,mismatch_skill08
+0x1000a3621d,mismatch_skill09
+0x106064ebf8,mismatch_skill10
+0x101763db6e,mismatch_skill11
+0x108e6a8ad4,mismatch_skill12
+0x10f96dba42,mismatch_skill13
+0x1067092fe1,mismatch_skill14
+0x10100e1f77,mismatch_skill15
+0x1089074ecd,mismatch_skill16
+0x10fe007e5b,mismatch_skill17
+0x106ebf63ca,mismatch_skill18
+0x1019b8535c,mismatch_skill19
+0x104b49b83b,mismatch_skill20
 0x0ae5d4fc38,miss_brake
 0x1122faa900,miss_shoot_energy
 0x072c987877,missile
@@ -25426,6 +25457,7 @@
 0x06b1d882a7,nature
 0x0707e183ad,navarre
 0x0505fc634f,nayru
+0x08cda15323,nc_scale
 0x07da4c9ad0,ncolor0
 0x07ad4baa46,ncolor1
 0x10c18536a8,nd_03_bule_shark
@@ -27041,6 +27073,8 @@
 0x0ffdf5d778,pickel_alex_ssb
 0x0eccfa0b42,pickel_creeper
 0x10e1b03a11,pickel_creeper_2
+0x0914f426a2,pickel_ed
+0x096d289e06,pickel_em
 0x12787f2cf9,pickel_enderdragon
 0x0f88ae8d5c,pickel_enderman
 0x19373c12d3,pickel_final_target_scale
@@ -27055,6 +27089,7 @@
 0x106a535188,pickel_steve_ssb
 0x14219027e9,pickel_thrown_kind_b
 0x1426fde3f0,pickel_thrown_kind_f
+0x097bc0ef02,pickel_vl
 0x0c45709b1e,pickel_world
 0x0d1e4430f2,pickel_zombie
 0x1701aab5bd,pickup_item_area_height
@@ -45303,6 +45338,7 @@
 0x0a48dd021e,tank_empty
 0x0eeaba1d14,tank_empty_sub
 0x0b47a34911,tank_normal
+0x06dbcee68c,tantan
 0x09fde9ef22,tantan_00
 0x10018e73f4,tantan_byte_barq
 0x0c9b249ea0,tantan_helix
