@@ -9932,6 +9932,11 @@
 0x1365c59747,edge_chocobo_moogle
 0x15657eb804,edge_chocobo_moogle_2
 0x08e1ecc1bd,edge_cid
+0x0f5c75804b,edge_flare_node
+0x137b567280,edge_flare_offset_x
+0x130c514216,edge_flare_offset_y
+0x13955813ac,edge_flare_offset_z
+0x11e69673b4,edge_flare_radius
 0x0a15fe633e,edge_ifrit
 0x0da3372ba7,edge_red_xiii
 0x0e6596e20e,edge_sephiroth
@@ -27071,6 +27076,10 @@
 0x09c8392ac8,pickel_01
 0x0bc8c0fd9e,pickel_alex
 0x0ffdf5d778,pickel_alex_ssb
+0x1dea250ce6,pickel_capture_fence_offset_x
+0x1d9d223c70,pickel_capture_fence_offset_y
+0x1a4e9ff7cc,pickel_capture_fence_scale
+0x19327d6d0a,pickel_capture_fence_type
 0x0eccfa0b42,pickel_creeper
 0x10e1b03a11,pickel_creeper_2
 0x0914f426a2,pickel_ed
@@ -45343,6 +45352,10 @@
 0x06dbcee68c,tantan
 0x09fde9ef22,tantan_00
 0x10018e73f4,tantan_byte_barq
+0x1ec3673edd,tantan_dragon_beam_target_node
+0x2234f9e1e4,tantan_dragon_beam_target_offset_x
+0x2243fed172,tantan_dragon_beam_target_offset_y
+0x22daf780c8,tantan_dragon_beam_target_offset_z
 0x0c9b249ea0,tantan_helix
 0x0fbb150a25,tantan_kidcobra
 0x1230a0d5b1,tantan_mastermummy
