@@ -25919,6 +25919,7 @@
 0x0675155882,offs_x
 0x0602126814,offs_y
 0x06590acad0,offset
+0x16ca682be2,offset_no_attack_frame
 0x09e55c0d93,offset1_x
 0x09925b3d05,offset1_y
 0x090b526cbf,offset1_z
@@ -38139,6 +38140,8 @@
 0x0ad073196c,spearhandl
 0x0a2a7c240f,spearhandr
 0x074c6b3fe3,special
+0x2388140c3b,special_hi_fall_stick_mul_max_spd_y
+0x1af81118dd,special_n_attack_abs_frame
 0x08239a66f0,special2
 0x09be50e736,special32
 0x0be39552ad,special_air
