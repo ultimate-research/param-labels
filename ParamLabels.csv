@@ -6189,6 +6189,7 @@
 0x05b9304ad8,cliff
 0x0c49471706,cliff_attack
 0x1242d1ae15,cliff_attack_frame
+0x1e569ef021,cliff_attack_ignore_boss_frame
 0x127aee8c0f,cliff_attack_quick
 0x161554d39c,cliff_attack_quick_arm
 0x1562607cdd,cliff_attack_quick_jr
@@ -6199,6 +6200,7 @@
 0x1637b6aab9,cliff_catch_move_frame
 0x1686f97676,cliff_catch_time_quick
 0x0e6f7da84f,cliff_catch_up
+0x1dacfbdd50,cliff_climb_ignore_boss_frame
 0x14c84ff652,cliff_climb_quick_jr
 0x1106f259e6,cliff_climb_stick
 0x18b11989ba,cliff_distance_threshold
@@ -7822,6 +7824,7 @@
 0x09feea7378,daisy_ssb
 0x0b63b4bba2,daisydaikon
 0x0611c8546c,damage
+0x1f79aed08f,damage_down_damage_max_continue
 0x086a0f84b8,damage01
 0x08f306d502,damage02
 0x088401e594,damage03
@@ -9041,6 +9044,9 @@
 0x1bd3ac3815,dolly_stage_camera_offset_y
 0x1b516f701d,dolly_stage_critical_1_on_1
 0x1dd5025979,dolly_stage_dead_effect_scale
+0x2050ea1791,dolly_stage_disable_remain_frame
+0x2538ad968e,dolly_stage_disable_wall_crash_degree
+0x26e4e3ac52,dolly_stage_disable_wall_crash_speed_x
 0x2202643b6c,dolly_stage_finish_camera_offset_x
 0x2275630bfa,dolly_stage_finish_camera_offset_y
 0x21948f00c4,dolly_stage_finish_hit_stop_frame
@@ -9071,6 +9077,7 @@
 0x25a33250fb,dolly_stage_wall_crash_weight_mul_max
 0x259f3f6fa2,dolly_stage_wall_crash_weight_mul_min
 0x1b73ccfd57,dolly_stage_wall_dead_quake
+0x226a745dba,dolly_stage_wall_dead_quake_1_on_1
 0x22c3ebdbcd,dolly_stage_wall_dead_quake_finish
 0x266f8ee56b,dolly_stage_wall_effect_max_slow_frame
 0x25c98d4952,dolly_stage_wall_effect_max_slow_rate
@@ -9932,6 +9939,11 @@
 0x1365c59747,edge_chocobo_moogle
 0x15657eb804,edge_chocobo_moogle_2
 0x08e1ecc1bd,edge_cid
+0x0f5c75804b,edge_flare_node
+0x137b567280,edge_flare_offset_x
+0x130c514216,edge_flare_offset_y
+0x13955813ac,edge_flare_offset_z
+0x11e69673b4,edge_flare_radius
 0x0a15fe633e,edge_ifrit
 0x0da3372ba7,edge_red_xiii
 0x0e6596e20e,edge_sephiroth
@@ -23810,6 +23822,7 @@
 0x145b2f5073,marshadow_wall_range
 0x057b553d21,marth
 0x08295877a9,marth_00
+0x1fc3fbf722,marth_shield_breaker_damage_mul
 0x17fff51f8a,marth_special_air_n_end
 0x1aedc41e68,marth_special_air_n_end_hi
 0x1a73a7e60f,marth_special_air_n_end_lw
@@ -25919,6 +25932,7 @@
 0x0675155882,offs_x
 0x0602126814,offs_y
 0x06590acad0,offset
+0x16ca682be2,offset_no_attack_frame
 0x09e55c0d93,offset1_x
 0x09925b3d05,offset1_y
 0x090b526cbf,offset1_z
@@ -27070,6 +27084,10 @@
 0x09c8392ac8,pickel_01
 0x0bc8c0fd9e,pickel_alex
 0x0ffdf5d778,pickel_alex_ssb
+0x1dea250ce6,pickel_capture_fence_offset_x
+0x1d9d223c70,pickel_capture_fence_offset_y
+0x1a4e9ff7cc,pickel_capture_fence_scale
+0x19327d6d0a,pickel_capture_fence_type
 0x0eccfa0b42,pickel_creeper
 0x10e1b03a11,pickel_creeper_2
 0x0914f426a2,pickel_ed
@@ -38139,6 +38157,8 @@
 0x0ad073196c,spearhandl
 0x0a2a7c240f,spearhandr
 0x074c6b3fe3,special
+0x2388140c3b,special_hi_fall_stick_mul_max_spd_y
+0x1af81118dd,special_n_attack_abs_frame
 0x08239a66f0,special2
 0x09be50e736,special32
 0x0be39552ad,special_air
@@ -45340,6 +45360,10 @@
 0x06dbcee68c,tantan
 0x09fde9ef22,tantan_00
 0x10018e73f4,tantan_byte_barq
+0x1ec3673edd,tantan_dragon_beam_target_node
+0x2234f9e1e4,tantan_dragon_beam_target_offset_x
+0x2243fed172,tantan_dragon_beam_target_offset_y
+0x22daf780c8,tantan_dragon_beam_target_offset_z
 0x0c9b249ea0,tantan_helix
 0x0fbb150a25,tantan_kidcobra
 0x1230a0d5b1,tantan_mastermummy
