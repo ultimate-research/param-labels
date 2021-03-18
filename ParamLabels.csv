@@ -1384,6 +1384,7 @@
 0x18939db9be,arrow_offset_y_max_kirby
 0x0620b8d82d,arrowm
 0x117bf73d57,art_mii_platforml
+0x06bfa2fe03,arthur
 0x107155f081,arukume_pop_rate
 0x06683e14ab,arwing
 0x05752a9bf0,aryll
@@ -6930,6 +6931,7 @@
 0x09dd9143f3,cp_appeal
 0x04c2b9ae4e,cp_b
 0x22ab83e867,cp_battle_excepted_probability_mul
+0x0ab0b59458,cp_chicken
 0x096e00b02c,cp_escape
 0x11d613f069,cp_escape_no_roll
 0x14ffb8546b,cp_exp_minute_bottom
@@ -10483,6 +10485,28 @@
 0x0a3cee9b51,elekashot2
 0x0a4be9abc7,elekashot3
 0x09c1907e42,elekible1
+0x0c8cd76c2c,element_ama1
+0x0c15de3d96,element_ama2
+0x0c62d90d00,element_ama3
+0x1059446a11,element_amalthus
+0x0ec40523a1,element_hikari
+0x0e7bda0a43,element_homura
+0x0c77bd70f9,element_lora
+0x0ddec349c5,element_lora2
+0x0da9c47953,element_lora3
+0x106d586aef,element_meleph_2
+0x0d18df5843,element_metsu
+0x0e6c1120c5,element_metsu1
+0x0ef518717f,element_metsu2
+0x0e821f41e9,element_metsu3
+0x0f5a9d6e5b,element_niyah_2
+0x0f4f26f3f1,element_puneuma
+0x0dac2e4a17,element_pune1
+0x0d35271bad,element_pune2
+0x0d22fc1ee9,element_rex_2
+0x0c4301f7be,element_shin
+0x0eced3de67,element_tora_2
+0x0e9471177f,element_zeke_2
 0x0569d759b7,elena
 0x0fafe87dae,elevation_angle
 0x07b0141248,elincia
@@ -16229,6 +16253,8 @@
 0x07a36d9f8e,hammerr
 0x08ff4023fe,hana_j_s
 0x0772fb926f,hana_js
+0x05838be701,hana1
+0x051a82b6bb,hana2
 0x042762428f,hand
 0x05fefc1344,hand1
 0x0567f542fe,hand2
@@ -27108,6 +27134,7 @@
 0x1426fde3f0,pickel_thrown_kind_f
 0x097bc0ef02,pickel_vl
 0x0c45709b1e,pickel_world
+0x0930cd8d09,pickel_zb
 0x0d1e4430f2,pickel_zombie
 0x1701aab5bd,pickup_item_area_height
 0x19653574f8,pickup_item_area_offset_x
@@ -29512,6 +29539,7 @@
 0x0cf83623d6,rewind_speed
 0x13a97f67c4,rewind_strech_scale
 0x03ee6003c0,rex
+0x05e6de6a70,rex_2
 0x04fa993020,reyn
 0x078250b081,rfeeler
 0x08728a5d45,rfeelera
@@ -37268,6 +37296,7 @@
 0x1688822235,sonic_the_hedgehog_ssb
 0x11a6284d48,sonic_the_werehog
 0x0f09ecee3b,sonic_windyhill
+0x0684678574,sophia
 0x093decaa7d,sopt_goal
 0x09e13a5941,sora_logo
 0x05fee0e5d4,soren
@@ -47720,6 +47749,8 @@
 0x102fd5848e,ui_chara_edge_06
 0x0e41749f82,ui_chara_falco
 0x11223e5a9f,ui_chara_falco_00
+0x143829f67e,ui_chara_flame_first
+0x13b28d453e,ui_chara_flame_only
 0x0c6eacd0fa,ui_chara_fox
 0x0f87356a74,ui_chara_fox_00
 0x100a39d32e,ui_chara_galleom
@@ -47777,6 +47808,8 @@
 0x120d021251,ui_chara_koopag_00
 0x105d8a1bb1,ui_chara_koopajr
 0x0eccb203ad,ui_chara_krool
+0x14c6fc852a,ui_chara_light_first
+0x13b3e567a6,ui_chara_light_only
 0x0d22ccc98e,ui_chara_link
 0x10027f62f4,ui_chara_link_00
 0x10e9efb8d1,ui_chara_lioleus
