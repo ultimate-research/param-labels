@@ -4641,6 +4641,7 @@
 0x09ecdb5ed8,bust_col2
 0x099bdc6e4e,bust_col3
 0x0905b8fbed,bust_col4
+0x0e818d4d77,bust_ellipsoid
 0x0bfe87891c,bustarmored
 0x176e4d3aad,buster_attack_power_mul
 0x1da8955d0a,buster_attack_power_mul_kirby
@@ -16832,6 +16833,7 @@
 0x04965b7d1c,hip4
 0x078c825337,hip_col
 0x08a2e49951,hip_col2
+0x11150e7a11,hip_ellipsoid_col
 0x0e77aed11b,hip_sphere_col
 0x0969a50f2b,hip_trans
 0x07d9f7439e,hipass_
@@ -20842,6 +20844,7 @@
 0x030886299d,jaw
 0x040d6a8667,jaw1
 0x049463d7dd,jaw2
+0x0dd8475f3b,jaw_ellipsoid
 0x0af597038c,jaw_offset
 0x083ee65e39,jawhair1
 0x08a7ef0f83,jawhair2
@@ -21798,6 +21801,8 @@
 0x095fb5ee2f,kneel_col
 0x0644eaec89,kneela
 0x06dde3bd33,kneelb
+0x116228f904,kneell_sphere_col
+0x118701c7e6,kneelr_sphere_col
 0x051ba4b748,kneer
 0x06fbc082a2,kneer1
 0x098065c7cc,kneer_col
@@ -22501,6 +22506,7 @@
 0x052a80eeb7,legc3
 0x05b4e47b14,legc4
 0x05c3e34b82,legc5
+0x1227eb5534,legc_ellipsoid_col
 0x0f409704db,legc_sphere_col
 0x047ecbc64d,legd
 0x058bcf195c,legd1
@@ -22519,6 +22525,7 @@
 0x05337c67db,legl4
 0x10fa925f94,legl_capsule_col
 0x080d459ce7,legl_col
+0x12736396a9,legl_ellipsoid_col
 0x0e6cc0c5c2,legl_plane_col
 0x0f32039baa,legl_sphere_col
 0x05287dc2a0,legla
@@ -26369,6 +26376,7 @@
 0x10c5d5127d,owner_damage_mul
 0x12a4c114bd,owner_follow_frame
 0x0fe5baa2a0,owner_yamanouti
+0x0182079eb1,p
 0x02483f5ba5,p0
 0x023f386b33,p1
 0x04f14db1c8,p1_b
@@ -26431,6 +26439,7 @@
 0x0f7040d10d,p_backtrain_set
 0x15cce0f955,p_change_motion_frame
 0x05406e2744,p_col
+0x066b2455a3,p_col2
 0x0a067f13ae,p_warp_set
 0x0254533ac7,pa
 0x0c8390bcfd,paa_tsubushi
@@ -27579,6 +27588,7 @@
 0x0b22fcf5f5,planes_col3
 0x0bbc986056,planes_col4
 0x0bcb9f50c0,planes_col5
+0x0b5296017a,planes_col6
 0x0e3aa0dafe,planeshoulderl
 0x0ec0afe79d,planeshoulderr
 0x08977ef602,plankton
@@ -33688,11 +33698,17 @@
 0x06d2c9ffa3,s_obi2
 0x09b91392fd,s_obi2col
 0x0b490376ac,s_off_radar
+0x0c300e3467,s_p3_cakram1
+0x0f02bbf515,s_p3_cakram1col
 0x0886e86e22,s_palkia
 0x09809f0a7f,s_pantsl1
 0x0cd643bfc2,s_pantsl1col
+0x0919965bc5,s_pantsl2
+0x0cc4f6102c,s_pantsl2col
 0x0954de35a0,s_pantsr1
 0x0c09939621,s_pantsr1col
+0x09cdd7641a,s_pantsr2
+0x0c1b2639cf,s_pantsr2col
 0x0840dbaa47,s_piasl1
 0x0b238d324a,s_piasl1col
 0x08949a9598,s_piasr1
@@ -33834,6 +33850,14 @@
 0x0c25b9b11a,s_scarfr1col
 0x0e3f1c2fd8,s_seiryu_swing
 0x119636f6e5,s_seiryu_swingcol
+0x0a52e8ad92,s_shirtbl1
+0x0d585e3252,s_shirtbl1col
+0x0a86a9924d,s_shirtbr1
+0x0d878e1bb1,s_shirtbr1col
+0x0a55e1054e,s_shirtfl1
+0x0dc3cf7044,s_shirtfl1col
+0x0a81a03a91,s_shirtfr1
+0x0d1c1f59a7,s_shirtfr1col
 0x0dd0d02411,s_shirttailb1
 0x10796e0c95,s_shirttailb1col
 0x0d49d975ab,s_shirttailb2
@@ -36639,6 +36663,13 @@
 0x0a10e88e66,shiokarazu
 0x04fa30eb24,ship
 0x09cdb64b04,ship_time
+0x07b168010e,shirtbl
+0x074b673c6d,shirtbr
+0x07d504c40a,shirtfl
+0x072f0bf969,shirtfr
+0x0be8282b01,shirttailbl
+0x0f21f2e50e,shirttailbl_col
+0x0b12271662,shirttailbr
 0x0ae892729b,shirttailc
 0x0a82225269,shirttailr
 0x0b325524c1,shirttailrc
@@ -48508,6 +48539,7 @@
 0x18eb88b493,ui_gametitle_blast_dozer
 0x163168b6de,ui_gametitle_bomberman
 0x136c1b9221,ui_gametitle_boxboy
+0x1da94f8509,ui_gametitle_brain_train_more
 0x15a9341b65,ui_gametitle_bravoman
 0x1dd1db6cba,ui_gametitle_calciobit_series
 0x1c32233634,ui_gametitle_captain_rainbow
@@ -60618,6 +60650,7 @@
 0x060eced476,waist5
 0x0697c785cc,waist6
 0x098ede1a57,waist_col
+0x0f4864d81b,waist_ellipsoid
 0x0a5257feed,waist_size
 0x1083a52c1b,waist_sphere_col
 0x087fc142a4,waistbag
