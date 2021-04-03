@@ -3632,6 +3632,8 @@
 0x0c12d01fdd,blur_color_b
 0x0c62baeb52,blur_color_g
 0x0c0f670fb9,blur_color_r
+0x10c14641ae,blur_default_off
+0x0f26edfd4c,blur_default_on
 0x080fd484b4,blur_end
 0x0e3d41c58e,blur_guide_off
 0x0d98e1a117,blur_guide_on
@@ -5656,6 +5658,8 @@
 0x063239b5c3,celebi
 0x070f0d75be,celeste
 0x04cb8787e2,cell
+0x1066122f4f,cell_sensitivity
+0x09440b4dcc,cell_size
 0x0f6f099294,cellophane_type
 0x0640f0eb24,center
 0x08807f980c,center_a
@@ -7215,6 +7219,7 @@
 0x09dac9b021,crack_lv1
 0x147162690e,crack_max_hp_percent
 0x148d395c59,crack_overlap_length
+0x0ad4fae5bd,crack_type
 0x11a675911d,craft_gauge_pos_x
 0x11d172a18b,craft_gauge_pos_y
 0x11487bf031,craft_gauge_pos_z
@@ -8550,6 +8555,7 @@
 0x0cdb178532,data_version
 0x08fa31cdb7,daybreak
 0x079b2fae90,daytime
+0x14cf31d03c,daytime_ink_patterns
 0x0ef8eb0f58,daytime_models
 0x072a5a6784,db_root
 0x0d3deaf33e,db_root_chara
@@ -8756,6 +8762,7 @@
 0x10decd7d20,default_param_lv
 0x15fa558d74,default_position_rate
 0x0ecb0eef61,default_preset
+0x12e305a941,default_ruby_alpha
 0x0de600aaf8,default_speed
 0x0e27ab9ecf,default_thrown
 0x1405bf1f43,default_thrownpreset
@@ -10303,6 +10310,7 @@
 0x160e6830a9,effect_goldenhammerend
 0x0da336e5a8,effect_hammer
 0x103b24adfa,effect_hammerend
+0x0b41dd5541,effect_hash
 0x105e25bb83,effect_icehitdmg
 0x09f5e9b83b,effect_id
 0x0b5bec06ae,effect_info
@@ -10383,6 +10391,7 @@
 0x15799664a5,effect_param_neardead
 0x12f5421fc1,effect_param_smoke
 0x134f60ccb0,effect_param_vanish
+0x0df20d616d,effect_params
 0x141a2357f4,effect_passivecommon
 0x18ebf49da6,effect_pickelnotgenerate
 0x12928223fd,effect_plane_param
@@ -11587,6 +11596,7 @@
 0x057e8f3446,epona
 0x07be3e9a18,epsilon
 0x05261979c2,erase
+0x13bc001968,erase_effect_params
 0x0a677aa728,erase_time
 0x0c40e7c721,erosion_rate
 0x0625e8b08e,escape
@@ -12927,6 +12937,7 @@
 0x08d84af0ed,fenderfl
 0x082245cd8e,fenderfr
 0x08057cf789,festival
+0x15634f1fec,festival_ink_patterns
 0x0f0300acf6,festival_models
 0x09d9a42dd6,few_level
 0x1a6367dbf7,few_remaining_capture_time
@@ -19854,6 +19865,8 @@
 0x1584ed8597,is_switch_immediately
 0x0e6311b8f4,is_target_mask
 0x0edf0e229e,is_throughable
+0x10005d116c,is_usable_amiibo
+0x0eafe0fa76,is_usable_flag
 0x06d8d56f83,is_use
 0x10a1c55c9c,is_use_amiibo_bg
 0x11ed502fd3,is_use_coordinate
@@ -23055,6 +23068,7 @@
 0x077a467e6f,locator
 0x18ba652c8b,locator1_custominteger18
 0x18cd621c1d,locator1_custominteger19
+0x0cbdd8459e,locator_hash
 0x0d521282db,locator_index
 0x0c32435920,locator_name
 0x0be66b2df8,locator_pos
@@ -23138,6 +23152,7 @@
 0x10e1168692,loop_start_frame
 0x09d7dafa87,loop_time
 0x0a68050372,loop_times
+0x0b49c19b1d,loop_timing
 0x1226656196,loop_trigger_count
 0x0cd93d7907,loose_offset
 0x05580c4eb6,loptr
@@ -24337,6 +24352,7 @@
 0x19e8eb2ca9,material_normal_max_kirby
 0x16c38efab0,material_red_stone_max
 0x11a39d8467,material_settings
+0x0ea0ce2308,material_table
 0x0636dd431d,materu
 0x07cc85be85,matthew
 0x039d762289,max
@@ -34885,6 +34901,7 @@
 0x139b2a15f4,se_pitch_speed_rate
 0x1415ce1160,se_pitch_start_frame
 0x07dd5bd29d,se_play
+0x0e4d495bff,se_play_frames
 0x14836a3195,se_pokemon_arceus_vc
 0x15c759e5d1,se_pokemon_darkrai_vc
 0x15cccc1da5,se_pokemon_dedenne_vc
@@ -35157,6 +35174,7 @@
 0x09c86e8329,seq_label
 0x085286d72b,sequence
 0x0f81fc5438,sequence_common
+0x149a8d89fc,sequence_play_frames
 0x107a86dace,sequence_reality
 0x052e640703,serch
 0x06234750ca,serena
@@ -37780,6 +37798,7 @@
 0x147340113c,sound_condition_none
 0x1b9fe75d3f,sound_condition_process_add
 0x21bee0c6ef,sound_condition_process_exclusive
+0x1d7feb1956,sound_condition_xvillage_live
 0x173b9f507f,sound_fadeout_frame_min
 0x086aaa5c3e,sound_id
 0x0a71b1c647,sound_kind
@@ -45176,6 +45195,7 @@
 0x0776ee968b,strev_l
 0x0701e9a61d,strev_m
 0x0d30dbfe30,strev_outdoor
+0x1150036f1f,strev_play_frames
 0x060dc727c0,strike
 0x069ebeb2a9,string
 0x072c484a49,string1
@@ -48412,6 +48432,7 @@
 0x1112944904,ui_chara_murabito
 0x14b0eebd1f,ui_chara_murabito_00
 0x14c7e98d89,ui_chara_murabito_01
+0x1c2d9aa545,ui_chara_murabito_spirits_aw
 0x11e4b123e6,ui_chara_narrator
 0x0d6ddf0c2b,ui_chara_ness
 0x10efff9fe5,ui_chara_ness_00
@@ -61163,6 +61184,7 @@
 0x188fa82f5e,vr_camera_position_x_min
 0x188ec539b7,vr_camera_position_y_max
 0x18b2c806ee,vr_camera_position_y_min
+0x1b8ca12bf5,vr_camera_position_y_offset
 0x18c9654367,vr_camera_position_z_max
 0x18f5687c3e,vr_camera_position_z_min
 0x1df035da49,vr_effect_attack_distance_max
