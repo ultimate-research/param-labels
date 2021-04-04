@@ -2590,7 +2590,6 @@
 0x0fdeeac360,back_distance_x
 0x0ed271f0ef,back_frame_air
 0x11eec06d55,back_frame_ground
-0x12ea84225a,back_ground_safety
 0x1036e4a9cf,back_ground_size
 0x096c043558,back_jump
 0x1ece4218c8,back_jump_wait_time_behind_mul
@@ -4629,7 +4628,6 @@
 0x0776947f0b,brave_8
 0x0b67d40fdb,brave_8_ssb
 0x0bd045831c,brave_altar
-0x161f105775,brave_altar_span_frame
 0x0bb4294618,brave_alter
 0x0fb4adef1c,brave_b_panther
 0x12fd7a3ffd,brave_baby_panther
@@ -5065,6 +5063,9 @@
 0x099bdc6e4e,bust_col3
 0x0905b8fbed,bust_col4
 0x0e818d4d77,bust_ellipsoid
+0x12c4e23c8c,bust_ellipsoid_col
+0x136716c280,bust_ellipsoid_col1
+0x13fe1f933a,bust_ellipsoid_col2
 0x0bfe87891c,bustarmored
 0x176e4d3aad,buster_attack_power_mul
 0x1da8955d0a,buster_attack_power_mul_kirby
@@ -5576,7 +5577,6 @@
 0x155a06ce5f,camera_range_add_left
 0x160c57b132,camera_range_add_right
 0x1410759bbf,camera_range_add_top
-0x1b8c850987,camera_range_atsmsp_element
 0x11d6ca2fb8,camera_range_back
 0x160007ff8b,camera_range_bigpacman
 0x16123c58eb,camera_range_blackhole
@@ -6079,7 +6079,6 @@
 0x0f9f09c577,catch_offset_y1
 0x0f060094cd,catch_offset_y2
 0x0a9f7fb291,catch_only
-0x19cb220dce,catch_pos_offset_farsolar
 0x12bd0374e3,catch_pos_offset_x
 0x12ca044475,catch_pos_offset_y
 0x0aeaab5d22,catch_pull
@@ -6702,6 +6701,7 @@
 0x0895239d03,chef_ptc
 0x07a109079f,chespin
 0x05fb44b3b7,chest
+0x13b4ff7ac9,chest_ellipsoid_col
 0x070b012654,chewing
 0x1bd4e3256f,chewing_bomb_flashing_frame
 0x1736944ff5,chewing_bomb_wait_frame
@@ -9581,7 +9581,6 @@
 0x198d8e95dc,define_secret_command_l_r
 0x1a08271a76,define_secret_command_none
 0x17d417e683,define_secret_command_r
-0x085c5c366f,definepl
 0x1514f908b8,deflection_wait_param
 0x04a07e4bd9,deg1
 0x0439771a63,deg2
@@ -14229,6 +14228,7 @@
 0x0248cb8f10,fa
 0x031b460484,fac
 0x0405147b67,face
+0x12b0ad2f01,face_ellipsoid_col
 0x0d2701f3ef,face_oval_col
 0x0f0d3a6974,facet_eye_laser
 0x16b82fb31f,facial_animation_frame
@@ -17078,6 +17078,7 @@
 0x0f82af8be8,gfox_fall_limit
 0x0e074d46b8,gfox_fall_prob
 0x0ef0440388,gfox_fall_zero
+0x0d2a42c636,gfox_maxaccel
 0x0d78980e25,gfox_maxspeed
 0x0ff7e94b39,gfox_shootframe
 0x0ba1c6344a,gfox_vaccel
@@ -17745,7 +17746,6 @@
 0x12ed11544b,ground_jostle_node
 0x18fde4d12e,ground_last_effect_frame
 0x13bc0d5017,ground_limit_damage
-0x1bdff921e0,ground_low_use_check_effect
 0x107a07e5b0,ground_min_const
 0x110e8968eb,ground_min_height
 0x109cdbc470,ground_min_width
@@ -18428,6 +18428,7 @@
 0x0a754f68fc,head_diver
 0x0c399171e0,head_diver_r
 0x085abc1424,head_eff
+0x12e4d3e4cc,head_ellipsoid_col
 0x16c301c3ec,head_mushroom_add_life
 0x198615f7b8,head_mushroom_add_reverse
 0x12f238ade8,head_mushroom_life
@@ -21867,6 +21868,7 @@
 0x0edf0e229e,is_throughable
 0x10005d116c,is_usable_amiibo
 0x0eafe0fa76,is_usable_flag
+0x1390d9fd62,is_usable_soundtest
 0x06d8d56f83,is_use
 0x10a1c55c9c,is_use_amiibo_bg
 0x11ed502fd3,is_use_coordinate
@@ -24821,6 +24823,7 @@
 0x09485bab3a,lhand_box
 0x0cc1df05f9,lhand_bucket
 0x119323dfea,lhand_capsule_col
+0x132f672840,lhand_ellipsoid_col
 0x09ca6248a9,lhand_key
 0x0a7fd0f22c,lhand_none
 0x091253f7fd,lhandhold
@@ -27045,7 +27048,6 @@
 0x0b329e0f4d,mii_use_max
 0x0946aed5ff,mii_voice
 0x0e7fd031fc,mii_voice_type
-0x11a8fe32f2,miienemys_survive
 0x0d08af5a41,miifighter_00
 0x131cc47c30,miifighter_captured
 0x1788c7dc23,miifighter_captured_big
@@ -28120,6 +28122,7 @@
 0x050842468b,neck8
 0x057f45761d,neck9
 0x1519714630,neck_down_angle_limit
+0x123987beb7,neck_ellipsoid_col
 0x097625f199,neck_rate
 0x12e5621604,neck_rotate_degree
 0x13e95309ec,neck_rotate_speed_x
@@ -28140,7 +28143,6 @@
 0x076ada1260,needle2
 0x071ddd22f6,needle3
 0x0cc8c5821f,needle_angle
-0x15a89a4360,needle_gen_appear_num
 0x080b8d6c5e,needle_l
 0x0e946909a7,needle_num_max
 0x11cde08e47,needle_offset_x_a
@@ -29661,7 +29663,6 @@
 0x191e909ccc,pause_camera_min_distance
 0x141966a3b6,pause_camera_min_fov
 0x0a0926c7c7,pause_data
-0x14591d2d92,pause_data_stage_cam
 0x0cadb00671,pause_target
 0x129e18fa35,paz_ortega_andrade
 0x02cd5a6b7d,pb
@@ -30291,7 +30292,6 @@
 0x081dacec3b,player_s
 0x0c53345ec2,player_scale
 0x0949ec5308,player_xs
-0x0d22fc1ee9,plaza_mission
 0x07f93aa40b,plessie
 0x0ce7190680,plizardon_00
 0x17cc16bf1d,plizardon_special_air_n
@@ -32235,7 +32235,6 @@
 0x1248339f40,release_gold_frame
 0x16c553191c,release_gold_frame_2nd
 0x0c67090483,remain_frame
-0x183b26d34b,remaining_frame_jump_for
 0x165f46a040,remaining_frame_to_end
 0x0ea2dd9a79,remaining_time
 0x12d314b3db,remove_bound_count
@@ -32684,6 +32683,7 @@
 0x07b0ba0ef7,rhand_3
 0x072ede9b54,rhand_4
 0x11c556be01,rhand_capsule_col
+0x13a85805dc,rhand_ellipsoid_col
 0x0a46b74377,rhand_none
 0x0976516e1e,rhandhold
 0x0986a55461,rhandmove
@@ -40354,6 +40354,7 @@
 0x0a9045d8d4,shoulderl3
 0x0a0e214d77,shoulderl4
 0x0da796d9bf,shoulderl_col
+0x1726eceb82,shoulderl_ellipsoid_col
 0x0c2612b8d5,shoulderlbig
 0x0c1ce7496e,shoulderpadl
 0x0d29ca44a1,shoulderpadl1
@@ -41970,7 +41971,6 @@
 0x0a2a7c240f,spearhandr
 0x074c6b3fe3,special
 0x08239a66f0,special2
-0x1d82422320,special2_capture_shield_stiff
 0x09be50e736,special32
 0x0be39552ad,special_air
 0x122f53c455,special_air_appear
@@ -43355,7 +43355,6 @@
 0x0d159d6e40,special_s_9_l
 0x12c4f011c3,special_s_accel_x_
 0x12ddeb2082,special_s_accel_y_
-0x1b78d7c4cd,special_s_add_air_x_gravity
 0x19cae9e3d2,special_s_air_atk_spd_mul
 0x138e07525d,special_s_air_catch
 0x1a85c0bb05,special_s_air_dash_brake_x
@@ -43488,7 +43487,6 @@
 0x1e0f06c380,special_s_ground_end_spd_x_mul
 0x11521251e7,special_s_heading
 0x113ae95e10,special_s_hit_end
-0x2764dfe1ba,special_s_hit_lw_extend_frame_end_frame
 0x1663e23bcb,special_s_hit_offset_x
 0x1614e50b5d,special_s_hit_offset_y
 0x12562ba279,special_s_hit_size
@@ -50154,7 +50152,6 @@
 0x157de69c60,tilt_air_degree_speed
 0x0fb6a8b677,tilt_degree_max
 0x1582d95746,tilt_degree_per_frame
-0x1885da60ce,tilt_fighter_visual_none
 0x1057a78509,tilt_forward_max
 0x14eb4730c4,tilt_forward_max_abs
 0x127c179a27,tilt_forward_speed
@@ -54582,7 +54579,6 @@
 0x1512a53eba,ui_stage_boss_galleom
 0x13ba9b587c,ui_stage_boss_ganon
 0x124e1d3142,ui_stage_boss_marx
-0x1b4213fdd0,ui_stage_boss_marx_bg_ganon
 0x16a1e46252,ui_stage_boss_rathalos
 0x14f45ed010,ui_stage_brave_altar
 0x15db8716f4,ui_stage_buddy_spiral
@@ -56843,7 +56839,6 @@
 0x2491e38dae,ui_tips_unlock_boss_master_hand_ball
 0x2557d71059,ui_tips_unlock_boss_master_hand_sword
 0x1177ba3d2f,ui_tips_unlock_id
-0x1b90f0764c,ui_tips_unlock_octorok_shop
 0x1916502430,ui_voice_00_bayonetta_001
 0x198f59758a,ui_voice_00_bayonetta_002
 0x19f85e451c,ui_voice_00_bayonetta_003
@@ -65203,6 +65198,7 @@
 0x0697c785cc,waist6
 0x098ede1a57,waist_col
 0x0f4864d81b,waist_ellipsoid
+0x1323ce3c9d,waist_ellipsoid_col
 0x0a5257feed,waist_size
 0x1083a52c1b,waist_sphere_col
 0x087fc142a4,waistbag
