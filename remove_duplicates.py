@@ -1,12 +1,16 @@
-with open("ParamLabels.csv") as f:
-    csv = [line.rstrip('\n').split(',') for line in f.readlines() if not line.isspace()]
+#!/usr/bin/env python3
 
-hashes = []
+with open("ParamLabels.csv") as f:
+    csv = [line.rstrip('\n').split(',', 1) for line in f.readlines() if not line.isspace()]
+
+hashes = set()
 csvout = []
 for i in csv:
-    if not int(i[0], 16) in hashes:
-        hashes.append(int(i[0], 16))
-        csvout.append((f"{int(i[0], 16):#0{12}x}", i[1]))
+    hash = int(i[0], 16)
+    hashString = f"{hash:#0{12}x}"
+    if not hash in hashes:
+        hashes.add(hash)
+        csvout.append((f"{hashString}", i[1]))
 
 csvout.sort(key=lambda i: i[1])
 
