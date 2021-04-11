@@ -6842,6 +6842,7 @@
 0x0bb5959745,citymorning
 0x09afb142e4,citynight
 0x0891048b74,citynoon
+0x0cf6909181,cityrollinfo
 0x09c61d2f2e,citywoman
 0x0f4adbef97,citywoman_black
 0x108b191cd7,citywoman_yellow
@@ -22770,6 +22771,12 @@
 0x0a8cc0137e,itempreset
 0x10f6dceea2,itemshootairloop
 0x0827ef189d,itemwalk
+0x0c63c5575e,itsw_allstar
+0x0f3fcec3e6,itsw_challenger
+0x09b8311352,itsw_demo
+0x0bae5aa406,itsw_kumite
+0x0b95dd0b33,itsw_normal
+0x0dcfd05ded,itsw_training
 0x04e1fa65ce,ivan
 0x07762789ec,ivysaur
 0x0b52dd8443,ivysaur_ssb
@@ -28202,6 +28209,8 @@
 0x05dbb08cb6,next0
 0x05acb7bc20,next1
 0x11ad79b591,next_acceleration
+0x0bf8081df2,next_act_01
+0x0b61014c48,next_act_02
 0x0fc55e51b4,next_full_speed
 0x15408c75fd,next_initial_velocity
 0x09275d8824,next_life
@@ -29011,6 +29020,7 @@
 0x0f9a55836e,pad_flick_frame
 0x1209c261ff,pad_flick_interval
 0x0ee4af8a84,pad_pass_frame
+0x14bce5f245,pad_pass_press_count
 0x0ff8990931,pad_release_lv1
 0x0d61f0dbd0,pad_release_m
 0x0d9c9222aa,pad_release_w
@@ -32426,6 +32436,9 @@
 0x0d6dc049f8,result_bottom
 0x1344d2aff3,result_effect_color
 0x0bea5cfc26,result_left
+0x0a3ac892c0,result_pf0
+0x0a4dcfa256,result_pf1
+0x0ad4c6f3ec,result_pf2
 0x15cbff8d62,result_retry_teleport
 0x0c253e2298,result_right
 0x108eef6d31,result_scale_mul
