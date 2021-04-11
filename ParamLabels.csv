@@ -1,5 +1,6 @@
 0x0000000000,
 0x02302d482a,-1
+0x02a9241990,-2
 0x01f4dbdf21,0
 0x0daa4b2506,00_ringlinner
 0x0d939746ed,00_ringrinner
@@ -370,6 +371,7 @@
 0x0393f37df4,a22
 0x03e4f44d62,a23
 0x037a90d8c1,a24
+0x06739f96aa,a2fall
 0x0282ef290f,a3
 0x021c8bbcac,a4
 0x026b8c8c3a,a5
@@ -2561,6 +2563,7 @@
 0x032391c1d4,b11
 0x03ba98906e,b12
 0x03fdb35640,b2f
+0x06f50be404,b2fall
 0x08d4736d69,b_attack
 0x0ae7272443,b_center_b
 0x0a974dd0cc,b_center_g
@@ -2579,6 +2582,7 @@
 0x08b2750777,b_line_g
 0x08dfa8e39c,b_line_r
 0x0bfe66a02f,b_path_name
+0x074318b5bb,ba2fall
 0x0494001968,baba
 0x0b118dc48f,baby_bowser
 0x0ab7199243,baby_mario
@@ -5325,6 +5329,7 @@
 0x02c7de7b1b,c2
 0x044cc50e9a,c2_x
 0x043bc23e0c,c2_y
+0x063e5737a1,c2fall
 0x07a930f8f4,c_frame
 0x08d0589a2c,c_neduke
 0x0a04cf92f2,c_neduke_1
@@ -6842,6 +6847,7 @@
 0x0bb5959745,citymorning
 0x09afb142e4,citynight
 0x0891048b74,citynoon
+0x0cf6909181,cityrollinfo
 0x09c61d2f2e,citywoman
 0x0f4adbef97,citywoman_black
 0x108b191cd7,citywoman_yellow
@@ -14223,6 +14229,7 @@
 0x1492b6b183,f07sleepstart.nuanmb
 0x13f8f1106c,f08swallowed.nuanmb
 0x13a9fd3877,f09camerahit.nuanmb
+0x066e9aa612,f2fall
 0x0d9b6f4115,f_active_high
 0x0c9b2b46df,f_active_mid
 0x05228379c1,f_ang
@@ -14466,6 +14473,7 @@
 0x0dca8399d2,father_balder
 0x0667c39c6e,fawful
 0x02d1c2deaa,fb
+0x0731c3e306,fb2fall
 0x02a6c5ee3c,fc
 0x0591c64ec3,fcoat
 0x08d94e305e,fd-02-31
@@ -22770,6 +22778,12 @@
 0x0a8cc0137e,itempreset
 0x10f6dceea2,itemshootairloop
 0x0827ef189d,itemwalk
+0x0c63c5575e,itsw_allstar
+0x0f3fcec3e6,itsw_challenger
+0x09b8311352,itsw_demo
+0x0bae5aa406,itsw_kumite
+0x0b95dd0b33,itsw_normal
+0x0dcfd05ded,itsw_training
 0x04e1fa65ce,ivan
 0x07762789ec,ivysaur
 0x0b52dd8443,ivysaur_ssb
@@ -28202,6 +28216,8 @@
 0x05dbb08cb6,next0
 0x05acb7bc20,next1
 0x11ad79b591,next_acceleration
+0x0bf8081df2,next_act_01
+0x0b61014c48,next_act_02
 0x0fc55e51b4,next_full_speed
 0x15408c75fd,next_initial_velocity
 0x09275d8824,next_life
@@ -29011,6 +29027,7 @@
 0x0f9a55836e,pad_flick_frame
 0x1209c261ff,pad_flick_interval
 0x0ee4af8a84,pad_pass_frame
+0x14bce5f245,pad_pass_press_count
 0x0ff8990931,pad_release_lv1
 0x0d61f0dbd0,pad_release_m
 0x0d9c9222aa,pad_release_w
@@ -32426,6 +32443,9 @@
 0x0d6dc049f8,result_bottom
 0x1344d2aff3,result_effect_color
 0x0bea5cfc26,result_left
+0x0a3ac892c0,result_pf0
+0x0a4dcfa256,result_pf1
+0x0ad4c6f3ec,result_pf2
 0x15cbff8d62,result_retry_teleport
 0x0c253e2298,result_right
 0x108eef6d31,result_scale_mul
@@ -49355,6 +49375,9 @@
 0x1bbc0d5b72,swallowed_thrown_star_frame
 0x0b0e706e50,swanky_kong
 0x0c1e54ec65,swell_params
+0x063af7d34b,swells
+0x084a182dfd,swells_a
+0x08d3117c47,swells_b
 0x044692847c,swet
 0x087dcae4fc,swet_off
 0x07cccbb5fd,swet_on
@@ -49692,6 +49715,7 @@
 0x07a12c32b1,tamagon
 0x04a4a4fb12,tang
 0x04ad12b739,tank
+0x05dc747508,tank1
 0x111d991437,tank_and_infantry
 0x0a48dd021e,tank_empty
 0x0eeaba1d14,tank_empty_sub
