@@ -22011,6 +22011,10 @@
 0x163655782f,item_drill_shoot_upper
 0x15411f8389,item_eat_damage_value
 0x166c4944e1,item_eat_recover_value
+0x0dc792dfbc,item_element0
+0x0db095ef2a,item_element1
+0x0d299cbe90,item_element2
+0x0d5e9b8e06,item_element3
 0x0ff6d62d98,item_end_radius
 0x14e660c68b,item_equipment_frame
 0x0efe134338,item_etc_power
@@ -22043,6 +22047,7 @@
 0x0973db1c81,item_fork
 0x13131c85fe,item_fruits_max_num
 0x0e6875f10d,item_gekkouga3
+0x0e81165438,item_gekkouga5
 0x14026e7290,item_gen_appear_fall
 0x1486aead53,item_gen_appear_none
 0x1239c4a0e1,item_gen_appear_up
@@ -22635,6 +22640,7 @@
 0x122a3982df,item_standard_few2
 0x12803f9c02,item_standard_many
 0x13f45be0bd,item_standard_many2
+0x14a04e3b37,item_standard_nopoke
 0x148af077fc,item_standard_normal
 0x15ae54f04d,item_standard_normal2
 0x143cd633b4,item_starrod_swing_1
@@ -31769,10 +31775,16 @@
 0x0faf325b53,rbkind_78_smash
 0x134556e5ba,rbkind_78_specialhi
 0x1374bca585,rbkind_78_wingstart
+0x0ee0cfe063,rbkind_79_beam
+0x1119eab1e8,rbkind_79_changef
+0x11f93f58f6,rbkind_79_changel
 0x10ec52a778,rbkind_79_escape
 0x13f51a0c7d,rbkind_79_escape_st
 0x11ae8ccbac,rbkind_79_grapple
+0x1415f348a1,rbkind_79_lightsmash
 0x18e0b6fa12,rbkind_79_special_escape
+0x191bee79f1,rbkind_79_special_escapea
+0x19f28ddcc4,rbkind_79_special_escapeg
 0x0d7687e5da,rbkind_aerial
 0x0dac2da2ad,rbkind_attack
 0x1644b25228,rbkind_attack_critical
