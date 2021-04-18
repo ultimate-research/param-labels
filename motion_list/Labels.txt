@@ -1910,6 +1910,7 @@ cliffattack.nuanmb
 close
 close.nuanmb
 closing_ear
+cloud_fusionsword
 cloud_special_air_n
 cloud_special_n
 cloudd00specialairn.nuanmb
@@ -5623,6 +5624,7 @@ effect_furafurastartd
 effect_furafurastartu
 effect_fuwafuwa
 effect_fuwafuwastart
+effect_fvisualscene01
 effect_fwin1
 effect_gamewatchspecialairn
 effect_gamewatchspecialn
@@ -6175,6 +6177,7 @@ effect_lucinaspecialnloop
 effect_lucinaspecialnstart
 effect_luigispecialairn
 effect_luigispecialn
+effect_lvisualscene01
 effect_lw
 effect_lwin1
 effect_lwin2
@@ -7960,6 +7963,7 @@ effect_specialr
 effect_specialrhi
 effect_specialrlw
 effect_specials
+effect_specials0
 effect_specials1
 effect_specials1_lb
 effect_specials1blank
@@ -21296,6 +21300,7 @@ game_specialairnuse
 game_specialairnuse2
 game_specialairnwait
 game_specialairs
+game_specialairs0
 game_specialairs1
 game_specialairs1_lb
 game_specialairs1blank
@@ -21839,6 +21844,7 @@ game_specialr
 game_specialrhi
 game_specialrlw
 game_specials
+game_specials0
 game_specials1
 game_specials1_lb
 game_specials1blank
