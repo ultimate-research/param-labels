@@ -5380,6 +5380,7 @@ effect_finalattack
 effect_finalattack2
 effect_finalattackbunshin
 effect_finalattackfinish
+effect_finalattackl
 effect_finalbeam
 effect_finalbeamendr
 effect_finalbeamstart
@@ -5615,6 +5616,7 @@ effect_furafurastartd
 effect_furafurastartu
 effect_fuwafuwa
 effect_fuwafuwastart
+effect_fwin1
 effect_gamewatchspecialairn
 effect_gamewatchspecialn
 effect_ganonspecialairn
@@ -6160,6 +6162,8 @@ effect_lucinaspecialnstart
 effect_luigispecialairn
 effect_luigispecialn
 effect_lw
+effect_lwin1
+effect_lwin2
 effect_magicpotairend
 effect_magicpotairendaerial
 effect_magicpotairendfly1
@@ -6701,6 +6705,7 @@ effect_rosettaspecialn
 effect_rosettaspecialncharge
 effect_rosettaspecialnchargestart
 effect_rosettaspecialnreturn
+effect_rotate
 effect_royspecialairnend
 effect_royspecialairnend2
 effect_royspecialairnend3
@@ -8069,6 +8074,7 @@ effect_specialsoperation
 effect_specialsoverturn
 effect_specialsoverturnstart
 effect_specialsoverturnstartair
+effect_specialsrailpromotion
 effect_specialsrebound
 effect_specialsreel
 effect_specialsreturn
@@ -8710,6 +8716,7 @@ electroshock_end
 electroshock_end_adventure
 electroshock_start
 electroshock_start_adventure
+element_diver
 elight_special_air_n
 elight_special_air_n2
 elight_special_air_n_hold
@@ -20572,6 +20579,7 @@ game_rosettaspecialn
 game_rosettaspecialncharge
 game_rosettaspecialnchargestart
 game_rosettaspecialnreturn
+game_rotate
 game_royspecialairnend
 game_royspecialairnend2
 game_royspecialairnend3
@@ -24885,6 +24893,7 @@ pichud00specialairn.nuanmb
 pichud00specialn.nuanmb
 pickel_move
 pickel_move_b
+pickel_rail
 pickel_special_n1
 pickel_special_n3
 pickel_special_n3_failure
@@ -24893,6 +24902,7 @@ pickel_special_n3_miss
 pickel_walk_fast
 pickel_walk_middle
 pickel_walk_slow
+pickel_wing
 pickela01walkfast.nuanmb
 pickela01walkmiddle.nuanmb
 pickela01walkslow.nuanmb
@@ -28487,6 +28497,7 @@ sound_rosettaspecialn
 sound_rosettaspecialncharge
 sound_rosettaspecialnchargestart
 sound_rosettaspecialnreturn
+sound_rotate
 sound_royspecialairnend
 sound_royspecialairnend2
 sound_royspecialairnend3
@@ -29855,6 +29866,7 @@ sound_specialsoperation
 sound_specialsoverturn
 sound_specialsoverturnstart
 sound_specialsoverturnstartair
+sound_specialsrailpromotion
 sound_specialsrebound
 sound_specialsreel
 sound_specialsreturn
