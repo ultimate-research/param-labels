@@ -16745,6 +16745,7 @@
 0x17c96b2f33,fushigibana_enter_frame
 0x191e54dd70,fushigibana_hitstop_frame
 0x17fcdc79f7,fushigibana_leave_frame
+0x1fb6f3026e,fushigibana_razor_leaf_interval
 0x16c6e63e74,fushigibana_wait_frame
 0x0bf8a82df5,fusion_suit
 0x08bed63539,fuwante1
@@ -26399,6 +26400,9 @@
 0x18db2fbe01,marumine_jump_height_2nd
 0x183c9a896b,marumine_jump_height_3rd
 0x1a27a17c60,marumine_pickup_wait_frame
+0x18203a6944,marumine_rotate_rate_1st
+0x18c0a7ab65,marumine_rotate_rate_2nd
+0x1827129c0f,marumine_rotate_rate_3rd
 0x1a41ded722,marumine_small_attack_attr
 0x1b0a944e09,marumine_small_attack_catch
 0x1c13dbf79e,marumine_small_attack_direct
