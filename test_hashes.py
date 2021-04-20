@@ -19,7 +19,7 @@ def test_hashes():
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
         # length - uppermost 8  bits
         # crc32  - lowermost 32 bits
-        assert len(line[1]) == (hash >> 32)
+        assert len(line[1].encode('utf-8')) == (hash >> 32)
         assert crc32(line[1].encode('utf-8')) == (hash & 0xFFFFFFFF)
         assert not hash in alreadyFoundHashes
         alreadyFoundHashes.add(hash)
