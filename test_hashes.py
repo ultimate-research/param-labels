@@ -27,7 +27,7 @@ def test_hashes():
 def main():
     from binascii import crc32
 
-    with open("ParamLabels.csv") as f:
+    with open("ParamLabels.csv", mode="r", encoding="utf-8") as f:
         csv = [line.rstrip('\n').split(',', 1) for line in f.readlines() if not line.isspace()]
 
     try:
@@ -38,12 +38,13 @@ def main():
     for i, line in enumerate(csv):
         hashString = line[0]
         hash = int(hashString, 16)
+        hashUtf8 = line[1].encode('utf-8')
         if not len(hashString) >= 12:
             print(f"'{hashString}', line {i+1} is not properly padded to 12 chars.")
-        if not len(line[1]) == (hash >> 32):
+        if not len(hashUtf8) == (hash >> 32):
             print(f"'{hashString}', line {i+1} specified string length mismatch.")
         # Only the lower 32 bits are the hash (blame arthur), ensure the crc is legit
-        if not crc32(line[1].encode('utf-8')) == (hash & 0xFFFFFFFF):
+        if not crc32(hashUtf8) == (hash & 0xFFFFFFFF):
             print(f"'{hashString}', line {i+1} crc32 mismatch.")
         if hash in alreadyFoundHashes:
             print(f"'{hashString}', line {i+1} hash duplicate.")
