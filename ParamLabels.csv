@@ -1292,8 +1292,6 @@
 0x0e9daa50b9,antennaattache
 0x0364f3f7b4,any
 0x02e03234d0,ao
-0x0aee5dbe68,ao_andross
-0x0ed2f2682b,ao_androssshot
 0x048d0353fb,aoph
 0x08c48a91b1,aoph_ssb
 0x04c83201ef,aori
@@ -2677,7 +2675,6 @@
 0x0db57112d3,aw_event_roll
 0x0babdb5690,aw_event_up
 0x0daeee60de,aw_feint_down
-0x0d7862bfed,aw_flap_delay
 0x1035dee1d2,aw_is_use_effect
 0x0c6760921f,aw_nextframe
 0x11d55abf3b,aw_roll_threshold
@@ -3892,7 +3889,6 @@
 0x07b47381ac,bgm_b19
 0x079047306a,bgm_c21
 0x0f6dfa32f6,bgm_color_param
-0x138ba0af4b,bgm_count_out_stage
 0x0935bf355b,bgm_crs22
 0x07bfe71f1b,bgm_e11
 0x0e5f91a3ce,bgm_edge_y_max
@@ -3976,7 +3972,6 @@
 0x15c8f1aea1,bike_hp_damage_effect
 0x0581fdc08a,biker
 0x05c2a2b4ce,billy
-0x11335ee4bb,bind_extra_b_time
 0x0d1eea2a25,bind_offset_x
 0x0d69ed1ab3,bind_offset_y
 0x0d804a5fde,bio_disp_prob
@@ -4403,7 +4398,6 @@
 0x107e752796,bomb_ignore_down
 0x15f019d216,bomb_invincible_frame
 0x09b0c03517,bomb_life
-0x0f999b29e1,bomb_llst_empty
 0x0d2363cee1,bomb_lr_check
 0x08d8072d34,bomb_man
 0x0cbde2b6d8,bomb_max_req
@@ -5777,6 +5771,7 @@
 0x17323e84b9,cage_chain_offset_pos_x
 0x174539b42f,cage_chain_offset_pos_y
 0x17dc30e595,cage_chain_offset_pos_z
+0x0f999b29e1,cage_durability
 0x0cdbfbf13e,cage_gravity
 0x0b59bfca66,cage_length
 0x0b5f0f0195,cage_weight
@@ -7290,7 +7285,6 @@
 0x1c4c88f755,chicken_party_wall_iv_jump_x
 0x1c3b8fc7c3,chicken_party_wall_iv_jump_y
 0x158c3bce26,chicken_through_frame
-0x191ffdaec5,chicken_throw_check__walk
 0x11e2fb8475,chicken_throw_max
 0x11def6bb2c,chicken_throw_min
 0x0e84986ffc,chicken_vanish
@@ -8707,7 +8701,6 @@
 0x12ddea24b3,crash1_speed_y_mul
 0x060c6e99b8,crash2
 0x1d0814b173,crash2_add_rebirth_wait_frame
-0x150d4e4f34,crash2_death_wind_2nd
 0x0ea618b90c,crash2_gravity
 0x0f9955622d,crash2_offset_x
 0x0fee5252bb,crash2_offset_y
@@ -10137,7 +10130,6 @@
 0x02e3f4bc28,db
 0x072a5a6784,db_root
 0x0d3deaf33e,db_root_chara
-0x0f7bae7f71,db_windummy_win
 0x03dde1e205,dba
 0x04aa36c9ac,dbca
 0x03b98a4ac5,dbx
@@ -14742,6 +14734,7 @@
 0x0f1b69f694,evlight03_01_08
 0x0f6c6ec602,evlight03_01_09
 0x0f0ca94fe7,evlight03_01_10
+0x0f7bae7f71,evlight03_01_11
 0x0fe2a72ecb,evlight03_01_12
 0x0f95a01e5d,evlight03_01_13
 0x0f7000e1de,evlight03_02_01
@@ -17371,9 +17364,11 @@
 0x1c6df9b9da,fireball_disappear_frame_max
 0x1c51f48683,fireball_disappear_frame_min
 0x075ca51915,firebar
+0x0aee5dbe68,fireflower
 0x18339dc3e9,fireflower_collect_frame
 0x1595bdad06,fireflower_life_frame
 0x12d7bcde14,fireflower_maxshot
+0x0ed2f2682b,fireflowershot
 0x0956c0c32b,fireframe
 0x132e443e73,firepillar_offset_x
 0x1359430ee5,firepillar_offset_y
@@ -20730,6 +20725,7 @@
 0x06f1a7ebcf,hinger
 0x06e589d627,hinoka
 0x0d41ef8328,hint1_visible
+0x0d7862bfed,hint2_visible
 0x0d6f19abae,hint3_visible
 0x092cc46435,hint_impa
 0x0db9100c1d,hint_priority
@@ -21125,6 +21121,7 @@
 0x057f3f9c94,honey
 0x0b4d3101f8,honey_queen
 0x0966fc6f84,honeycomb
+0x191ffdaec5,honeycomb_born_wait_frame
 0x157877fabe,honeycomb_burst_speed
 0x147b4070d1,honeycomb_life_frame
 0x0c2112b60c,honeycombbee
@@ -36944,6 +36941,7 @@
 0x147704e034,rframe_wall_stop_max
 0x144b09df6d,rframe_wall_stop_min
 0x12cd42bf62,rframe_warp_warpin
+0x138ba0af4b,rframe_warp_warpout
 0x124359c4e8,rframe_wave_switch
 0x166ceb5c4a,rframe_whispy_wait_max
 0x1650e66313,rframe_whispy_wait_min
@@ -47737,6 +47735,7 @@
 0x19be3bc637,se_pokemon_namakobushi_vc
 0x142356c7d1,se_pokemon_nassya_vc
 0x17ba455617,se_pokemon_peroppafu_vc
+0x150d4e4f34,se_pokemon_raichua_vc
 0x137bd46742,se_pokemon_rokon_vc
 0x148ecd3f5d,se_pokemon_rokona_vc
 0x197af04b5b,se_pokemon_sirnight_enter
@@ -57790,7 +57789,6 @@
 0x0a92c7e5bc,spot_01_04
 0x0ae5c0d52a,spot_01_05
 0x0a7cc98490,spot_01_06
-0x0e89dfb57c,spot_01_06_num
 0x0af018bedd,spot_02_01
 0x0a6911ef67,spot_02_02
 0x0a1e16dff1,spot_02_03
@@ -62448,9 +62446,6 @@
 0x11345bc2de,sys_smash_flash_s
 0x102bc26956,sys_soil_landing
 0x0c47781d45,sys_sp_flash
-0x14e7fc6057,sys_space_asase_wait
-0x1d59415d38,sys_space_asase_wait_interval
-0x187c031d0a,sys_space_asase_wait_mul
 0x128771e04b,sys_special_all_up
 0x1532f8b0a6,sys_special_attack_up
 0x1611f60fc4,sys_special_defense_up
@@ -74974,6 +74969,7 @@
 0x1057ef3327,vc_brave_final03
 0x11690e014a,vc_brave_furafura
 0x12ec734828,vc_brave_furasleep
+0x11335ee4bb,vc_brave_heavyget
 0x0f34668cfe,vc_brave_jump01
 0x13aee17c30,vc_brave_missfoot01
 0x1337e82d8a,vc_brave_missfoot02
@@ -75973,6 +75969,7 @@
 0x116a872450,vc_ken_missfoot01
 0x11f38e75ea,vc_ken_missfoot02
 0x0e25a045fb,vc_ken_ottotto
+0x0e89dfb57c,vc_ken_passive
 0x12ebe27b67,vc_ken_special_h01
 0x1aca4b6a9d,vc_ken_special_h01_command
 0x12ecebd3bb,vc_ken_special_l01
@@ -78279,6 +78276,9 @@
 0x15e0f0c0c8,vince_draw_next_frame
 0x12653e03c1,vince_draw_num_max
 0x1259333c98,vince_draw_num_min
+0x14e7fc6057,vince_picture_damage
+0x1d59415d38,vince_picture_damage_interval
+0x187c031d0a,vince_picture_damage_mul
 0x06e3e6e571,vine01
 0x067aefb4cb,vine02
 0x060de8845d,vine03
