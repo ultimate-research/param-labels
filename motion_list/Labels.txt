@@ -5301,6 +5301,7 @@ effect_fastmovehightend
 effect_fastmovehightstart
 effect_fentryl
 effect_fentryr
+effect_ffinalairattack
 effect_ffinalairstart
 effect_ffinalattack
 effect_ffinalstart
@@ -5535,6 +5536,8 @@ effect_flutter
 effect_fly
 effect_flycopy
 effect_flyend
+effect_flyflickl
+effect_flyflickr
 effect_flyl
 effect_flymax
 effect_flyout
@@ -6065,6 +6068,7 @@ effect_leftloop
 effect_leftptnanim
 effect_lentryl
 effect_lentryr
+effect_lfinalairattack
 effect_lfinalairstart
 effect_lfinalattack
 effect_lfinalstart
@@ -6617,6 +6621,8 @@ effect_rebirth
 effect_rebound
 effect_reel
 effect_reflect
+effect_reflectedl
+effect_reflectedr
 effect_reflecthit
 effect_refletspecialairncancel
 effect_refletspecialairnhold
@@ -7600,6 +7606,7 @@ effect_specialhihit
 effect_specialhihitpose
 effect_specialhihold
 effect_specialhiholdair
+effect_specialhiinterrupt
 effect_specialhiitem
 effect_specialhijrattack
 effect_specialhijrdamage
@@ -18745,6 +18752,9 @@ game_clifftobidasu
 game_cliffwait
 game_cliffwaitjr
 game_close
+game_closesword1f
+game_closesword2f
+game_closesword3f
 game_closingear
 game_cloudspecialairn
 game_cloudspecialn
@@ -19277,6 +19287,7 @@ game_finalappeal
 game_finalattack
 game_finalattack2
 game_finalattackbunshin
+game_finalattackcommon
 game_finalattackfinish
 game_finalbeam
 game_finalbeamendr
@@ -19424,6 +19435,8 @@ game_flutter
 game_fly
 game_flycopy
 game_flyend
+game_flyflickl
+game_flyflickr
 game_flyl
 game_flymax
 game_flyout
@@ -20298,6 +20311,9 @@ game_okuhikouki
 game_okuhikoukiend
 game_okuhikoukistart
 game_open
+game_opensword1f
+game_opensword2f
+game_opensword3f
 game_ottotto
 game_ottottowait
 game_out_adventure
@@ -20497,6 +20513,7 @@ game_rebirth
 game_rebound
 game_reel
 game_reflect
+game_reflectedr
 game_reflecthit
 game_refletspecialairncancel
 game_refletspecialairnhold
@@ -21702,6 +21719,7 @@ game_specialn3miss
 game_specialn3start
 game_specialn3turn
 game_specialn4
+game_specialn4common
 game_specialn_lb
 game_specialnbite
 game_specialnbiteend
@@ -21811,6 +21829,7 @@ game_specialnspeed
 game_specialnspin
 game_specialnspit
 game_specialnspitb
+game_specialnspitbattackabs
 game_specialnspitf
 game_specialnspithi
 game_specialnstart
@@ -27121,6 +27140,7 @@ sound_fastmovehightend
 sound_fastmovehightstart
 sound_fentryl
 sound_fentryr
+sound_ffinalairattack
 sound_ffinalairstart
 sound_ffinalattack
 sound_ffinalstart
@@ -27354,6 +27374,7 @@ sound_flutter
 sound_fly
 sound_flycopy
 sound_flyend
+sound_flyflickl
 sound_flyl
 sound_flymax
 sound_flyout
@@ -27882,6 +27903,7 @@ sound_leftloop
 sound_leftptnanim
 sound_lentryl
 sound_lentryr
+sound_lfinalairattack
 sound_lfinalairstart
 sound_lfinalattack
 sound_lfinalstart
@@ -28431,6 +28453,8 @@ sound_rebirth
 sound_rebound
 sound_reel
 sound_reflect
+sound_reflectedl
+sound_reflectedr
 sound_reflecthit
 sound_refletspecialairncancel
 sound_refletspecialairnhold
@@ -29624,6 +29648,13 @@ sound_specialn2miss
 sound_specialn2start
 sound_specialn3
 sound_specialn3_ex
+sound_specialn3createice
+sound_specialn3createiron
+sound_specialn3createsand
+sound_specialn3createsoil
+sound_specialn3createstone
+sound_specialn3createwood
+sound_specialn3createwool
 sound_specialn3end
 sound_specialn3endmax
 sound_specialn3endmaxturn
@@ -30385,11 +30416,15 @@ sound_win1afushigisou
 sound_win1alizardon
 sound_win1await
 sound_win1azenigame
+sound_win1azenigame_boy
+sound_win1azenigame_girl
 sound_win1b
 sound_win1bfushigisou
 sound_win1blizardon
 sound_win1bwait
 sound_win1bzenigame
+sound_win1bzenigame_boy
+sound_win1bzenigame_girl
 sound_win1c
 sound_win1cwait
 sound_win1d
@@ -30413,11 +30448,15 @@ sound_win2afushigisou
 sound_win2alizardon
 sound_win2await
 sound_win2azenigame
+sound_win2azenigame_boy
+sound_win2azenigame_girl
 sound_win2b
 sound_win2bfushigisou
 sound_win2blizardon
 sound_win2bwait
 sound_win2bzenigame
+sound_win2bzenigame_boy
+sound_win2bzenigame_girl
 sound_win2c
 sound_win2cwait
 sound_win2d
@@ -30443,6 +30482,8 @@ sound_win3afushigisou
 sound_win3alizardon
 sound_win3await
 sound_win3azenigame
+sound_win3azenigame_boy
+sound_win3azenigame_girl
 sound_win3b
 sound_win3bfushigisou
 sound_win3blizardon
@@ -30454,6 +30495,8 @@ sound_win3blue3
 sound_win3blue3wait
 sound_win3bwait
 sound_win3bzenigame
+sound_win3bzenigame_boy
+sound_win3bzenigame_girl
 sound_win3c
 sound_win3cwait
 sound_win3d
