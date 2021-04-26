@@ -22902,7 +22902,6 @@
 0x1728f99513,info_gd50_mts2_judgment
 0x1b90c69d58,info_gd51_mts3_soukainokiba
 0x1aff0b0ab5,info_gd52_mts5_finalattack
-0x11b4850fb9,info_guide_vc_mii
 0x1560a16c35,info_h01_pm_maintheme
 0x1911e98422,info_h02_pm_pokemoncenter
 0x24817254b9,info_h03_pm_tokiwahenomichi_nibicity
@@ -30426,6 +30425,7 @@
 0x11df88dba5,min_percent_1_ent
 0x11c29a2f7a,min_percent_1_gen
 0x11e7a42d01,min_percent_1_ofn
+0x11b4850fb9,min_percent_1_rsk
 0x115d8f2ab6,min_percent_2_agl
 0x116c3af19e,min_percent_2_cau
 0x1189a763c1,min_percent_2_def
@@ -31413,6 +31413,7 @@
 0x1914a6745b,necessary_min_percent_ent
 0x1909b48084,necessary_min_percent_gen
 0x192c8a82ff,necessary_min_percent_ofn
+0x197faba047,necessary_min_percent_rsk
 0x0d8838a7a8,necessary_ofn
 0x0ddb198510,necessary_rsk
 0x042011d653,neck
@@ -34779,7 +34780,6 @@
 0x1175fb928a,probability_chase
 0x140318a9af,probability_compound
 0x0f632e6a2e,probability_far
-0x197faba047,probability_handi_counted
 0x121add5db8,probability_middle
 0x0fbbda6ff9,probability_mul
 0x1013ee1d99,probability_near
