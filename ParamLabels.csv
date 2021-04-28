@@ -4542,6 +4542,7 @@
 0x08965973ae,bonename
 0x05d55a6d2b,bones
 0x05358f8435,boney
+0x08febdba95,bonindex
 0x0728dbb42a,bonkers
 0x059f987f7a,bonus
 0x0d125de64e,bonus_perfect
@@ -23699,6 +23700,7 @@
 0x1540863542,ink_interpolate_frame
 0x07ae071a51,ink_max
 0x0a57d1a9e3,ink_models
+0x1de8c3dbeb,ink_muzzle_offset_from_screen
 0x15be4ec69d,ink_muzzle_position_z
 0x107ecbb25a,ink_muzzle_scale
 0x0f67edaa15,ink_paint_delay
@@ -28548,6 +28550,7 @@
 0x15224ec3cb,mainlaser_delta_angle
 0x15479241d0,mainlaser_limit_angle
 0x0e474b5968,mainlaser_time
+0x0ccad0f7b2,major_title1
 0x0cb307d258,majoras_mask
 0x0b5662277e,majorasmask
 0x05cf488bb2,makky
@@ -33402,6 +33405,7 @@
 0x0a4f136a4c,personal_9
 0x1704844797,personal_arm_offense_up
 0x144a3f2fdf,personal_dark_slayer
+0x1a5078516c,personal_default_damage_up
 0x18ecaed61e,personal_fire_offense_up
 0x193401b289,personal_fire_resist_down
 0x1986596fd1,personal_item_attack_down
@@ -34987,6 +34991,7 @@
 0x0780db383e,puppy_x
 0x07f7dc08a8,puppy_y
 0x076ed55912,puppy_z
+0x13656d7462,purchase_check_type
 0x052a5167f3,purin
 0x08e06ce761,purin_00
 0x0f7cdf0e84,purin_appeal_lw
@@ -36213,6 +36218,8 @@
 0x12b0feb2df,recommended_skill7
 0x122041af4e,recommended_skill8
 0x1257469fd8,recommended_skill9
+0x18d9441f71,recommended_skill_fixed1
+0x18404d4ecb,recommended_skill_fixed2
 0x069b349f91,record
 0x0e143d99cc,record_arrange
 0x12b2514de1,record_new_arrange
