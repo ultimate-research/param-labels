@@ -8968,6 +8968,7 @@ expression_attackhi3s
 expression_attackhi3w
 expression_attackhi4
 expression_attackhi42
+expression_attackhi4_vis_set
 expression_attackhi4charge
 expression_attackhi4chargel
 expression_attackhi4charger
@@ -21922,6 +21923,8 @@ game_specialsaircatch
 game_specialsappeal
 game_specialsattack
 game_specialsattackb
+game_specialsattackbothsub
+game_specialsattackcouplesub
 game_specialsattackf
 game_specialsattacklanding
 game_specialsaway
