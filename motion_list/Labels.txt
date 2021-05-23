@@ -4179,6 +4179,8 @@ effect_attack_1
 effect_attack_2
 effect_attack_3
 effect_attack_4
+effect_attack_smokeback
+effect_attack_smokefront
 effect_attackair
 effect_attackairb
 effect_attackairbhi
@@ -7723,6 +7725,9 @@ effect_speciallwcatch
 effect_speciallwcharge
 effect_speciallwcounter
 effect_speciallwdamage
+effect_speciallwdashchargehi
+effect_speciallwdashchargelw
+effect_speciallwdashchargemiddle
 effect_speciallwempty
 effect_speciallwend
 effect_speciallwend2
@@ -8056,6 +8061,8 @@ effect_specialsendf
 effect_specialsendloop
 effect_specialsendnoink
 effect_specialsendstart
+effect_specialsenteredpoweredraill
+effect_specialsenteredpoweredrailr
 effect_specialsescape
 effect_specialsescapestart
 effect_specialsf
@@ -8071,6 +8078,7 @@ effect_specialsfire
 effect_specialsflick
 effect_specialsfstart
 effect_specialsget
+effect_specialsgettingblank
 effect_specialsheading
 effect_specialshit
 effect_specialshitend
@@ -8095,6 +8103,8 @@ effect_specialsmax
 effect_specialsmiss
 effect_specialsmove
 effect_specialsnormal
+effect_specialsoffrailend
+effect_specialsoffrailstart
 effect_specialsoperation
 effect_specialsoverturn
 effect_specialsoverturnstart
@@ -8115,6 +8125,7 @@ effect_specialsshoot
 effect_specialsshot
 effect_specialsshoulder
 effect_specialsspin
+effect_specialssplashdown
 effect_specialssquat
 effect_specialsstart
 effect_specialsstartempty
@@ -10199,6 +10210,10 @@ expression_plizardonspecialnend
 expression_plizardonspecialnstart
 expression_popospecialairn
 expression_popospecialn
+expression_punch_quakel
+expression_punch_quaker_end
+expression_punch_quaker_start
+expression_punch_quaker_stop
 expression_purinspecialairn
 expression_purinspecialairnendl
 expression_purinspecialairnendr
@@ -19089,6 +19104,7 @@ game_electroshockstart
 game_electroshockstart_adventure
 game_elightspecialairn
 game_elightspecialairn2
+game_elightspecialairnhit
 game_elightspecialairnhold
 game_elightspecialairnstart
 game_elightspecialn
@@ -21923,6 +21939,9 @@ game_specialschange
 game_specialscharge
 game_specialscliffjump
 game_specialsclose
+game_specialscommoncouplesub
+game_specialscommonsinglesub
+game_specialscommonsinglesub_nana
 game_specialscut
 game_specialsdamagel
 game_specialsdamagem
@@ -21943,6 +21962,8 @@ game_specialsdragwall
 game_specialsdrill
 game_specialsdrive
 game_specialsdriveempty
+game_specialsdriveemptypartial
+game_specialsdrivepartial
 game_specialsend
 game_specialsendb
 game_specialsendf
@@ -26508,6 +26529,8 @@ sound_buddyspecialairnfire2
 sound_buddyspecialairnfire3
 sound_buddyspecialairnstart
 sound_buddyspecialairnturn
+sound_buddyspecialnbakyunfailure
+sound_buddyspecialnbakyunsuccess
 sound_buddyspecialnend
 sound_buddyspecialnfall
 sound_buddyspecialnfire
@@ -27802,6 +27825,7 @@ sound_kimiiro
 sound_kimiiropost
 sound_kimiirovanishwait
 sound_kimiirowait
+sound_kirbyyounglinkbowchargemax
 sound_kizetsuend
 sound_kizetsuloop
 sound_kizetsustart
@@ -28340,6 +28364,13 @@ sound_pickelitemlegswalkb
 sound_pickelitemlegswalkf
 sound_pickelspecialn1
 sound_pickelspecialn3
+sound_pickelspecialn3createice
+sound_pickelspecialn3createiron
+sound_pickelspecialn3createsand
+sound_pickelspecialn3createsoil
+sound_pickelspecialn3createstone
+sound_pickelspecialn3createwood
+sound_pickelspecialn3createwool
 sound_pickelspecialn3failure
 sound_pickelspecialn3landing
 sound_pickelspecialn3miss
@@ -29667,6 +29698,8 @@ sound_specialn3start
 sound_specialn3turn
 sound_specialn4
 sound_specialn_lb
+sound_specialnbakyunfailure
+sound_specialnbakyunsuccess
 sound_specialnbite
 sound_specialnbiteend
 sound_specialnbitestart
@@ -29893,6 +29926,7 @@ sound_specialsendf
 sound_specialsendloop
 sound_specialsendnoink
 sound_specialsendstart
+sound_specialsenteredpoweredrail
 sound_specialsescape
 sound_specialsescapestart
 sound_specialsf
@@ -29952,6 +29986,7 @@ sound_specialsshoot
 sound_specialsshot
 sound_specialsshoulder
 sound_specialsspin
+sound_specialssplashdown
 sound_specialssquat
 sound_specialsstart
 sound_specialsstartempty
@@ -30420,6 +30455,8 @@ sound_win1azenigame_boy
 sound_win1azenigame_girl
 sound_win1b
 sound_win1bfushigisou
+sound_win1bfushigisou_boy
+sound_win1bfushigisou_girl
 sound_win1blizardon
 sound_win1bwait
 sound_win1bzenigame
