@@ -16507,6 +16507,7 @@
 0x036b63b6f0,exe
 0x087280065f,exhaust1
 0x08eb8957e5,exhaust2
+0x113ab0618e,exhibit_day_order
 0x0c81e308ac,exhibit_year
 0x0beba06abc,exist_frame
 0x049409840e,exit
@@ -16587,6 +16588,7 @@
 0x0829ced650,expresso
 0x168404ec5b,exprosiveshot_offset_x
 0x16f303dccd,exprosiveshot_offset_y
+0x12b4278cec,ext_skill_page_num
 0x063bb9492c,extend
 0x0b971925c5,extend_arm_
 0x102e168048,extend_arm_frame
@@ -25963,6 +25965,7 @@
 0x14d8c0206b,is_blend_motion_kind
 0x0fe0d6d94b,is_board_appear
 0x07ab0d481b,is_boss
+0x11e6bb3f0e,is_called_pokemon
 0x0889979814,is_catch
 0x14ca3a4a66,is_chakram_boomerang
 0x0b3a4394a3,is_changing
@@ -26009,6 +26012,8 @@
 0x0e6e0c4feb,is_penetration
 0x0db3ac3697,is_play_start
 0x10b824f812,is_player_target
+0x11b027dc89,is_plural_message
+0x13f7c8cf29,is_plural_narration
 0x18ab3bdf50,is_point_a_d_loop_random
 0x169bf2c42c,is_point_a_loop_random
 0x162638a8e2,is_point_b_loop_random
@@ -37798,8 +37803,14 @@
 0x0d41bc72a7,razor_speed_z
 0x0701c3af33,rbbcoat
 0x06554c1277,rbcoat
+0x144085bf45,rbkind_01_fireballsp
+0x151c238ead,rbkind_01_fireballsp2
 0x10a3557390,rbkind_01_mantle
+0x12eb4bf175,rbkind_06_hold_lv1
+0x127242a0cf,rbkind_06_hold_lv2
+0x16590c0383,rbkind_06_stone_attack
 0x13041f1b96,rbkind_08_attack_s4
+0x135aa58a19,rbkind_08_elecatksp
 0x14d76516f9,rbkind_10_holdattack
 0x164d6fd823,rbkind_10_starstorm_sp
 0x17b8ffa0a7,rbkind_10_starstorm_sp2
@@ -37808,6 +37819,8 @@
 0x1069efdf1b,rbkind_14_end_sp
 0x12a6ec871d,rbkind_14_nohit_sp
 0x1482808b32,rbkind_15_iceberg_sp
+0x1400ba5c51,rbkind_18_fireballsp
+0x1506b96533,rbkind_18_fireballsp2
 0x1218e122f3,rbkind_21_slash_sp
 0x0ebd344ff9,rbkind_23_hold
 0x11e973599d,rbkind_23_rush_sp
@@ -37817,6 +37830,9 @@
 0x147a18110b,rbkind_28_chariot_sp
 0x1116c1eee9,rbkind_28_soaring
 0x1007a9b650,rbkind_31_cypher
+0x127b42370e,rbkind_32_hold_lv1
+0x12e24b66b4,rbkind_32_hold_lv2
+0x12954c5622,rbkind_32_hold_lv3
 0x114c2677ec,rbkind_36_rush_sp
 0x168024c372,rbkind_37_starstorm_sp
 0x17a45e8ade,rbkind_37_starstorm_sp2
@@ -37836,9 +37852,11 @@
 0x10f5122f08,rbkind_63_bullet
 0x132ace367f,rbkind_63_witchtime
 0x10b3555919,rbkind_65_breath
+0x15bcab3907,rbkind_73_bodyattack1
 0x114029b390,rbkind_73_jumppad
 0x132c067b8a,rbkind_73_statue_v2
 0x13c565debf,rbkind_73_statue_v4
+0x137e0f0e31,rbkind_74_powerdunk
 0x139ac1c81b,rbkind_76_dragonarm
 0x16a5e1c52a,rbkind_76_dragonarmhit
 0x14cc97af5b,rbkind_76_dragonbeam
@@ -37883,6 +37901,8 @@
 0x15e3b74183,rbkind_79_hiexplosion
 0x17f5701f94,rbkind_79_lightairslash
 0x1415f348a1,rbkind_79_lightsmash
+0x1178f249d6,rbkind_79_sarcred
+0x154ff561da,rbkind_79_sarcred_exp
 0x14b87addf2,rbkind_79_slashlarge
 0x1494541e5f,rbkind_79_slashsmall
 0x17101b6f37,rbkind_79_special_beaml
@@ -37893,6 +37913,8 @@
 0x17e3bf6549,rbkind_79_special_slash
 0x18c37d7034,rbkind_79_special_swordl
 0x184e757dc1,rbkind_79_special_swords
+0x136c1efc8f,rbkind_79_spinsword
+0x1a6bd42eba,rbkind_79_spinsword_finish
 0x104f924abc,rbkind_79_vs_a01
 0x10d69b1b06,rbkind_79_vs_a02
 0x104dd4f4e5,rbkind_79_vs_b01
@@ -69356,6 +69378,8 @@
 0x10310db94a,ui_prize_dlc_bgm
 0x12f8a058c5,ui_prize_dlc_stage
 0x14a2eb7d34,ui_prize_gold_direct
+0x13a3280d31,ui_prize_gold_l_min
+0x139e482481,ui_prize_gold_m_min
 0x152c985a9d,ui_prize_goods_direct
 0x0bba2d033d,ui_prize_id
 0x18c8e0c754,ui_prize_mii_body_direct
@@ -69439,6 +69463,8 @@
 0x194ae3763f,ui_prize_spirit_point_100
 0x18018f6cf0,ui_prize_spirit_point_30
 0x1c9fe93685,ui_prize_spirit_point_direct
+0x1b79f66b54,ui_prize_spirit_point_l_min
+0x1b449642e4,ui_prize_spirit_point_m_min
 0x1c256be69f,ui_prize_spirit_retry_ticket
 0x2015265d92,ui_prize_spirit_roulette_luck_up
 0x1e52db7b38,ui_prize_spirit_roulette_speed
