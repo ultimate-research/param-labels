@@ -5042,6 +5042,7 @@
 0x144c27fb64,break_r_rumble_frame
 0x18cf2ff717,break_ray_check_offset_y
 0x16bbd7b9b6,breakable_floor_health
+0x19d8420699,breakin_attack_data_param
 0x1497c22f95,breaking_start_frame
 0x133fa65b8e,breaking_stop_frame
 0x0b61b90a59,breastplate
@@ -6127,7 +6128,6 @@
 0x03633cbad2,can
 0x0b92a1ec5c,can_capture
 0x08693c09ec,can_demo
-0x19d8420699,can_exist_camera_center_y
 0x13c98fb61d,can_flick_hop_frame
 0x10b86ca3dc,can_futtobi_back
 0x11c9f6fb64,can_futtobi_front
@@ -13731,7 +13731,6 @@
 0x15dc5c78bb,eflame_special_air_n2
 0x15ab5b482d,eflame_special_air_n3
 0x15353fdd8e,eflame_special_air_n4
-0x24a2031464,eflame_special_air_n_controller_move
 0x197792c22f,eflame_special_air_n_hold
 0x1aaaa4a5ba,eflame_special_air_n_start
 0x11d894c67d,eflame_special_n1
@@ -19631,12 +19630,7 @@
 0x07a29dc05b,galleom
 0x0ed256e9a1,galleommissile
 0x109a7f1a04,galleomshockwave
-0x093ac39f7d,game_bang
-0x0a000bec52,game_blink
-0x1579e04016,game_finalfinishburst
 0x132ff1de7c,game_rule_parameter
-0x13daa68ed4,game_specialnaddhit
-0x1633eb2e07,game_specialsrailstart
 0x0fff50cc55,game_total_time
 0x0a623833a9,game_watch
 0x0961a56eee,gamemodel
@@ -29867,6 +29861,7 @@
 0x05b6af1094,lmant
 0x06030f276c,lmant0
 0x0a917ecb3b,lmant_test
+0x1065d778fd,load_bullbo_info
 0x0f8a1e5671,load_challenger
 0x0f01622713,load_edit_stage
 0x087218c1cc,load_etc
@@ -32106,6 +32101,7 @@
 0x0e747116d2,mii_koopajr5_2
 0x0e03762644,mii_koopajr5_3
 0x0e9d12b3e7,mii_koopajr5_4
+0x0eea158371,mii_koopajr5_5
 0x10ea179cf9,mii_littlemac3_0
 0x109d10ac6f,mii_littlemac3_1
 0x100419fdd5,mii_littlemac3_2
@@ -32113,6 +32109,7 @@
 0x0eb618c9cd,mii_lucario4_0
 0x0ec11ff95b,mii_lucario4_1
 0x0e5816a8e1,mii_lucario4_2
+0x0e2f119877,mii_lucario4_3
 0x0eb1750dd4,mii_lucario4_4
 0x0ec6723d42,mii_lucario4_5
 0x0c25e3996c,mii_luigi4_0
@@ -32559,7 +32556,6 @@
 0x135499546b,mining_gold_get_num
 0x1496daf962,mining_grade_1_frame
 0x16f5eba940,mining_grade_1_get_num
-0x1d2b6fee84,mining_icon_final_camera_type
 0x112d36e138,mining_iron_frame
 0x13a6d33f24,mining_iron_get_num
 0x11613c8362,mining_keep_range
@@ -36259,6 +36255,15 @@
 0x10021463d9,plate_range_size
 0x0ae4128585,plate_type
 0x09c6f4a97d,plateflip
+0x10e04ccb0a,platform1_30left
+0x1117ec5e4c,platform1_30right
+0x0f05063eeb,platform1_50top
+0x11ebc65c07,platform2_40right
+0x103e0e5d5a,platform2_60left
+0x1121beeef8,platform3_35mleft
+0x11e419d076,platform3_45mleft
+0x10b5a9f5d6,platform4_40left
+0x1198dc258d,platform4_40right
 0x18c080b920,platform_birchforest_set
 0x14252312d8,platform_savanna_set
 0x183f1321d6,platform_snowytundra_set
@@ -36585,7 +36590,6 @@
 0x099931b69c,pos_end_x
 0x09ee36860a,pos_end_y
 0x0869b4bbcb,pos_info
-0x0f86c8bc21,pos_ladder_bulk
 0x09fc746e69,pos_lt_x_
 0x09e56f5f28,pos_lt_y_
 0x0c91a957e1,pos_offset_x
@@ -37320,6 +37324,10 @@
 0x054b99fdde,radar
 0x0bc87981c9,radar_color
 0x113057a804,radar_color_black
+0x102af0efc2,radar_color_blue
+0x116948fc0d,radar_color_green
+0x0f37fa1e73,radar_color_red
+0x11fb1ddf88,radar_color_white
 0x0b731f36f8,radar_shape
 0x0f4ffee8b1,radar_shape_fan
 0x122a581005,radar_shape_square
@@ -39017,6 +39025,7 @@
 0x1800a06f1d,rframe_jack_wait_max_1st
 0x145b730e38,rframe_jack_wait_min
 0x1803538f52,rframe_jack_wait_min_1st
+0x13983dceed,rframe_jyama_search
 0x196341aa9f,rframe_kanban_rebuild_max
 0x195f4c95c6,rframe_kanban_rebuild_min
 0x12c23f864a,rframe_kart_return
@@ -39066,7 +39075,6 @@
 0x1594fc1aee,rframe_sling_wait_min
 0x134842bb9d,rframe_taxi_visible
 0x17f8901cf2,rframe_taxi_visible_1st
-0x1ef35ac66f,rframe_threat_appear_disappear
 0x1405149782,rframe_thunder_check
 0x14abebd5c6,rframe_thunder_first
 0x1201ed990d,rframe_ufo_visible
@@ -41880,6 +41888,12 @@
 0x0fe12deba1,roy_sword_light
 0x0dec39723c,roy_sword_red
 0x0482ba20fc,rpad
+0x0b7313960d,rpos_bird_x
+0x0fee8057c0,rpos_bird_x_end
+0x0b0414a69b,rpos_bird_y
+0x0fd3e07e70,rpos_bird_y_end
+0x0b9d1df721,rpos_bird_z
+0x0f944004a0,rpos_bird_z_end
 0x14805d18f4,rpower_barrel_attack
 0x0af1216ba1,rpower_pow
 0x10c0084dee,rrange_barrel_in
@@ -41936,6 +41950,8 @@
 0x0cdd2bdaeb,rrate_ground
 0x15bed19686,rrate_hanenbou_rhythm
 0x11188cd1a7,rrate_jack_appear
+0x110893aca1,rrate_jyama_movex
+0x117f949c37,rrate_jyama_movey
 0x11612bcccc,rrate_kong_appear
 0x117178c3fb,rrate_oniyon_blue
 0x1061783acc,rrate_oniyon_red
@@ -42030,6 +42046,9 @@
 0x149908f40e,rspeed_fish_2nd_half
 0x11726d10fa,rspeed_floor_move
 0x0fae258ee2,rspeed_hanenbou
+0x0c48b5b547,rspeed_jyama
+0x12829a0865,rspeed_jyama_chase
+0x187bd1a323,rspeed_jyama_ladder_down
 0x0faac77c19,rspeed_kart_max
 0x0bfbf4ccc1,rspeed_kumo
 0x1251e5450c,rspeed_kumo_thrust
@@ -54150,6 +54169,8 @@
 0x086aef88bc,shedinja
 0x0a0dade79b,sheep_odds
 0x142dbcac4c,sheep_voice_interval
+0x16c6b582d0,shef_attack_data_param
+0x171d9a00ae,shef_attack_shape_param
 0x0752d065d8,sheff1m
 0x0779fd361b,sheff2m
 0x0760e6075a,sheff3m
@@ -55751,7 +55772,6 @@
 0x21bee0c6ef,sound_condition_process_exclusive
 0x1d7feb1956,sound_condition_xvillage_live
 0x173b9f507f,sound_fadeout_frame_min
-0x16854e1b3a,sound_finalfinishburst
 0x086aaa5c3e,sound_id
 0x0a71b1c647,sound_kind
 0x0b195a9bd1,sound_label
@@ -55760,11 +55780,6 @@
 0x08e464d933,sound_lv
 0x0cc9826a97,sound_number
 0x0bb307b7b0,sound_param
-0x14be48964a,sound_specialnaddhit
-0x1761de7317,sound_specialnchargemax
-0x141531c26b,sound_specialnloopex
-0x152347590a,sound_specialscrushed
-0x15a0da464d,sound_specialsremoved
 0x0dc77e0dec,sound_type_id
 0x0215ce49f6,sp
 0x074b00600f,sp01_01
