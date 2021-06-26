@@ -17835,6 +17835,7 @@
 0x1275dcdfe1,final_move_pre_end
 0x10c0b4a58a,final_move_speed
 0x0f9109413f,final_near_clip
+0x1b62cc974a,final_ness_angular_velocity
 0x17056a10d3,final_ness_length_scale
 0x1422ea97ab,final_ness_max_angle
 0x16b703e961,final_ness_width_scale
@@ -26780,6 +26781,7 @@
 0x122a3982df,item_standard_few2
 0x12803f9c02,item_standard_many
 0x13f45be0bd,item_standard_many2
+0x16ec97d845,item_standard_noasisst
 0x14a04e3b37,item_standard_nopoke
 0x148af077fc,item_standard_normal
 0x15ae54f04d,item_standard_normal2
@@ -37861,6 +37863,7 @@
 0x132ace367f,rbkind_63_witchtime
 0x10b3555919,rbkind_65_breath
 0x15bcab3907,rbkind_73_bodyattack1
+0x1552a5582b,rbkind_73_bodyattack3
 0x114029b390,rbkind_73_jumppad
 0x132c067b8a,rbkind_73_statue_v2
 0x13c565debf,rbkind_73_statue_v4
@@ -37885,6 +37888,7 @@
 0x15ee4d439d,rbkind_77_finalattack
 0x0d6ff438e3,rbkind_77_fly
 0x135e4f2e95,rbkind_77_fly_start
+0x1778c298b0,rbkind_77_kanatoko_fall
 0x10f2ad9413,rbkind_77_nohitl
 0x1085aaa485,rbkind_77_nohitm
 0x107fa599e6,rbkind_77_nohits
@@ -37894,6 +37898,9 @@
 0x0f178e3c36,rbkind_78_slash
 0x0faf325b53,rbkind_78_smash
 0x134556e5ba,rbkind_78_specialhi
+0x13a6174f35,rbkind_78_spl_break
+0x1595ccdcc5,rbkind_78_spl_counter
+0x113ef1efc5,rbkind_78_spl_exp
 0x1374bca585,rbkind_78_wingstart
 0x0ee0cfe063,rbkind_79_beam
 0x1119eab1e8,rbkind_79_changef
@@ -37907,6 +37914,7 @@
 0x14149b6a39,rbkind_79_flamesmash
 0x11ae8ccbac,rbkind_79_grapple
 0x15e3b74183,rbkind_79_hiexplosion
+0x159a47284e,rbkind_79_lands_light
 0x17f5701f94,rbkind_79_lightairslash
 0x1415f348a1,rbkind_79_lightsmash
 0x1178f249d6,rbkind_79_sarcred
@@ -37930,6 +37938,7 @@
 0x10a3da95c9,rbkind_79_vs_b03
 0x103dbe006a,rbkind_79_vs_b04
 0x0d7687e5da,rbkind_aerial
+0x1183450319,rbkind_aerial_esp
 0x0dac2da2ad,rbkind_attack
 0x1644b25228,rbkind_attack_critical
 0x1495be43d8,rbkind_attack_finish
@@ -37969,6 +37978,7 @@
 0x0bc65d47b3,rbkind_down
 0x0eb4bfe6d1,rbkind_dragoon
 0x0fa6bcdad1,rbkind_drawhold
+0x11eebdf511,rbkind_drgn_start
 0x0c42551e35,rbkind_drill
 0x0c01e0c831,rbkind_drown
 0x0f3f6a5d01,rbkind_drownout
@@ -38017,6 +38027,8 @@
 0x0c70173cfd,rbkind_lands
 0x0fc1df99f2,rbkind_lands_hv
 0x100f5a81bf,rbkind_lassohang
+0x163b9d8dde,rbkind_lightthrow4item
+0x158c5c2a15,rbkind_lightthrowitem
 0x11166078cd,rbkind_loopattack
 0x10301a69bd,rbkind_loopblast
 0x0fbdaf002b,rbkind_mushroom
@@ -38107,11 +38119,17 @@
 0x240d57a994,rbkind_ui_classic_select_difficulity
 0x20b0603d2b,rbkind_ui_classic_select_slidein
 0x16afb9facb,rbkind_ui_classic_vs01
+0x19966c38f0,rbkind_ui_controler_entry
+0x1a54a44e1d,rbkind_ui_fighter_unlocked
 0x0f60939266,rbkind_ui_fixed
 0x11155820cd,rbkind_ui_fixed_l
 0x1356911e3b,rbkind_ui_fp_appear
 0x18a5372fbf,rbkind_ui_fp_inheritance
 0x153b5acbbf,rbkind_ui_next_battle
+0x1a1a071eb7,rbkind_ui_notification_get
+0x13379c095e,rbkind_ui_rumble_on
+0x13c0ba5e9b,rbkind_ui_smash_vs1
+0x1359b30f21,rbkind_ui_smash_vs2
 0x1b13c4ccdb,rbkind_ui_spirits_challenge
 0x196626ef7a,rbkind_ui_spirits_matchup
 0x1f2c3f4048,rbkind_ui_spirits_raise_enhance
@@ -38122,6 +38140,9 @@
 0x22bf29b80c,rbkind_ui_spirits_roulette_fighter
 0x21c61fda8c,rbkind_ui_spirits_roulette_sheild
 0x1861a9f811,rbkind_ui_spirits_summon
+0x1267978b05,rbkind_ui_squad_vs
+0x13b9ea503a,rbkind_ui_squad_win
+0x186049cdfe,rbkind_ui_tournament_win
 0x15a28f7e8f,rbkind_ui_watch_fight
 0x0eea0633ba,rbkind_vernier
 0x0f318be2ac,rbkind_vernier2
@@ -44004,6 +44025,7 @@
 0x0d50800064,s_swordstrap1
 0x0dc98951de,s_swordstrap2
 0x0e1f9e87eb,s_sys_all_hide
+0x1387900800,s_sys_in_transition
 0x148d06e7bf,s_sys_screen_capture
 0x0f08c86fb3,s_sys_stageedit
 0x19055f6b48,s_sys_stageedit_invisible
