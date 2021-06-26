@@ -5223,6 +5223,7 @@ effect_entryopen
 effect_entryr
 effect_entryrnana
 effect_epilogue
+effect_eraseattackeffect
 effect_escape
 effect_escapeair
 effect_escapeairbatwithin
@@ -7592,6 +7593,8 @@ effect_specialhiclownfall
 effect_specialhicommand
 effect_specialhicut
 effect_specialhidamageend
+effect_specialhidetachwing
+effect_specialhidispsword
 effect_specialhidownboundd
 effect_specialhidownboundu
 effect_specialhidragon
@@ -7689,6 +7692,7 @@ effect_speciallw1loop
 effect_speciallw2
 effect_speciallw20
 effect_speciallw21
+effect_speciallw2autokick
 effect_speciallw2kicklanding
 effect_speciallw2landing
 effect_speciallw2start
@@ -9303,6 +9307,7 @@ expression_clungthrownattackdiddy
 expression_clungthrownattackdiddydx
 expression_clungthrownjumpdiddy
 expression_clungthrownjumpdiddydx
+expression_createappealcbox
 expression_daisyspecialairn
 expression_daisyspecialairnhit
 expression_daisyspecialairnturn
@@ -11120,6 +11125,7 @@ expression_speciallw3end
 expression_speciallw3endair
 expression_speciallw3hit
 expression_speciallw3throw
+expression_speciallw3wallend
 expression_speciallw4
 expression_speciallw5
 expression_speciallw6
@@ -21460,6 +21466,7 @@ game_specialairswalkturn
 game_specialairswall
 game_specialairswallclash
 game_specialairsweak
+game_specialdownboundhiattack
 game_specialf
 game_specialfhi
 game_specialflw
@@ -21927,6 +21934,10 @@ game_specialsattackbothsub
 game_specialsattackcouplesub
 game_specialsattackf
 game_specialsattacklanding
+game_specialsattacksinglebsub
+game_specialsattacksinglebsub_nana
+game_specialsattacksinglefsub
+game_specialsattacksinglefsub_nana
 game_specialsaway
 game_specialsbattack
 game_specialsbattackw
@@ -26540,6 +26551,8 @@ sound_buddyspecialnfire
 sound_buddyspecialnfire2
 sound_buddyspecialnjump
 sound_buddyspecialnjumpaerialf1
+sound_buddyspecialnmissilefailure
+sound_buddyspecialnmissilesuccess
 sound_buddyspecialnshootupperfire
 sound_buddyspecialnshootupperwait
 sound_buddyspecialnstart
@@ -29790,6 +29803,7 @@ sound_specialnmaxdash
 sound_specialnmaxdashend
 sound_specialnmaxdashturn
 sound_specialnmaxshot
+sound_specialnmissilefailure
 sound_specialnopen
 sound_specialnopenwait
 sound_specialnrandomlanding
