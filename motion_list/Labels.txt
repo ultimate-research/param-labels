@@ -18190,6 +18190,7 @@ game_attackhi4hold
 game_attackhi4l
 game_attackhi4landing
 game_attackhi4r
+game_attackhi4transform
 game_attackhi4wait
 game_attackhidantai
 game_attackhidantailanding
@@ -18314,6 +18315,7 @@ game_attacklw4
 game_attacklw4charge
 game_attacklw4hit
 game_attacklw4hold
+game_attacklw4transform
 game_attacklw4wait
 game_attackmax
 game_attackmiddle
@@ -18395,6 +18397,7 @@ game_attacks4slanding
 game_attacks4slandingdeath
 game_attacks4start
 game_attacks4swait
+game_attacks4transform
 game_attackshoot
 game_attackshootair
 game_attackshort
@@ -18669,6 +18672,7 @@ game_catchairreturn
 game_catchattack
 game_catchattackbig
 game_catchattacksub
+game_catchcommand
 game_catchcut
 game_catchcutsub
 game_catchdash
@@ -19449,6 +19453,7 @@ game_flash2
 game_flashhit1
 game_flashhit2
 game_flashing
+game_flashpunch
 game_flight
 game_flight_adventure
 game_float
@@ -19456,12 +19461,18 @@ game_flow
 game_flushend
 game_flutter
 game_fly
+game_flyairhi
+game_flyairlw
+game_flyairn
 game_flycopy
 game_flyend
 game_flyflickl
 game_flyflickr
+game_flyhi
 game_flyl
+game_flylw
 game_flymax
+game_flyn
 game_flyout
 game_flyouthoming
 game_flyoutsign
@@ -21275,6 +21286,7 @@ game_specialairnfires
 game_specialairnfireu
 game_specialairnfood
 game_specialairnhand
+game_specialairnhi
 game_specialairnhit
 game_specialairnhitend
 game_specialairnhitos
@@ -21518,6 +21530,7 @@ game_specialhifailure
 game_specialhifall
 game_specialhifallb
 game_specialhifallf
+game_specialhiground
 game_specialhihit
 game_specialhihitpose
 game_specialhihold
@@ -21811,6 +21824,7 @@ game_specialnflipstartk
 game_specialnfly
 game_specialnfood
 game_specialnhand
+game_specialnhi
 game_specialnhit
 game_specialnhitos
 game_specialnhold
@@ -21827,6 +21841,7 @@ game_specialnlarge
 game_specialnloop
 game_specialnloopf
 game_specialnlooph
+game_specialnlw
 game_specialnmax
 game_specialnmaxdash
 game_specialnmaxdashend
@@ -22287,6 +22302,7 @@ game_throw2
 game_throwb
 game_throwbnana
 game_throwbsub
+game_throwcommand
 game_throwed
 game_throwf
 game_throwfb
@@ -27411,11 +27427,17 @@ sound_flow
 sound_flushend
 sound_flutter
 sound_fly
+sound_flyairhi
+sound_flyairlw
+sound_flyairn
 sound_flycopy
 sound_flyend
 sound_flyflickl
+sound_flyhi
 sound_flyl
+sound_flylw
 sound_flymax
+sound_flyn
 sound_flyout
 sound_flyouthoming
 sound_flyoutsign
