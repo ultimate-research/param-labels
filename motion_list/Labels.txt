@@ -5530,6 +5530,7 @@ effect_flash2
 effect_flashhit1
 effect_flashhit2
 effect_flashing
+effect_flashpunch
 effect_flight
 effect_flight_adventure
 effect_float
@@ -7904,6 +7905,7 @@ effect_specialnflipstartk
 effect_specialnfly
 effect_specialnfood
 effect_specialnhand
+effect_specialnhi
 effect_specialnhit
 effect_specialnhitos
 effect_specialnhold
@@ -7920,6 +7922,7 @@ effect_specialnlarge
 effect_specialnloop
 effect_specialnloopf
 effect_specialnlooph
+effect_specialnlw
 effect_specialnmax
 effect_specialnmaxdash
 effect_specialnmaxdashend
@@ -9636,6 +9639,7 @@ expression_firebarswing3
 expression_firebarswing4
 expression_firebarswing4charge
 expression_firebarswingdash
+expression_flashpunch
 expression_foxspecialairnend
 expression_foxspecialairnloop
 expression_foxspecialairnstart
@@ -11315,6 +11319,7 @@ expression_specialnfires
 expression_specialnfireu
 expression_specialnfood
 expression_specialnhand
+expression_specialnhi
 expression_specialnhit
 expression_specialnhitos
 expression_specialnhold
@@ -11331,6 +11336,7 @@ expression_specialnlarge
 expression_specialnloop
 expression_specialnloopf
 expression_specialnlooph
+expression_specialnlw
 expression_specialnmax
 expression_specialnmaxdash
 expression_specialnmaxdashend
@@ -27420,6 +27426,7 @@ sound_flash2
 sound_flashhit1
 sound_flashhit2
 sound_flashing
+sound_flashpunch
 sound_flight
 sound_flight_adventure
 sound_float
@@ -29804,6 +29811,7 @@ sound_specialnflipstartk
 sound_specialnfly
 sound_specialnfood
 sound_specialnhand
+sound_specialnhi
 sound_specialnhit
 sound_specialnhitos
 sound_specialnhold
@@ -29820,6 +29828,7 @@ sound_specialnlarge
 sound_specialnloop
 sound_specialnloopf
 sound_specialnlooph
+sound_specialnlw
 sound_specialnmax
 sound_specialnmaxdash
 sound_specialnmaxdashend
