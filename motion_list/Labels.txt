@@ -4747,6 +4747,7 @@ effect_catchairreturn
 effect_catchattack
 effect_catchattackbig
 effect_catchattacksub
+effect_catchcommand
 effect_catchcut
 effect_catchcutsub
 effect_catchdash
@@ -5025,6 +5026,12 @@ effect_dededespecialnswallowwait
 effect_default
 effect_deflection
 effect_demo
+effect_demonspecialairnhi
+effect_demonspecialairnlw
+effect_demonspecialairnstart
+effect_demonspecialnhi
+effect_demonspecialnlw
+effect_demonspecialnstart
 effect_demowait
 effect_destroy
 effect_detach
@@ -7365,6 +7372,7 @@ effect_specialairnfires
 effect_specialairnfireu
 effect_specialairnfood
 effect_specialairnhand
+effect_specialairnhi
 effect_specialairnhit
 effect_specialairnhitend
 effect_specialairnhitos
@@ -7379,6 +7387,7 @@ effect_specialairnlarge
 effect_specialairnloop
 effect_specialairnloopf
 effect_specialairnlooph
+effect_specialairnlw
 effect_specialairnmax
 effect_specialairnmaxdash
 effect_specialairnmaxdashend
@@ -8377,6 +8386,7 @@ effect_throw2
 effect_throwb
 effect_throwbnana
 effect_throwbsub
+effect_throwcommand
 effect_throwed
 effect_throwf
 effect_throwfb
@@ -9245,6 +9255,7 @@ expression_catchairend
 expression_catchairreturn
 expression_catchattack
 expression_catchattackbig
+expression_catchcommand
 expression_catchcut
 expression_catchdash
 expression_catchdashend
@@ -9384,6 +9395,12 @@ expression_dededespecialnspit
 expression_dededespecialnstart
 expression_dededespecialnswallow
 expression_dededespecialnswallowwait
+expression_demonspecialairnhi
+expression_demonspecialairnlw
+expression_demonspecialairnstart
+expression_demonspecialnhi
+expression_demonspecialnlw
+expression_demonspecialnstart
 expression_diddyspecialairnblow
 expression_diddyspecialairncharge
 expression_diddyspecialairndanger
@@ -10825,6 +10842,7 @@ expression_specialairnfires
 expression_specialairnfireu
 expression_specialairnfood
 expression_specialairnhand
+expression_specialairnhi
 expression_specialairnhit
 expression_specialairnhitend
 expression_specialairnhitos
@@ -10839,6 +10857,7 @@ expression_specialairnlarge
 expression_specialairnloop
 expression_specialairnloopf
 expression_specialairnlooph
+expression_specialairnlw
 expression_specialairnmax
 expression_specialairnmaxdash
 expression_specialairnmaxdashend
@@ -11622,6 +11641,7 @@ expression_tantanspecialnend
 expression_tantanspecialnstart
 expression_throwb
 expression_throwbnana
+expression_throwcommand
 expression_throwf
 expression_throwfb
 expression_throwff
@@ -26644,6 +26664,7 @@ sound_catchairreturn
 sound_catchattack
 sound_catchattackbig
 sound_catchattacksub
+sound_catchcommand
 sound_catchcut
 sound_catchcutsub
 sound_catchdash
@@ -26922,6 +26943,12 @@ sound_dededespecialnswallowwait
 sound_default
 sound_deflection
 sound_demo
+sound_demonspecialairnhi
+sound_demonspecialairnlw
+sound_demonspecialairnstart
+sound_demonspecialnhi
+sound_demonspecialnlw
+sound_demonspecialnstart
 sound_demowait
 sound_destroy
 sound_detach
@@ -29269,6 +29296,7 @@ sound_specialairnfires
 sound_specialairnfireu
 sound_specialairnfood
 sound_specialairnhand
+sound_specialairnhi
 sound_specialairnhit
 sound_specialairnhitend
 sound_specialairnhitos
@@ -29283,6 +29311,7 @@ sound_specialairnlarge
 sound_specialairnloop
 sound_specialairnloopf
 sound_specialairnlooph
+sound_specialairnlw
 sound_specialairnmax
 sound_specialairnmaxdash
 sound_specialairnmaxdashend
@@ -30279,6 +30308,7 @@ sound_throw2
 sound_throwb
 sound_throwbnana
 sound_throwbsub
+sound_throwcommand
 sound_throwed
 sound_throwf
 sound_throwfb
