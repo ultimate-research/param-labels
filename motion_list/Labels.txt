@@ -481,6 +481,7 @@ attack_air_n
 attack_air_n_end
 attack_air_n_hold
 attack_air_n_start
+attack_air_rage_drive
 attack_axe
 attack_b
 attack_beam_end
@@ -781,6 +782,10 @@ attack_punch1r_end
 attack_punch1r_main
 attack_punch1r_start
 attack_r
+attack_rage_drive
+attack_rage_drive_catch
+attack_rage_drive_fall
+attack_rage_drive_ground
 attack_renkantai
 attack_rimon_chochu
 attack_rolling2_air_end
