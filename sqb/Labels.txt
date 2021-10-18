@@ -830,6 +830,10 @@ seq_pikachu_rnd_futtobi01
 seq_pikachu_rnd_futtobi02
 seq_pikachu_rnd_jump
 seq_pikachu_rnd_ottotto
+seq_pikmin_rnd_attack
+seq_pikmin_rnd_futtobi01
+seq_pikmin_rnd_futtobi02
+seq_pikmin_rnd_ottotto
 seq_pilotwings_plane
 seq_pilotwings_plane_gimmickoff
 seq_pilotwings_ring
