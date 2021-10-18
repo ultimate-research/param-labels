@@ -4414,6 +4414,10 @@ effect_attackpunch1rend
 effect_attackpunch1rmain
 effect_attackpunch1rstart
 effect_attackr
+effect_attackragedrive
+effect_attackragedrivecatch
+effect_attackragedrivefall
+effect_attackragedriveground
 effect_attackrenkantai
 effect_attackrimonchochu
 effect_attackrolling2end
@@ -9097,6 +9101,9 @@ expression_attacklw4
 expression_attacklw4charge
 expression_attacklw4hit
 expression_attacknearw
+expression_attackragedrive
+expression_attackragedrivecatch
+expression_attackragedrivefall
 expression_attacks3
 expression_attacks32
 expression_attacks33
@@ -18158,6 +18165,7 @@ game_attackairn
 game_attackairnend
 game_attackairnhold
 game_attackairnstart
+game_attackairragedrive
 game_attackaxe
 game_attackb
 game_attackbeamend
@@ -18366,6 +18374,10 @@ game_attackpunch1rend
 game_attackpunch1rmain
 game_attackpunch1rstart
 game_attackr
+game_attackragedrive
+game_attackragedrivecatch
+game_attackragedrivefall
+game_attackragedriveground
 game_attackrenkantai
 game_attackrimonchochu
 game_attackrolling2end
@@ -26329,6 +26341,9 @@ sound_attackpunch1rend
 sound_attackpunch1rmain
 sound_attackpunch1rstart
 sound_attackr
+sound_attackragedrive
+sound_attackragedrivecatch
+sound_attackragedriveground
 sound_attackrenkantai
 sound_attackrimonchochu
 sound_attackrolling2end
