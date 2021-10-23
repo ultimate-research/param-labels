@@ -38282,6 +38282,8 @@
 0x0c9368c245,rbkind_80_vs
 0x10588ca9de,rbkind_81_aerial
 0x11398eff5c,rbkind_81_attackl
+0x1278312d2d,rbkind_81_attackl2
+0x147b902291,rbkind_81_dashattack
 0x0d7687e5da,rbkind_aerial
 0x1183450319,rbkind_aerial_esp
 0x0dac2da2ad,rbkind_attack
