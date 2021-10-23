@@ -4129,6 +4129,9 @@ effect_angerstart
 effect_appeal
 effect_appealend
 effect_appealhi
+effect_appealhi1
+effect_appealhi2
+effect_appealhi3
 effect_appealhil
 effect_appealhir
 effect_appeallw
@@ -5324,9 +5327,11 @@ effect_falcospecialnloop
 effect_falcospecialnstart
 effect_fall
 effect_fallaerial
+effect_fallair
 effect_fallen
 effect_fallendestruct
 effect_fallexplosion
+effect_falllast
 effect_fallspecial
 effect_fallspecialb
 effect_fallspecialf
@@ -5552,6 +5557,7 @@ effect_fireshotloop
 effect_fireshotstart
 effect_firstappear
 effect_fish
+effect_fix
 effect_fixedartilleryend
 effect_fixedartilleryloop
 effect_fixedartillerystart
@@ -5574,11 +5580,13 @@ effect_flow
 effect_flushend
 effect_flutter
 effect_fly
+effect_fly2
 effect_flycopy
 effect_flyend
 effect_flyflickl
 effect_flyflickr
 effect_flyl
+effect_flylast
 effect_flymax
 effect_flyout
 effect_flyouthoming
@@ -8947,6 +8955,9 @@ expression_aircatchhitloop
 expression_aircatchlanding
 expression_aircatchpose
 expression_appealend
+expression_appealhi1
+expression_appealhi2
+expression_appealhi3
 expression_appealhil
 expression_appealhir
 expression_appeallwl
@@ -19280,9 +19291,11 @@ game_falcospecialnloop
 game_falcospecialnstart
 game_fall
 game_fallaerial
+game_fallair
 game_fallen
 game_fallendestruct
 game_fallexplosion
+game_falllast
 game_fallspecial
 game_fallspecialb
 game_fallspecialf
@@ -19524,6 +19537,7 @@ game_flow
 game_flushend
 game_flutter
 game_fly
+game_fly2
 game_flyairhi
 game_flyairlw
 game_flyairn
@@ -19533,6 +19547,7 @@ game_flyflickl
 game_flyflickr
 game_flyhi
 game_flyl
+game_flylast
 game_flylw
 game_flymax
 game_flyn
@@ -19746,6 +19761,8 @@ game_highkickair
 game_hippataku
 game_hippatakuhold
 game_hit
+game_hit2
+game_hit3
 game_hit_lb
 game_hitair
 game_hitair_lb
@@ -26059,6 +26076,9 @@ sound_angerstart
 sound_appeal
 sound_appealend
 sound_appealhi
+sound_appealhi1
+sound_appealhi2
+sound_appealhi3
 sound_appealhil
 sound_appealhir
 sound_appeallw
@@ -27252,9 +27272,11 @@ sound_falcospecialnloop
 sound_falcospecialnstart
 sound_fall
 sound_fallaerial
+sound_fallair
 sound_fallen
 sound_fallendestruct
 sound_fallexplosion
+sound_falllast
 sound_fallspecial
 sound_fallspecialb
 sound_fallspecialf
@@ -27501,6 +27523,7 @@ sound_flow
 sound_flushend
 sound_flutter
 sound_fly
+sound_fly2
 sound_flyairhi
 sound_flyairlw
 sound_flyairn
@@ -27509,6 +27532,7 @@ sound_flyend
 sound_flyflickl
 sound_flyhi
 sound_flyl
+sound_flylast
 sound_flylw
 sound_flymax
 sound_flyn

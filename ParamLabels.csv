@@ -38280,6 +38280,8 @@
 0x150022a581,rbkind_80_spbeam_hit2
 0x1622808947,rbkind_80_special_jump
 0x0c9368c245,rbkind_80_vs
+0x10588ca9de,rbkind_81_aerial
+0x11398eff5c,rbkind_81_attackl
 0x0d7687e5da,rbkind_aerial
 0x1183450319,rbkind_aerial_esp
 0x0dac2da2ad,rbkind_attack
@@ -66788,10 +66790,12 @@
 0x0889a7abb2,trail_04
 0x0abb33d693,trail_aqua
 0x0a809183f0,trail_axel
+0x099f4d1dc9,trail_box
 0x0c923bbe46,trail_castle
 0x0fa9631da4,trail_castle_01
 0x0f306a4c1e,trail_castle_02
 0x0f476d7c88,trail_castle_03
+0x0c70fe83b4,trail_flower
 0x0be1ab93e1,trail_kairi
 0x0a25313788,trail_riku
 0x0beded608e,trail_roxas
