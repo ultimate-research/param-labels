@@ -4112,6 +4112,13 @@
 0x132fece682,blaster_shoot_speed
 0x0f41916563,blaster_shoot_x
 0x0f369655f5,blaster_shoot_y
+0x0c9861b411,blasterchest
+0x0d02e6d338,blasterwingl1
+0x0d9bef8282,blasterwingl2
+0x0dece8b214,blasterwingl3
+0x0dd6a7ece7,blasterwingr1
+0x0d4faebd5d,blasterwingr2
+0x0d38a98dcb,blasterwingr3
 0x09a274de51,blastoise
 0x08108b291b,blathers
 0x0df963754a,blaze_the_cat
@@ -5830,6 +5837,7 @@
 0x0b59bfca66,cage_length
 0x0b5f0f0195,cage_weight
 0x0703d6cf75,cakram1
+0x079adf9ecf,cakram2
 0x1095bf4e98,calciobit_player
 0x07d9274c09,calista
 0x0bd410854e,call_damage
