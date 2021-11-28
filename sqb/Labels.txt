@@ -490,6 +490,13 @@ seq_donkey_rnd_futtobi02
 seq_donkey_rnd_jump
 seq_donkey_rnd_ottotto
 seq_dracula
+seq_dth_picture1
+seq_dth_picture2
+seq_dth_picture3
+seq_dth_picture4
+seq_dth_picture5
+seq_dth_picture6
+seq_dth_picture7
 seq_duckhunt_rnd_attack_dog
 seq_duckhunt_rnd_attack_duck
 seq_duckhunt_rnd_futtobi01
