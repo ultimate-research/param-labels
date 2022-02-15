@@ -811,6 +811,7 @@
 0x08e88733eb,air_flap
 0x11614fd43a,air_flick_speed_x
 0x111648e4ac,air_flick_speed_y
+0x0997408a29,air_frame
 0x078d509d84,air_get
 0x0b420d274e,air_gravity
 0x1682a194a7,air_ground_speed_brake
@@ -2565,6 +2566,7 @@
 0x181cdf41c5,attack_turn_3way_speed_x
 0x186bd87153,attack_turn_3way_speed_y
 0x1bbad2a40e,attack_turn_3way_wait_frame
+0x1154de6755,attack_turn_frame
 0x132497e971,attack_turn_percent
 0x0b7bc596c4,attack_type
 0x1a8430255f,attack_up_attack_power_mul
@@ -3716,6 +3718,7 @@
 0x0f533eb1fb,bg_criticalhit2
 0x0e238f8441,bg_daisy_final
 0x0f64aee12e,bg_dedede_final
+0x0efee5f313,bg_demon_final
 0x0eb7691bd0,bg_diddy_final
 0x0ed24ad23a,bg_dolly_final
 0x0f353504d5,bg_donkey_final
@@ -3724,6 +3727,8 @@
 0x111c61915e,bg_duckhunt_final
 0x0d34994177,bg_edge_final
 0x114b10907f,bg_edge_final_end
+0x10daef3d91,bg_eelight_final
+0x119d07f2e2,bg_eelight_final2
 0x0fcf17053a,bg_effect_test1
 0x0f379dc193,bg_eflame_final
 0x1073e4e132,bg_eflame_final2
@@ -3908,6 +3913,7 @@
 0x0878df6f96,bg_test4
 0x11525f7135,bg_toonlink_final
 0x1779120358,bg_toonlink_final_start
+0x0e22a546f3,bg_trail_final
 0x0dd05bb0ae,bg_wait_frame
 0x0ed37b7e30,bg_wario_final
 0x0f3cdff5df,bg_wario_final2
@@ -5228,6 +5234,7 @@
 0x05760b5db7,broom
 0x0febbbac1d,broque_monsieur
 0x0ccdf49180,brow_away_up
+0x124c670e8e,brow_away_up_param
 0x06dd81014c,browl1
 0x0609c03e93,browr1
 0x05c5d4bc2f,bruce
@@ -11652,6 +11659,9 @@
 0x0c495bfa96,demon_panda2
 0x0aa7b9168a,demon_paul
 0x0ea69ae6f2,demon_paul_law
+0x0a0c981676,demon_rage
+0x0ba3bff212,demon_rage2
+0x12a6ec2079,demon_ragedrive_bg
 0x10240159eb,demon_yoshimitsu
 0x05631d0a80,denim
 0x07c0a86afa,density
@@ -11683,6 +11693,7 @@
 0x064dfd532f,dest_y
 0x077c4a867b,destroy
 0x06d3845300,detach
+0x0cad87cf4f,detach_frame
 0x1287da2973,detach_speed_x_mul
 0x0e60c14dea,detach_speed_y
 0x164fe1253f,detach_wall_jump_x_mul
@@ -13417,6 +13428,7 @@
 0x15b7fdbd2d,effect_bgcriticalhit2
 0x1345662d1e,effect_bgdaisyfinal
 0x140fd4ff89,effect_bgdededefinal
+0x13226db671,effect_bgdemonfinal
 0x13c7c23897,effect_bgdiddyfinal
 0x1354d214cf,effect_bgdollyfinal
 0x144a313eb8,effect_bgdonkeyfinal
@@ -13425,6 +13437,8 @@
 0x157b3a2b6b,effect_bgedgefinalend
 0x148f67727b,effect_bgeflamefinal
 0x15dd8d71cb,effect_bgeflamefinal2
+0x148e0f50e3,effect_bgelightfinal
+0x152358029f,effect_bgelightfinal2
 0x12a5d340ae,effect_bgfinishhit
 0x14faa0f748,effect_bgfinishhithp
 0x1700d93b0e,effect_bggamewatchfinal
@@ -13520,6 +13534,7 @@
 0x0ebf841f0c,effect_bgtest4
 0x165f997b42,effect_bgtoonlinkfinal
 0x1bce95bbdf,effect_bgtoonlinkfinalstart
+0x13b4d5995f,effect_bgtrailfinal
 0x13be0f188e,effect_bgwariofinal
 0x14106b1f32,effect_bgwariofinal2
 0x14f461ed87,effect_bgwiifitfinal
@@ -13556,6 +13571,9 @@
 0x10452213be,effect_damagesub
 0x12e9abfc7b,effect_delay_frame
 0x132323dbcb,effect_delay_length
+0x10c28ee30d,effect_demonrage
+0x1164a64c53,effect_demonrage2
+0x124969e020,effect_demonragebg
 0x156ae31570,effect_distance_burst
 0x1326d54e98,effect_distance_max
 0x1783499871,effect_edgefire3screen1
@@ -13588,6 +13606,7 @@
 0x1185cfd6cc,effect_firehitm_l
 0x0f73b43e3d,effect_firehits
 0x11937758b6,effect_firehits_l
+0x0fe318afba,effect_fistdown
 0x157bc90414,effect_furafuracommon
 0x1731d3e79f,effect_gamermotherlight
 0x1351b7ab58,effect_glare_ratio0
@@ -14254,6 +14273,7 @@
 0x0967bd7a8e,end_brake
 0x0f0a981675,end_brake_frame
 0x0b37f4e030,end_brake_x
+0x0f60af08b6,end_brake_x_air
 0x0fda4b6563,end_brave_altar
 0x1012a523c7,end_buddy_spiral
 0x122d5bd7dc,end_changed_deccel
@@ -14301,6 +14321,9 @@
 0x0d98715808,end_fox_venom
 0x09c4677bc8,end_frame
 0x0a8fae93f4,end_frame2
+0x0be9d062cb,end_frame_1
+0x0b70d93371,end_frame_2
+0x0b07de03e7,end_frame_3
 0x1d140d59fe,end_frame_from_stop_add_speed
 0x118e058ff5,end_frame_in_rise
 0x117a6a8eda,end_frame_in_tour
@@ -14421,6 +14444,7 @@
 0x109d91edb1,end_speed_rate_x
 0x10ea96dd27,end_speed_rate_y
 0x0ff0511250,end_speed_x_mul
+0x0bd80f5d13,end_speed_y
 0x0fcd313be0,end_speed_y_mul
 0x10350db8a4,end_spla_parking
 0x0bdf5eda73,end_stick_x
@@ -14519,6 +14543,9 @@
 0x0accc73f16,enemy_easy
 0x168a11b92a,enemy_grab_param_table
 0x0c744942b8,enemy_groups
+0x151b620dce,enemy_guard_cp_lv_add
+0x16f92d872c,enemy_guard_sp_atk_mul
+0x169b0fbd04,enemy_guard_sp_def_mul
 0x15251ad7c5,enemy_hit_param_table
 0x16f1fe92e5,enemy_hit_param_table2
 0x115d0cd772,enemy_jump_down_l
@@ -14534,6 +14561,13 @@
 0x07cc853ac2,enemy_l
 0x17e05f26f9,enemy_leave_param_table
 0x07bb820a54,enemy_m
+0x14dd7ae0cd,enemy_main_cp_lv_add
+0x1560e2ce7b,enemy_main_sp_atk_mul
+0x19a475f8a3,enemy_main_sp_atk_mul_lv8
+0x19d372c835,enemy_main_sp_atk_mul_lv9
+0x1502c0f453,enemy_main_sp_def_mul
+0x19ec015960,enemy_main_sp_def_mul_lv8
+0x199b0669f6,enemy_main_sp_def_mul_lv9
 0x095de37bdb,enemy_max
 0x115e753033,enemy_move_down_l
 0x11297200a5,enemy_move_down_m
@@ -18815,6 +18849,7 @@
 0x07e5ded3d7,fishrod
 0x0be92f4dd9,fishrodcast
 0x042b75187c,fist
+0x09cc1fc54c,fist_down
 0x065217c6ad,fist_r
 0x0359fa4760,fix
 0x0aef457763,fix_camera
@@ -19770,6 +19805,8 @@
 0x0d115a88f4,friction_rate
 0x0c45d474b4,frictionrate
 0x10f42580a6,friend_cp_lv_add
+0x11baab29cb,friend_sp_atk_mul
+0x11d88913e3,friend_sp_def_mul
 0x0b16a48bc9,friend_type
 0x08145b2410,frillard
 0x1547e66bc9,frog_air_jump_speed_x
@@ -20378,6 +20415,7 @@
 0x0ee355ee25,general_pepper
 0x209d171e97,generate_continuous_forbid_frame
 0x0f0c69bb20,generate_diff_x
+0x0e0da5fd97,generate_frame
 0x0c2cca0b83,generate_max
 0x1ec0bb916a,generate_pickelobject_offset_x
 0x1eb7bca1fc,generate_pickelobject_offset_y
@@ -23931,6 +23969,7 @@
 0x07597d02bf,ice_man
 0x085699c32b,ice_node
 0x0e3ef8866f,ice_offense_up
+0x0c20b2e3e4,ice_offset_x
 0x0c57b5d372,ice_offset_y
 0x0ccebc82c8,ice_offset_z
 0x0a6cbe02d5,ice_radius
@@ -26437,6 +26476,7 @@
 0x0670f056af,ironr1
 0x06e9f90715,ironr2
 0x08c636115a,ironsuit
+0x10359e17b0,is_8player_stage
 0x1115e9b9f4,is_animation_loop
 0x0e38ff8775,is_apply_alpha
 0x0fd66d3ef3,is_apply_easing
@@ -33754,6 +33794,7 @@
 0x0ca45ef511,multi_p4_mul
 0x11fe31148c,multi_play_hp_mul
 0x14cc61a9f3,multi_play_power_mul
+0x162d984e18,multi_skill_damage_mul
 0x1aa6d0f272,multiplay_enemy_damage_mul
 0x1b5bd2ff06,multiplay_player_damage_mul
 0x1dab130fe9,mumbojumbo_effect_delay_frame
@@ -38931,15 +38972,19 @@
 0x142f28bfb2,rebirth_wait_frame_7
 0x07dd8e0a3e,rebound
 0x12fe1e4c50,rebound_angle_rate
+0x1015a85af3,rebound_approach
 0x1413e10ac5,rebound_attack_speed
 0x0df3f6b1e9,rebound_count
 0x1033e84637,rebound_distance
+0x14e08112eb,rebound_distance_max
+0x14dc8c2db2,rebound_distance_min
 0x1801688942,rebound_effect_scale_max
 0x245bd925cb,rebound_effect_scale_max_attack_size
 0x183d65b61b,rebound_effect_scale_min
 0x247c6242fa,rebound_effect_scale_min_attack_size
 0x0dc3d7c946,rebound_frame
 0x0f4fbd149b,rebound_gravity
+0x0e8f519052,rebound_height
 0x124c658c8c,rebound_power_diff
 0x1473c61798,rebound_reaction_add
 0x1413aa46f6,rebound_reaction_max
@@ -39991,6 +40036,7 @@
 0x07a68085aa,right_c
 0x0738e41009,right_d
 0x0f22d64d91,right_end_frame
+0x0b4d12a7cd,right_frame
 0x17e38b7e97,right_ground_move_frame
 0x0a736f28fc,right_half
 0x0d8ed56637,right_limit_x
@@ -53022,10 +53068,15 @@
 0x0f649b0b59,seal_init_scale
 0x0a6feb7c09,seal_scale
 0x06b4f0dba7,search
+0x0c34b486e0,search_angle
 0x1446675d00,search_area_center_x
 0x1431606d96,search_area_center_y
 0x12e8af8913,search_area_height
 0x11d9663d3f,search_area_width
+0x100f9d0521,search_brake_air
+0x0e2fea5e43,search_brake_x
+0x12145d2880,search_cursor_dist
+0x16ee6fe522,search_cursor_offset_y
 0x0bf6e9e60a,search_data
 0x1737087661,search_detect_add_speed
 0x1b47eb93d8,search_detect_add_speed_mul
@@ -53034,6 +53085,7 @@
 0x0c81cdff24,search_frame
 0x10a53e2d42,search_frame_max
 0x109933121b,search_frame_min
+0x14c6deb55d,search_inherit_speed
 0x0f0991447e,search_interval
 0x133de8ca3f,search_interval_max
 0x1301e5f566,search_interval_min
@@ -53050,6 +53102,7 @@
 0x0e72f7aa47,search_range_y
 0x0bacda3103,search_size
 0x12c1d971d8,search_skill_bonus
+0x0c7b8ee93b,search_stick
 0x25d00aa04a,search_target_bonus_per_assist_ground
 0x1e7b2c10fb,search_target_bonus_per_damage
 0x1dcf28af93,search_target_bonus_per_handi
@@ -55277,6 +55330,9 @@
 0x1aa533bb2b,shake_kind_on_powered_rail
 0x120b6b3d90,shake_kind_on_wall
 0x0aed4c39e7,shake_king
+0x09c350f42a,shake_max
+0x09ff5dcb73,shake_min
+0x09f724f702,shake_mul
 0x12dc09fb78,shake_rate_mul_max
 0x12e004c421,shake_rate_mul_min
 0x0b06dce369,shake_scale
@@ -55379,6 +55435,7 @@
 0x0b6a44a3a7,sheriffshot
 0x061e93d2e8,shield
 0x16dfaf4503,shield_air_speed_x_mul
+0x11efe42139,shield_attack_mul
 0x175e9e3a70,shield_attack_power_mul
 0x1708ac3340,shield_attack_range_mul
 0x1b5d407c09,shield_attack_range_mul_min
@@ -55424,6 +55481,8 @@
 0x1114f1d9e0,shield_just_frame
 0x0bd90c08b8,shield_kind
 0x0db4e3690b,shield_knight
+0x0fbaf0882e,shield_life_mul
+0x0c45c1711a,shield_limit
 0x1120016148,shield_lost_frame
 0x0d9de36c6d,shield_master
 0x1a3bf19a48,shield_master_shield_frame
@@ -55435,10 +55494,13 @@
 0x0b9d58b4ae,shield_none
 0x0d916fa75f,shield_normal
 0x0fd4470569,shield_offset_x
+0x10b766714e,shield_offset_x1
 0x102e6f20f4,shield_offset_x2
 0x0fa34035ff,shield_offset_y
+0x10ae7d400f,shield_offset_y1
 0x10377411b5,shield_offset_y2
 0x0f3a496445,shield_offset_z
+0x10855013cc,shield_offset_z1
 0x101c594276,shield_offset_z2
 0x0f9af8a7ca,shield_parts_no
 0x1896d092cb,shield_pattern_power_mul
@@ -66762,6 +66824,7 @@
 0x176ee40c8c,threshold_to_break_down
 0x133ee6848d,through_check_frame
 0x0d8b84a2e1,through_frame
+0x0e339b8ecf,through_length
 0x1fc3b94fb7,through_passable_ground_stick_y
 0x0f159c7c83,through_per_add
 0x108a83dd2f,through_per_base
@@ -82690,6 +82753,7 @@
 0x154a258d3e,very_easy_damage_rate
 0x1001289d47,very_easy_hp_mul
 0x13dfb15b6f,very_easy_power_mul
+0x1a95e67646,very_easy_storm_power_rate
 0x176da143de,very_easy_wait_time_mul
 0x0942dcc447,very_many
 0x0fa9f5f08d,very_many_score
