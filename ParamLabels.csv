@@ -1115,6 +1115,7 @@
 0x123a32a848,alpha_region_max_x
 0x075b8f0d82,alraune
 0x09e70e2e44,als_entry
+0x0b90fd5f38,als_prelude
 0x12518629c9,als_sound_settings
 0x0c7cb80f7c,alt_chara_id
 0x0689d4b132,altair
@@ -11057,6 +11058,7 @@
 0x1115201140,damage_rumble_lv5
 0x112d78c1e4,damage_rumble_mul
 0x0b7cde48a5,damage_rush
+0x0810b8d36c,damage_s
 0x16a5dd099c,damage_shake_add_value
 0x1036376963,damage_shake_mul
 0x16c017855a,damage_shake_mul_value
@@ -11782,12 +11784,15 @@
 0x0b0dacda8a,demon_asuka
 0x12f19f6230,demon_asuka_kazama
 0x12d1bf047d,demon_blaster_aura
+0x0dc162e766,demon_command
 0x0fe355798a,demon_devil_jin
 0x0a260fa46c,demon_dojo
+0x0bd3f1a871,demon_entry
 0x0f7c9fff05,demon_heihachi2
 0x163a5bc355,demon_heihachi_mishima
 0x18718c02a4,demon_heihachi_mishima_2
 0x0cfa9b62d9,demon_heishi
+0x0cb3f620a4,demon_impact
 0x0b1acf5f8c,demon_jack7
 0x0a2ae2161a,demon_jin1
 0x0ab3eb47a0,demon_jin2
@@ -11811,7 +11816,9 @@
 0x0ea69ae6f2,demon_paul_law
 0x0a0c981676,demon_rage
 0x0ba3bff212,demon_rage2
+0x0eab4646f0,demon_rage_end
 0x12a6ec2079,demon_ragedrive_bg
+0x101debf354,demon_special_lw
 0x144395a91d,demon_thrown_b_joint
 0x1508423847,demon_thrown_b_motion
 0x1b83c2d8cc,demon_thrown_b_motion_frame
@@ -12503,6 +12510,7 @@
 0x0cd4d624ce,down_spd_max
 0x0daefc14ea,down_spd_prov
 0x0af19c9ef1,down_speed
+0x0a61c33588,down_start
 0x10890f91ed,down_start_frame
 0x105508333b,down_start_pos_x
 0x10220f03ad,down_start_pos_y
@@ -17100,6 +17108,8 @@
 0x128ce9bd83,eye_2_flash4_pos_y
 0x1179525e2c,eye_2_flash_count
 0x0fc3b0fa05,eye_angle_limit
+0x141cb19772,eye_flash_info_pos_x
+0x146bb6a7e4,eye_flash_info_pos_y
 0x05b6fc8515,eye_l
 0x0c69e1322a,eye_offset_x
 0x0c1ee602bc,eye_offset_y
@@ -33650,6 +33660,7 @@
 0x0623c3c38c,mot_3d
 0x0f42bb0b7c,mot_max_speed_x
 0x0f8eb67073,mot_min_speed_x
+0x0caf09bf35,mot_no_trans
 0x05f4c0dbad,mot_x
 0x051aceba81,mot_z
 0x139fd40506,mother_attack_param
@@ -33994,6 +34005,8 @@
 0x0e9199870b,movement_ocean
 0x129857c005,movement_spaceship
 0x0ea1dc33b6,movement_train
+0x0cbd378271,movenearside
+0x0b7c7db7a1,moveoffside
 0x08fcc07bb2,movesp_m
 0x0de8619da3,movesp_m_last
 0x0806cf46d1,movesp_s
@@ -34626,6 +34639,7 @@
 0x056be1446c,node3
 0x05f585d1cf,node4
 0x09071073f7,node_base
+0x0ac507f390,node_edgen
 0x07460d9fd7,node_id
 0x0d824fb6e6,node_id_squat
 0x0a99d8f5fd,node_index
@@ -38749,6 +38763,9 @@
 0x1348273572,rbkind_63_batwithin
 0x10f5122f08,rbkind_63_bullet
 0x132ace367f,rbkind_63_witchtime
+0x14e97f7a87,rbkind_64_megaphone1
+0x1470762b3d,rbkind_64_megaphone2
+0x1407711bab,rbkind_64_megaphone3
 0x10b3555919,rbkind_65_breath
 0x15bcab3907,rbkind_73_bodyattack1
 0x1552a5582b,rbkind_73_bodyattack3
@@ -38756,7 +38773,21 @@
 0x132c067b8a,rbkind_73_statue_v2
 0x13c565debf,rbkind_73_statue_v4
 0x137e0f0e31,rbkind_74_powerdunk
+0x172b3c963a,rbkind_74_triplewolf_v1
+0x17b235c780,rbkind_74_triplewolf_v2
+0x17c532f716,rbkind_74_triplewolf_v3
+0x175b5662b5,rbkind_74_triplewolf_v4
+0x172c515223,rbkind_74_triplewolf_v5
+0x19741ed719,rbkind_75_beginningend_v1
+0x19ed1786a3,rbkind_75_beginningend_v2
+0x199a10b635,rbkind_75_beginningend_v3
+0x147bb0562d,rbkind_75_hold_large
+0x1941dbb069,rbkind_75_hold_largestart
+0x14579e9580,rbkind_75_hold_small
 0x149ea3405e,rbkind_75_turn_small
+0x15570afa5a,rbkind_76_armsrush_v1
+0x15ce03abe0,rbkind_76_armsrush_v2
+0x15b9049b76,rbkind_76_armsrush_v3
 0x139ac1c81b,rbkind_76_dragonarm
 0x16a5e1c52a,rbkind_76_dragonarmhit
 0x14cc97af5b,rbkind_76_dragonbeam
@@ -38790,6 +38821,8 @@
 0x13a6174f35,rbkind_78_spl_break
 0x1595ccdcc5,rbkind_78_spl_counter
 0x113ef1efc5,rbkind_78_spl_exp
+0x1345ffccb8,rbkind_78_spnova_v1
+0x13dcf69d02,rbkind_78_spnova_v2
 0x1374bca585,rbkind_78_wingstart
 0x0ee0cfe063,rbkind_79_beam
 0x1119eab1e8,rbkind_79_changef
@@ -38878,6 +38911,7 @@
 0x12feb9437f,rbkind_81_escapefb
 0x127eab2384,rbkind_81_escapega
 0x1620e10ccd,rbkind_81_landingairlw
+0x1b0ded5110,rbkind_81_landingairlwlight
 0x1291641299,rbkind_81_smash_hi
 0x18c412fb51,rbkind_81_smash_hi_nohit
 0x120f07eafe,rbkind_81_smash_lw
@@ -38900,6 +38934,8 @@
 0x18cce8a2e1,rbkind_81_special_s_hit2
 0x19b4f31413,rbkind_81_special_s_nohit
 0x190d7c67ab,rbkind_81_special_s_start
+0x187da697cd,rbkind_81_speciallw_land
+0x172059e98b,rbkind_81_specials_land
 0x0d7687e5da,rbkind_aerial
 0x1183450319,rbkind_aerial_esp
 0x0dac2da2ad,rbkind_attack
@@ -79548,6 +79584,7 @@
 0x064f5581e7,upwait
 0x132c384ab7,urban_champion_hero
 0x06853c4610,urbosa
+0x0ac5a5ec9e,usagi_life
 0x089fcc305b,usagihat
 0x1bb49e27d8,usagihat_ground_hit_speed_x
 0x1bc399174e,usagihat_ground_hit_speed_y
