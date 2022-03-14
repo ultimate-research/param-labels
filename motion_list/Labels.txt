@@ -8,7 +8,7 @@ a00damageairstop.nuanmb
 a00damagestop.nuanmb
 a00dragonend.nuanmb
 a00dragonloop.nuanmb
-a00dragonstart.nuanmba
+a00dragonstart.nuanmb
 a00dragonwait.nuanmb
 a00freewait1.nuanmb
 a00itemhandgrip.nuanmb
