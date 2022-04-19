@@ -4835,9 +4835,12 @@ effect_centipedeloop
 effect_chakramend
 effect_chakramstart
 effect_chakramstartreverse
+effect_changefire
 effect_changefront
+effect_changeice
 effect_changemiss
 effect_changestart
+effect_changethunder
 effect_charge
 effect_chargefireballlaunch
 effect_chargefireballlaunchloop
@@ -21596,6 +21599,7 @@ game_specialhi3start
 game_specialhi4
 game_specialhi_lb
 game_specialhiadd
+game_specialhiair
 game_specialhiairend
 game_specialhiairendb
 game_specialhiairendf
