@@ -5520,6 +5520,7 @@ effect_finalsurprisel
 effect_finalsurpriser
 effect_finalturn
 effect_finalvacuum
+effect_finalvisualin
 effect_finalvisualscene
 effect_finalvisualscene01
 effect_finalvisualscene02
