@@ -5,7 +5,6 @@
 0x0daa4b2506,00_ringlinner
 0x0d939746ed,00_ringrinner
 0x06558ab945,00belt
-0x0cdc31bc0b,00genid_drag
 0x07e21e3ac4,00hairb
 0x0795190a52,00hairc
 0x07e573fedd,00hairf
@@ -26,17 +25,18 @@
 0x0d65843a27,00shirttailbr
 0x0dfbe7c240,00shirttailfl
 0x0d01e8ff23,00shirttailfr
+0x0cdc31bc0b,00shirttaill
 0x0c263e8168,00shirttailr
 0x156f2bce1a,00specialnfire.nuanmb
 0x02cf412436,01
 0x0c2868ecfc,01_stoppoint
 0x13190faf0e,01attacks3hi.nuanmb
-0x0c1dbf63cb,01genid_drag
 0x09e73515e6,01mantlec
 0x09778a0877,01mantlel
 0x098d853514,01mantler
 0x0cfa074ecc,01shirttailb
 0x0cfd6a8ad5,01shirttailf
+0x0c1dbf63cb,01shirttaill
 0x0ce7b05ea8,01shirttailr
 0x025648758c,02
 0x0cb18a8afd,02_stoppoint
@@ -2599,6 +2599,8 @@
 0x09938ca1d8,attackend
 0x0fc7afc37c,attackendpreset
 0x089e356980,attacker
+0x1922632ee8,attacker_beam_attack_data
+0x1f5cfb36ae,attacker_cross_beam_attack_data
 0x10973a0919,attacker_lot_num
 0x1557d94354,attacker_lot_wait_max
 0x156bd47c0d,attacker_lot_wait_min
@@ -6322,6 +6324,7 @@
 0x0540619fa0,camus
 0x03633cbad2,can
 0x0b92a1ec5c,can_capture
+0x0e1a15f54c,can_chara_turn
 0x08693c09ec,can_demo
 0x13c98fb61d,can_flick_hop_frame
 0x10b86ca3dc,can_futtobi_back
@@ -6332,6 +6335,7 @@
 0x0dc91d80fc,can_hop_frame
 0x18a78ad9a4,can_jump_by_tantan_stage
 0x11a8c91fc5,can_landing_frame
+0x1675d97ade,can_partner_blade_turn
 0x09a84fe180,can_pause
 0x10c30f4033,can_return_speed
 0x085a351649,can_sale
@@ -7256,6 +7260,7 @@
 0x1292dd5a39,chara_7_1_offset_y
 0x0fe6bbbfc3,chara_7_1_scale
 0x14d6d4c4bf,chara_appear_db_data
+0x1181df1894,chara_back_motion
 0x0bb58144dc,chara_color
 0x1f41113fab,chara_color_correction_contrast
 0x1eb4860c4d,chara_color_correction_enabled
@@ -8103,6 +8108,8 @@
 0x045569975d,coin
 0x06205cb624,coin_e
 0x0d52da42ec,coingetoffset
+0x128dc11ce6,coingetoffsetlarge
+0x12a1efdf4b,coingetoffsetsmall
 0x0fd6361a79,coinintervalmax
 0x0fea3b2520,coinintervalmin
 0x04a4cd1feb,col0
@@ -19581,6 +19588,7 @@
 0x0c2bbe84e9,floor_models
 0x0cb217a745,floor_move_x
 0x0cc51097d3,floor_move_y
+0x164bc70526,floor_moving_intervals
 0x0acc25f876,floor_only
 0x0b76db05bf,floor_param
 0x14cb4cb2b0,floor_pattern_double
@@ -20338,6 +20346,7 @@
 0x191e54dd70,fushigibana_hitstop_frame
 0x17fcdc79f7,fushigibana_leave_frame
 0x1fb6f3026e,fushigibana_razor_leaf_interval
+0x2ab5f0396e,fushigibana_razor_leaf_lottery_probability
 0x16c6e63e74,fushigibana_wait_frame
 0x0bf8a82df5,fusion_suit
 0x0cae08cbbf,fusionsword1
@@ -20834,8 +20843,6 @@
 0x134ced92f3,genesis_shoot_frame
 0x0aa3e1fbb0,genesisset
 0x06a16d711f,gengar
-0x0a782d6f0a,genid_drag
-0x0be6141b1e,genid_dragc
 0x04efda238d,geno
 0x14a60b7a82,geo_stelar_omega_xis
 0x074a1122fb,geodude
@@ -20846,6 +20853,8 @@
 0x03bbcb9958,gfa
 0x05bdfe45dd,gfa_a
 0x0414b5fda6,gfab
+0x1750116f80,gfox_barrel_attack_data
+0x1777e11995,gfox_charge_attack_data
 0x0f48c15f45,gfox_fall_frame
 0x0f82af8be8,gfox_fall_limit
 0x0e074d46b8,gfox_fall_prob
@@ -30617,6 +30626,7 @@
 0x10c6b583fa,line_bend_length
 0x13227d15c8,line_champion_param
 0x1067327c44,line_empty_param
+0x1729d5672f,line_group_pattern_list
 0x0b7533c80f,line_length
 0x0f71611591,line_lose_param
 0x082f089c34,line_num
@@ -30717,6 +30727,12 @@
 0x045fdd5c3f,lion
 0x068e846096,lion1m
 0x06a5a93355,lion2m
+0x186d41fab8,lion_attack_data_param_0
+0x181a46ca2e,lion_attack_data_param_1
+0x18834f9b94,lion_attack_data_param_2
+0x1905a274ac,lion_attack_shape_param_0
+0x1972a5443a,lion_attack_shape_param_1
+0x19ebac1580,lion_attack_shape_param_2
 0x035ab64a84,lip
 0x05d8701311,lipd1
 0x05417942ab,lipd2
@@ -33789,7 +33805,6 @@
 0x1850d74bb4,model_type_window_static
 0x0fd6280185,model_visiblity
 0x09468b0d03,modelname
-0x1ae71e14a4,modeloutliner_mother_brain
 0x06e4d63009,models
 0x0360f363de,moe
 0x053cfb64d7,mokka
@@ -36339,6 +36354,8 @@
 0x0a12696109,particleca
 0x0a8b6030b3,particlecb
 0x07312b3e16,partner
+0x192095ad89,partner_blade_back_motion
+0x1a0a600e5c,partner_blade_point_marker
 0x16c617b089,partner_cliff_dist_mul
 0x13c58a5b63,partner_damage_face
 0x1506447776,partner_damage_face_2
@@ -38533,6 +38550,7 @@
 0x10552786f7,rail_start_ratio
 0x0e26e31a56,rail_thickness
 0x0edc1ce35f,rail_unit_cost
+0x0cefb4d583,rail_z_shift
 0x086e15f142,railflip
 0x04c4fef6da,ralf
 0x0bf63a3847,ram_accel_y
@@ -44120,19 +44138,6 @@
 0x0b77024bd3,s_footl1col
 0x082bc5e008,s_footr1
 0x0ba8d26230,s_footr1col
-0x0d4e53099f,s_genid_drag1
-0x10c65eb2f4,s_genid_drag1col
-0x0dd75a5825,s_genid_drag2
-0x10d4eb1d1a,s_genid_drag2col
-0x0da05d68b3,s_genid_drag3
-0x0e59996f3f,s_genid_draga1
-0x115730080c,s_genid_draga1col
-0x0ec0903e85,s_genid_draga2
-0x114585a7e2,s_genid_draga2col
-0x0e72b43cfc,s_genid_dragb1
-0x11109072dc,s_genid_dragb1col
-0x0e6baf0dbd,s_genid_dragc1
-0x112df05b6c,s_genid_dragc1col
 0x07b1772265,s_gp_at
 0x0827bc5cf8,s_gp_at2
 0x08b9d8c95b,s_gp_at5
@@ -45053,6 +45058,19 @@
 0x0eace8fac1,s_shirttailfr2
 0x11c35e69d6,s_shirttailfr2col
 0x0edbefca57,s_shirttailfr3
+0x0d4e53099f,s_shirttaill1
+0x10c65eb2f4,s_shirttaill1col
+0x0dd75a5825,s_shirttaill2
+0x10d4eb1d1a,s_shirttaill2col
+0x0da05d68b3,s_shirttaill3
+0x0e59996f3f,s_shirttailla1
+0x115730080c,s_shirttailla1col
+0x0ec0903e85,s_shirttailla2
+0x114585a7e2,s_shirttailla2col
+0x0e72b43cfc,s_shirttaillb1
+0x11109072dc,s_shirttaillb1col
+0x0e6baf0dbd,s_shirttaillc1
+0x112df05b6c,s_shirttaillc1col
 0x0d9a123640,s_shirttailr1
 0x10198e9b17,s_shirttailr1col
 0x0d031b67fa,s_shirttailr2
@@ -45092,6 +45110,7 @@
 0x0d196041da,s_skirtbl3col
 0x0a136a4380,s_skirtbl4
 0x0d84b77963,s_skirtbl4col
+0x0afd6422ac,s_skirtbl6
 0x0c5a1debda,s_skirtblcol
 0x0b1ca34daa,s_skirtbr01
 0x0ecd56edc0,s_skirtbr01col
@@ -45566,6 +45585,13 @@
 0x0d50837e06,sale_thursday
 0x0c9903726b,sale_tuesday
 0x0ea3632b66,sale_wednesday
+0x159cd6f0f9,saloon_step_down_last
+0x1509e16660,saloon_step_down_rate
+0x168d18b186,saloon_step_down_start
+0x13b7a4a2f5,saloon_step_out_pos
+0x1315bfb825,saloon_step_up_last
+0x1380882ebc,saloon_step_up_rate
+0x1402f44631,saloon_step_up_start
 0x0584a0b4db,salsa
 0x04fc50f144,same
 0x1113404b45,same_series_scale
@@ -56145,6 +56171,8 @@
 0x0a98f88614,shirttailf
 0x0b8c44ee05,shirttailfl
 0x0b764bd366,shirttailfr
+0x0a782d6f0a,shirttaill
+0x0be6141b1e,shirttaillc
 0x0a82225269,shirttailr
 0x0b325524c1,shirttailrc
 0x06e5eeaf2b,shizue
@@ -60920,6 +60948,7 @@
 0x0b9f4e0426,spider_odds
 0x152007547c,spider_voice_interval
 0x0b71f4247e,spike_shoes
+0x0e79d4a7a3,spikestickinfo
 0x05fbb946c5,spiky
 0x076b452955,spilits
 0x04120a248f,spin
@@ -63453,6 +63482,7 @@
 0x10a9dc468e,stage_wait_frame
 0x142b0b9a56,stage_wait_frame_max
 0x141706a50f,stage_wait_frame_min
+0x17d2f8f8c8,stained_glass_se_timing
 0x15ed57eadc,stainedglass_aqua_dth
 0x1948c93a27,stainedglass_aqua_dth_set
 0x19c2151437,stainedglass_aqua_spirits
@@ -71262,6 +71292,7 @@
 0x19c259cfd9,ui_mii_body_blackknight_m
 0x1727944b6e,ui_mii_body_bomberman_m
 0x130a36c61b,ui_mii_body_bruce_m
+0x1ae71e14a4,ui_mii_body_businessmanf_f
 0x1a70cccd2c,ui_mii_body_businessmanf_m
 0x1ae6dc7e93,ui_mii_body_businessmang_f
 0x1a710ea71b,ui_mii_body_businessmang_m
@@ -83409,6 +83440,7 @@
 0x0c372668a5,villagenight
 0x0bd40e7636,villagenoon
 0x17c3a86c02,villager_voice_interval
+0x0f86c8bc21,villagerollinfo
 0x05c7df1162,vince
 0x15e0f0c0c8,vince_draw_next_frame
 0x12653e03c1,vince_draw_num_max

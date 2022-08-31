@@ -841,6 +841,7 @@ seq_palutena_rnd_special_l01
 seq_palutena_rnd_special_l02
 seq_palutena_rnd_special_n
 seq_palutena_rnd_special_s
+seq_patanpanel
 seq_peach_rnd_attack
 seq_peach_rnd_futtobi01
 seq_peach_rnd_futtobi02
