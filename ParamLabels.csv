@@ -5636,6 +5636,7 @@
 0x0f5e8e10f0,buying_price_sp
 0x098edb47cd,buzz_buzz
 0x023fcbd242,by
+0x1622011e73,by_assist_figure_score
 0x0d00604253,by_attack_mul
 0x0e9780547f,by_final_score
 0x0dc8caffe7,by_item_score
@@ -10791,6 +10792,7 @@
 0x1e9bdcbad9,damage_angle_zero_reaction_min
 0x126b8ac031,damage_attack_size
 0x1883a7b71c,damage_attack_stop_frame
+0x1899b3a6a9,damage_avarage_parameter
 0x19faf19419,damage_bind_clatter_frame
 0x1f0663e641,damage_bind_extra_clatter_frame
 0x17660d87f3,damage_bind_extra_frame
@@ -24435,6 +24437,12 @@
 0x16f0d49c73,icon_entry_block_param
 0x16e1b64e6c,icon_entry_round_param
 0x0f3cd50c0a,icon_lose_param
+0x194f889eda,icon_move_delay_col_compe
+0x1a3439d09a,icon_move_delay_col_normal
+0x1991ea00dc,icon_move_delay_row_compe
+0x1add841731,icon_move_delay_row_normal
+0x15aaa93020,icon_move_frame_compe
+0x1669b4ea36,icon_move_frame_normal
 0x096b6a7543,icon_size
 0x0ba11891d7,icon_size_0
 0x0bd61fa141,icon_size_1
@@ -35252,6 +35260,9 @@
 0x0ee34783ef,one_more_final
 0x13e183c7c3,one_more_final_must
 0x0ad3b26e88,one_on_one
+0x13195c7f89,one_person_aim_rate
+0x14f93e349d,one_person_aim_score
+0x15240638f1,one_person_aim_second
 0x16bc59bfe1,one_player_start_pos_x
 0x16cb5e8f77,one_player_start_pos_y
 0x100b091a63,one_player_value
@@ -66090,6 +66101,8 @@
 0x0d786c5fc3,subject_pos_x
 0x0d0f6b6f55,subject_pos_y
 0x0db4e8e43e,subspace_bomb
+0x119c485b66,subtitle_anim_001
+0x1105410adc,subtitle_anim_002
 0x0e0aa891a0,subtitle_count
 0x1088cec496,subtitle_id_0000
 0x10ffc9f400,subtitle_id_0001
