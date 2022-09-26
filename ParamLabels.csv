@@ -5838,6 +5838,7 @@
 0x044cc50e9a,c2_x
 0x043bc23e0c,c2_y
 0x063e5737a1,c2fall
+0x12b011d1fa,c2guide_samplering
 0x07a930f8f4,c_frame
 0x08d0589a2c,c_neduke
 0x0a04cf92f2,c_neduke_1
@@ -19233,6 +19234,7 @@
 0x042b75187c,fist
 0x09cc1fc54c,fist_down
 0x065217c6ad,fist_r
+0x19925ead18,five_player_paramter_list
 0x0359fa4760,fix
 0x0aef457763,fix_camera
 0x0f2077926c,fix_corps_color
@@ -19982,6 +19984,7 @@
 0x0c2aeb890f,forward_prob
 0x0da7371d9e,forward_speed
 0x08758258c3,forwardb
+0x1998a8b274,four_player_paramter_list
 0x03e818cde1,fov
 0x0897c81cba,fov_rate
 0x042c3eec36,fovy
@@ -35263,6 +35266,7 @@
 0x13195c7f89,one_person_aim_rate
 0x14f93e349d,one_person_aim_score
 0x15240638f1,one_person_aim_second
+0x18097e470e,one_player_paramter_list
 0x16bc59bfe1,one_player_start_pos_x
 0x16cb5e8f77,one_player_start_pos_y
 0x100b091a63,one_player_value
@@ -39169,6 +39173,12 @@
 0x147b902291,rbkind_81_dashattack
 0x12feb9437f,rbkind_81_escapefb
 0x127eab2384,rbkind_81_escapega
+0x1ca58ba11b,rbkind_81_finalvisualscene01
+0x1c3c82f0a1,rbkind_81_finalvisualscene02
+0x1c4b85c037,rbkind_81_finalvisualscene03
+0x1cd5e15594,rbkind_81_finalvisualscene04
+0x12120c9039,rbkind_81_kirifuda
+0x1638850e24,rbkind_81_kirifuda_hit
 0x1620e10ccd,rbkind_81_landingairlw
 0x1b0ded5110,rbkind_81_landingairlwlight
 0x1291641299,rbkind_81_smash_hi
@@ -39181,10 +39191,15 @@
 0x159d0c0530,rbkind_81_special_lw2
 0x15ea0b35a6,rbkind_81_special_lw3
 0x147c9169b6,rbkind_81_special_n1
+0x1a116ea6cd,rbkind_81_special_n1damage
 0x17a836d7a3,rbkind_81_special_n1hit
 0x14e598380c,rbkind_81_special_n2
+0x1a2086bc50,rbkind_81_special_n2damage
 0x17ba83784d,rbkind_81_special_n2hit
 0x14929f089a,rbkind_81_special_n3
+0x1a86f1b7e4,rbkind_81_special_n3damage
+0x1bbd3469db,rbkind_81_special_n3damage2
+0x1bca33594d,rbkind_81_special_n3damage3
 0x18cf66ebc9,rbkind_81_special_n3fall
 0x17023f1f28,rbkind_81_special_n3hit
 0x182f6229e8,rbkind_81_special_n3hit2
@@ -39384,6 +39399,8 @@
 0x11155820cd,rbkind_ui_fixed_l
 0x1356911e3b,rbkind_ui_fp_appear
 0x18a5372fbf,rbkind_ui_fp_inheritance
+0x1a7e2588dd,rbkind_ui_fp_load_finished
+0x1a6c6c925a,rbkind_ui_fp_save_finished
 0x153b5acbbf,rbkind_ui_next_battle
 0x165fc419fc,rbkind_ui_nfc_stand_by
 0x1a1a071eb7,rbkind_ui_notification_get
@@ -39391,6 +39408,8 @@
 0x13379c095e,rbkind_ui_rumble_on
 0x13c0ba5e9b,rbkind_ui_smash_vs1
 0x1359b30f21,rbkind_ui_smash_vs2
+0x177fbf4f2b,rbkind_ui_smashdown_win
+0x2054dfa23e,rbkind_ui_smashdown_win_finished
 0x1b13c4ccdb,rbkind_ui_spirits_challenge
 0x196626ef7a,rbkind_ui_spirits_matchup
 0x1f2c3f4048,rbkind_ui_spirits_raise_enhance
@@ -55845,6 +55864,7 @@
 0x05349f8ee9,setbl
 0x079f74b898,setting
 0x0c5eedcf94,settingstage
+0x1a99488a21,seven_player_paramter_list
 0x064a529ac0,severa
 0x105274ba4f,sf_situationlink
 0x09bb4b1d3c,sf_suzaku
@@ -56809,6 +56829,7 @@
 0x034aa16ad0,sit
 0x106e1b6130,sit_pos_offset_y
 0x09ec2d9aca,situation
+0x18e09a99fd,six_player_paramter_list
 0x04f7c0246a,size
 0x0d58778d1d,size_category
 0x0950617a7d,size_kind
@@ -64284,8 +64305,12 @@
 0x1111ec22e9,stick_angle_z_max
 0x1161b1b455,stick_break_frame
 0x1f8bb772e2,stick_button_repeat_cycle_frame
+0x28664cc49c,stick_button_repeat_cycle_frame_for_0_66
+0x27dd5e1d47,stick_button_repeat_cycle_frame_for_1_5
 0x23e5dfde44,stick_button_repeat_cycle_min_frame
 0x1e90a99360,stick_button_repeat_wait_frame
+0x273f65dc61,stick_button_repeat_wait_frame_for_0_66
+0x26477bf73b,stick_button_repeat_wait_frame_for_1_5
 0x22548bec50,stick_button_repeat_wait_min_frame
 0x16d614a7b0,stick_button_threshold
 0x192020c969,stick_check_dead_offset_y
@@ -67543,6 +67568,7 @@
 0x150406e9cf,threat_camera_subject
 0x107c7d751b,threat_pos_param
 0x10ad2e127d,threat_start_pos
+0x1ada8bad5a,three_player_paramter_list
 0x1347a4bedd,three_players_value
 0x16843b4ffb,three_sacred_treasures
 0x09eb7a2a96,threshold
@@ -68577,6 +68603,7 @@
 0x19879d7752,two_player_1p_start_pos_y
 0x198cfb621f,two_player_2p_start_pos_x
 0x19fbfc5289,two_player_2p_start_pos_y
+0x18f1ad6d9b,two_player_paramter_list
 0x1194c39d64,two_players_value
 0x0254545703,tx
 0x0efa943daf,txt_off_bottom
