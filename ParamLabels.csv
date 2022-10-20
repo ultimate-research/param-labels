@@ -4452,6 +4452,8 @@
 0x09f11d7749,body_hide
 0x0d85841b55,body_hide_gun
 0x079b621d84,body_id
+0x11171c516c,body_monad_behind
+0x0f1bae52ad,body_monad_hand
 0x0d65271b14,body_no_sword
 0x092a14bcad,body_none
 0x0bb499cbe2,body_normal
@@ -8486,10 +8488,27 @@
 0x0f7a328f48,combo_end_frame
 0x108a385594,coming_end_frame
 0x120a7577f4,coming_start_frame
+0x0e5d62a40b,command01_cure
+0x1066d95422,command02_flash1
 0x10337a0506,command03_flash2
+0x14f0731de4,command04_explosion1
 0x14f2df0031,command05_explosion2
+0x14ff64d4c1,command06_deathball1
+0x14fdc8c914,command07_deathball2
+0x13ad95ee35,command08_fullburst
+0x0faa2463eb,command09_crash
+0x0faa6137ea,command10_steel
+0x124a128ff4,command11_speed_up
+0x1378ffe9ce,command12_attack_up
+0x112644632c,command13_reflect
+0x0fdf8230c6,command14_sleep
+0x1117551871,command15_various
+0x10a5a6440a,command16_flying
 0x1379e9a31c,command17_firesword
+0x12d1b632f7,command18_icesword
+0x13b939677b,command19_ironsword
 0x147e17d1cc,command20_devilsword
+0x1089b1af21,command21_charge
 0x19146335ae,command_landing_frame_mul
 0x0ce5625695,command_list
 0x11af990ec3,command_power_mul
@@ -12846,6 +12865,7 @@
 0x1826417f57,dragon_effect_land_frame
 0x18f0262462,dragon_effect_wave_frame
 0x0b17593350,dragon_horn
+0x11c41f660c,dragon_horn_win_3
 0x1c2415b31c,dragon_kirby_button_on_frame
 0x178ffede39,dragon_kirby_hold_frame
 0x2ce95a6ac4,dragon_kirby_ray_check_start_pos_back_length
@@ -12874,6 +12894,9 @@
 0x0d9759a939,dragon_shield
 0x112d360487,dragon_sound_attr
 0x12f3c546ca,dragon_sound_level
+0x13a83cbf79,dragon_spear_arm_lr
+0x126cc372b8,dragon_spear_leg_l
+0x13a9df0751,dragon_spear_leg_lr
 0x15d1c0bc91,dragon_step_down_last
 0x1544f72a08,dragon_step_down_rate
 0x16ce3c4ea0,dragon_step_down_start
@@ -12886,6 +12909,7 @@
 0x11cfffc0a9,dragon_sub_shield
 0x0d92a4338a,dragon_vector
 0x0b8405edd2,dragon_wing
+0x1349b2d9a3,dragon_wing_no_horn
 0x0a0d84657c,dragonborn
 0x09c0d5937e,dragonite
 0x07ad383d2f,dragoon
@@ -21816,6 +21840,9 @@
 0x0b06fac959,gun_d_board
 0x08612a59f8,gun_foot
 0x088fc722e4,gun_hand
+0x11f99798bf,gun_hand_hide_all
+0x0f62011258,gun_hand_r_hide
+0x110ed68a57,gun_hand_show_all
 0x0d58ddbeca,gun_invisible
 0x09786fc69d,gun_leg_l
 0x098260fbfe,gun_leg_r
@@ -28645,6 +28672,8 @@
 0x0aa5605a85,jumppreset
 0x0fac3f90ac,jumpsquatpreset
 0x040e82a048,juri
+0x1504b88155,just_before_end_score
+0x16b144f4c6,just_before_end_second
 0x168995474d,just_guard_check_frame
 0x0b5264bbe3,just_shield
 0x127dc2fe17,just_shield_bomber
@@ -33960,8 +33989,10 @@
 0x0a22d53682,monkeyhead
 0x0a6c85df00,monkeysuit
 0x07245ec6f4,monster
+0x0e77d3f33e,monster_akabee
 0x0effa95291,monster_aosuke
 0x10aa9e3097,monster_disp_off
+0x0efe5da9f3,monster_guzuda
 0x0d8cb41e17,monster_ijike
 0x08a1faa7c8,monsters
 0x0d2425ad21,monsterschild
@@ -34964,6 +34995,7 @@
 0x073b5bf751,no_item
 0x0f84528516,no_ladder_frame
 0x09f5a1b608,no_m_ball
+0x14030f98a0,no_moving_game_score
 0x07018b2e00,no_null
 0x1e18526f63,no_operation_penalty_parameter
 0x1208443928,no_operation_score
@@ -35490,6 +35522,8 @@
 0x1db4d1791c,online_melee_room_message_090
 0x1cab0e90be,online_melee_room_message_id
 0x07420cb4c2,only_2p
+0x1474805e1c,only_same_skill_rate
+0x1579368f77,only_same_skill_score
 0x0bdffa8968,opaque_area
 0x04a47083a4,open
 0x0bac3ae43d,open_castle
@@ -39153,6 +39187,7 @@
 0x10b3555919,rbkind_65_breath
 0x15bcab3907,rbkind_73_bodyattack1
 0x1552a5582b,rbkind_73_bodyattack3
+0x1a3acbe041,rbkind_73_bodyattack_kamae
 0x114029b390,rbkind_73_jumppad
 0x132c067b8a,rbkind_73_statue_v2
 0x13c565debf,rbkind_73_statue_v4
@@ -67473,6 +67508,7 @@
 0x0a48dd021e,tank_empty
 0x0eeaba1d14,tank_empty_sub
 0x0b47a34911,tank_normal
+0x0d37d6b19e,tank_subempty
 0x06dbcee68c,tantan
 0x09fde9ef22,tantan_00
 0x114fd4d8de,tantan_atk_air_hi
