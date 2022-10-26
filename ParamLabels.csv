@@ -11910,6 +11910,7 @@
 0x12788009eb,demon_attack_arc_d
 0x1471a099e1,demon_attack_arc_d_s
 0x148e6c69c1,demon_attack_hi3_arc
+0x0fa4ba1ded,demon_attack_lw
 0x16bcc4547e,demon_attack_speedline
 0x1b9fabb66d,demon_attack_speedline_kick
 0x12d1bf047d,demon_blaster_aura
@@ -11940,6 +11941,10 @@
 0x17228eab05,demon_devil_wing_edge_l
 0x17d8819666,demon_devil_wing_edge_r
 0x1a599c6f1b,demon_devil_wing_speedline
+0x0f217f7359,demon_devilfist
+0x1462dead34,demon_devilfist_elec
+0x1349ebc90d,demon_devilfist_end
+0x14138a5cab,demon_devilfist_line
 0x0a260fa46c,demon_dojo
 0x0bd3f1a871,demon_entry
 0x0f298606f8,demon_entry_eye
@@ -11960,6 +11965,7 @@
 0x117740c548,demon_final_smoke
 0x1296a5d71d,demon_final_sparks
 0x169cac5e16,demon_final_start_aura
+0x117cc9e196,demon_final_white
 0x104950bd19,demon_final_wind
 0x11eeac79f5,demon_heavens_arc
 0x14713113a2,demon_heavens_impact
@@ -12010,6 +12016,8 @@
 0x10567405c2,demon_rage_start
 0x12a6ec2079,demon_ragedrive_bg
 0x16ba53eb10,demon_ragedrive_ground
+0x1518e9c36c,demon_ragedrive_hit_l
+0x156feef3fa,demon_ragedrive_hit_m
 0x14ee3e0a8b,demon_ragedrive_hitl
 0x1499393a1d,demon_ragedrive_hitm
 0x1a46e8be69,demon_ragedrive_hitshock_l
@@ -19736,8 +19744,12 @@
 0x0760183364,flowerc
 0x071072c7eb,flowerf
 0x07f0a72ef5,flowerl
+0x08d7f21fb0,flowerl2
+0x083e91ba85,flowerl4
 0x0954f56236,flowerpot
 0x070aa81396,flowerr
+0x0803b3206f,flowerr2
+0x08ead0855a,flowerr4
 0x03538a83b3,fly
 0x0951c2b756,fly_accel
 0x116d2a1509,fly_accel_x_stick
@@ -68049,6 +68061,10 @@
 0x13eb3559ff,tex_shulk_swordred2
 0x0fb9961f9e,tex_simon_whip1
 0x0f209f4e24,tex_simon_whip2
+0x0d5b4336ac,tex_trail_as1
+0x13dcc5dae1,tex_trail_keyblade1
+0x1345cc8b5b,tex_trail_keyblade2
+0x1332cbbbcd,tex_trail_keyblade3
 0x0ef3880878,tex_water1_col
 0x0eb42872a8,tex_water2_col
 0x1194b43f2b,tex_wolf_bayonet1
@@ -68711,10 +68727,15 @@
 0x0e720b64b1,trail_air_shot
 0x149b17cd10,trail_appeal_s_slash
 0x1626ad22c4,trail_appeal_s_twinkle
+0x13f214e98b,trail_appeals_slash
+0x15881bfcc7,trail_appeals_twinkle
 0x0abb33d693,trail_aqua
 0x0bea611e9f,trail_aqua1
 0x0b73684f25,trail_aqua2
 0x0b046f7fb3,trail_aqua3
+0x0e537b167a,trail_as_flash
+0x0e1da3fe23,trail_as_swing
+0x0d2dca51a5,trail_as_wind
 0x129cb364f7,trail_attack_slash
 0x18f86758e8,trail_attack_slash_air_b
 0x18ff0a9cf1,trail_attack_slash_air_f
@@ -68764,6 +68785,7 @@
 0x1788e8491e,trail_finish_blur_throw
 0x144cb16e96,trail_finish_twinkle
 0x1188fcf804,trail_fire_bullet
+0x0e75cf6f7f,trail_fire_end
 0x0f6363d1ec,trail_fire_hold
 0x11f6e60876,trail_fire_impact
 0x1359c59ae0,trail_fire_keyblade
@@ -68828,6 +68850,7 @@
 0x0b6b03c1d6,trail_throw
 0x0de447a8ac,trail_throw_b
 0x12a5ff666e,trail_throw_common
+0x119c64e40e,trail_throw_crown
 0x14320d7d0b,trail_thrown_f_joint
 0x15fce715c2,trail_thrown_f_motion
 0x1b3c968429,trail_thrown_f_motion_frame
