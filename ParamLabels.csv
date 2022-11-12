@@ -7809,6 +7809,8 @@
 0x0f95134166,clatter_recover
 0x05bb11be19,claus
 0x09c4546523,claviclec
+0x0954eb78b2,claviclel
+0x09aee445d1,clavicler
 0x08c7ae383d,clawl1_1
 0x08c5e88664,clawl2_1
 0x0877681891,clawr1_1
@@ -8408,8 +8410,6 @@
 0x068c6b62a5,colll1
 0x061562331f,colll2
 0x0662650389,colll3
-0x09aee445d1,colonellm
-0x0954eb78b2,colonells
 0x05665648e9,color
 0x08c027f652,color0_a
 0x08592ea7e8,color0_b
