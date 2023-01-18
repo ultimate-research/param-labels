@@ -30065,6 +30065,7 @@
 0x03edf7af37,l2r
 0x02a925c2e1,l4
 0x0df26ed2f1,l_appeal_hi_l
+0x0d0861ef92,l_appeal_hi_r
 0x056e91d523,l_arm
 0x0f0f707cee,l_dolly_stadium
 0x09d44b9b33,l_entry_l
@@ -69118,8 +69119,16 @@
 0x0b73684f25,trail_aqua2
 0x0b046f7fb3,trail_aqua3
 0x0e537b167a,trail_as_flash
+0x1513d713ea,trail_as_flash_finish
+0x14829c42e2,trail_as_flash_start
 0x0e1da3fe23,trail_as_swing
 0x0d2dca51a5,trail_as_wind
+0x0ff23a5fe4,trail_atk_slash
+0x1579ccbed1,trail_atk_slash_air_b
+0x157ea17ac8,trail_atk_slash_air_f
+0x12542f686b,trail_atk_slash_hi
+0x13e7c1e06c,trail_atk_slash_s33
+0x13911da1fc,trail_atk_slash_s3s
 0x129cb364f7,trail_attack_slash
 0x18f86758e8,trail_attack_slash_air_b
 0x18ff0a9cf1,trail_attack_slash_air_f
@@ -69184,6 +69193,7 @@
 0x148af140a9,trail_ice_bullet_end
 0x0d9afec3cb,trail_ice_end
 0x0eaf8097d5,trail_ice_hold
+0x1067ddad8a,trail_ice_impact
 0x0e1b4d1269,trail_ice_shot
 0x15768add6a,trail_ice_sword_flare
 0x0be1ab93e1,trail_kairi
@@ -81969,6 +81979,9 @@
 0x1141ecdac1,vc_gekkouga_win01
 0x11d8e58b7b,vc_gekkouga_win02
 0x11afe2bbed,vc_gekkouga_win03
+0x0dae3a633b,vc_gkoopa_001
+0x12ffb09b9f,vc_gkoopa_attack03
+0x1261d40e3c,vc_gkoopa_attack04
 0x12f8dd5f86,vc_gkoopa_attack07
 0x148a49e388,vc_gkoopa_cliffcatch
 0x1844547a4a,vc_gkoopa_damage_twinkle
