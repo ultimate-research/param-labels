@@ -25731,8 +25731,8 @@
 0x0fa43563d3,indicator_empty
 0x0a8793fc17,individual
 0x134a0fbabb,individual_chara_id
-0x0cc10e5d3a,inertialmass
 0x0d53563ba4,inertial_mass
+0x0cc10e5d3a,inertialmass
 0x08d1f4f380,infinite
 0x04528060ed,infl
 0x0ebfbe7213,inflation_data
