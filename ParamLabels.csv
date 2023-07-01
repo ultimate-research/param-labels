@@ -1681,7 +1681,6 @@
 0x1618e3cf94,assist_nightmare_scale
 0x1110da222f,assist_offense_up
 0x0ce7a48863,assist_param
-0x1d5e4e8283,assist_shiokarazu_spine_frame
 0x0a9dedc211,astepframe
 0x095dadb6e5,astronaut
 0x026a57fd3c,at
@@ -19808,6 +19807,7 @@
 0x115fa31cff,flash_start_frame
 0x1ad095d343,flashing_frame_before_life
 0x1fb88b58a8,flashing_frame_before_life_over
+0x127fcafd02,flasshing_interval
 0x166e4c80d9,flat_stage_entry_pos_z
 0x08e5e94bec,flathood
 0x09277cce0f,flatzonex
@@ -44085,6 +44085,16 @@
 0x1bd60b9854,run_turn_cancel_start_frame
 0x071c6d36ef,runaway
 0x0d3bc101ae,runaway_param
+0x10796feba0,runbabaappearmax
+0x104562d4f9,runbabaappearmin
+0x147e1d1b58,runbabadownanimerate
+0x14bdde28e0,runbabaleftpositionx
+0x14af779b85,runbabamotionoffsety
+0x15a990e8d3,runbabarightpositionx
+0x11ac1e26c2,runbabastartframe
+0x12f637ede7,runbabaupanimerate
+0x0e1c64dc28,runbabawaitmax
+0x0e2069e371,runbabawaitmin
 0x08d7f912b4,runbrake
 0x0ec48c0b2b,runbrakepreset
 0x09a0d2711a,runbraker
@@ -44145,6 +44155,7 @@
 0x0b00aa0116,rx_car_horn
 0x0fca341f96,rx_herohero_tgt
 0x0e2dc636e8,rx_jack_offset
+0x12c5f54fe1,rx_jyama_movex_min
 0x027509c013,ry
 0x0caa496f98,ry_apple_max
 0x0c964450c1,ry_apple_min
