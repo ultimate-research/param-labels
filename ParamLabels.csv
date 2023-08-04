@@ -3862,6 +3862,8 @@
 0x0e238f8441,bg_daisy_final
 0x0f64aee12e,bg_dedede_final
 0x0efee5f313,bg_demon_final
+0x16229f767c,bg_demon_final_after_l
+0x16d8904b1f,bg_demon_final_after_r
 0x0eb7691bd0,bg_diddy_final
 0x0ed24ad23a,bg_dolly_final
 0x0f353504d5,bg_donkey_final
@@ -8508,6 +8510,7 @@
 0x1a5242290d,collision_attr_cutup_metal
 0x1474a84539,collision_attr_death
 0x18bef6339f,collision_attr_deathball
+0x1a5f94f889,collision_attr_deathscythe
 0x1c6d20b1f9,collision_attr_dedede_hammer
 0x13462fcfe4,collision_attr_elec
 0x184e3f7a79,collision_attr_elec_whip
@@ -14110,6 +14113,8 @@
 0x1345662d1e,effect_bgdaisyfinal
 0x140fd4ff89,effect_bgdededefinal
 0x13226db671,effect_bgdemonfinal
+0x193a286936,effect_bgdemonfinalafterl
+0x19c0275455,effect_bgdemonfinalafterr
 0x13c7c23897,effect_bgdiddyfinal
 0x1354d214cf,effect_bgdollyfinal
 0x144a313eb8,effect_bgdonkeyfinal
@@ -28344,6 +28349,12 @@
 0x10c988c1c4,item_woodenstick
 0x06ca666e7f,item_y
 0x0e0f4cb9d1,item_younglink
+0x13e887e357,itemappear_s8::high
+0x168d5bc1b8,itemappear_s8::highest
+0x127cb90b37,itemappear_s8::low
+0x13661207cd,itemappear_s8::none
+0x158dd78647,itemappear_s8::normal
+0x16e255077b,itemappear_s8::unknown
 0x0bd2f2af63,itemdragoon
 0x0774d2a4df,itemend
 0x0701fe1721,itemleg
@@ -33316,6 +33327,9 @@
 0x1e1245625e,meleemode_s8::training_sandbag
 0x10325a4a92,meleemode_s8::vr
 0x168e1b8601,meleemode_s8::vr_multi
+0x14b677f115,meleeruletype_s8::hp
+0x176903b131,meleeruletype_s8::stock
+0x16586570f3,meleeruletype_s8::time
 0x0607c094f6,meleph
 0x05643ff0b4,melia
 0x08bdf00c7d,meloetta
@@ -34898,6 +34912,7 @@
 0x186f012121,mvp_position_coefficient
 0x0e8f140f78,mvp_win_motion
 0x0c98cb466c,my_range_mul
+0x017808a3d2,n
 0x09e48f9289,n00_index
 0x0942f8993d,n01_index
 0x09731083a0,n02_index
@@ -34947,6 +34962,11 @@
 0x12a7e4d65b,n3_start_spd_x_mul
 0x0e2595a2a9,n3_stick_y_max
 0x0e19989df0,n3_stick_y_min
+0x05306f402c,n_air
+0x091355f0c9,n_air_end
+0x0b7af226d2,n_air_start
+0x058cf3cb66,n_end
+0x07e266f076,n_start
 0x0280120518,na
 0x061e45d479,nabbit
 0x0d0c516b59,nabbit_escape
@@ -67855,6 +67875,7 @@
 0x0d0da6e3c0,sys_run_smoke
 0x1020b0fb31,sys_sand_landing
 0x09aa1f1420,sys_screw
+0x0afae75f05,sys_shield
 0x10da0b43c8,sys_shield_smoke
 0x0975712420,sys_sleep
 0x114a9d781f,sys_sliding_smoke
