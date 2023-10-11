@@ -2292,7 +2292,9 @@
 0x0ad8edad44,attack_min
 0x11ee8e0436,attack_model_door
 0x1294525962,attack_model_easel
+0x198c424a75,attack_model_game_machine
 0x111bfb50d4,attack_model_none
+0x1948e71329,attack_model_room_walking
 0x0f4b376304,attack_model_tv
 0x120d697435,attack_motion_rate
 0x0ad0949135,attack_mul
@@ -6251,6 +6253,7 @@
 0x1ad111bde0,camera_clip_sphere_gunship
 0x1c78741f01,camera_clip_sphere_powerstar
 0x182dbcb0ab,camera_clip_sphere_punch
+0x1aee2acb85,camera_clip_sphere_reticle
 0x1e24def6ee,camera_clip_sphere_shadowmario
 0x1c86a0df7d,camera_clip_sphere_spikeball
 0x19c8aab347,camera_clip_sphere_spiral
@@ -8163,6 +8166,16 @@
 0x19b459dce5,climax_animation_settings
 0x142d217feb,climax_delay_seconds
 0x16c06a8a14,climax_effect_settings
+0x130ee75112,climax_rule_hp_coef
+0x1a23d1eb5a,climax_rule_hp_upper_stock
+0x1f3074f6bb,climax_rule_refill_threshold_hp
+0x16c24c0833,climax_rule_stock_coef
+0x1d5af67f74,climax_rule_stock_upper_stock
+0x18a8431520,climax_rule_team_hp_coef
+0x1f654368d4,climax_rule_team_hp_upper_stock
+0x1ba00dd49b,climax_rule_team_stock_coef
+0x22bff27058,climax_rule_team_stock_upper_stock
+0x22d0896d0b,climax_rule_time_threshold_seconds
 0x1a8599b6f2,climax_visibility_settings
 0x0b5e1d36ed,climb_power
 0x0f93252873,climb_power_mul
@@ -8862,7 +8875,6 @@
 0x23ffda17b9,control_accel_x_mul_air_flag_enable
 0x0dbb78ec54,control_angle
 0x1395e340db,control_brake_x_air
-0x1aee2acb85,control_center_pos_y_ratio
 0x10c3526ac1,control_distance
 0x0d0e019590,control_frame
 0x137bfdce41,control_limit_mul_x
@@ -21988,6 +22000,7 @@
 0x04ea7cb115,glow
 0x0fc0212dce,gm_fake_pattern
 0x11f430e99b,gm_mother_pattern
+0x118d76c7af,gm_pattern_common
 0x04fcdceb2e,goal
 0x05f5fc72cc,goal_
 0x133a28fcf3,goal_se_start_frame
@@ -34958,6 +34971,7 @@
 0x0a73def25d,model_play
 0x0f93938aac,model_play_loop
 0x118da17148,model_play_normal
+0x154da51c1a,model_play_not_render
 0x112ce43189,model_play_static
 0x0f8b9a81f4,model_play_stop
 0x0b57bcbeec,model_pos_x
@@ -39402,6 +39416,7 @@
 0x17bd492776,probability_table_area5
 0x17244076cc,probability_table_area6
 0x1c60b79948,probability_table_cliff_turn
+0x0b6e684ee7,probabirity
 0x05238ada7b,probs
 0x07861d1896,process
 0x0a7ec2f574,process_id
@@ -58914,6 +58929,7 @@
 0x0a87abefd3,shape_data
 0x0f0d1136ad,shape_data_beam
 0x0bd518104e,shape_easel
+0x129de33d89,shape_game_machine
 0x0cd141b04b,shape_normal
 0x0e0e3d2743,shape_offset_y
 0x11abf1862c,shape_param_index
@@ -72257,6 +72273,7 @@
 0x16dd9b4ca1,twister_move_frame_max
 0x16e19673f8,twister_move_frame_min
 0x12f160e704,twister_move_speed
+0x177b5d61b0,twister_placement_zones
 0x148c81138b,twister_shoot_damage
 0x1ce9fd8ef6,twister_shoot_reaction_frame
 0x2135855c39,twister_shoot_reaction_frame_plus
@@ -88598,6 +88615,11 @@
 0x19c12a90ea,whispy_blink_interval_max
 0x19fd27afb3,whispy_blink_interval_min
 0x1a932cf7a6,whispy_flower_location_l_x
+0x1ae42bc730,whispy_flower_location_l_y
+0x1a7d22968a,whispy_flower_location_l_z
+0x1a859479dc,whispy_flower_location_r_x
+0x1af293494a,whispy_flower_location_r_y
+0x1a6b9a18f0,whispy_flower_location_r_z
 0x19ec418065,whispy_mouth_location_l_x
 0x199b46b0f3,whispy_mouth_location_l_y
 0x19024fe149,whispy_mouth_location_l_z
