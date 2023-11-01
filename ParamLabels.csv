@@ -8561,8 +8561,10 @@
 0x184e3f7a79,collision_attr_elec_whip
 0x13beb18342,collision_attr_fire
 0x152497ab8d,collision_attr_flower
+0x1c655b0ae7,collision_attr_head_mushroom
 0x12c7990841,collision_attr_ice
 0x169c2f9aa4,collision_attr_ink_hit
+0x1ae690bd0d,collision_attr_item_hammer
 0x1a6f665bee,collision_attr_jack_bullet
 0x19f9ff23e4,collision_attr_jack_final
 0x12e765f467,collision_attr_lay
@@ -8575,6 +8577,7 @@
 0x1399ff8a42,collision_attr_none
 0x15a2c502b3,collision_attr_normal
 0x1cd9e295e5,collision_attr_normal_bullet
+0x1c9a85bcd9,collision_attr_normal_poison
 0x197da285b7,collision_attr_odin_slash
 0x1e4c53bd48,collision_attr_palutena_bullet
 0x179c4e24c5,collision_attr_paralyze
@@ -47582,6 +47585,7 @@
 0x1aee231cea,se_assist_akira_attack04_1
 0x1a772a4d50,se_assist_akira_attack04_2
 0x186dcdec59,se_assist_akira_attack05
+0x143c7c1f82,se_assist_akira_exit
 0x154bb4a95c,se_assist_akira_guard
 0x140fc69d9a,se_assist_akira_jump
 0x17b5cffa3b,se_assist_akira_landing
@@ -47645,6 +47649,7 @@
 0x20be3bd545,se_assist_bomberman_remoteswitch
 0x1a3882fc44,se_assist_bomberman_step_l
 0x1ac28dc127,se_assist_bomberman_step_r
+0x183d255cb5,se_assist_bomberman_turn
 0x17c0a2bfcd,se_assist_claptrap_exit
 0x17f3183dd5,se_assist_claptrap_jump
 0x1a01657300,se_assist_claptrap_landing
@@ -47654,6 +47659,7 @@
 0x1ccc26a242,se_assist_claptrap_vc_damage
 0x1a04c934ac,se_assist_claptrap_vc_dead
 0x15822e462b,se_assist_cyborg_dash
+0x16878424ab,se_assist_cyborg_entry
 0x1bae004fa1,se_assist_cyborg_entry_vc_1
 0x1b37091e1b,se_assist_cyborg_entry_vc_2
 0x1b400e2e8d,se_assist_cyborg_entry_vc_3
@@ -48077,6 +48083,7 @@
 0x1e5b5dd05c,se_assist_starman_teleport_end
 0x204daa304d,se_assist_starman_teleport_start
 0x1661464b8a,se_assist_sukapon_down
+0x16e9b05fbf,se_assist_sukapon_exit
 0x171309290d,se_assist_sukapon_guard
 0x16da0adda7,se_assist_sukapon_jump
 0x19fbd74db3,se_assist_sukapon_landing
@@ -48084,6 +48091,8 @@
 0x1c9527c2b2,se_assist_sukapon_rolling_02
 0x16d6be530a,se_assist_sukapon_shot
 0x17f3887bf6,se_assist_sukapon_throw
+0x165d99cef6,se_assist_sukapon_turn
+0x16f028a1e4,se_assist_sukapon_walk
 0x177aacfbe9,se_assist_takamaru_jump
 0x1a7db86820,se_assist_takamaru_landing
 0x1bc1546d35,se_assist_takamaru_shuriken
@@ -49038,6 +49047,8 @@
 0x14eed457cf,se_buddy_special_h02
 0x1499d36759,se_buddy_special_h03
 0x1470d4aea9,se_buddy_special_l01
+0x149edacf85,se_buddy_special_l03
+0x1400be5a26,se_buddy_special_l04
 0x1477b96ab0,se_buddy_special_l05
 0x14eeb03b0a,se_buddy_special_l06
 0x1473507ac7,se_buddy_special_n01
@@ -49694,6 +49705,7 @@
 0x1a6361513a,se_daisy_special_h03_win02
 0x141a878f18,se_daisy_special_l01
 0x14838edea2,se_daisy_special_l02
+0x14f489ee34,se_daisy_special_l03
 0x1419035b76,se_daisy_special_n01
 0x14800a0acc,se_daisy_special_n02
 0x14f70d3a5a,se_daisy_special_n03
@@ -51246,6 +51258,7 @@
 0x147baebc4c,se_item_bomber_crash
 0x1301e50c27,se_item_bomber_fall
 0x16ff96756c,se_item_bomber_ottotto
+0x137724a97e,se_item_bomber_walk
 0x1497ad15fc,se_item_bombhei_walk
 0x12425128a4,se_item_bomchu_run
 0x17d8defa03,se_item_boomerang_catch
@@ -51923,6 +51936,10 @@
 0x165b1b41cf,se_koopajr_special_h03
 0x1c76c2d2d9,se_koopajr_special_h03_win02
 0x16b21c883f,se_koopajr_special_l01
+0x162b15d985,se_koopajr_special_l02
+0x19c83eaca8,se_koopajr_special_l05_02
+0x19bf399c3e,se_koopajr_special_l05_03
+0x162c781d9c,se_koopajr_special_l06
 0x16b1985c51,se_koopajr_special_n01
 0x1628910deb,se_koopajr_special_n02
 0x165f963d7d,se_koopajr_special_n03
@@ -52130,6 +52147,9 @@
 0x13a9fbd1df,se_link_special_h10
 0x13defce149,se_link_special_h11
 0x13c0ee78d4,se_link_special_l01
+0x1359e7296e,se_link_special_l02
+0x132ee019f8,se_link_special_l03
+0x13b0848c5b,se_link_special_l04
 0x13c36aacba,se_link_special_n01
 0x135a63fd00,se_link_special_n02
 0x132d64cd96,se_link_special_n03
@@ -53625,6 +53645,7 @@
 0x1a3f7afce4,se_peach_special_h03_win02
 0x146a45f299,se_peach_special_l01
 0x14f34ca323,se_peach_special_l02
+0x14844b93b5,se_peach_special_l03
 0x1469c126f7,se_peach_special_n01
 0x14f0c8774d,se_peach_special_n02
 0x1487cf47db,se_peach_special_n03
@@ -53837,8 +53858,12 @@
 0x158d43a8d5,se_pickel_special_h01
 0x15634dc9f9,se_pickel_special_h03
 0x15fd295c5a,se_pickel_special_h04
+0x158a4a0009,se_pickel_special_l01
 0x15134351b3,se_pickel_special_l02
+0x1564446125,se_pickel_special_l03
+0x15fa20f486,se_pickel_special_l04
 0x158d27c410,se_pickel_special_l05
+0x15142e95aa,se_pickel_special_l06
 0x156329a53c,se_pickel_special_l07
 0x196b480ee6,se_pickel_special_n01_ice
 0x1ad6018d5c,se_pickel_special_n01_iron
@@ -54720,6 +54745,8 @@
 0x149dccaa3a,se_richter_smash_s02
 0x1657356603,se_richter_special_h01
 0x16503ccedf,se_richter_special_l01
+0x16c9359f65,se_richter_special_l02
+0x16be32aff3,se_richter_special_l03
 0x1620563a50,se_richter_special_l04
 0x1653b81ab1,se_richter_special_n01
 0x16cab14b0b,se_richter_special_n02
@@ -54901,6 +54928,8 @@
 0x14b1f15d2b,se_robot_special_l03
 0x142f95c888,se_robot_special_l04
 0x145892f81e,se_robot_special_l05
+0x14c19ba9a4,se_robot_special_l06
+0x14b69c9932,se_robot_special_l07
 0x145c7be869,se_robot_special_n01
 0x14c572b9d3,se_robot_special_n02
 0x14b2758945,se_robot_special_n03
@@ -54967,6 +54996,7 @@
 0x167289deb2,se_rockman_special_l01
 0x16eb808f08,se_rockman_special_l02
 0x169c87bf9e,se_rockman_special_l03
+0x16710d0adc,se_rockman_special_n01
 0x1665f33aff,se_rockman_special_s01
 0x168bfd5bd3,se_rockman_special_s03
 0x161599ce70,se_rockman_special_s04
@@ -55377,6 +55407,8 @@
 0x14c26edc3f,se_sheik_special_s01
 0x145b678d85,se_sheik_special_s02
 0x142c60bd13,se_sheik_special_s03
+0x14b20428b0,se_sheik_special_s04
+0x14c5031826,se_sheik_special_s05
 0x0e060af6c7,se_sheik_squat
 0x144b586053,se_sheik_step_left_m
 0x14b1575d30,se_sheik_step_left_s
@@ -55587,6 +55619,8 @@
 0x12b0be9be3,se_simon_smash_s02
 0x145611351d,se_simon_special_h01
 0x1451189dc1,se_simon_special_l01
+0x14c811cc7b,se_simon_special_l02
+0x14bf16fced,se_simon_special_l03
 0x142172694e,se_simon_special_l04
 0x14529c49af,se_simon_special_n01
 0x14cb951815,se_simon_special_n02
@@ -55697,6 +55731,7 @@
 0x1414f52886,se_snake_special_n01
 0x148dfc793c,se_snake_special_n02
 0x14fafb49aa,se_snake_special_n03
+0x14649fdc09,se_snake_special_n04
 0x14000b18a5,se_snake_special_s01
 0x149902491f,se_snake_special_s02
 0x14ee057989,se_snake_special_s03
@@ -56062,6 +56097,7 @@
 0x17d5c45e66,se_toonlink_special_h03
 0x174ba0cbc5,se_toonlink_special_h04
 0x173cc39796,se_toonlink_special_l01
+0x17a5cac62c,se_toonlink_special_l02
 0x173f4743f8,se_toonlink_special_n01
 0x17a64e1242,se_toonlink_special_n02
 0x17d14922d4,se_toonlink_special_n03
@@ -56341,6 +56377,7 @@
 0x15a3c136a0,se_wiifit_special_n05
 0x15b052c29a,se_wiifit_special_s01
 0x15295b9320,se_wiifit_special_s02
+0x155e5ca3b6,se_wiifit_special_s03
 0x0fa1a84a74,se_wiifit_squat
 0x1539647ef6,se_wiifit_step_left_m
 0x15c36b4395,se_wiifit_step_left_s
@@ -56533,6 +56570,7 @@
 0x18f2eba3ed,se_younglink_special_h03
 0x186c8f364e,se_younglink_special_h04
 0x181bec6a1d,se_younglink_special_l01
+0x1882e53ba7,se_younglink_special_l02
 0x181868be73,se_younglink_special_n01
 0x188161efc9,se_younglink_special_n02
 0x18f666df5f,se_younglink_special_n03
