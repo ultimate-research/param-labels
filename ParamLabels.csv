@@ -34316,6 +34316,7 @@
 0x15749886a1,message_kind_farewell
 0x14684e8ab1,message_kind_fighter
 0x154e9cdfcf,message_kind_greeting
+0x18e4e3b8c4,message_kind_impressions
 0x12ef4f9b01,message_kind_leave
 0x12bb186070,message_kind_melee
 0x1446c75a6e,message_kind_plesure
