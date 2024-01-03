@@ -45128,7 +45128,6 @@
 0x1321747a14,rrate_event_speed02
 0x13de544fb5,rrate_event_tornado
 0x13230f4af0,rrate_event_weather
-0x181d6d6857,rrate_farest_boss_appear
 0x0a374fdf41,rrate_fish
 0x1277c91449,rrate_floor_break1
 0x12eec045f3,rrate_floor_break2
@@ -70827,7 +70826,6 @@
 0x156f46e9d5,sys_uniq_effect_grass
 0x0d46ec009d,sys_v_smoke_a
 0x0ddfe55127,sys_v_smoke_b
-0x0e7a6df3a9,sys_vr_garages
 0x139f2c91c3,sys_walkmush_bullet
 0x10e11dc601,sys_walkmush_hit
 0x1026b9c2c9,sys_walkmush_max
