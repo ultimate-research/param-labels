@@ -556,6 +556,8 @@
 0x18398b72fb,active_condition_spot_04
 0x184e8c426d,active_condition_spot_05
 0x1a2b638279,active_condition_spot_flag
+0x204d20f54c,active_condition_stage_value_max
+0x20712dca15,active_condition_stage_value_min
 0x0c33c58e8b,active_frame
 0x1008b37ede,active_frame_max
 0x1034be4187,active_frame_min
@@ -34385,6 +34387,9 @@
 0x0df467a974,melee_0_color
 0x0d5210a2c0,melee_1_color
 0x0d63f8b85d,melee_2_color
+0x24cd976d8f,melee_all_battle_res_narration_param
+0x2abe5d9303,melee_all_battle_res_narration_type_player
+0x27d68a9fb9,melee_all_battle_res_narration_type_win
 0x11f5b5ca80,melee_camera_data
 0x1025963758,melee_convention
 0x0ab5afe1bc,melee_coop
@@ -36739,8 +36744,10 @@
 0x0b11cb6b3a,object_type
 0x0f52a1ab7a,object_type_bns
 0x15329f757d,object_type_copyright
+0x16b5b23559,object_type_name_plate
 0x1561131db9,object_type_nameplate
 0x140c22d60c,object_type_nintendo
+0x16e32ea352,object_type_pict_plate
 0x10a849ec46,object_type_sora
 0x1b8fd235e4,obstruction_attack_duration
 0x1b104b5aef,obstruction_attack_interval
@@ -38667,6 +38674,9 @@
 0x12a2df217f,pickup_range_sizeh
 0x122fd72c8a,pickup_range_sizew
 0x049ea0cb82,pico
+0x147545e7f2,pict_plate_preset_00
+0x140242d764,pict_plate_preset_01
+0x149b4b86de,pict_plate_preset_02
 0x0ab073aaea,pictochat2
 0x106fbf8160,pictochat2_decal
 0x11f3046925,pictochat2_effect
@@ -48111,6 +48121,8 @@
 0x11131cd99f,scroll_stop_frame
 0x0bc5f05ab6,scroll_type
 0x1046da2907,scroll_type_side
+0x186f41c349,scroll_wait_frame_bottom
+0x15b960a94e,scroll_wait_frame_top
 0x0f887db5ad,scrollcameramax
 0x0fb4708af4,scrollcameramin
 0x0b1b2d8372,scrollspeed
@@ -68023,6 +68035,7 @@
 0x0c5342df1f,state_option
 0x1351c366df,state_option_normal
 0x0eb51a2ce5,static_missile
+0x0f66cdb56b,stats_to_reward
 0x067b00651c,status
 0x0797a6b39d,status1
 0x070eafe227,status2
@@ -70501,6 +70514,7 @@
 0x1174d32349,supporter_lot_num
 0x16732588c5,supporter_lot_wait_max
 0x164f28b79c,supporter_lot_wait_min
+0x198600eab7,supporter_lot_wait_offset
 0x0b54739219,surface_top
 0x0dea2e05a7,surfaceoffset
 0x05fbe1ae9c,susie
@@ -76080,6 +76094,7 @@
 0x18ca775f78,ui_mode_unlock_adv_kiila
 0x1e510fec5f,ui_mode_unlock_adv_kiila_final
 0x1ca368b868,ui_mode_unlock_adv_kiiladarz
+0x1be50309a6,ui_mode_unlock_any_vipmatch
 0x1b0813e331,ui_mode_unlock_campaign_gym
 0x1e4b265ed6,ui_mode_unlock_campaign_school
 0x1e06485fca,ui_mode_unlock_campaign_search
@@ -88373,6 +88388,9 @@
 0x1dd432dd88,vr_effect_other_display_alpha
 0x0880f7b0e2,vr_melee
 0x1c9cd17877,vr_mode_display_notice_frame
+0x1a81d93bab,vr_mode_notice_range_lower
+0x19055f6c69,vr_mode_notice_range_side
+0x1ae11c9f14,vr_mode_notice_range_upper
 0x1645893df5,vr_mode_timeout_frames
 0x064b8d0f38,vswing
 0x118ce7d083,vulnerable_ghosts
