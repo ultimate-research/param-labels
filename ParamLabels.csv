@@ -16672,6 +16672,9 @@
 0x0cc27c014a,event_1902_2
 0x0cb57b31dc,event_1902_3
 0x0c2b1fa47f,event_1902_4
+0xc5ab73ac7,event_1903_1
+0xcc3be6b7d,event_1903_2
+0xcb4b95beb,event_1903_3
 0x0e1b368dc2,event_arg_hash
 0x0d207c2a40,event_arg_int
 0x07a9d29b18,event_c
