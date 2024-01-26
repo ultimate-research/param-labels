@@ -4411,6 +4411,7 @@
 0x0f41916563,blaster_shoot_x
 0x0f369655f5,blaster_shoot_y
 0x0c9861b411,blasterchest
+0x0b84988981,blasterhead
 0x0d02e6d338,blasterwingl1
 0x0d9bef8282,blasterwingl2
 0x0dece8b214,blasterwingl3
@@ -8786,11 +8787,13 @@
 0x0b8202ca41,collision_0
 0x0bf505fad7,collision_1
 0x13313725f6,collision_attr_aura
+0x193bdcb0cc,collision_attr_auto_shift
 0x13a0a379de,collision_attr_bind
 0x199d57f593,collision_attr_bind_extra
 0x21016e5c76,collision_attr_blaster_throw_down
 0x1f468d5240,collision_attr_blaster_throw_up
 0x1330ee124e,collision_attr_bury
+0x154568b424,collision_attr_bury_f
 0x155fb26059,collision_attr_bury_r
 0x13b3061dd0,collision_attr_coin
 0x1b2fb009bf,collision_attr_curse_poison
@@ -8800,6 +8803,7 @@
 0x18bef6339f,collision_attr_deathball
 0x1a5f94f889,collision_attr_deathscythe
 0x1c6d20b1f9,collision_attr_dedede_hammer
+0x19fa8a1d82,collision_attr_deep_sleep
 0x13462fcfe4,collision_attr_elec
 0x184e3f7a79,collision_attr_elec_whip
 0x13beb18342,collision_attr_fire
@@ -8807,12 +8811,15 @@
 0x19f2214801,collision_attr_fist_down2
 0x1985267897,collision_attr_fist_down3
 0x152497ab8d,collision_attr_flower
+0x143be20fe4,collision_attr_grass
+0x15a03a1c5c,collision_attr_grudge
 0x1c655b0ae7,collision_attr_head_mushroom
 0x12c7990841,collision_attr_ice
 0x169c2f9aa4,collision_attr_ink_hit
 0x1ae690bd0d,collision_attr_item_hammer
 0x1a6f665bee,collision_attr_jack_bullet
 0x19f9ff23e4,collision_attr_jack_final
+0x13f8ba5588,collision_attr_kick
 0x12e765f467,collision_attr_lay
 0x1dc3c2ee10,collision_attr_leviathan_wave
 0x239ec77f51,collision_attr_leviathan_wave_owner
@@ -34602,6 +34609,7 @@
 0x19569761ca,masterhand_energyshot_hit
 0x1b1c2ee9ae,masterhand_energyshot_punch
 0x15d3725910,masterhand_gun_charge
+0x1465e1afd3,masterhand_gun_flash
 0x14836919aa,masterhand_gun_smoke
 0x0fbca7ec25,masterhand_hold
 0x1cb61fbceb,masterhand_ironball_debris_a
@@ -58920,6 +58928,7 @@
 0x1287937082,seq_zelda_rnd_jump
 0x156281e3fc,seq_zelda_rnd_ottotto
 0x1523a44df2,seq_zelda_rnd_smash_s
+0x13e22e75c0,seq_zero_rnd_damage
 0x085286d72b,sequence
 0x0f81fc5438,sequence_common
 0x149a8d89fc,sequence_play_frames
@@ -72344,8 +72353,10 @@
 0x0f8f3048cf,sys_damage_elec
 0x0f77ae0469,sys_damage_fire
 0x13a123ffe4,sys_damage_fire_fly
+0x105eb4bc00,sys_damage_hadou
 0x149825db4e,sys_damage_paralysis
 0x116c693a44,sys_damage_purple
+0x104cdee72c,sys_damage_shien
 0x10a289b9fd,sys_damage_spark
 0x12a65945b3,sys_damage_spark_s
 0x0eb968e28a,sys_dash_smoke
