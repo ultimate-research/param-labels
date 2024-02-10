@@ -1677,7 +1677,6 @@
 0x1db88cfcba,arrow_sign_display_stop_frame
 0x1c3f85bee3,arrow_sign_sound_start_frame
 0x0620b8d82d,arrowm
-0x117bf73d57,art_mii_platforml
 0x06bfa2fe03,arthur
 0x08c505319e,arthur_2
 0x107155f081,arukume_pop_rate
@@ -3483,6 +3482,8 @@
 0x0a79e097c7,basis_grid
 0x0d2aa6bbbe,basis_hp_rate
 0x0434604b30,bass
+0x0e393e56ca,bastar_sword_l
+0x0ec3316ba9,bastar_sword_r
 0x039f9c299f,bat
 0x0df6a69a22,bat_end_frame
 0x1829c2f0c1,bat_escape_air_end_frame
@@ -4799,6 +4800,12 @@
 0x06c9be23c6,bodyd2
 0x0906a750d1,bodyhaven
 0x055dbcd979,bodyn
+0x0dca78a2e5,bodystone100t
+0x0ffc161a9c,bodystonedosunm
+0x106e9c87f5,bodystonehammerm
+0x0f26560bef,bodystonekirbym
+0x0e18e126af,bodystonepponm
+0x0e0be9aaac,bodystonetboxm
 0x05d7d91095,bodyu
 0x06036e516c,bodyu1
 0x069a6700d6,bodyu2
@@ -5625,6 +5632,7 @@
 0x11e51d6116,bringing_usagihat
 0x11d97e9ebb,bringing_walkmush
 0x08d05db85d,brittany
+0x088c28004f,brktutum
 0x130fa681bc,broken_down_color_a
 0x1396afd006,broken_down_color_b
 0x13e6c52489,broken_down_color_g
@@ -7468,6 +7476,7 @@
 0x069dc6c349,cbcoat
 0x09a60f5ebd,cbcr_gain
 0x073d3c93b4,cbskirt
+0x0bb4ff10d7,cbutterflym
 0x02dbb21a79,cc
 0x06fda3987e,ccrack
 0x0a58111bd5,ccrack_off
@@ -13232,6 +13241,7 @@
 0x0ec580ae97,diver_offset_x
 0x0eb2879e01,diver_offset_y
 0x0b1181c6d5,diver_scale
+0x0a02a5f2f6,diverflipm
 0x0698c709c9,diverm
 0x06839ecd48,divide
 0x1969b541db,diving_animation_settings
@@ -14666,6 +14676,7 @@
 0x161ee3ad8d,edge_gokumon_speedline
 0x11ee586816,edge_gokumon_wind
 0x09b5847499,edge_hair
+0x15dfdae155,edge_hair_wait_wingon
 0x0a15fe633e,edge_ifrit
 0x1329697e82,edge_kime_screen_r1
 0x13b0602f38,edge_kime_screen_r2
@@ -22074,6 +22085,7 @@
 0x117767ef6a,gaogaen_chop_hand
 0x1181111913,gaogaen_chop_line
 0x17f5a17d98,gaogaen_chop_line_start
+0x18ccfe3397,gaogaen_emissivefur_body
 0x146af160c7,gaogaen_escape_blink
 0x189973a170,gaogaen_escape_blinkflip
 0x121ae0c410,gaogaen_escape_eye
@@ -23706,6 +23718,7 @@
 0x050c9e130a,handb
 0x07bca0e6be,handb_r
 0x05e5fdb63f,handd
+0x0c616a49af,handfalchion
 0x08a8122294,handhair
 0x113d41b3d6,handi_bonus_frame
 0x0b0c053ec9,handi_boost
@@ -23841,9 +23854,15 @@
 0x1525679174,head_mushroom_reverse
 0x09c38a1419,head_none
 0x0bec3d621a,head_normal
+0x1342578cfd,head_normalb_shadow
+0x1458e105b0,head_normallf_shadow
+0x143ce39c53,head_normalrf_shadow
 0x095cc32786,head_only
 0x0b973e0a4e,head_option
 0x12539f7ddf,head_option_normal
+0x11d47349d0,head_ouchb_shadow
+0x121da87d00,head_ouchlf_shadow
+0x1279aae4e3,head_ouchrf_shadow
 0x12c69febcc,head_rotate_offset
 0x1c256b767e,head_rotate_offset_threshold
 0x0bb8ce88d3,head_shadow
@@ -24831,6 +24850,7 @@
 0x0e683f2b09,horizontal_pos
 0x1045805421,horizontal_pos_l
 0x10bf8f6942,horizontal_pos_r
+0x082142f97b,hormingm
 0x042b5edbc6,horn
 0x073cd239c7,hornbla
 0x07a5db687d,hornblb
@@ -30480,9 +30500,13 @@
 0x0ff39673f6,kamui_fronthair
 0x0a5c20f07d,kamui_hair
 0x0b3834f90e,kamui_lfoot
+0x1069ff5c19,kamui_lspearfoot
+0x1087122705,kamui_lspearhand
 0x0c5bf2dfbc,kamui_mantle
 0x0abfb85254,kamui_mask
 0x0be7e4d0ed,kamui_rfoot
+0x105098ed42,kamui_rspearfoot
+0x10be75965e,kamui_rspearhand
 0x16aa46768b,kamui_ryusensya_bullet
 0x1446f068db,kamui_ryusensya_hold
 0x14f23ded67,kamui_ryusensya_shot
@@ -30753,6 +30777,7 @@
 0x15f9720203,ken_tatsumaki_smoke_r
 0x14833f6729,ken_tatsumaki_wind_l
 0x1479305a4a,ken_tatsumaki_wind_r
+0x088054a927,kenedgem
 0x044b02fd19,kenm
 0x05159e45c4,kenmb
 0x06d650dd08,kenzan
@@ -31076,6 +31101,7 @@
 0x054789754b,kirby
 0x08dbdd6291,kirby_00
 0x0bdf13bbeb,kirby_air_n
+0x0d12ad6095,kirby_armfoot
 0x0c10cc2abc,kirby_atk100
 0x10699cbee8,kirby_attack_arc
 0x1116d566af,kirby_attack_line
@@ -31588,6 +31614,10 @@
 0x0492076c86,kumo
 0x0fc5336e49,kurabe_kagesina
 0x07d0b9e845,kurikin
+0x0a8f2c93ee,kurohuku_a
+0x0a1625c254,kurohuku_b
+0x0a6122f2c2,kurohuku_c
+0x0aff466761,kurohuku_d
 0x0be3734a51,kurohukuhat
 0x08fdc009bf,kusudama
 0x150953f73a,kusudama_bomb_persent
@@ -32653,6 +32683,7 @@
 0x084538a355,link_ken
 0x096afa7221,link_kenb
 0x0952537b7a,link_navy
+0x0d253212a4,link_sayatuka
 0x164a8252ec,link_special_air_n_end
 0x18aad96d26,link_special_air_n_start
 0x125555693b,link_special_n_end
@@ -33665,6 +33696,8 @@
 0x0b582b9e56,main_boss_a
 0x0bc122cfec,main_boss_b
 0x0bb625ff7a,main_boss_c
+0x0b9ca96371,main_cut_01
+0x0b05a032cb,main_cut_02
 0x0a73c65d67,main_green
 0x0a575249d7,main_gun_a
 0x1080412e68,main_gun_a_board
@@ -33731,6 +33764,9 @@
 0x1ec494b6c5,main_ring_xion_dth_tsunagi_set
 0x16e5b70987,main_ring_xion_spirits
 0x0aa198933f,main_route
+0x0ff1a20730,main_sobmrelo_c
+0x0f30c40459,main_sombrelo_a
+0x0fa9cd55e3,main_sombrelo_b
 0x096c6d654b,main_type
 0x08f0186e42,mainbody
 0x15224ec3cb,mainlaser_delta_angle
@@ -35761,6 +35797,7 @@
 0x0d407b51a6,miipartslside
 0x0d9fab7845,miipartsrside
 0x0b7ece8738,miipartstop
+0x0a84682b5f,miis_sword
 0x0c1c374be4,miiswordsman
 0x0f64e5fd61,miiswordsman_00
 0x16bf96c0b9,miiswordsman_blastwind
@@ -36726,8 +36763,11 @@
 0x107dab83fd,murabito_glove_l
 0x1087a4be9e,murabito_glove_r
 0x0ef7ad8da9,murabito_grass
+0x1204940a7c,murabito_hairparts
 0x13a326f953,murabito_halfblink1
 0x1775527d30,murabito_halfblink1flip
+0x1181a589f0,murabito_handpa_l
+0x117baab493,murabito_handpa_r
 0x0ee2d41536,murabito_leaf1
 0x0e7bdd448c,murabito_leaf2
 0x0e0cda741a,murabito_leaf3
@@ -36754,6 +36794,7 @@
 0x1517566063,murabito_sprout_soil2
 0x1671137d13,murabito_sprout_splash
 0x1392965138,murabito_stick_wind
+0x145d7d9074,murabito_tree_ccrack
 0x14ac2b22a1,murabito_tree_lcrack
 0x13da7009c3,murabito_tree_lower
 0x1495f7414a,murabito_tree_rcrack
@@ -37395,6 +37436,8 @@
 0x085b5f546d,normal_x
 0x082c5864fb,normal_y
 0x0d87c5db81,normalbatflip
+0x0a946ad033,normalbatm
+0x0e9d99525a,normalbatmflip
 0x0a21a36e63,normalhood
 0x0480fc6cd3,nose
 0x059c8690b5,nose1
@@ -38141,6 +38184,7 @@
 0x0b805e1339,pacman_bite
 0x10a1854ac8,pacman_blink_eye
 0x12d2668957,pacman_bound_mouth
+0x17f0f0af49,pacman_capture_mayu_eye
 0x1199055fc5,pacman_change_end
 0x13902e5df7,pacman_change_start
 0x0f312bb8b1,pacman_down_eye
@@ -38162,6 +38206,7 @@
 0x138dd76191,pacman_furafura_eye
 0x0db3218c8a,pacman_guzuta
 0x1411102049,pacman_halfblink_eye
+0x0fd0ae9ab3,pacman_hanamayu
 0x16de73263d,pacman_heavyouch_mouth
 0x0c3bce51d6,pacman_mouth
 0x0d1e355649,pacman_mouthb
@@ -38171,6 +38216,7 @@
 0x0f990224ed,pacman_pacnjump
 0x13ed2314f0,pacman_pacnjump_end
 0x1679f85a3d,pacman_pacnjump_impact
+0x1158853983,pacman_pattrn_eye
 0x0c314c3fc4,pacman_pinky
 0x106068e9ec,pacman_power_esa
 0x0f04c60a33,pacman_power_up
@@ -38196,6 +38242,8 @@
 0x04ca2821b4,pad2
 0x0f9a55836e,pad_flick_frame
 0x1209c261ff,pad_flick_interval
+0x0a0f2c4a1d,pad_inner1
+0x0a7f46be92,pad_inner4
 0x0ee4af8a84,pad_pass_frame
 0x14bce5f245,pad_pass_press_count
 0x0ff8990931,pad_release_lv1
@@ -38778,6 +38826,7 @@
 0x0a5cb2313a,param_vine
 0x1a3c859ad0,param_visibility_data_bird
 0x1a47963f6c,param_visibility_data_body
+0x2095896b32,param_visibility_data_body_demon
 0x2107d1b1bd,param_visibility_data_body_pickel
 0x18c4f1eac5,param_visibility_data_c4
 0x19540ecd16,param_visibility_data_can
@@ -39199,6 +39248,8 @@
 0x0c0479f6a7,phantom_arml
 0x0cfe76cbc4,phantom_armr
 0x0cbe2d36c8,phantom_body
+0x100ac5c58d,phantom_forearml
+0x10f0caf8ee,phantom_forearmr
 0x0cc276cbe6,phantom_head
 0x0ddd8416d6,phantom_inner
 0x0c15957305,phantom_legl
@@ -39590,6 +39641,7 @@
 0x11a8356dcb,pikmin_attack_arc
 0x131ccd4227,pikmin_attack_flash
 0x12776d2e77,pikmin_attack_spin
+0x156edbf5d0,pikmin_bigcrackhelmet
 0x0a4bb0f42f,pikmin_bud
 0x17b5940be3,pikmin_catch_offset_x_l
 0x174f9b3680,pikmin_catch_offset_x_r
@@ -39636,6 +39688,7 @@
 0x1113272ff7,pikmin_punch_spin
 0x0fc95ac3d7,pikmin_seiretsu
 0x173968c587,pikmin_seiretsu2_attack
+0x1777199f42,pikmin_smallcrackhelmet
 0x11d8920370,pikmin_smash_dash
 0x1151f6faff,pikmin_smash_spin
 0x12e22e086d,pikmin_smash_trail
@@ -43980,6 +44033,10 @@
 0x15e572d667,rockman_rushcoil_exit
 0x175a648524,rockman_rushcoil_spring
 0x1165c130aa,rockman_slashcraw
+0x165298bae1,rockman_sleafshield_01
+0x16cb91eb5b,rockman_sleafshield_02
+0x16bc96dbcd,rockman_sleafshield_03
+0x1622f24e6e,rockman_sleafshield_04
 0x0f7a189b0a,rockman_spark_l
 0x0f8017a669,rockman_spark_r
 0x122f67cec2,rockman_sparkshock
@@ -48766,6 +48823,7 @@
 0x11c7529c80,samus_dash_attack
 0x0d71a6e171,samus_entry_l
 0x0d8ba9dc12,samus_entry_r
+0x1073a1dcca,samus_eye_normal
 0x11131eeb91,samus_final_after
 0x1416721769,samus_final_backfire
 0x18fb0d8912,samus_final_backfire_end
@@ -61180,6 +61238,8 @@
 0x0a4404e70b,shoulderr3
 0x0ada6072a8,shoulderr4
 0x0d7846f05c,shoulderr_col
+0x0e6750c4ed,shourder_pad_l
+0x0e9d5ff98e,shourder_pad_r
 0x05c0690665,shout
 0x12a8ba272f,shout_motion_frame
 0x06fa81a366,shovel
@@ -62020,6 +62080,9 @@
 0x0d77982dbf,solidus_snake
 0x0954241aff,soliloquy
 0x092918012b,soma_cruz
+0x0a083c703a,sombrelo_a
+0x0a91352180,sombrelo_b
+0x0ae6321116,sombrelo_c
 0x05fd9b5dd6,somer
 0x06759852b1,somer2
 0x15c0686bb0,somersault_accel_back
@@ -62045,6 +62108,14 @@
 0x0c1c2e89e4,sonic_atk_lw
 0x11da510107,sonic_atk_lw_kick
 0x0bc432b5df,sonic_blink
+0x0b60c7f833,sonic_brow1
+0x0bf9cea989,sonic_brow2
+0x0f4d1ecb73,sonic_brow2flip
+0x0b8ec9991f,sonic_brow3
+0x0b10ad0cbc,sonic_brow4
+0x0fc25e3ed3,sonic_brow4flip
+0x0b67aa3c2a,sonic_brow5
+0x0fff3e1763,sonic_brow5flip
 0x0d82a612a5,sonic_capture
 0x110402831f,sonic_captureflip
 0x0b33615b66,sonic_catch
@@ -72349,6 +72420,7 @@
 0x07968c32b8,sword27
 0x0706332f29,sword28
 0x0771341fbf,sword29
+0x0b6795a688,sword2flair
 0x0711f3965a,sword30
 0x0766f4a6cc,sword31
 0x07fffdf776,sword32
@@ -72412,6 +72484,7 @@
 0x0aef48e476,swordback2
 0x0a984fd4e0,swordback3
 0x0a062b4143,swordback4
+0x0aafcc6d17,swordflair
 0x09f9a08cb1,swordhilt
 0x0606233aa8,swordl
 0x075bd7e757,swordl1
@@ -74407,6 +74480,7 @@
 0x0cc0b2f906,trail_stopga
 0x12905f72ff,trail_stopga_flash
 0x1322a4304e,trail_stopga_number
+0x0bbe7547ee,trail_sword
 0x10bca04963,trail_sword_fire
 0x14779f87a7,trail_sword_fire_end
 0x0fbbc02382,trail_sword_ice
@@ -89925,7 +89999,10 @@
 0x13f55182e6,virtualfinalattack6
 0x138256b270,virtualfinalattack7
 0x1312e9afe1,virtualfinalattack8
+0x12fb3e2844,virtualflashshield
 0x0cc94b4023,virtualgbeam
+0x104ff6ef70,virtualguardianb
+0x10489b2b69,virtualguardianf
 0x0afd4837ec,virtualhat
 0x0b538968fd,virtualhit0
 0x0b248e586b,virtualhit1
@@ -89949,14 +90026,20 @@
 0x0b5d52e0cf,virtualhit8
 0x0b2a55d059,virtualhit9
 0x0f000f836c,virtualinstance
+0x117bf73d57,virtualleafshield
 0x0f599bdeaa,virtualmapcoll0
 0x0f2e9cee3c,virtualmapcoll1
 0x0fb795bf86,virtualmapcoll2
 0x0fc0928f10,virtualmapcoll3
 0x0c2a6831b4,virtualmouth
+0x0c542246e6,virtualrgunn
 0x0cf7bbb402,virtualrhand
 0x114e656c4f,virtualrocketbelt
 0x1591aa6d0f,virtualrocketbeltflip
+0x11b3cd8540,virtualrubbernana
+0x12e0694eeb,virtualrubbernanal
+0x113a6c9a3e,virtualrubberpopo
+0x12575db3cf,virtualrubberpopol
 0x0dbc400ef7,virtualshield
 0x139cf0c732,virtualspecialnhave
 0x1299039904,virtualsquatshield
@@ -90056,6 +90139,7 @@
 0x0eded0aab2,vital_up_peach
 0x0d0eee2751,vital_up_pear
 0x0627254315,vivian
+0x0938a9544b,vizer_nsc
 0x119d2de30b,voice_actor_table
 0x18cad9a759,voice_album_00_bayonetta
 0x1472f610a7,voice_album_00_brave
@@ -90261,6 +90345,7 @@
 0x0a5257feed,waist_size
 0x1083a52c1b,waist_sphere_col
 0x087fc142a4,waistbag
+0x0d8bb62063,waistfalchion
 0x0b8d3fb7db,waistmetall
 0x0b77308ab8,waistmetalr
 0x0bc3b6be8e,waistswells
@@ -91102,6 +91187,8 @@
 0x0c794b6078,weaponattach
 0x0ce873f8da,weaponbladem
 0x0ef04fc1df,weaponbladem_l
+0x0b9206380f,weapongripm
+0x0d97644840,weapongripm_l
 0x07df06b614,weaponl
 0x0725098b77,weaponr
 0x13dc5aa2b7,weather_scene_frame
@@ -92008,6 +92095,7 @@
 0x12ac0ba6d8,yoshi_hipdrop_star
 0x0cf92bee54,yoshi_island
 0x1686642302,yoshi_island_scenelink
+0x1020400020,yoshi_metoji_eye
 0x0bbf35dee7,yoshi_mouth
 0x0f07b23a72,yoshi_openblink
 0x0e0b35f279,yoshi_ouch_eye
@@ -92086,6 +92174,7 @@
 0x0d309099b4,younglink_ken
 0x0ebd8208f5,younglink_kenb
 0x0e852b01ae,younglink_navy
+0x122a336565,younglink_sayatuka
 0x1b148a640f,younglink_special_air_n_end
 0x1d10300698,younglink_special_air_n_start
 0x17f192468d,younglink_special_n_end
