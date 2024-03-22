@@ -17082,6 +17082,10 @@
 0x0cc6f17df8,event_1904_2
 0x0cb1f64d6e,event_1904_3
 0x0c2f92d8cd,event_1904_4
+0x0c5e3a4675,event_1905_1
+0x0cc73317cf,event_1905_2
+0x0cb0342759,event_1905_3
+0x0c2e50b2fa,event_1905_4
 0x0e1b368dc2,event_arg_hash
 0x0d207c2a40,event_arg_int
 0x07a9d29b18,event_c
