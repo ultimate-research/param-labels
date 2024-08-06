@@ -6393,10 +6393,13 @@ se_metaknight_swing_s
 se_metaknight_swish05
 se_metaknight_swish06
 se_metaknight_swish07
+se_metaknight_swish07_c3
 se_metaknight_swish08
 se_metaknight_swish09
+se_metaknight_swish09_c3
 se_metaknight_swish10
 se_metaknight_swish11
+se_metaknight_swish11_c3
 se_mewtwo_appeal_h01
 se_mewtwo_appeal_l01
 se_mewtwo_appeal_l01_02
