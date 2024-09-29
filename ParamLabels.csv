@@ -582,6 +582,7 @@
 0x11dba2a31e,active_time_smash
 0x116bf67d7c,active_time_speed
 0x05447556f9,actor
+0x1016bcf957,actor_alucard_01
 0x0df5b289f4,actor_cambell
 0x0ba55e78eb,actor_falco
 0x09f26dfa09,actor_fox
@@ -12830,6 +12831,12 @@
 0x1675844776,demon_devilwing_edge_l
 0x168f8b7a15,demon_devilwing_edge_r
 0x191d35ecbb,demon_devilwing_speedline
+0x19bc0a5769,demon_dived_capture_joint
+0x1a5fd5129c,demon_dived_capture_motion
+0x20392ee2ad,demon_dived_capture_motion_frame
+0x1cc196e93e,demon_dived_capture_offset_x
+0x1cb691d9a8,demon_dived_capture_offset_y
+0x1c2f988812,demon_dived_capture_offset_z
 0x0a260fa46c,demon_dojo
 0x0bd3f1a871,demon_entry
 0x0f298606f8,demon_entry_eye
