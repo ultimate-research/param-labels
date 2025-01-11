@@ -3949,6 +3949,7 @@
 0x07c864cfa4,beltr04
 0x044fd60a37,bend
 0x09b0e876e4,bend_time
+0x0a802cefc8,bevel_size
 0x06df352cd7,bewear
 0x03f246a0b0,bex
 0x02b2c3dfb7,bf
@@ -4830,6 +4831,7 @@
 0x18c6cb62c6,bomb_block_damage_radius
 0x1009be5bb6,bomb_block_depth
 0x11e3d2370d,bomb_block_height
+0x170e520ff7,bomb_block_is_revivable
 0x16894298f6,bomb_block_revive_time
 0x107f0702f0,bomb_block_width
 0x0e586285e5,bomb_cam_range
@@ -18496,6 +18498,7 @@
 0x1d205d057c,explosion_block_damage_radius
 0x153fe8c5f2,explosion_block_depth
 0x169255e41a,explosion_block_height
+0x1cfb69b4b8,explosion_block_is_revivable
 0x1bbd3d80a1,explosion_block_revive_time
 0x1549519cb4,explosion_block_width
 0x1718436a97,explosion_catch_y_accel
@@ -22821,6 +22824,7 @@
 0x0ca8435fc7,global_scale
 0x0fe704df9f,globe_color_add
 0x0fb31c8dd9,globe_color_mul
+0x11853a3d26,globe_model_names
 0x169fdd50ea,glory_of_heracles_hero
 0x069746452b,glovel
 0x066d497848,glover
@@ -23131,6 +23135,8 @@
 0x234019c856,ground_hit_ray_check_start_offset_z
 0x1015e242bf,ground_hit_width
 0x1633137bf5,ground_hop_min_speed_y
+0x1356f29584,ground_is_dynamical
+0x13056af87d,ground_is_revivable
 0x0d1ebb76c6,ground_jostle
 0x16881e4585,ground_jostle_distance
 0x12ed11544b,ground_jostle_node
@@ -23817,6 +23823,7 @@
 0x058f5f3525,harry
 0x0ebca319ed,has_attack_100
 0x101f23d0f2,has_more_fighter
+0x112b7bb52a,has_multiple_face
 0x04d1b862b8,hash
 0x0ac5793033,hash_label
 0x0691efec11,hassam
@@ -31781,6 +31788,7 @@
 0x12d1ddd244,ladder_speed_d_max
 0x128c5d6c76,ladder_speed_u_max
 0x0eaac877aa,ladder_stick_y
+0x13f7a91236,ladder_unit_ratio_y
 0x0c4a48bd71,ladder_width
 0x0aae81bdb9,ladderdown
 0x107fcecb1e,ladderdownpreset
@@ -34925,6 +34933,8 @@
 0x0b5a643fe2,max_accel_x
 0x12ee0f7093,max_accel_x_on_air
 0x09b3984402,max_angle
+0x12ebddeb37,max_angle_of_cliff
+0x18038fa56c,max_angle_of_cliff_floor
 0x0b16a4ce6f,max_angle_y
 0x0b8fad9fd5,max_angle_z
 0x0c38643ab3,max_appeared
@@ -35039,6 +35049,7 @@
 0x18ce33783f,max_speed_y_remove_frame
 0x092c605484,max_start
 0x12d414dfe0,max_time_to_change
+0x135fac4159,max_undo_stack_size
 0x0d2c3af022,max_up_degree
 0x107ef04d97,max_update_frame
 0x0a840e62cb,max_vanish
@@ -35982,6 +35993,7 @@
 0x03a17b1dd0,min
 0x05a4710a17,min_a
 0x096473f643,min_angle
+0x1760ee802c,min_angle_of_cliff_wall
 0x0bdaa9b560,min_angle_y
 0x0b43a0e4da,min_angle_z
 0x0ca8172a59,min_appeared
@@ -36010,6 +36022,7 @@
 0x0b32024949,min_hp_rate
 0x0e13d3491a,min_init_speed
 0x078b827447,min_ink
+0x15caf8ce83,min_interval_of_cliff
 0x0a9710c48f,min_length
 0x0880d6b4e7,min_life
 0x145009ec72,min_motion_speed_mul
@@ -41429,10 +41442,14 @@
 0x18b4fe51a9,rail_distance_to_destroy
 0x155fa3c6a9,rail_distance_to_next
 0x08b97c3f5c,rail_end
+0x1694a7e973,rail_end_marker_height
+0x150de9eaf1,rail_end_marker_width
 0x100ea22775,rail_end_outline
 0x16b0bad221,rail_interval_on_start
 0x13cf10ea81,rail_is_directional
 0x0e4338379e,rail_is_easing
+0x171c3522c3,rail_is_turn_on_arrived
+0x17f732d8c1,rail_is_turn_on_blocked
 0x0fa8a5d8bf,rail_is_visible
 0x0d7347822f,rail_lifetime
 0x28d4129e12,rail_lifetime_mul_on_trolley_deactivated
@@ -41452,6 +41469,8 @@
 0x0aed4086fc,rail_speed
 0x101080d37d,rail_speed_ratio
 0x0a7d1f2d85,rail_start
+0x18046ec0d7,rail_start_marker_height
+0x177bdddffe,rail_start_marker_width
 0x127544f44a,rail_start_outline
 0x10552786f7,rail_start_ratio
 0x0e26e31a56,rail_thickness
@@ -91602,7 +91621,9 @@
 0x13881d9730,wind_area_direction
 0x10c5ca58c8,wind_area_height
 0x130a68b97e,wind_area_max_speed
+0x1deb5b3d75,wind_area_max_uv_scroll_speed
 0x1417273aee,wind_area_min_height
+0x1d4c6fbd0c,wind_area_min_uv_scroll_speed
 0x135ebfb0e6,wind_area_min_width
 0x1543836e7e,wind_area_speed_ratio
 0x0fbe586bc0,wind_area_width
