@@ -61840,6 +61840,8 @@
 0x098751e700,slow_rate
 0x0e5b6a40d1,slow_speed_mul
 0x10aedd4122,slow_super_armor
+0x145a54424d,slow_unlimit_factor0
+0x142d5372db,slow_unlimit_factor1
 0x121c48fa35,slow_unlimit_frame
 0x12f3fd8ec0,slow_zoom_in_frame
 0x13de4690cf,slow_zoom_out_frame
@@ -63880,6 +63882,7 @@
 0x11a3706065,special_f_start_w
 0x0c7907de27,special_fall
 0x0f3b8af605,special_flagger
+0x0be093895a,special_g&w
 0x0de2231893,special_giant
 0x1236935d46,special_giant_boss
 0x1399d9a4e5,special_giant_metal
