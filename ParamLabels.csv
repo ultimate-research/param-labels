@@ -34061,6 +34061,8 @@
 0x0fa9cd55e3,main_sombrelo_b
 0x096c6d654b,main_type
 0x08f0186e42,mainbody
+0x209a497c40,mainfield_auto_ceiling_threshold
+0x1ebffc8f78,mainfield_auto_floor_threshold
 0x15224ec3cb,mainlaser_delta_angle
 0x15479241d0,mainlaser_limit_angle
 0x0e474b5968,mainlaser_time
@@ -41357,12 +41359,12 @@
 0x07f7dc08a8,puppy_y
 0x076ed55912,puppy_z
 0x13656d7462,purchase_check_type
-0x1fb93c2785,purgatorio_chara_antonia_fix_42
 0x193b946935,purgatorio_chara_contrast
 0x1df414207c,purgatorio_chara_gain_color_b
 0x1d847ed4f3,purgatorio_chara_gain_color_g
 0x1de9a33018,purgatorio_chara_gain_color_r
 0x1fc956d30a,purgatorio_chara_offset_color_b
+0x1fb93c2785,purgatorio_chara_offset_color_g
 0x1fd4e1c36e,purgatorio_chara_offset_color_r
 0x1bb2a07da1,purgatorio_chara_saturation
 0x16293d44b1,purgatorio_color_delay
