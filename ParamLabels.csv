@@ -24234,6 +24234,8 @@
 0x0dee96d40e,helmet_normal
 0x0a4993338b,helmet_off
 0x17e5a35b8d,helmet_oil_appear_frame
+0x1b205810eb,helmet_oil_appear_posx_left
+0x1cc0219879,helmet_oil_appear_posx_right
 0x167a2d6c40,helmet_oil_appear_posy
 0x168ba02314,helmet_oil_floor_range
 0x139ded78e7,helmet_oil_move_max
