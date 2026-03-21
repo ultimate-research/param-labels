@@ -37082,6 +37082,8 @@
 0x0ee2d41536,murabito_leaf1
 0x0e7bdd448c,murabito_leaf2
 0x0e0cda741a,murabito_leaf3
+0x13d6e1e154,murabito_openblink1
+0x175e64737b,murabito_openblink1flip
 0x17c83ca32d,murabito_pot_boundsmoke
 0x12de01e4e5,murabito_pot_break
 0x16e1ad045a,murabito_putaway_catch
@@ -37099,6 +37101,8 @@
 0x1d4255a017,murabito_special_air_n_search
 0x1722039a1a,murabito_special_n_fire
 0x1921b952de,murabito_special_n_search
+0x1339975fcf,murabito_splinkling
+0x17b235e75d,murabito_splinklingflip
 0x1350a67cd6,murabito_sprinkling
 0x17571cd9bf,murabito_sprinklingflip
 0x14eeb4508a,murabito_sprout_soil
