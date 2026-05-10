@@ -8895,6 +8895,7 @@
 0x1b2fb009bf,collision_attr_curse_poison
 0x14860b063a,collision_attr_cutup
 0x1a5242290d,collision_attr_cutup_metal
+0x1b65ef3f3d,collision_attr_cutup_poison
 0x1474a84539,collision_attr_death
 0x18bef6339f,collision_attr_deathball
 0x1a5f94f889,collision_attr_deathscythe
