@@ -69371,6 +69371,8 @@
 0x0723d8223f,starman
 0x0f6ee33d1a,starman_beam_as
 0x21eddcf7eb,starman_damage_reaction_threshold
+0x188029f4e1,starman_gamma_beam_speed
+0x1bf566c0a1,starman_gamma_beam_duration
 0x137bea6715,starman_lost_frames
 0x1925d0d6d1,starman_omega_beam_angle1
 0x19bcd9876b,starman_omega_beam_angle2
