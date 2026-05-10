@@ -15571,6 +15571,14 @@
 0x17a1ca0d59,eleka_move_continue_max
 0x18590351c2,eleka_move_continue_rate
 0x0f06947802,eleka_move_wait
+0x141735c5e0,eleka_movecenter_min
+0x142b38fab9,eleka_movecenter_max
+0x16a0e42a52,eleka_movenearside_min
+0x169ce9150b,eleka_movenearside_max
+0x1563f1d34e,eleka_moveoffside_min
+0x155ffcec17,eleka_moveoffside_max
+0x14c4c53e9e,eleka_moveupdown_min	
+0x14f8c801c7,eleka_moveupdown_max	
 0x17ec6a30f7,eleka_shot_cancel_frame
 0x0f36bc5dc0,eleka_shot_life
 0x0e83699bb5,eleka_shot_max
@@ -26159,8 +26167,6 @@
 0x1b0a9b5aef,hp_battle_knockout_slow_mag
 0x082e268609,hp_bonus
 0x0e76463d39,hp_color_table
-0x169ce9150b,hp_damage_mul_base_max
-0x16a0e42a52,hp_damage_mul_base_min
 0x07a9efc700,hp_down
 0x093a1d564d,hp_enable
 0x0a6713a62f,hp_grade_1
@@ -33352,8 +33358,6 @@
 0x0ac02ad133,loop_frame
 0x0ca5e90d30,loop_ht_rate
 0x086eb1efbe,loop_max
-0x14f8c801c7,loop_max_running_max
-0x14c4c53e9e,loop_max_running_min
 0x10edcbc919,loop_model_names
 0x10989056d0,loop_motion_rate
 0x0a873c876c,loop_num_m
