@@ -15585,8 +15585,8 @@
 0x16a0e42a52,eleka_movenearside_min
 0x155ffcec17,eleka_moveoffside_max
 0x1563f1d34e,eleka_moveoffside_min
-0x14f8c801c7,eleka_moveupdown_max	
-0x14c4c53e9e,eleka_moveupdown_min	
+0x14f8c801c7,eleka_moveupdown_max
+0x14c4c53e9e,eleka_moveupdown_min
 0x17ec6a30f7,eleka_shot_cancel_frame
 0x0f36bc5dc0,eleka_shot_life
 0x0e83699bb5,eleka_shot_max
