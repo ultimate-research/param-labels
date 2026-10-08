@@ -5241,6 +5241,7 @@
 0x0a770b6e8b,bowser_ssb
 0x0e01aa2744,bowser_wedding
 0x0308a9483a,box
+0x1940056f58,box_appear_interval_rates
 0x134556b0ad,box_appear_settings
 0x0fd1d8f5cb,box_attack_attr
 0x169aa102fe,box_attack_delay_frame
@@ -29124,6 +29125,11 @@
 0x0a8b4bac20,item_drill
 0x148adf5aa7,item_drill_shoot_air
 0x163655782f,item_drill_shoot_upper
+0x19e8b0e060,item_drop_interval_rate_l
+0x1adb5c1346,item_drop_interval_rate_ll
+0x199fb7d0f6,item_drop_interval_rate_m
+0x1965b8ed95,item_drop_interval_rate_s
+0x1835864fee,item_drop_interval_rates
 0x15411f8389,item_eat_damage_value
 0x166c4944e1,item_eat_recover_value
 0x0dc792dfbc,item_element0
