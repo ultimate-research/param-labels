@@ -15156,6 +15156,7 @@
 0x0fc49fec99,effect_elechitm
 0x0f3e90d1fa,effect_elechits
 0x16df17a657,effect_electhrowdamage
+0x14bcb0a600,effect_emergencyexit
 0x157e91307e,effect_emit_node_data
 0x0e4733c6a8,effect_enabled
 0x0adad65bbe,effect_end
@@ -15358,6 +15359,7 @@
 0x1a77d30cfd,effect_shulkvisionopponent
 0x0b67a51393,effect_size
 0x1044f7f998,effect_smashhold
+0x155cf06648,effect_specialnhitsub
 0x188807c81c,effect_specialschargemax
 0x16896c6143,effect_specialsremoved
 0x13d57d0f91,effect_speedbooster
@@ -15382,6 +15384,7 @@
 0x1c230cb9bc,effect_variation_type_normal
 0x1e4e61d9a2,effect_variation_type_spycloak
 0x15d7a4e31a,effect_wariochargemax
+0x110351da6f,effect_warpendsub
 0x149042c05b,effect_weaken_revise
 0x1d53b73a97,effect_wiifitspeciallwsuccess
 0x1ef63b78e9,effect_wiifitspecialnchargemax
@@ -22439,7 +22442,10 @@
 0x1395d69132,galleom_wind_spiral
 0x0ed256e9a1,galleommissile
 0x109a7f1a04,galleomshockwave
+0x17cdb3cd20,game_attackairlw2attack
+0x16b3278aad,game_attackairlw2bound
 0x132ff1de7c,game_rule_parameter
+0x17978b4c0d,game_specialsdashattack
 0x0fff50cc55,game_total_time
 0x0a623833a9,game_watch
 0x0961a56eee,gamemodel
@@ -29468,6 +29474,8 @@
 0x1052425d86,item_hammer_move
 0x10c092e91b,item_hammer_wait
 0x0ef638717f,item_hand_grip
+0x0e10bc9675,item_hand_have
+0x10ba1c049e,item_hand_pickup
 0x12d49afcc4,item_have_kind_get
 0x13f8dfdb0d,item_have_kind_grip
 0x131e5b3c07,item_have_kind_have
@@ -63103,6 +63111,8 @@
 0x08e464d933,sound_lv
 0x0cc9826a97,sound_number
 0x0bb307b7b0,sound_param
+0x15d8939b0b,sound_specialnfailure
+0x1596084778,sound_specialnsuccess
 0x0dc77e0dec,sound_type_id
 0x0215ce49f6,sp
 0x074b00600f,sp01_01
