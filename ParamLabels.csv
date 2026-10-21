@@ -4647,10 +4647,17 @@
 0x062fe30d60,block8
 0x0658e43df6,block9
 0x0d75b460b9,block_big_set
+0x16cc38ee26,block_crack_final_rate
+0x1630a315a5,block_crack_start_rate
 0x0accf3faca,block_cray
+0x1774c58dc7,block_crush_delay_frame
+0x14adbfb627,block_crush_size_far
 0x13514b15eb,block_damage_radius
 0x1bde4b5b6d,block_damage_reaction_frame
+0x18bc7d3ce8,block_dig_interval_frame
 0x0a5c90b62e,block_flip
+0x1707240694,block_force_damage_ceil
+0x15ca62dee8,block_force_damage_lr
 0x09a9c44d34,block_ice
 0x10919d41d8,block_info_table
 0x0abe1eb2e7,block_iron
@@ -14669,7 +14676,6 @@
 0x036e078a4b,eab
 0x031900badd,eac
 0x11b98a7ab2,eaccel_enemy_drop
-0x2b16a2a34c,eaccel_s_dash_max_charge_hit_xlu_enemy_drop
 0x17cfb5cb76,each_other_follow_frame
 0x05ad62f39f,eagle
 0x12a8d841c5,ear_close_distance
@@ -23870,6 +23876,7 @@
 0x14e15593c5,guest_medusa_effects
 0x13157c3e71,guest_mummy_effects
 0x1556d9b848,guest_onidoriru_pos_z
+0x0e7340be58,guest_origin_0
 0x0e04478ece,guest_origin_1
 0x0e9d4edf74,guest_origin_2
 0x10cbd29abe,guest_param_list
