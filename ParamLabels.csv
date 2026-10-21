@@ -13328,6 +13328,7 @@
 0x0b266c17c7,disp_size_x
 0x0b516b2751,disp_size_y
 0x0ab211b5cb,disp_width
+0x10aeb47b42,disp_y_scale_spd
 0x088612665a,dispatch
 0x0fa13ee0a2,display_car_max
 0x0f9d33dffb,display_car_min
@@ -43692,6 +43693,7 @@
 0x0cb2896a57,remove_speed
 0x0b7df225b5,remove_time
 0x0fa812756c,remove_turn_num
+0x12bce91a9b,remove_y_scale_spd
 0x1395e70b89,render_offset_pos_z
 0x0c1527f861,repair_frame
 0x1b9af25c2f,repair_material_num_diamond
@@ -73280,6 +73282,9 @@
 0x0d899a5115,suspensionfl2
 0x0dc4d23f70,suspensionfr1
 0x0d5ddb6eca,suspensionfr2
+0x0e33079643,sw_before_prob
+0x0f8aa416b5,sw_disp_frame_a
+0x0f13ad470f,sw_disp_frame_b
 0x07eea09f44,swallow
 0x0b461b697a,swallow_end
 0x138d4816d1,swallowed_frame_mul
