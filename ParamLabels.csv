@@ -408,6 +408,11 @@
 0x02153df087,a8
 0x02623ac011,a9
 0x03b1c26850,a_a
+0x0ccc6ae293,a_to_b_minus
+0x0fc8669814,a_to_b_route_05
+0x0f516fc9ae,a_to_b_route_06
+0x0f2668f938,a_to_b_route_07
+0x0fb6d7e4a9,a_to_b_route_08
 0x02078a19d7,aa
 0x04ec5dfe38,aa_a
 0x0457770dcf,aaka
@@ -1705,6 +1710,7 @@
 0x0cb6d2bac4,ashiba_mouse
 0x157ba6bb01,ashiba_reaction_frame
 0x139b78fbf0,ashiba_rotate_speed
+0x0d6ec54a4a,ashiba_tumiki
 0x0642145c91,ashley
 0x09c0f9ce3b,ashley_ac
 0x12aa73bac1,ashley_darkzone_as
@@ -1745,6 +1751,9 @@
 0x0d117b0396,atk_air_f_mul
 0x0d210b4857,atk_air_n_mul
 0x0d363beec4,atk_air_u_mul
+0x130bb0cd55,atk_ashiba_a01_test
+0x13853fcab6,atk_ashiba_b01_test
+0x134995ca28,atk_ashiba_c01_test
 0x0af6f84f42,atk_b_shin
 0x0b82f166fe,atk_b_shin2
 0x0a54a832b7,atk_blast_
@@ -2941,6 +2950,11 @@
 0x08b2750777,b_line_g
 0x08dfa8e39c,b_line_r
 0x0bfe66a02f,b_path_name
+0x0c1d833bd7,b_to_c_minus
+0x0f3f6fd578,b_to_c_route_09
+0x0f5fa85c9d,b_to_c_route_10
+0x0f28af6c0b,b_to_c_route_11
+0x0fb1a63db1,b_to_c_route_12
 0x022ca74a14,ba
 0x074318b5bb,ba2fall
 0x03f241cd74,baa
@@ -6360,6 +6374,11 @@
 0x07a930f8f4,c_frame
 0x08d0589a2c,c_neduke
 0x0a04cf92f2,c_neduke_1
+0x0edf96eb30,c_to_out_minus
+0x1186e9ea34,c_to_out_route_13
+0x11188d7f97,c_to_out_route_14
+0x116f8a4f01,c_to_out_route_15
+0x11f6831ebb,c_to_out_route_16
 0x06287b0c78,c_type
 0x03d62d14fe,c_x
 0x03a12a2468,c_y
@@ -38785,6 +38804,11 @@
 0x0f0ad3ce1d,out_speed_x_mul
 0x0f37b3e7ad,out_speed_y_mul
 0x093dc729a7,out_start
+0x0ebec52902,out_to_a_minus
+0x115dbd3e44,out_to_a_route_01
+0x11c4b46ffe,out_to_a_route_02
+0x11b3b35f68,out_to_a_route_03
+0x112dd7cacb,out_to_a_route_04
 0x13458acc51,outer_limit_speed_x
 0x13328dfcc7,outer_limit_speed_y
 0x0cab62b284,outfoot_spol
@@ -46634,6 +46658,7 @@
 0x134227d2f5,route_02_a_start_03
 0x1539e89a30,route_02_a_start_03_l
 0x15c3e7a753,route_02_a_start_03_r
+0x11b1ff4184,route_03_10_minus
 0x11b9791cd3,route_03_a_end_01
 0x1386ea0dfd,route_03_a_end_01_l
 0x137ce5309e,route_03_a_end_01_r
@@ -46654,6 +46679,7 @@
 0x15a4e77b46,route_03_a_start_03_l
 0x155ee84625,route_03_a_start_03_r
 0x15a06a07f4,route_03_a_start_05_l
+0x11c4bc4bd4,route_04_12_minus
 0x115ba507aa,route_04_a_end_01
 0x13f272e472,route_04_a_end_01_l
 0x13087dd911,route_04_a_end_01_r
@@ -46710,6 +46736,7 @@
 0x134121e98a,route_06_a_start_03
 0x152044152b,route_06_a_start_03_l
 0x15da4b2848,route_06_a_start_03_r
+0x1189fcfb63,route_07_13_minus
 0x11b092bca9,route_07_a_end_01
 0x1385ec3682,route_07_a_end_01_l
 0x137fe30be1,route_07_a_end_01_r
@@ -46728,6 +46755,7 @@
 0x13da84a5e5,route_07_a_start_03
 0x15bd4bf45d,route_07_a_start_03_l
 0x154744c93e,route_07_a_start_03_r
+0x111b2795d4,route_08_15_minus
 0x114199e724,route_08_a_end_01
 0x13f778a9f3,route_08_a_end_01_l
 0x130d779490,route_08_a_end_01_r
