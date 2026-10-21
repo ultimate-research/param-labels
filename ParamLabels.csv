@@ -44190,6 +44190,11 @@
 0x16a85e7edc,rframe_kumo_appear_min
 0x1059625a41,rframe_lift_down
 0x0e6703af59,rframe_lift_up
+0x18cfb68d1b,rframe_lionking_stay_max
+0x18f3bbb242,rframe_lionking_stay_min
+0x187e3d9d78,rframe_lionking_wait_1st
+0x186ad97654,rframe_lionking_wait_max
+0x1856d4490d,rframe_lionking_wait_min
 0x1456f9230c,rframe_lost_wait_max
 0x18f352396b,rframe_lost_wait_max_1st
 0x146af41c55,rframe_lost_wait_min
@@ -47212,6 +47217,8 @@
 0x10c0084dee,rrange_barrel_in
 0x1bd6df75cd,rrange_bird_random_offset_y
 0x1ff29a181a,rrange_bird_random_offset_y_end
+0x0fca3526db,rrange_bomb_max
+0x0ff6381982,rrange_bomb_min
 0x0f3c855b61,rrate_apple_eat
 0x139ae0f454,rrate_apple_through
 0x14ddfc8261,rrate_arm_tgt_change
