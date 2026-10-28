@@ -43213,6 +43213,7 @@
 0x15a719f9e9,rdamage_ashiba_level2
 0x159c694aba,rdamage_cannon_level1
 0x1505601b00,rdamage_cannon_level2
+0x0de72ce9fc,rdamping_leaf
 0x0baefd165a,rdecel_kart
 0x16dbd904fc,rdecrease_barrel_shoot
 0x0aea3946e9,rdown_lift
@@ -44055,6 +44056,10 @@
 0x179bdcfbe1,rframe_aground_stay_min
 0x1616faf321,rframe_aground_warning
 0x1a73819faf,rframe_aground_warning_pre
+0x17a2a603f0,rframe_appearchappy_max
+0x1b805ca10a,rframe_appearchappy_max_1st
+0x179eab3ca9,rframe_appearchappy_min
+0x1b83af4145,rframe_appearchappy_min_1st
 0x133df546f1,rframe_area_rebuild
 0x113cd1c3fa,rframe_area_scale
 0x14b83e36db,rframe_area_zerowait
@@ -44123,6 +44128,10 @@
 0x10756776a2,rframe_car_start
 0x0fb68a9761,rframe_car_wait
 0x12c2035d45,rframe_car_warning
+0x14ef960ad9,rframe_chappy_eating
+0x1d82eaff22,rframe_chappy_openmouth_check
+0x1b6e20b15f,rframe_chappy_openmouth_max
+0x1b522d8e06,rframe_chappy_openmouth_min
 0x1397565a24,rframe_chikei_scale
 0x152ef33792,rframe_chikei_warning
 0x16ec76099a,rframe_chikei_zerowait
@@ -44146,6 +44155,8 @@
 0x191723b597,rframe_event_wait_max_1st
 0x154d47daa2,rframe_event_wait_min
 0x1914d055d8,rframe_event_wait_min_1st
+0x168b8cb974,rframe_existchappy_max
+0x16b781862d,rframe_existchappy_min
 0x12edfbfaa3,rframe_fish_appear
 0x199ca0faa5,rframe_fish_attack_active
 0x1b1af4176e,rframe_fish_attack_deactive
@@ -44165,6 +44176,10 @@
 0x16586b4115,rframe_ground_stay_max
 0x1664667e4c,rframe_ground_stay_min
 0x1aa442bea7,rframe_ground_warning_stay
+0x15ea213f1f,rframe_growpellet_max
+0x192ff42bbe,rframe_growpellet_max_1st
+0x15d62c0046,rframe_growpellet_min
+0x192c07cbf1,rframe_growpellet_min_1st
 0x156288f929,rframe_hanenbou_3next
 0x1499669ea7,rframe_hanenbou_next
 0x161d37828a,rframe_hanenbou_rhythm
@@ -44196,6 +44211,10 @@
 0x1496957d5f,rframe_kong_wait_1st
 0x1694534185,rframe_kumo_appear_max
 0x16a85e7edc,rframe_kumo_appear_min
+0x18f61b83c2,rframe_landingoniyon_max
+0x1c0626cfb8,rframe_landingoniyon_max_1st
+0x18ca16bc9b,rframe_landingoniyon_min
+0x1c05d52ff7,rframe_landingoniyon_min_1st
 0x1059625a41,rframe_lift_down
 0x0e6703af59,rframe_lift_up
 0x18cfb68d1b,rframe_lionking_stay_max
@@ -44231,6 +44250,10 @@
 0x15bc15ce9b,rframe_sling_wait_1st
 0x15a8f125b7,rframe_sling_wait_max
 0x1594fc1aee,rframe_sling_wait_min
+0x1376a42000,rframe_stoprain_max
+0x134aa91f59,rframe_stoprain_min
+0x18ceb57c3f,rframe_takeoffoniyon_max
+0x18f2b84366,rframe_takeoffoniyon_min
 0x134842bb9d,rframe_taxi_visible
 0x17f8901cf2,rframe_taxi_visible_1st
 0x0fa54d75f4,rframe_term1_se
@@ -44250,6 +44273,7 @@
 0x0f0085c332,rframe_wait_min
 0x147704e034,rframe_wall_stop_max
 0x144b09df6d,rframe_wall_stop_min
+0x13155861dc,rframe_warningriver
 0x12cd42bf62,rframe_warp_warpin
 0x138ba0af4b,rframe_warp_warpout
 0x124359c4e8,rframe_wave_switch
@@ -47253,6 +47277,7 @@
 0x12f3f416ed,rrate_car_hitspeed
 0x11796a43d4,rrate_car_hitspin
 0x11e6cfec31,rrate_car_reverse
+0x16b6081273,rrate_chappy_openmouth
 0x10111d8a7e,rrate_dokan_kame
 0x1033869596,rrate_dokan_kani
 0x13c94f237a,rrate_event_aground
@@ -47283,6 +47308,7 @@
 0x110893aca1,rrate_jyama_movex
 0x117f949c37,rrate_jyama_movey
 0x11612bcccc,rrate_kong_appear
+0x13e99d7f9a,rrate_landingoniyon
 0x117178c3fb,rrate_oniyon_blue
 0x1061783acc,rrate_oniyon_red
 0x1901e48ee9,rrate_oniyon_selectbefore
