@@ -36170,6 +36170,11 @@
 0x0369a5fa1c,mew
 0x124f74836d,mew_drop_max_frame
 0x12989f312c,mew_drop_min_frame
+0x1437c99414,mew_lot_cd_prob_cafe
+0x1b4a82ae7e,mew_lot_customize_prob_cafe
+0x1a7f0e7d4e,mew_lot_customize_prob_ctr
+0x18796a94d0,mew_lot_figure_prob_cafe
+0x1794293623,mew_lot_figure_prob_ctr
 0x1022fcf239,mew_start_xspeed
 0x10e9a0219c,mew_start_yspeed
 0x0a159cbf7b,mew_yaccel
