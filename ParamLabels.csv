@@ -75199,6 +75199,16 @@
 0x0ae3da6c7e,togedemaru
 0x0e23fef307,togedemarushot
 0x06c9af6893,togepi
+0x18997feb2c,togeppy_attack_1_persent
+0x1bfc0468ff,togeppy_attack_1_wait_frame
+0x18a0f2d7e9,togeppy_attack_2_persent
+0x1b8b9aba0f,togeppy_attack_2_wait_frame
+0x18b789c3aa,togeppy_attack_3_persent
+0x1b103ff660,togeppy_attack_3_wait_frame
+0x18d3e8ae63,togeppy_attack_4_persent
+0x1b64a71fef,togeppy_attack_4_wait_frame
+0x18c493ba20,togeppy_attack_5_persent
+0x1bff025380,togeppy_attack_5_wait_frame
 0x12fd8fb2e9,togeppy_init_speed
 0x0c3086dca9,togeppy_wait
 0x06d41878f7,togepy
