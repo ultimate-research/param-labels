@@ -42365,8 +42365,14 @@
 0x1c5cac42d0,ramuh__damagelightning_loc_r
 0x145b0fbb88,ramuh_angle_settings
 0x1427ddf986,ramuh_aura_end_frame
+0x1187c11952,ramuh_dyn_floor_c
+0x11177e04c3,ramuh_dyn_floor_l
+0x11ed7139a0,ramuh_dyn_floor_r
+0x16f727c1c5,ramuh_eff_damage_shock
 0x15654438b6,ramuh_effect_settings
 0x14e93354df,ramuh_light_settings
+0x18114304aa,ramuh_loc_damage_shock_c
+0x1881fc193b,ramuh_loc_damage_shock_l
 0x145caa349f,ramuh_model_settings
 0x14a8752efe,ramuh_quake_settings
 0x152bf80a48,ramuh_screen_settings
@@ -73371,6 +73377,8 @@
 0x143260145b,summon_spirit_shine2
 0x10e397ab68,summon_stand_fit
 0x125924b2f3,summon_stand_trace
+0x11aa4280e7,summoner_eff_aura
+0x139aedb3ac,summoner_eff_symbol
 0x0ddaa6dad8,sumo_brothers
 0x0e7aecba47,sun_salutation
 0x153dcce371,sun_shaft_debug_param
