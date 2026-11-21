@@ -4071,6 +4071,7 @@
 0x0f533eb1fb,bg_criticalhit2
 0x0e238f8441,bg_daisy_final
 0x0f64aee12e,bg_dedede_final
+0x0ca2cf8fe0,bg_default_z
 0x0efee5f313,bg_demon_final
 0x16229f767c,bg_demon_final_after_l
 0x16d8904b1f,bg_demon_final_after_r
@@ -4087,6 +4088,10 @@
 0x0fcf17053a,bg_effect_test1
 0x0f379dc193,bg_eflame_final
 0x1073e4e132,bg_eflame_final2
+0x0ed5c25203,bg_fake_aspect
+0x10454372ee,bg_fake_far_clip
+0x0dd9d0f8f6,bg_fake_fov_y
+0x11b61f00c7,bg_fake_near_clip
 0x086ed21b3d,bg_final
 0x17be45b9be,bg_final_darz_adventure
 0x1cf34aa3d4,bg_final_ground_add_route001
@@ -9280,6 +9285,8 @@
 0x0ba29f2cca,construct_r
 0x18ad97fa7f,contact_fighter_dist_max
 0x1bf6e945ef,contact_fighter_speed_x_mul
+0x0ee9f9b8aa,contains_block
+0x10df555a46,contains_gimmick
 0x0a84a0a3ed,content_id
 0x0813e32adf,continue
 0x1a26217638,continue_just_shield_count
@@ -39763,8 +39770,21 @@
 0x1103dee065,parent_lr_changed
 0x113437d6b1,parent_model_name
 0x04490f70c6,part
+0x1514ffa514,part_a_contains_block
+0x17c61548af,part_a_contains_gimmick
+0x106d5a00fa,part_a_edge_type
+0x189cbe98c6,part_a_projection_height
 0x0c87116734,part_a_width
+0x153d3711e6,part_b_contains_block
+0x172c9395cd,part_b_contains_gimmick
+0x126b6776b4,part_b_edge_type_l
+0x1291684bd7,part_b_edge_type_r
+0x183fe81e6f,part_b_projection_height
 0x0cb6f97da9,part_b_width
+0x15935f8077,part_c_contains_block
+0x17c3c1232c,part_c_contains_gimmick
+0x103536b93b,part_c_edge_type
+0x18e80a9e37,part_c_projection_height
 0x0c108e761d,part_c_width
 0x149a8a89f1,particle_curve_x_max
 0x14a687b6a8,particle_curve_x_min
@@ -87539,6 +87559,7 @@
 0x1bc399174e,usagihat_ground_hit_speed_y
 0x1bdb2e8e8e,usagihat_lost_flash_percent
 0x0882c9dcb7,use_blur
+0x0f36f8508d,use_island_prob
 0x10736f3efe,use_item_allstar
 0x126cd65260,use_item_stock_100
 0x0f5e785756,use_item_strong
