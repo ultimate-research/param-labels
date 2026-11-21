@@ -75773,6 +75773,7 @@
 0x1abadbb188,train_warpout_finish_frame
 0x0c3eb90437,trainer_info
 0x103db49ce5,trainer_offset_z
+0x19a2d57389,trainer_start_voice_frame
 0x08d5128a8f,training
 0x16946bbd48,training_academy_coach
 0x17cd355c0d,training_bgm_volume_mag
