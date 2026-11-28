@@ -8598,8 +8598,10 @@ effect_specialsdamagem
 effect_specialsdamages
 effect_specialsdash
 effect_specialsdashhi
+effect_specialsdashhifromsplw
 effect_specialsdashhop
 effect_specialsdashlw
+effect_specialsdashlwfromsplw
 effect_specialsdashnoink
 effect_specialsdead
 effect_specialsdeadwater
@@ -8684,6 +8686,7 @@ effect_specialsshoot
 effect_specialsshot
 effect_specialsshoulder
 effect_specialsspin
+effect_specialsspinfromsplw
 effect_specialssplashdown
 effect_specialssquat
 effect_specialsstart
@@ -8702,6 +8705,7 @@ effect_specialsthrowhi
 effect_specialsthrowlw
 effect_specialsturn
 effect_specialsturnend
+effect_specialsturnfromsplw
 effect_specialsturnloop
 effect_specialsturnstart
 effect_specialsup
@@ -12152,8 +12156,10 @@ expression_specialscliffjump
 expression_specialscut
 expression_specialsdash
 expression_specialsdashhi
+expression_specialsdashhifromsplw
 expression_specialsdashhop
 expression_specialsdashlw
+expression_specialsdashlwfromsplw
 expression_specialsdischarge
 expression_specialsdown
 expression_specialsdrag
@@ -12221,6 +12227,7 @@ expression_specialsset
 expression_specialsshoot
 expression_specialsshoulder
 expression_specialsspin
+expression_specialsspinfromsplw
 expression_specialssquat
 expression_specialsstart
 expression_specialsstart2
@@ -12238,6 +12245,7 @@ expression_specialsthrowhi
 expression_specialsthrowlw
 expression_specialsturn
 expression_specialsturnend
+expression_specialsturnfromsplw
 expression_specialsturnloop
 expression_specialsturnstart
 expression_specialsup
@@ -23091,8 +23099,10 @@ game_specialsdamagem
 game_specialsdamages
 game_specialsdash
 game_specialsdashhi
+game_specialsdashhifromsplw
 game_specialsdashhop
 game_specialsdashlw
+game_specialsdashlwfromsplw
 game_specialsdashnoink
 game_specialsdead
 game_specialsdeadwater
@@ -23171,6 +23181,7 @@ game_specialsshoot
 game_specialsshot
 game_specialsshoulder
 game_specialsspin
+game_specialsspinfromsplw
 game_specialssquat
 game_specialsstart
 game_specialsstart2
@@ -23188,6 +23199,7 @@ game_specialsthrowhi
 game_specialsthrowlw
 game_specialsturn
 game_specialsturnend
+game_specialsturnfromsplw
 game_specialsturnloop
 game_specialsturnstart
 game_specialsup
@@ -31586,8 +31598,10 @@ sound_specialsdamagem
 sound_specialsdamages
 sound_specialsdash
 sound_specialsdashhi
+sound_specialsdashhifromsplw
 sound_specialsdashhop
 sound_specialsdashlw
+sound_specialsdashlwfromsplw
 sound_specialsdashnoink
 sound_specialsdead
 sound_specialsdeadwater
@@ -31668,6 +31682,7 @@ sound_specialsshoot
 sound_specialsshot
 sound_specialsshoulder
 sound_specialsspin
+sound_specialsspinfromsplw
 sound_specialssplashdown
 sound_specialssquat
 sound_specialsstart
@@ -31686,6 +31701,7 @@ sound_specialsthrowhi
 sound_specialsthrowlw
 sound_specialsturn
 sound_specialsturnend
+sound_specialsturnfromsplw
 sound_specialsturnloop
 sound_specialsturnstart
 sound_specialsup
