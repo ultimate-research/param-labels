@@ -4459,7 +4459,9 @@ effect_attack_2
 effect_attack_3
 effect_attack_4
 effect_attack_smokeback
+effect_attack_smokebacks
 effect_attack_smokefront
+effect_attack_smokefronts
 effect_attackair
 effect_attackairb
 effect_attackairbhi
@@ -4700,9 +4702,13 @@ effect_attackpunch1rmain
 effect_attackpunch1rstart
 effect_attackr
 effect_attackragedrive
+effect_attackragedrivec
 effect_attackragedrivecatch
+effect_attackragedrivecatchc
 effect_attackragedrivefall
+effect_attackragedrivefallc
 effect_attackragedriveground
+effect_attackragedrivegroundc
 effect_attackrenkantai
 effect_attackrimonchochu
 effect_attackrolling2end
@@ -5614,6 +5620,7 @@ effect_exitair
 effect_exitdarkstage
 effect_exp
 effect_expansion
+effect_expansionground
 effect_explode
 effect_explode1
 effect_explode2
@@ -7102,6 +7109,15 @@ effect_pzenigamespecialnstart
 effect_quickreturn
 effect_quit
 effect_radiate
+effect_ragesystemaura
+effect_ragesystemauranormal
+effect_ragesystemaurasimple
+effect_ragesystemoff
+effect_ragesystemoffnormal
+effect_ragesystemoffsimple
+effect_ragesystemon
+effect_ragesystemonnormal
+effect_ragesystemonsimple
 effect_randomcircle
 effect_randomlr
 effect_randommove
@@ -7712,6 +7728,7 @@ effect_specialairlw2
 effect_specialairlw20
 effect_specialairlw21
 effect_specialairlw2autoattack
+effect_specialairlw2autokick
 effect_specialairlw2kick
 effect_specialairlw2start
 effect_specialairlw3
@@ -8671,6 +8688,7 @@ effect_specialsoverturn
 effect_specialsoverturnstart
 effect_specialsoverturnstartair
 effect_specialsrailpromotion
+effect_specialsrailturntorchon
 effect_specialsrebound
 effect_specialsreel
 effect_specialsreturn
@@ -9073,6 +9091,7 @@ effect_upsuccess
 effect_uv
 effect_uv_far
 effect_vanish
+effect_vanishground
 effect_vertical
 effect_verticaljump
 effect_vibration
@@ -9290,6 +9309,7 @@ effect_win3zenigame
 effect_win4
 effect_win4wait
 effect_wingend
+effect_wingflareerase
 effect_wingfold
 effect_wingloop
 effect_wither1
@@ -9707,9 +9727,13 @@ expression_attacklw4charge
 expression_attacklw4hit
 expression_attacknearw
 expression_attackragedrive
+expression_attackragedrivec
 expression_attackragedrivecatch
+expression_attackragedrivecatchc
 expression_attackragedrivefall
+expression_attackragedrivefallc
 expression_attackragedriveground
+expression_attackragedrivegroundc
 expression_attacks3
 expression_attacks32
 expression_attacks33
@@ -10914,6 +10938,8 @@ expression_pzenigamespecialnhold
 expression_pzenigamespecialnlight
 expression_pzenigamespecialnshot
 expression_pzenigamespecialnstart
+expression_ragesystemoff
+expression_ragesystemon
 expression_rebound
 expression_refletspecialairncancel
 expression_refletspecialairnhold
@@ -18950,6 +18976,10 @@ game_attack_1
 game_attack_2
 game_attack_3
 game_attack_4
+game_attack_blocked_punch_l_longpulll3
+game_attack_blocked_punch_l_longpulllb2
+game_attack_blocked_punch_r_longpullr3
+game_attack_blocked_punch_r_longpullrb2
 game_attackair
 game_attackairb
 game_attackairbhi
@@ -19192,9 +19222,13 @@ game_attackpunch1rmain
 game_attackpunch1rstart
 game_attackr
 game_attackragedrive
+game_attackragedrivec
 game_attackragedrivecatch
+game_attackragedrivecatchc
 game_attackragedrivefall
+game_attackragedrivefallc
 game_attackragedriveground
+game_attackragedrivegroundc
 game_attackrenkantai
 game_attackrimonchochu
 game_attackrolling2end
@@ -19488,6 +19522,12 @@ game_buddyspecialnwait
 game_buddywait
 game_build
 game_bump
+game_bunshinclosesword1f
+game_bunshinclosesword2f
+game_bunshinclosesword3f
+game_bunshinopensword1f
+game_bunshinopensword2f
+game_bunshinopensword3f
 game_burn
 game_burst
 game_burstattack
@@ -20105,6 +20145,7 @@ game_exitair
 game_exitdarkstage
 game_exp
 game_expansion
+game_expansionground
 game_explode
 game_explode1
 game_explode2
@@ -20352,6 +20393,7 @@ game_finalvisualscene03
 game_finalwait
 game_finder
 game_finish
+game_finishcamera
 game_fire
 game_fireattack
 game_fireattackanim
@@ -20684,6 +20726,12 @@ game_hit3
 game_hit_lb
 game_hitair
 game_hitair_lb
+game_hitdataarmboth_off
+game_hitdataarmboth_on
+game_hitdataarmleft_off
+game_hitdataarmleft_on
+game_hitdataarmright_off
+game_hitdataarmright_on
 game_hitground
 game_hitos
 game_hitreel
@@ -23306,6 +23354,7 @@ game_startr
 game_startreverse
 game_status_kind_run
 game_stay
+game_stayground
 game_steak
 game_steal
 game_steeldivershoot
@@ -27693,6 +27742,7 @@ sound_attackpunch1rstart
 sound_attackr
 sound_attackragedrive
 sound_attackragedrivecatch
+sound_attackragedrivecatchc
 sound_attackragedrivefall
 sound_attackragedriveground
 sound_attackrenkantai
@@ -30099,6 +30149,7 @@ sound_pzenigamespecialnstart
 sound_quickreturn
 sound_quit
 sound_radiate
+sound_ragesystemon
 sound_randomcircle
 sound_randomlr
 sound_randommove
@@ -32097,7 +32148,9 @@ sound_visualscene04c
 sound_visualscene04d
 sound_visualscene05
 sound_visualsceneattack
+sound_visualsceneattack_typeb
 sound_visualsceneentry
+sound_visualsceneentry_typeb
 sound_wait
 sound_wait01
 sound_wait02
@@ -33496,8 +33549,10 @@ special_s_damage_m
 special_s_damage_s
 special_s_dash
 special_s_dash_hi
+special_s_dash_hi_from_sp_lw
 special_s_dash_hop
 special_s_dash_lw
+special_s_dash_lw_from_sp_lw
 special_s_discharge
 special_s_down
 special_s_drag
@@ -33569,6 +33624,7 @@ special_s_set
 special_s_shoot
 special_s_shoulder
 special_s_spin
+special_s_spin_from_sp_lw
 special_s_squat
 special_s_start
 special_s_start_empty
@@ -33586,6 +33642,7 @@ special_s_throw_lw
 special_s_turn
 special_s_turn_down
 special_s_turn_end
+special_s_turn_from_sp_lw
 special_s_turn_loop
 special_s_turn_start
 special_s_turn_up
